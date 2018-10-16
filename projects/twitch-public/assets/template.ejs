@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title><%= htmlWebpackPlugin.options.title %></title>
+  </head>
+
+  <body>
+    <div id="root">
+      <div class="content">
+        <h1 class="content-title">
+          <%= htmlWebpackPlugin.options.title %>
+        </h1>
+        <h2 class="content-subtitle">
+          <%= htmlWebpackPlugin.options.description %>
+        </h2>
+      </div>
+      <ul class="downloads">
+        <!-- <li class="download">
+          <a class="download-link" href="#">
+            <span class="download-icon">
+              <%= require('@twitch-player/assets/dist/public/icons/windows.svg') %>
+            </span>
+            Windows
+          </a>
+        </li>
+        <li class="download">
+          <a class="download-link" href="#">
+            <span class="download-icon">
+              <%= require('@twitch-player/assets/dist/public/icons/macos.svg') %>
+            </span>
+            macOS
+          </a>
+        </li>
+        <li class="download">
+          <a class="download-link" href="#">
+            <span class="download-icon">
+              <%= require('@twitch-player/assets/dist/public/icons/linux.svg') %>
+            </span>
+            Linux
+          </a>
+        </li> -->
+        <li class="download">
+          <a class="download-link" href="web/">
+            <span class="download-icon">
+              <%= require('@twitch-player/assets/dist/public/icons/web.svg') %>
+            </span>
+            Web
+          </a>
+        </li>
+        <li class="download">
+          <a class="download-link" href="tizen/">
+            <span class="download-icon">
+              <%= require('@twitch-player/assets/dist/public/icons/tizen.svg') %>
+            </span>
+            Smart TV
+          </a>
+        </li>
+      </ul>
+      <ul class="devices">
+        <li class="device device-tv">
+          <%= require('@twitch-player/assets/dist/public/devices/tv.svg') %>
+        </li>
+        <li class="device device-desktop">
+          <%= require('@twitch-player/assets/dist/public/devices/desktop.svg') %>
+        </li>
+        <li class="device device-laptop">
+          <%= require('@twitch-player/assets/dist/public/devices/laptop.svg') %>
+        </li>
+        <!-- <li class="device device-phone">
+          <%= require('@twitch-player/assets/dist/public/devices/phone.svg') %>
+        </li> -->
+      </ul>
+    </div>
+  </body>
+</html>

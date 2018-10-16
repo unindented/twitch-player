@@ -1,0 +1,72 @@
+{
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:prettier/recommended",
+    "plugin:import/recommended"
+  ],
+  "plugins": ["react-hooks"],
+  "rules": {
+    "import/no-unresolved": [
+      "error",
+      {
+        "ignore": ["^react-native$"]
+      }
+    ],
+    "import/order": [
+      "error",
+      {
+        "groups": [
+          "builtin",
+          "external",
+          "internal",
+          "parent",
+          "sibling",
+          "index"
+        ]
+      }
+    ],
+    "react-hooks/rules-of-hooks": "error"
+  },
+  "settings": {
+    "import/ignore": ["@twitch-player/*"],
+    "react": {
+      "version": "16.7.0-alpha.2"
+    }
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+  "globals": {
+    "__webpack_public_path__": true
+  },
+  "overrides": [
+    {
+      "files": ["projects/twitch-tizen/**"],
+      "globals": {
+        "tizen": true
+      }
+    },
+    {
+      "files": ["**/*.test.js", "**/*.e2e.js", "config/jest/**"],
+      "env": {
+        "jest": true
+      },
+      "globals": {
+        "browser": true
+      }
+    },
+    {
+      "files": ["**/*.e2e.js"],
+      "globals": {
+        "browser": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="<%= htmlWebpackPlugin.options.description %>"
+    />
+    <meta
+      name="theme-color"
+      content="<%= htmlWebpackPlugin.options.themeColor %>"
+    />
+
+    <title><%= htmlWebpackPlugin.options.title %></title>
+
+    <style>
+      html,
+      body {
+        height: 100%;
+        width: 100%;
+      }
+
+      body {
+        overflow: hidden;
+      }
+
+      #root {
+        display: flex;
+        height: 100%;
+      }
+
+      #splash {
+        align-items: center;
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      #splash h1 {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+        text-align: center;
+      }
+
+      #splash svg {
+        min-width: 100px;
+        padding-top: 20px;
+        width: 10%;
+      }
+    </style>
+
+    <link rel="manifest" href="<%= require('./manifest.webmanifest') %>" />
+  </head>
+
+  <body>
+    <div id="root">
+      <div id="splash">
+        <noscript>
+          <h1>
+            To use <%= htmlWebpackPlugin.options.title %>, please enable
+            JavaScript.
+          </h1>
+        </noscript>
+        <%= require('@twitch-player/assets/dist/web/favicon.svg') %>
+      </div>
+    </div>
+  </body>
+</html>

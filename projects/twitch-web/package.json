@@ -1,0 +1,37 @@
+{
+  "name": "@twitch-player/web",
+  "productName": "TwitchPlayer",
+  "description": "An unofficial Twitch stream player.",
+  "version": "0.0.0",
+  "license": "MIT",
+  "private": true,
+  "author": {
+    "name": "Daniel Perez Alvarez",
+    "email": "unindented@gmail.com",
+    "url": "https://unindented.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/unindented/twitch-player"
+  },
+  "themeColor": "#6441a4",
+  "backgroundColor": "#ffffff",
+  "scripts": {
+    "clean:dist": "shx rm -rf dist",
+    "clean": "run-p clean:*",
+    "build:dev": "webpack --config config/webpack/config.dev.js",
+    "build:prod": "webpack --config config/webpack/config.prod.js",
+    "build": "run-s clean build:prod",
+    "start:server": "webpack-dev-server --config config/webpack/config.dev.js",
+    "start": "run-s start:server"
+  },
+  "dependencies": {
+    "@twitch-player/assets": "*",
+    "@twitch-player/polyfills": "*",
+    "@twitch-player/themes": "*",
+    "@twitch-player/ui": "*"
+  },
+  "devDependencies": {
+    "@twitch-player/testing": "*"
+  }
+}
