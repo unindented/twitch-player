@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="<%= htmlWebpackPlugin.options.description %>"
+    />
+    <meta
+      name="theme-color"
+      content="<%= htmlWebpackPlugin.options.themeColor %>"
+    />
+
+    <title><%= htmlWebpackPlugin.options.title %></title>
+
+    <link rel="manifest" href="<%= require('./manifest.webmanifest') %>" />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="<%= require('@twitch-player/assets/dist/web/icon_ios_57x57.png') %>"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="<%= require('@twitch-player/assets/dist/web/icon_ios_76x76.png') %>"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="<%= require('@twitch-player/assets/dist/web/icon_ios_120x120.png') %>"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="<%= require('@twitch-player/assets/dist/web/icon_ios_152x152.png') %>"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="167x167"
+      href="<%= require('@twitch-player/assets/dist/web/icon_ios_167x167.png') %>"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="<%= require('@twitch-player/assets/dist/web/icon_ios_180x180.png') %>"
+    />
+
+    <style>
+      html,
+      body {
+        height: 100%;
+        width: 100%;
+      }
+
+      body {
+        background-color: #faf9fa;
+        color: #19171c;
+        overflow: hidden;
+      }
+
+      #root {
+        display: flex;
+        height: 100%;
+      }
+
+      #splash {
+        align-items: center;
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      #splash h1 {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+        text-align: center;
+      }
+
+      #splash svg {
+        min-width: 100px;
+        padding-top: 20px;
+        width: 10%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="root">
+      <div id="splash">
+        <noscript>
+          <h1>
+            To use <%= htmlWebpackPlugin.options.title %>, please enable
+            JavaScript.
+          </h1>
+        </noscript>
+        <%= require('@twitch-player/assets/dist/web/favicon.svg') %>
+      </div>
+    </div>
+  </body>
+</html>

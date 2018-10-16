@@ -1,0 +1,37 @@
+language: node_js
+node_js:
+  - "10"
+
+dist: xenial
+sudo: false
+
+services:
+  - xvfb
+
+cache:
+  yarn: true
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN
+  local-dir: dist
+  on:
+    branch: master
+
+before_install:
+  # Enable user namespace cloning
+  - sysctl kernel.unprivileged_userns_clone=1
+  # Upgrade yarn to 1.13.0
+  - curl -o- -L https://yarnpkg.com/install.sh | bash -s -- --version 1.13.0
+  - export PATH="$HOME/.yarn/bin:$PATH"
+
+before_script:
+  - yarn build
+
+before_deploy:
+  - DEPLOY=true yarn build
+  - mkdir -p dist
+  - cp -r projects/twitch-public/dist/* dist/
+  - cp -r projects/twitch-tizen/dist dist/tizen
+  - cp -r projects/twitch-web/dist dist/web
