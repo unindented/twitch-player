@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns:tizen="http://tizen.org/ns/widgets" xmlns="http://www.w3.org/ns/widgets" id="<%= repository.url %>" version="<%= version %>" viewmodes="fullscreen">
+  <tizen:application id="NAWonrFWxn.<%= productName %>" package="NAWonrFWxn" required_version="2.3"/>
+  <name><%= productName %></name>
+  <description><%= description %></description>
+  <author href="<%= author.url %>" email="<%= author.email %>"><%= author.name %></author>
+  <icon src="assets/icon_117x117.png"/>
+  <content src="index.html"/>
+  <license href="<%= repository.url %>/blob/master/LICENSE"><%= license %></license>
+  <feature name="http://tizen.org/feature/screen.size.all"/>
+  <feature name="http://tizen.org/feature/tv.inputdevice"/>
+  <feature name="http://tizen.org/feature/network.wifi"/>
+  <tizen:profile name="tv-samsung"/>
+  <tizen:privilege name="http://tizen.org/privilege/tv.inputdevice"/>
+  <tizen:privilege name="http://developer.samsung.com/privilege/network.public"/>
+  <tizen:privilege name="http://developer.samsung.com/privilege/avplay"/>
+  <tizen:metadata key="http://samsung.com/tv/metadata/prelaunch.support" value="true"/>
+  <tizen:setting screen-orientation="landscape" context-menu="enable" background-support="disable" encryption="disable" install-location="auto" hwkey-event="enable"/>
+</widget>

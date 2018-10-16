@@ -1,0 +1,42 @@
+{
+  "name": "<%= productName %>",
+  "short_name": "<%= productName %>",
+  "description": "<%= description %>",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "theme_color": "<%= themeColor %>",
+  "background_color": "<%= backgroundColor %>",
+  "icons": [
+    {
+      "src": "~@twitch-player/assets/dist/web/icon_48x48.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "~@twitch-player/assets/dist/web/icon_96x96.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "~@twitch-player/assets/dist/web/icon_144x144.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "~@twitch-player/assets/dist/web/icon_192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "~@twitch-player/assets/dist/web/icon_384x384.png",
+      "type": "image/png",
+      "sizes": "384x384"
+    },
+    {
+      "src": "~@twitch-player/assets/dist/web/icon_512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
