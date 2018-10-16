@@ -1,0 +1,38 @@
+{
+  "name": "@twitch-player/tizen",
+  "productName": "TwitchPlayer",
+  "description": "Unofficial Twitch stream player.",
+  "version": "0.0.0",
+  "license": "MIT",
+  "private": true,
+  "author": {
+    "name": "Daniel Perez Alvarez",
+    "email": "unindented@gmail.com",
+    "url": "https://unindented.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/unindented/twitch-player"
+  },
+  "scripts": {
+    "clean:dist": "shx rm -rf dist",
+    "clean": "run-p clean:*",
+    "build:dev": "webpack --config config/webpack/config.dev.js",
+    "build:prod": "webpack --config config/webpack/config.prod.js",
+    "build": "run-s clean build:prod",
+    "deploy:package": "tizen package -t wgt -- dist",
+    "deploy:transfer": "tizen install -n TwitchPlayer.wgt -- dist || true",
+    "deploy:run": "tizen run -p NAWonrFWxn.TwitchPlayer -- dist",
+    "deploy": "run-s clean build:prod deploy:*",
+    "start:server": "webpack-dev-server --config config/webpack/config.dev.js",
+    "start": "run-s start:server"
+  },
+  "dependencies": {
+    "@twitch-player/assets": "*",
+    "@twitch-player/themes": "*",
+    "@twitch-player/ui": "*"
+  },
+  "devDependencies": {
+    "@twitch-player/testing": "*"
+  }
+}

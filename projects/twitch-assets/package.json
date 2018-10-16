@@ -1,0 +1,31 @@
+{
+  "name": "@twitch-player/assets",
+  "description": "Assets for TwitchPlayer.",
+  "version": "0.0.0",
+  "license": "MIT",
+  "main": "dist",
+  "private": true,
+  "author": {
+    "name": "Daniel Perez Alvarez",
+    "email": "unindented@gmail.com",
+    "url": "https://unindented.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/unindented/twitch-player"
+  },
+  "scripts": {
+    "clean:dist": "shx rm -rf \"dist/!(index.js)\"",
+    "export:all": "sketchtool export slices src/assets.sketch --output=dist --save-for-web=YES --overwriting=YES",
+    "export:optimize": "find dist -type f -name '*.svg' -print0 | xargs -0 -n 1 -P 4 svgo --config=config/svgo/config.json",
+    "export:public-bg-svg": "node tasks/trianglify dist/public/bg.svg",
+    "export:public-icon-ico": "convert dist/public/favicon_48x48.png dist/public/favicon_32x32.png dist/public/favicon_16x16.png dist/public/favicon.ico",
+    "export:tizen-icon-ico": "convert dist/tizen/favicon_48x48.png dist/tizen/favicon_32x32.png dist/tizen/favicon_16x16.png dist/tizen/favicon.ico",
+    "export:web-icon-ico": "convert dist/web/favicon_48x48.png dist/web/favicon_32x32.png dist/web/favicon_16x16.png dist/web/favicon.ico",
+    "export": "run-s clean:* export:*"
+  },
+  "devDependencies": {
+    "svgo": "^1.1.1",
+    "trianglify": "^1.2.0"
+  }
+}
