@@ -1,0 +1,38 @@
+{
+  "name": "@twitch-player/ui",
+  "description": "UI components for TwitchPlayer.",
+  "version": "0.0.0",
+  "license": "MIT",
+  "private": true,
+  "author": {
+    "name": "Daniel Perez Alvarez",
+    "email": "unindented@gmail.com",
+    "url": "https://unindented.org/"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/unindented/twitch-player"
+  },
+  "scripts": {
+    "clean:cache": "shx rm -rf .cache",
+    "clean:dist": "shx rm -rf dist",
+    "clean:storybook": "shx rm -rf storybook",
+    "clean": "run-p clean:*",
+    "build:babel": "babel src --out-dir dist --source-maps",
+    "build:storybook": "build-storybook --config-dir config/storybook --output-dir storybook",
+    "build": "run-s clean build:babel",
+    "watch:babel": "yarn build:babel --watch",
+    "watch": "run-p watch:babel",
+    "start:storybook": "start-storybook --config-dir config/storybook",
+    "start": "run-p start:storybook",
+    "postinstall": "run-s build"
+  },
+  "dependencies": {
+    "@twitch-player/assets": "*",
+    "@twitch-player/themes": "*"
+  },
+  "devDependencies": {
+    "@twitch-player/testing": "*"
+  },
+  "sideEffects": false
+}
