@@ -30,6 +30,8 @@ addDecorator(
   withOptions({
     name: "TwitchPlayer",
     url: "https://github.com/unindented/twitch-player",
+    hierarchySeparator: "/",
+    hierarchyRootSeparator: "\\|",
   })
 );
 
