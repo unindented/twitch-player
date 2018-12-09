@@ -3,7 +3,7 @@ import React from "react";
 import Spinner from "../Spinner";
 import Page from ".";
 
-storiesOf("Page", module).add("default", () => (
+storiesOf("Components|Page", module).add("default", () => (
   <Page>
     <Spinner />
   </Page>
