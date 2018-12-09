@@ -4,6 +4,12 @@ An unofficial Twitch stream player.
 
 ![Screenshot of Tizen TV web app](projects/twitch-tizen/docs/screenshot.png)
 
+* Public Page: <https://unindented.github.io/twitch-player/>
+* Tizen TV Web App: <https://unindented.github.io/twitch-player/tizen/>
+* Web App: <https://unindented.github.io/twitch-player/web/>
+* GraphiQL Editor: <https://unindented.github.io/twitch-player/graphiql/>
+* UI Components: <https://unindented.github.io/twitch-player/storybook/>
+
 ## Meta
 
 - Code: `git clone it://github.com/unindented/twitch-player.git`

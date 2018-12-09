@@ -1,4 +1,4 @@
-# Public Page
+# [Public Page](https://unindented.github.io/twitch-player/)
 
 Public page for TwitchPlayer.
 
