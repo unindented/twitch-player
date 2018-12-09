@@ -16,11 +16,13 @@ const App = memo(() => (
   <ThemeProvider theme={lightTheme}>
     <OverridesProvider overrides={overrides}>
       <Router>
-        <Page>
-          <Suspense fallback={<Spinner />}>
-            <Routes />
-          </Suspense>
-        </Page>
+        <Suspense fallback={<Spinner />}>
+          <Page>
+            <Suspense fallback={<Spinner />}>
+              <Routes />
+            </Suspense>
+          </Page>
+        </Suspense>
       </Router>
     </OverridesProvider>
   </ThemeProvider>
