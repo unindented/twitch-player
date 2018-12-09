@@ -17,6 +17,10 @@ const servers = [
     port: 3003,
     public: resolve(__dirname, "../../projects/twitch-web/dist"),
   },
+  {
+    port: 3004,
+    public: resolve(__dirname, "../../projects/twitch-graphiql/dist"),
+  },
 ];
 
 module.exports = async () => {
