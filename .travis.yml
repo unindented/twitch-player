@@ -36,3 +36,4 @@ before_deploy:
   - cp -r projects/twitch-tizen/dist dist/tizen
   - cp -r projects/twitch-web/dist dist/web
   - cp -r projects/twitch-graphiql/dist dist/graphiql
+  - cp -r projects/twitch-ui/storybook dist/storybook

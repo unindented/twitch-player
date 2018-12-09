@@ -28,6 +28,7 @@
     "build:tizen": "lerna run --scope @twitch-player/tizen build",
     "build:web": "lerna run --scope @twitch-player/web build",
     "build:graphiql": "lerna run --scope @twitch-player/graphiql build",
+    "build:storybook": "lerna run --scope @twitch-player/ui build:storybook",
     "build": "run-p build:*",
     "rebuild": "lerna run build"
   },
