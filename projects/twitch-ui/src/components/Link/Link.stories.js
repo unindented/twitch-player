@@ -3,7 +3,7 @@ import { storiesOf } from "@storybook/react";
 import React from "react";
 import Link from ".";
 
-storiesOf("Link", module).add("default", () => (
+storiesOf("Components|Link", module).add("default", () => (
   <Link
     href="https://www.twitch.tv/"
     onPress={evt => {
