@@ -3,7 +3,7 @@ import React from "react";
 import { MemoryRouter as Router } from "react-router";
 import InternalLink from ".";
 
-storiesOf("InternalLink", module).add("default", () => (
+storiesOf("Components|InternalLink", module).add("default", () => (
   <Router>
     <InternalLink href="/settings">Settings</InternalLink>
   </Router>

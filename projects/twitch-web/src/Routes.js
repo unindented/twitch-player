@@ -1,16 +1,20 @@
 import React, { lazy } from "react";
 import { Route, Switch } from "react-router";
 
-const Home = lazy(() => import(/* webpackChunkName: "home" */ "./pages/Home"));
-const Live = lazy(() => import(/* webpackChunkName: "live" */ "./pages/Live"));
+const Home = lazy(() =>
+  import(/* webpackChunkName: "home" */ "@twitch-player/ui/dist/pages/Home")
+);
+const Live = lazy(() =>
+  import(/* webpackChunkName: "live" */ "@twitch-player/ui/dist/pages/Live")
+);
 const Categories = lazy(() =>
-  import(/* webpackChunkName: "categories" */ "./pages/Categories")
+  import(/* webpackChunkName: "categories" */ "@twitch-player/ui/dist/pages/Categories")
 );
 const Search = lazy(() =>
-  import(/* webpackChunkName: "search" */ "./pages/Search")
+  import(/* webpackChunkName: "search" */ "@twitch-player/ui/dist/pages/Search")
 );
 const Settings = lazy(() =>
-  import(/* webpackChunkName: "settings" */ "./pages/Settings")
+  import(/* webpackChunkName: "settings" */ "@twitch-player/ui/dist/pages/Settings")
 );
 
 const Routes = () => (
