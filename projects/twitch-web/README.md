@@ -1,4 +1,4 @@
-# Web App
+# [Web App](https://unindented.github.io/twitch-player/web/)
 
 Web app for TwitchPlayer.
 

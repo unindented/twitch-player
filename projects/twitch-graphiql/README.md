@@ -1,4 +1,4 @@
-# GraphiQL Editor
+# [GraphiQL Editor](https://unindented.github.io/twitch-player/graphiql/)
 
 GraphiQL editor for TwitchPlayer.
 
