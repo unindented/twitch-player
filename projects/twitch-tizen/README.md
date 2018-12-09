@@ -1,4 +1,4 @@
-# Tizen TV Web App
+# [Tizen TV Web App](https://unindented.github.io/twitch-player/tizen/)
 
 Tizen TV web app for TwitchPlayer.
 
