@@ -1,0 +1,28 @@
+{
+  "components": {
+    "navigation": {
+      "homeLabel": "בית",
+      "liveLabel": "ערוצים חיים",
+      "categoriesLabel": "קטגוריות",
+      "searchLabel": "חפש",
+      "settingsLabel": "הגדרות"
+    }
+  },
+  "pages": {
+    "home": {
+      "mainHeading": "בית"
+    },
+    "live": {
+      "mainHeading": "ערוצים חיים"
+    },
+    "categories": {
+      "mainHeading": "קטגוריות"
+    },
+    "search": {
+      "mainHeading": "חפש"
+    },
+    "settings": {
+      "mainHeading": "הגדרות"
+    }
+  }
+}

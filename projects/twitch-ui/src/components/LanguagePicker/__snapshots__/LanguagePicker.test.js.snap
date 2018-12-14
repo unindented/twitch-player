@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LanguagePicker renders a picker with all supported languages 1`] = `
+<select
+  class="rn-fontFamily-14xgk7a rn-fontSize-7cikom rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-width-13qz1uu"
+  data-focusable="true"
+  data-testid="language-picker"
+  style="background-color: rgb(250, 249, 250); color: rgb(25, 23, 28);"
+>
+  <option
+    value="en"
+  >
+    English
+  </option>
+  <option
+    value="es"
+  >
+    Español
+  </option>
+  <option
+    value="fr"
+  >
+    Français
+  </option>
+  <option
+    value="de"
+  >
+    Deutsch
+  </option>
+  <option
+    value="it"
+  >
+    Italiano
+  </option>
+  <option
+    value="he"
+  >
+    עִבְרִית
+  </option>
+  <option
+    value="ar"
+  >
+    العَرَبِيَّة‎
+  </option>
+</select>
+`;

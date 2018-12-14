@@ -1,0 +1,28 @@
+{
+  "components": {
+    "navigation": {
+      "homeLabel": "Home",
+      "liveLabel": "Canali live",
+      "categoriesLabel": "Categorie",
+      "searchLabel": "Recherche",
+      "settingsLabel": "Impostazioni"
+    }
+  },
+  "pages": {
+    "home": {
+      "mainHeading": "Home"
+    },
+    "live": {
+      "mainHeading": "Canali live"
+    },
+    "categories": {
+      "mainHeading": "Categorie"
+    },
+    "search": {
+      "mainHeading": "Recherche"
+    },
+    "settings": {
+      "mainHeading": "Impostazioni"
+    }
+  }
+}

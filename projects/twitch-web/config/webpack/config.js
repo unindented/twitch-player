@@ -1,5 +1,6 @@
 const { dirname, resolve } = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const { DefinePlugin } = require("webpack");
 const pkg = require("../../package.json");
 
 const root = resolve(__dirname, "../..");
@@ -72,6 +73,12 @@ module.exports = () => ({
   },
 
   plugins: [
+    new DefinePlugin({
+      "process.env": {
+        TWITCH_GRAPHQL_URI: JSON.stringify(process.env.TWITCH_GRAPHQL_URI),
+        TWITCH_CLIENT_ID: JSON.stringify(process.env.TWITCH_CLIENT_ID),
+      },
+    }),
     new HtmlWebpackPlugin({
       title: pkg.productName,
       description: pkg.description,

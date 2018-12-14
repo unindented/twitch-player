@@ -15,5 +15,46 @@ exports[`Settings renders the page 1`] = `
   >
     Settings
   </h2>
+  <select
+    class="rn-fontFamily-14xgk7a rn-fontSize-7cikom rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw"
+    data-focusable="true"
+    data-testid="language-picker"
+  >
+    <option
+      value="en"
+    >
+      English
+    </option>
+    <option
+      value="es"
+    >
+      Español
+    </option>
+    <option
+      value="fr"
+    >
+      Français
+    </option>
+    <option
+      value="de"
+    >
+      Deutsch
+    </option>
+    <option
+      value="it"
+    >
+      Italiano
+    </option>
+    <option
+      value="he"
+    >
+      עִבְרִית
+    </option>
+    <option
+      value="ar"
+    >
+      العَرَبِيَّة‎
+    </option>
+  </select>
 </div>
 `;

@@ -3,6 +3,7 @@ import Page from "@twitch-player/ui/dist/components/Page";
 import Spinner from "@twitch-player/ui/dist/components/Spinner";
 import { ThemeProvider } from "@twitch-player/themes/dist/context";
 import { light as lightTheme } from "@twitch-player/themes/dist/themes";
+import LanguageMonitor from "@twitch-player/ui/dist/components/LanguageMonitor";
 import { OverridesProvider } from "@twitch-player/ui/dist/context";
 import React, { Suspense, memo } from "react";
 import { HashRouter as Router } from "react-router-dom";
@@ -16,11 +17,14 @@ const App = memo(() => (
   <ThemeProvider theme={lightTheme}>
     <OverridesProvider overrides={overrides}>
       <Router>
-        <Page>
-          <Suspense fallback={<Spinner />}>
-            <Routes />
-          </Suspense>
-        </Page>
+        <Suspense fallback={<Spinner />}>
+          <LanguageMonitor />
+          <Page>
+            <Suspense fallback={<Spinner />}>
+              <Routes />
+            </Suspense>
+          </Page>
+        </Suspense>
       </Router>
     </OverridesProvider>
   </ThemeProvider>

@@ -7,6 +7,7 @@ describe("navigation", () => {
     page = await browser.newPage();
 
     await page.goto("http://localhost:3004");
+    await page.waitFor(1000);
   });
 
   afterAll(async () => {

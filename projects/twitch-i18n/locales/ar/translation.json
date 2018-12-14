@@ -1,0 +1,28 @@
+{
+  "components": {
+    "navigation": {
+      "homeLabel": "الصفحة الرئيسية",
+      "liveLabel": "قنوات حية",
+      "categoriesLabel": "الفئات",
+      "searchLabel": "بحث",
+      "settingsLabel": "إعدادات"
+    }
+  },
+  "pages": {
+    "home": {
+      "mainHeading": "الصفحة الرئيسية"
+    },
+    "live": {
+      "mainHeading": "قنوات حية"
+    },
+    "categories": {
+      "mainHeading": "الفئات"
+    },
+    "search": {
+      "mainHeading": "بحث"
+    },
+    "settings": {
+      "mainHeading": "إعدادات"
+    }
+  }
+}

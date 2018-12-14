@@ -1,0 +1,28 @@
+{
+  "components": {
+    "navigation": {
+      "homeLabel": "Accueil",
+      "liveLabel": "Chaînes en direct",
+      "categoriesLabel": "Catégories",
+      "searchLabel": "Recherche",
+      "settingsLabel": "Paramètres"
+    }
+  },
+  "pages": {
+    "home": {
+      "mainHeading": "Accueil"
+    },
+    "live": {
+      "mainHeading": "Chaînes en direct"
+    },
+    "categories": {
+      "mainHeading": "Catégories"
+    },
+    "search": {
+      "mainHeading": "Recherche"
+    },
+    "settings": {
+      "mainHeading": "Paramètres"
+    }
+  }
+}

@@ -11,6 +11,9 @@
   ],
   "plugins": ["react-hooks"],
   "rules": {
+    "import/namespace": ["off"],
+    "import/no-named-as-default": ["off"],
+    "import/no-named-as-default-member": ["off"],
     "import/no-unresolved": [
       "error",
       {
@@ -54,7 +57,12 @@
       }
     },
     {
-      "files": ["**/*.test.js", "**/*.e2e.js", "config/jest/**"],
+      "files": [
+        "**/*.test.js",
+        "**/*.e2e.js",
+        "config/jest/**",
+        "__mocks__/**"
+      ],
       "env": {
         "jest": true
       },

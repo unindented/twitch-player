@@ -13,5 +13,6 @@ module.exports = {
   setupTestFrameworkScriptFile: "<rootDir>/config/jest/test-setup.js",
   testEnvironment: "jsdom",
   testRegex: "/projects/[^/]+/src/.+\\.test\\.js$",
+  testURL: "http://localhost",
   transformIgnorePatterns: ["/node_modules/(?!(react-native-web)/)"],
 };

@@ -11,7 +11,8 @@ describe("navigation", () => {
       console.log(`${msg.type()}: ${msg.text()}`);
     });
 
-    await page.goto("http://localhost:3002");
+    await page.goto("http://localhost:3002?lng=en");
+    await page.waitFor(1000);
   });
 
   afterAll(async () => {
