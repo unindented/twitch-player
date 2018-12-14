@@ -1,4 +1,5 @@
 const { dirname, resolve } = require("path");
+const CopyWebpackPlugin = require("copy-webpack-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const pkg = require("../../package.json");
 
@@ -6,6 +7,7 @@ const root = resolve(__dirname, "../..");
 const src = resolve(root, "src");
 const assets = resolve(root, "assets");
 const externalAssets = dirname(require.resolve("@twitch-player/assets"));
+const i18n = resolve(dirname(require.resolve("@twitch-player/i18n")), "..");
 
 const publicPath = process.env.DEPLOY ? "/twitch-player/web/" : "/";
 
@@ -72,6 +74,12 @@ module.exports = () => ({
   },
 
   plugins: [
+    new CopyWebpackPlugin([
+      {
+        from: resolve(i18n, "locales/**/*.json"),
+        context: i18n,
+      },
+    ]),
     new HtmlWebpackPlugin({
       title: pkg.productName,
       description: pkg.description,

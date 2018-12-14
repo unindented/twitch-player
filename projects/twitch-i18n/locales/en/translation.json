@@ -1,0 +1,28 @@
+{
+  "components": {
+    "navigation": {
+      "homeLabel": "Home",
+      "liveLabel": "Live Channels",
+      "categoriesLabel": "Categories",
+      "searchLabel": "Search",
+      "settingsLabel": "Settings"
+    }
+  },
+  "pages": {
+    "home": {
+      "mainHeading": "Home"
+    },
+    "live": {
+      "mainHeading": "Live Channels"
+    },
+    "categories": {
+      "mainHeading": "Categories"
+    },
+    "search": {
+      "mainHeading": "Search"
+    },
+    "settings": {
+      "mainHeading": "Settings"
+    }
+  }
+}

@@ -17,12 +17,14 @@ const App = memo(() => (
   <ThemeProvider theme={televisionTheme}>
     <OverridesProvider overrides={overrides}>
       <Router>
-        <KeyboardHistory />
-        <Page>
-          <Suspense fallback={<Spinner />}>
-            <Routes />
-          </Suspense>
-        </Page>
+        <Suspense fallback={<Spinner />}>
+          <KeyboardHistory />
+          <Page>
+            <Suspense fallback={<Spinner />}>
+              <Routes />
+            </Suspense>
+          </Page>
+        </Suspense>
       </Router>
     </OverridesProvider>
   </ThemeProvider>

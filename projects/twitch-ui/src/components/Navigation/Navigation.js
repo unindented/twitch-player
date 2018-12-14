@@ -1,3 +1,4 @@
+import { useTranslation } from "@twitch-player/i18n";
 import PropTypes from "prop-types";
 import React, { memo } from "react";
 import { StyleSheet, View } from "react-native";
@@ -20,6 +21,7 @@ const layoutQuery = {
 };
 
 const Navigation = memo(({ testID = "navigation" }) => {
+  const [t] = useTranslation();
   const [layout, updateLayout] = useLayout(layoutQuery);
   const { Link } = useOverrides();
   const theme = useTheme();
@@ -41,28 +43,28 @@ const Navigation = memo(({ testID = "navigation" }) => {
             <Link href="/" testID={`${testID}-home-link`}>
               <NavigationIcon
                 source={homeIcon}
-                accessibilityLabel="Home"
+                accessibilityLabel={t("components.navigation.homeLabel")}
                 testID={`${testID}-home-icon`}
               />
             </Link>
             <Link href="/live" testID={`${testID}-live-link`}>
               <NavigationIcon
                 source={liveIcon}
-                accessibilityLabel="Live Channels"
+                accessibilityLabel={t("components.navigation.liveLabel")}
                 testID={`${testID}-live-icon`}
               />
             </Link>
             <Link href="/categories" testID={`${testID}-categories-link`}>
               <NavigationIcon
                 source={categoriesIcon}
-                accessibilityLabel="Categories"
+                accessibilityLabel={t("components.navigation.categoriesLabel")}
                 testID={`${testID}-categories-icon`}
               />
             </Link>
             <Link href="/search" testID={`${testID}-search-link`}>
               <NavigationIcon
                 source={searchIcon}
-                accessibilityLabel="Search"
+                accessibilityLabel={t("components.navigation.searchLabel")}
                 testID={`${testID}-search-icon`}
               />
             </Link>
@@ -71,7 +73,7 @@ const Navigation = memo(({ testID = "navigation" }) => {
             <Link href="/settings" testID={`${testID}-settings-link`}>
               <NavigationIcon
                 source={settingsIcon}
-                accessibilityLabel="Settings"
+                accessibilityLabel={t("components.navigation.settingsLabel")}
                 testID={`${testID}-settings-icon`}
               />
             </Link>
