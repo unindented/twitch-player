@@ -15,7 +15,7 @@
     "url": "https://github.com/unindented/twitch-player"
   },
   "themeColor": "#6441a4",
-  "backgroundColor": "#ffffff",
+  "backgroundColor": "#faf9fa",
   "scripts": {
     "clean:dist": "shx rm -rf dist",
     "clean": "run-p clean:*",
