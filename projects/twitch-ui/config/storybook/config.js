@@ -10,6 +10,7 @@ import { ThemeProvider } from "@twitch-player/themes/dist/context";
 import * as themes from "@twitch-player/themes/dist/themes";
 import React, { Suspense } from "react";
 import { View, I18nManager } from "react-native";
+import { MemoryRouter as Router } from "react-router";
 import { OverridesProvider } from "../../src/context";
 
 const languages = Object.keys(supportedLanguages);
@@ -33,13 +34,15 @@ addDecorator(story => {
   return (
     <ThemeProvider theme={theme}>
       <OverridesProvider>
-        <Suspense fallback={null}>
-          <View
-            style={{ backgroundColor: theme.colors.bodyBackground, flex: 1 }}
-          >
-            {story()}
-          </View>
-        </Suspense>
+        <Router>
+          <Suspense fallback={null}>
+            <View
+              style={{ backgroundColor: theme.colors.bodyBackground, flex: 1 }}
+            >
+              {story()}
+            </View>
+          </Suspense>
+        </Router>
       </OverridesProvider>
     </ThemeProvider>
   );

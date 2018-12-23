@@ -7,54 +7,61 @@ exports[`Settings renders the page 1`] = `
 >
   <h2
     aria-level="2"
-    class="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-1471scf rn-fontStyle-o11vmf rn-fontVariant-ebii48 rn-fontWeight-vw2c0b rn-lineHeight-t9a87b rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+    class="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-1471scf rn-fontStyle-o11vmf rn-fontVariant-ebii48 rn-fontWeight-vw2c0b rn-lineHeight-a8ghvy rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
     data-testid="heading"
     dir="auto"
     role="heading"
-    style="color: rgb(50, 47, 55); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif; font-size: 16px;"
+    style="color: rgb(50, 47, 55); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif; font-size: 16px; margin-bottom: 10px;"
   >
     Settings
   </h2>
-  <select
-    class="rn-fontFamily-14xgk7a rn-fontSize-7cikom rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw"
-    data-focusable="true"
-    data-testid="language-picker"
+  <div
+    class="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-color-homxoj rn-display-1471scf rn-fontFamily-14xgk7a rn-fontStyle-o11vmf rn-fontVariant-ebii48 rn-fontWeight-gul640 rn-lineHeight-t9a87b rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+    dir="auto"
+    style="font-size: 16px;"
   >
-    <option
-      value="en"
+    <select
+      class="rn-fontFamily-14xgk7a rn-fontSize-7cikom rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-width-13qz1uu"
+      data-focusable="true"
+      data-testid="language-picker"
+      style="background-color: rgb(250, 249, 250); color: rgb(25, 23, 28);"
     >
-      English
-    </option>
-    <option
-      value="es"
-    >
-      Español
-    </option>
-    <option
-      value="fr"
-    >
-      Français
-    </option>
-    <option
-      value="de"
-    >
-      Deutsch
-    </option>
-    <option
-      value="it"
-    >
-      Italiano
-    </option>
-    <option
-      value="he"
-    >
-      עִבְרִית
-    </option>
-    <option
-      value="ar"
-    >
-      العَرَبِيَّة‎
-    </option>
-  </select>
+      <option
+        value="en"
+      >
+        English
+      </option>
+      <option
+        value="es"
+      >
+        Español
+      </option>
+      <option
+        value="fr"
+      >
+        Français
+      </option>
+      <option
+        value="de"
+      >
+        Deutsch
+      </option>
+      <option
+        value="it"
+      >
+        Italiano
+      </option>
+      <option
+        value="he"
+      >
+        עִבְרִית
+      </option>
+      <option
+        value="ar"
+      >
+        العَرَبِيَّة‎
+      </option>
+    </select>
+  </div>
 </div>
 `;

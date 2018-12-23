@@ -1,8 +1,9 @@
 import PropTypes from "prop-types";
 import React, { createContext } from "react";
-import ExternalLink from "../components/ExternalLink";
 
-const defaultOverrides = { Link: ExternalLink };
+const defaultOverrides = {
+  StreamPlayer: () => null,
+};
 
 export const OverridesContext = createContext(defaultOverrides);
 

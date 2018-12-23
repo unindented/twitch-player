@@ -2,17 +2,32 @@
   "components": {
     "navigation": {
       "homeLabel": "בית",
-      "liveLabel": "ערוצים חיים",
+      "channelsLabel": "ערוצים חיים",
       "categoriesLabel": "קטגוריות",
       "searchLabel": "חפש",
       "settingsLabel": "הגדרות"
+    },
+    "item": {
+      "liveIndicator": "חיים",
+      "viewersCount_0": "{{count}} הצופה",
+      "viewersCount_1": "{{count}} צופים",
+      "viewersCount_2": "{{count}} צופים",
+      "viewersCount_3": "{{count}} צופים",
+      "followersCount_0": "{{count}} עוקב",
+      "followersCount_1": "{{count}} עוקבים",
+      "followersCount_2": "{{count}} עוקבים",
+      "followersCount_3": "{{count}} עוקבים"
     }
   },
   "pages": {
     "home": {
-      "mainHeading": "בית"
+      "featuredStreamsHeading": "ערוצים נבחרים",
+      "topGamesHeading": "קטגוריות מובילות",
+      "topStreamsHeading": "ערוצים מובילים חיים",
+      "topPS4StreamsHeading": "למעלה ערוצי PS4",
+      "topXboxOneStreamsHeading": "למעלה ערוצי Xbox One"
     },
-    "live": {
+    "channels": {
       "mainHeading": "ערוצים חיים"
     },
     "categories": {
@@ -24,5 +39,9 @@
     "settings": {
       "mainHeading": "הגדרות"
     }
+  },
+  "errors": {
+    "failedToLoad": "אופס! משהו השתבש. נסה שוב?",
+    "failedToRender": "אופס! משהו השתבש."
   }
 }

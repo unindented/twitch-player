@@ -2,17 +2,28 @@
   "components": {
     "navigation": {
       "homeLabel": "Home",
-      "liveLabel": "Canali live",
+      "channelsLabel": "Canali live",
       "categoriesLabel": "Categorie",
       "searchLabel": "Recherche",
       "settingsLabel": "Impostazioni"
+    },
+    "item": {
+      "liveIndicator": "Live",
+      "viewersCount": "{{count}} spettatore",
+      "viewersCount_plural": "{{count}} spettatori",
+      "followersCount": "{{count}} follower",
+      "followersCount_plural": "{{count}} followers"
     }
   },
   "pages": {
     "home": {
-      "mainHeading": "Home"
+      "featuredStreamsHeading": "Canali in primo piano",
+      "topGamesHeading": "Principali categorie",
+      "topStreamsHeading": "Principali canali live",
+      "topPS4StreamsHeading": "Principali canali PS4",
+      "topXboxOneStreamsHeading": "Principali canali Xbox One"
     },
-    "live": {
+    "channels": {
       "mainHeading": "Canali live"
     },
     "categories": {
@@ -24,5 +35,9 @@
     "settings": {
       "mainHeading": "Impostazioni"
     }
+  },
+  "errors": {
+    "failedToLoad": "Oops! Qualcosa è andato storto. Riprova?",
+    "failedToRender": "Oops! Qualcosa è andato storto."
   }
 }

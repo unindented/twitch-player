@@ -21,6 +21,16 @@ const loadPolyfills = async () => {
       import(/* webpackChunkName: "polyfill-core" */ "core-js/fn/set")
     );
   }
+  if (!("WeakMap" in window)) {
+    polyfills.push(
+      import(/* webpackChunkName: "polyfill-core" */ "core-js/fn/weak-map")
+    );
+  }
+  if (!("fetch" in window)) {
+    polyfills.push(
+      import(/* webpackChunkName: "polyfill-core" */ "whatwg-fetch")
+    );
+  }
 
   if (!("ResizeObserver" in window)) {
     polyfills.push(

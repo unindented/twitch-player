@@ -1,4 +1,5 @@
 import { useTranslation } from "@twitch-player/i18n";
+import PropTypes from "prop-types";
 import React, { memo } from "react";
 import { View } from "react-native";
 import Heading from "../../components/Heading";
@@ -14,5 +15,9 @@ const Settings = memo(({ testID = "settings-page" }) => {
     </View>
   );
 });
+
+Settings.propTypes = {
+  testID: PropTypes.string,
+};
 
 export default Settings;

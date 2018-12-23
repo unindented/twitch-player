@@ -1,11 +1,17 @@
 import { ThemeProvider } from "@twitch-player/themes/dist/context";
 import { light as lightTheme } from "@twitch-player/themes/dist/themes";
+import { OverridesProvider } from "@twitch-player/ui/dist/context";
 import React from "react";
+import { MemoryRouter as Router } from "react-router";
 import { render } from "react-testing-library";
 
 const customRender = (node, ...options) => {
   return render(
-    <ThemeProvider theme={lightTheme}>{node}</ThemeProvider>,
+    <ThemeProvider theme={lightTheme}>
+      <OverridesProvider>
+        <Router>{node}</Router>
+      </OverridesProvider>
+    </ThemeProvider>,
     ...options
   );
 };

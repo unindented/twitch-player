@@ -4,20 +4,18 @@ import { StyleSheet, View } from "react-native";
 import { useTheme } from "../../hooks";
 
 const Main = ({ children, testID = "main" }) => {
-  const theme = useTheme();
+  const { colors, layout } = useTheme();
+
+  const rootStyle = [
+    styles.root,
+    {
+      backgroundColor: colors.bodyBackground,
+      padding: layout.gapLarge,
+    },
+  ];
 
   return (
-    <View
-      accessibilityRole="main"
-      style={[
-        styles.root,
-        {
-          backgroundColor: theme.colors.bodyBackground,
-          padding: theme.layout.gapLarge,
-        },
-      ]}
-      testID={testID}
-    >
+    <View accessibilityRole="main" style={rootStyle} testID={testID}>
       {children}
     </View>
   );
@@ -31,6 +29,7 @@ Main.propTypes = {
 const styles = StyleSheet.create({
   root: {
     flex: 1,
+    overflowY: "auto",
   },
 });
 

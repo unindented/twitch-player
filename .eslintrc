@@ -33,6 +33,7 @@
         ]
       }
     ],
+    "react/display-name": ["off"],
     "react-hooks/rules-of-hooks": "error"
   },
   "settings": {

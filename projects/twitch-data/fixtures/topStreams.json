@@ -1,0 +1,446 @@
+{
+  "data": {
+    "streams": {
+      "pageInfo": {
+        "hasNextPage": true,
+        "hasPreviousPage": false,
+        "__typename": "PageInfo"
+      },
+      "edges": [
+        {
+          "cursor": "MA==",
+          "node": {
+            "id": "31876146512",
+            "key": "31876146512",
+            "previewImageURL": "streams/live_user_tfue-800x450.jpg",
+            "viewersCount": 56834,
+            "broadcaster": {
+              "id": "60056333",
+              "key": "60056333",
+              "login": "tfue",
+              "displayName": "Tfue",
+              "profileImageURL": "profiles/2470b5c6-a737-4ba6-8987-c28e0ca839e1-profile_image-150x150.jpg",
+              "broadcastSettings": {
+                "title": "Aimbot-Up Cup Duos w/ Chokzy",
+                "__typename": "BroadcastSettings"
+              },
+              "__typename": "User"
+            },
+            "game": {
+              "id": "33214",
+              "key": "33214",
+              "name": "Fortnite",
+              "boxArtURL": "games/Fortnite-376x500.jpg",
+              "viewersCount": 240727,
+              "followersCount": 35800802,
+              "__typename": "Game"
+            },
+            "tags": [
+              {
+                "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                "key": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                "isLanguageTag": true,
+                "localizedName": "English",
+                "tagName": "auto___lang_en",
+                "__typename": "Tag"
+              }
+            ],
+            "__typename": "Stream"
+          },
+          "__typename": "StreamEdge"
+        },
+        {
+          "cursor": "MQ==",
+          "node": {
+            "id": "31879434944",
+            "key": "31879434944",
+            "previewImageURL": "streams/live_user_ninja-800x450.jpg",
+            "viewersCount": 25491,
+            "broadcaster": {
+              "id": "19571641",
+              "key": "19571641",
+              "login": "ninja",
+              "displayName": "Ninja",
+              "profileImageURL": "profiles/cef31105-8a6e-4211-a74b-2f0bbd9791fb-profile_image-150x150.png",
+              "broadcastSettings": {
+                "title": "We Gaming <3 ",
+                "__typename": "BroadcastSettings"
+              },
+              "__typename": "User"
+            },
+            "game": {
+              "id": "33214",
+              "key": "33214",
+              "name": "Fortnite",
+              "boxArtURL": "games/Fortnite-376x500.jpg",
+              "viewersCount": 240727,
+              "followersCount": 35800802,
+              "__typename": "Game"
+            },
+            "tags": [
+              {
+                "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                "key": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                "isLanguageTag": true,
+                "localizedName": "English",
+                "tagName": "auto___lang_en",
+                "__typename": "Tag"
+              }
+            ],
+            "__typename": "Stream"
+          },
+          "__typename": "StreamEdge"
+        },
+        {
+          "cursor": "Mg==",
+          "node": {
+            "id": "31880087200",
+            "key": "31880087200",
+            "previewImageURL": "streams/live_user_summit1g-800x450.jpg",
+            "viewersCount": 24570,
+            "broadcaster": {
+              "id": "26490481",
+              "key": "26490481",
+              "login": "summit1g",
+              "displayName": "summit1g",
+              "profileImageURL": "profiles/200cea12142f2384-profile_image-150x150.png",
+              "broadcastSettings": {
+                "title": "Let's get anotha one  [ @summit1g ]",
+                "__typename": "BroadcastSettings"
+              },
+              "__typename": "User"
+            },
+            "game": {
+              "id": "490377",
+              "key": "490377",
+              "name": "Sea of Thieves",
+              "boxArtURL": "games/Sea%20of%20Thieves-376x500.jpg",
+              "viewersCount": 27869,
+              "followersCount": 945782,
+              "__typename": "Game"
+            },
+            "tags": [
+              {
+                "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                "key": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                "isLanguageTag": true,
+                "localizedName": "English",
+                "tagName": "auto___lang_en",
+                "__typename": "Tag"
+              }
+            ],
+            "__typename": "Stream"
+          },
+          "__typename": "StreamEdge"
+        },
+        {
+          "cursor": "Mw==",
+          "node": {
+            "id": "31878417536",
+            "key": "31878417536",
+            "previewImageURL": "streams/live_user_timthetatman-800x450.jpg",
+            "viewersCount": 21579,
+            "broadcaster": {
+              "id": "36769016",
+              "key": "36769016",
+              "login": "timthetatman",
+              "displayName": "TimTheTatman",
+              "profileImageURL": "profiles/timthetatman-profile_image-4cb867e7d0af1448-150x150.jpeg",
+              "broadcastSettings": {
+                "title": "sweaty pop up cup with lupo",
+                "__typename": "BroadcastSettings"
+              },
+              "__typename": "User"
+            },
+            "game": {
+              "id": "33214",
+              "key": "33214",
+              "name": "Fortnite",
+              "boxArtURL": "games/Fortnite-376x500.jpg",
+              "viewersCount": 240727,
+              "followersCount": 35800802,
+              "__typename": "Game"
+            },
+            "tags": [
+              {
+                "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                "key": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                "isLanguageTag": true,
+                "localizedName": "English",
+                "tagName": "auto___lang_en",
+                "__typename": "Tag"
+              }
+            ],
+            "__typename": "Stream"
+          },
+          "__typename": "StreamEdge"
+        },
+        {
+          "cursor": "NA==",
+          "node": {
+            "id": "31878723504",
+            "key": "31878723504",
+            "previewImageURL": "streams/live_user_shroud-800x450.jpg",
+            "viewersCount": 18166,
+            "broadcaster": {
+              "id": "37402112",
+              "key": "37402112",
+              "login": "shroud",
+              "displayName": "shroud",
+              "profileImageURL": "profiles/7ed5e0c6-0191-4eef-8328-4af6e4ea5318-profile_image-150x150.png",
+              "broadcastSettings": {
+                "title": "learning.. :( |  @shroud on socials",
+                "__typename": "BroadcastSettings"
+              },
+              "__typename": "User"
+            },
+            "game": {
+              "id": "491931",
+              "key": "491931",
+              "name": "Escape From Tarkov",
+              "boxArtURL": "games/Escape%20From%20Tarkov-376x500.jpg",
+              "viewersCount": 23676,
+              "followersCount": 985626,
+              "__typename": "Game"
+            },
+            "tags": [
+              {
+                "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                "key": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                "isLanguageTag": true,
+                "localizedName": "English",
+                "tagName": "auto___lang_en",
+                "__typename": "Tag"
+              }
+            ],
+            "__typename": "Stream"
+          },
+          "__typename": "StreamEdge"
+        },
+        {
+          "cursor": "NQ==",
+          "node": {
+            "id": "31876784656",
+            "key": "31876784656",
+            "previewImageURL": "streams/live_user_nickmercs-800x450.jpg",
+            "viewersCount": 15221,
+            "broadcaster": {
+              "id": "15564828",
+              "key": "15564828",
+              "login": "nickmercs",
+              "displayName": "NICKMERCS",
+              "profileImageURL": "profiles/1aba0e3b-069c-486f-af71-5371308eeee1-profile_image-150x150.jpg",
+              "broadcastSettings": {
+                "title": "pop up cup | nickmercs.sliver.tv | !giveaway | @nickmercs on socials | @100thieves",
+                "__typename": "BroadcastSettings"
+              },
+              "__typename": "User"
+            },
+            "game": {
+              "id": "33214",
+              "key": "33214",
+              "name": "Fortnite",
+              "boxArtURL": "games/Fortnite-376x500.jpg",
+              "viewersCount": 240727,
+              "followersCount": 35800802,
+              "__typename": "Game"
+            },
+            "tags": [
+              {
+                "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                "key": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                "isLanguageTag": true,
+                "localizedName": "English",
+                "tagName": "auto___lang_en",
+                "__typename": "Tag"
+              }
+            ],
+            "__typename": "Stream"
+          },
+          "__typename": "StreamEdge"
+        },
+        {
+          "cursor": "Ng==",
+          "node": {
+            "id": "31877317168",
+            "key": "31877317168",
+            "previewImageURL": "streams/live_user_c9sneaky-800x450.jpg",
+            "viewersCount": 14656,
+            "broadcaster": {
+              "id": "24538518",
+              "key": "24538518",
+              "login": "c9sneaky",
+              "displayName": "C9Sneaky",
+              "profileImageURL": "profiles/c9sneaky-profile_image-03d2c6cbb19c9e5d-150x150.png",
+              "broadcastSettings": {
+                "title": "super gamer boy",
+                "__typename": "BroadcastSettings"
+              },
+              "__typename": "User"
+            },
+            "game": {
+              "id": "21779",
+              "key": "21779",
+              "name": "League of Legends",
+              "boxArtURL": "games/League%20of%20Legends-376x500.jpg",
+              "viewersCount": 79041,
+              "followersCount": 16964608,
+              "__typename": "Game"
+            },
+            "tags": [
+              {
+                "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                "key": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                "isLanguageTag": true,
+                "localizedName": "English",
+                "tagName": "auto___lang_en",
+                "__typename": "Tag"
+              }
+            ],
+            "__typename": "Stream"
+          },
+          "__typename": "StreamEdge"
+        },
+        {
+          "cursor": "Nw==",
+          "node": {
+            "id": "31880614880",
+            "key": "31880614880",
+            "previewImageURL": "streams/live_user_fedmyster-800x450.jpg",
+            "viewersCount": 12447,
+            "broadcaster": {
+              "id": "39040630",
+              "key": "39040630",
+              "login": "fedmyster",
+              "displayName": "FEDMYSTER",
+              "profileImageURL": "profiles/77a6745c6141b9d5-profile_image-150x150.jpeg",
+              "broadcastSettings": {
+                "title": "hide n seek, Drunk Jenga, and ??????",
+                "__typename": "BroadcastSettings"
+              },
+              "__typename": "User"
+            },
+            "game": {
+              "id": "509658",
+              "key": "509658",
+              "name": "Just Chatting",
+              "boxArtURL": "games/Just%20Chatting-376x500.jpg",
+              "viewersCount": 55737,
+              "followersCount": 957942,
+              "__typename": "Game"
+            },
+            "tags": [
+              {
+                "id": "7a3d677a-1e09-4391-b520-1fccc0e7d6ca",
+                "key": "7a3d677a-1e09-4391-b520-1fccc0e7d6ca",
+                "isLanguageTag": false,
+                "localizedName": "Live Vlogging",
+                "tagName": "Live Vlogging",
+                "__typename": "Tag"
+              },
+              {
+                "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                "key": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                "isLanguageTag": true,
+                "localizedName": "English",
+                "tagName": "auto___lang_en",
+                "__typename": "Tag"
+              }
+            ],
+            "__typename": "Stream"
+          },
+          "__typename": "StreamEdge"
+        },
+        {
+          "cursor": "OA==",
+          "node": {
+            "id": "31873200672",
+            "key": "31873200672",
+            "previewImageURL": "streams/live_user_xqcow-800x450.jpg",
+            "viewersCount": 12426,
+            "broadcaster": {
+              "id": "71092938",
+              "key": "71092938",
+              "login": "xqcow",
+              "displayName": "xQcOW",
+              "profileImageURL": "profiles/xqcow-profile_image-9298dca608632101-150x150.jpeg",
+              "broadcastSettings": {
+                "title": "RANK1 GAM3R xd",
+                "__typename": "BroadcastSettings"
+              },
+              "__typename": "User"
+            },
+            "game": {
+              "id": "29595",
+              "key": "29595",
+              "name": "Dota 2",
+              "boxArtURL": "games/Dota%202-376x500.jpg",
+              "viewersCount": 29690,
+              "followersCount": 7237030,
+              "__typename": "Game"
+            },
+            "tags": [
+              {
+                "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                "key": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                "isLanguageTag": true,
+                "localizedName": "English",
+                "tagName": "auto___lang_en",
+                "__typename": "Tag"
+              }
+            ],
+            "__typename": "Stream"
+          },
+          "__typename": "StreamEdge"
+        },
+        {
+          "cursor": "OQ==",
+          "node": {
+            "id": "31869961424",
+            "key": "31869961424",
+            "previewImageURL": "streams/live_user_admiralbahroo-800x450.jpg",
+            "viewersCount": 11051,
+            "broadcaster": {
+              "id": "40972890",
+              "key": "40972890",
+              "login": "admiralbahroo",
+              "displayName": "AdmiralBahroo",
+              "profileImageURL": "profiles/2579b876-ba69-4ac8-8daa-035a8eea012c-profile_image-150x150.png",
+              "broadcastSettings": {
+                "title": ":) ",
+                "__typename": "BroadcastSettings"
+              },
+              "__typename": "User"
+            },
+            "game": {
+              "id": "5945",
+              "key": "5945",
+              "name": "Atlas",
+              "boxArtURL": "games/Atlas-376x500.jpg",
+              "viewersCount": 56047,
+              "followersCount": 77431,
+              "__typename": "Game"
+            },
+            "tags": [
+              {
+                "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                "key": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                "isLanguageTag": true,
+                "localizedName": "English",
+                "tagName": "auto___lang_en",
+                "__typename": "Tag"
+              }
+            ],
+            "__typename": "Stream"
+          },
+          "__typename": "StreamEdge"
+        }
+      ],
+      "__typename": "StreamConnection"
+    }
+  },
+  "extensions": {
+    "durationMilliseconds": 145,
+    "operationName": "TopStreams"
+  }
+}

@@ -2,17 +2,28 @@
   "components": {
     "navigation": {
       "homeLabel": "Accueil",
-      "liveLabel": "Chaînes en direct",
+      "channelsLabel": "Chaînes en direct",
       "categoriesLabel": "Catégories",
       "searchLabel": "Recherche",
       "settingsLabel": "Paramètres"
+    },
+    "item": {
+      "liveIndicator": "Direct",
+      "viewersCount": "{{count}} spectateur",
+      "viewersCount_plural": "{{count}} spectateurs",
+      "followersCount": "{{count}} follower",
+      "followersCount_plural": "{{count}} followers"
     }
   },
   "pages": {
     "home": {
-      "mainHeading": "Accueil"
+      "featuredStreamsHeading": "Chaînes en vedette",
+      "topGamesHeading": "Catégories les plus regardées",
+      "topStreamsHeading": "Chaînes les plus regardées",
+      "topPS4StreamsHeading": "Top des chaînes PS4",
+      "topXboxOneStreamsHeading": "Top des chaînes Xbox One"
     },
-    "live": {
+    "channels": {
       "mainHeading": "Chaînes en direct"
     },
     "categories": {
@@ -24,5 +35,9 @@
     "settings": {
       "mainHeading": "Paramètres"
     }
+  },
+  "errors": {
+    "failedToLoad": "Oops! Quelque chose s'est mal passé. Réessayer?",
+    "failedToRender": "Oops! Quelque chose s'est mal passé."
   }
 }

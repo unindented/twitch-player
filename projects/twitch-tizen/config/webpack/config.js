@@ -1,4 +1,5 @@
 const { dirname, resolve } = require("path");
+const dotenv = require("dotenv");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const { DefinePlugin } = require("webpack");
 const pkg = require("../../package.json");
@@ -7,6 +8,8 @@ const root = resolve(__dirname, "../..");
 const src = resolve(root, "src");
 const assets = resolve(root, "assets");
 const externalAssets = dirname(require.resolve("@twitch-player/assets"));
+
+dotenv.config({ path: resolve(root, "../../.env") });
 
 const publicPath = process.env.DEPLOY ? "/twitch-player/tizen/" : undefined;
 

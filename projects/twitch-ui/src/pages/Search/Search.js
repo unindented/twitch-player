@@ -1,4 +1,5 @@
 import { useTranslation } from "@twitch-player/i18n";
+import PropTypes from "prop-types";
 import React, { memo } from "react";
 import { View } from "react-native";
 import Heading from "../../components/Heading";
@@ -12,5 +13,9 @@ const Search = memo(({ testID = "search-page" }) => {
     </View>
   );
 });
+
+Search.propTypes = {
+  testID: PropTypes.string,
+};
 
 export default Search;

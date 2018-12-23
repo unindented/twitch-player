@@ -7,6 +7,7 @@
   <icon src="assets/icon_117x117.png"/>
   <content src="index.html"/>
   <license href="<%= repository.url %>/blob/master/LICENSE"><%= license %></license>
+  <access origin="*" subdomains="true"></access>
   <feature name="http://tizen.org/feature/screen.size.all"/>
   <feature name="http://tizen.org/feature/tv.inputdevice"/>
   <feature name="http://tizen.org/feature/network.wifi"/>

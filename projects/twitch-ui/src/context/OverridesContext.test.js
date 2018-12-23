@@ -5,20 +5,15 @@ import { render } from "react-testing-library";
 import { OverridesContext, OverridesProvider } from ".";
 
 const SomeComponent = () => {
-  const { Link } = useContext(OverridesContext);
+  const { StreamPlayer } = useContext(OverridesContext);
 
-  return <Link href="https://www.twitch.tv/">Twitch</Link>;
+  return <StreamPlayer src="https://www.twitch.tv/" />;
 };
 
-const SomeLink = ({ href, children }) => (
-  <Text accessibilityRole="link" href={href}>
-    {children}
-  </Text>
-);
+const SomeStreamPlayer = ({ src }) => <Text>{src}</Text>;
 
-SomeLink.propTypes = {
-  href: PropTypes.string.isRequired,
-  children: PropTypes.node.isRequired,
+SomeStreamPlayer.propTypes = {
+  src: PropTypes.string.isRequired,
 };
 
 describe("OverridesContext", () => {
@@ -41,7 +36,7 @@ describe("OverridesContext", () => {
   describe("with overrides", () => {
     beforeEach(() => {
       instance = render(
-        <OverridesProvider overrides={{ Link: SomeLink }}>
+        <OverridesProvider overrides={{ StreamPlayer: SomeStreamPlayer }}>
           <SomeComponent />
         </OverridesProvider>
       );

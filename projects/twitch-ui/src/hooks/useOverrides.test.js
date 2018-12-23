@@ -1,14 +1,20 @@
 import { render } from "@twitch-player/testing/dist/unit";
+import PropTypes from "prop-types";
 import React from "react";
-import { MemoryRouter as Router } from "react-router";
-import InternalLink from "../components/InternalLink";
+import { Text } from "react-native";
 import { OverridesProvider } from "../context";
 import { useOverrides } from ".";
 
 const SomeComponent = () => {
-  const { Link } = useOverrides();
+  const { StreamPlayer } = useOverrides();
 
-  return <Link href="/some-link">Some Link</Link>;
+  return <StreamPlayer src="https://www.twitch.tv/" />;
+};
+
+const SomeStreamPlayer = ({ src }) => <Text>{src}</Text>;
+
+SomeStreamPlayer.propTypes = {
+  src: PropTypes.string.isRequired,
 };
 
 describe("useOverrides", () => {
@@ -16,15 +22,13 @@ describe("useOverrides", () => {
 
   beforeEach(() => {
     instance = render(
-      <OverridesProvider overrides={{ Link: InternalLink }}>
-        <Router>
-          <SomeComponent />
-        </Router>
+      <OverridesProvider overrides={{ StreamPlayer: SomeStreamPlayer }}>
+        <SomeComponent />
       </OverridesProvider>
     );
   });
 
-  it("renders with the overriden link", () => {
+  it("renders with the overriden component", () => {
     expect(instance.asFragment()).toMatchSnapshot();
   });
 });

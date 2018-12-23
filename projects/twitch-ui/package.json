@@ -19,16 +19,17 @@
     "clean:storybook": "shx rm -rf storybook",
     "clean": "run-p clean:*",
     "build:babel": "babel src --out-dir dist --source-maps",
-    "build:storybook": "build-storybook --config-dir config/storybook --output-dir storybook",
+    "build:storybook": "build-storybook --config-dir config/storybook --static-dir config/storybook/static --output-dir storybook",
     "build": "run-s clean build:babel",
     "watch:babel": "yarn build:babel --watch",
     "watch": "run-p watch:babel",
-    "start:storybook": "start-storybook --config-dir config/storybook",
+    "start:storybook": "start-storybook --config-dir config/storybook --static-dir config/storybook/static",
     "start": "run-p start:storybook",
     "postinstall": "run-s build"
   },
   "dependencies": {
     "@twitch-player/assets": "*",
+    "@twitch-player/data": "*",
     "@twitch-player/i18n": "*",
     "@twitch-player/themes": "*"
   },

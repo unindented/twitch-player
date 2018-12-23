@@ -24,25 +24,28 @@ describe("navigation", () => {
     expect(title).toContain("TwitchPlayer");
   });
 
-  it("displays 'Home'", async () => {
+  it("navigates to 'Home' by default", async () => {
     const homeHeading = 'h2[data-testid="heading"]';
     await page.waitFor(homeHeading);
     const homeHeadingText = await page.$eval(homeHeading, el => el.textContent);
-    expect(homeHeadingText).toBe("Home");
+    expect(homeHeadingText).toBe("Featured Channels");
   });
 
   it("navigates to 'Live Channels'", async () => {
-    const liveLink = '[data-testid="navigation-live-link"]';
-    const liveHeading = 'h2[data-testid="heading"]';
-    await page.waitFor(liveLink);
-    await page.click(liveLink);
-    await page.waitFor(liveHeading);
-    const liveHeadingText = await page.$eval(liveHeading, el => el.textContent);
-    expect(liveHeadingText).toBe("Live Channels");
+    const channelsLink = '[data-testid="navigation-channels-icon"]';
+    const channelsHeading = 'h2[data-testid="heading"]';
+    await page.waitFor(channelsLink);
+    await page.click(channelsLink);
+    await page.waitFor(channelsHeading);
+    const channelsHeadingText = await page.$eval(
+      channelsHeading,
+      el => el.textContent
+    );
+    expect(channelsHeadingText).toBe("Live Channels");
   });
 
   it("navigates to 'Categories'", async () => {
-    const categoriesLink = '[data-testid="navigation-categories-link"]';
+    const categoriesLink = '[data-testid="navigation-categories-icon"]';
     const categoriesHeading = 'h2[data-testid="heading"]';
     await page.waitFor(categoriesLink);
     await page.click(categoriesLink);
@@ -55,7 +58,7 @@ describe("navigation", () => {
   });
 
   it("navigates to 'Search'", async () => {
-    const searchLink = '[data-testid="navigation-search-link"]';
+    const searchLink = '[data-testid="navigation-search-icon"]';
     const searchHeading = 'h2[data-testid="heading"]';
     await page.waitFor(searchLink);
     await page.click(searchLink);
@@ -68,7 +71,7 @@ describe("navigation", () => {
   });
 
   it("navigates to 'Settings'", async () => {
-    const settingsLink = '[data-testid="navigation-settings-link"]';
+    const settingsLink = '[data-testid="navigation-settings-icon"]';
     const settingsHeading = 'h2[data-testid="heading"]';
     await page.waitFor(settingsLink);
     await page.click(settingsLink);
@@ -81,12 +84,12 @@ describe("navigation", () => {
   });
 
   it("navigates back to 'Home'", async () => {
-    const homeLink = '[data-testid="navigation-home-link"]';
+    const homeLink = '[data-testid="navigation-home-icon"]';
     const homeHeading = 'h2[data-testid="heading"]';
     await page.waitFor(homeLink);
     await page.click(homeLink);
     await page.waitFor(homeHeading);
     const homeHeadingText = await page.$eval(homeHeading, el => el.textContent);
-    expect(homeHeadingText).toBe("Home");
+    expect(homeHeadingText).toBe("Featured Channels");
   });
 });

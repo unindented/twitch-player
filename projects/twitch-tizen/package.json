@@ -29,6 +29,7 @@
   },
   "dependencies": {
     "@twitch-player/assets": "*",
+    "@twitch-player/data": "*",
     "@twitch-player/i18n": "*",
     "@twitch-player/polyfills": "*",
     "@twitch-player/themes": "*",

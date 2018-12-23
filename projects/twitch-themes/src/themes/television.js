@@ -7,6 +7,6 @@ export default {
   layout,
   typography: {
     ...typography,
-    family: "sans-serif",
+    family: "SamsungOne, sans-serif",
   },
 };
