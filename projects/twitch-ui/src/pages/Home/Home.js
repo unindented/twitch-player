@@ -1,17 +1,23 @@
 import { useTranslation } from "@twitch-player/i18n";
 import PropTypes from "prop-types";
 import React, { memo } from "react";
-import { View } from "react-native";
+import { ScrollView } from "react-native";
 import FeaturedStreams from "../../components/FeaturedStreams";
 import Heading from "../../components/Heading";
 import TopGames from "../../components/TopGames";
 import TopStreams from "../../components/TopStreams";
+import { useTheme } from "../../hooks";
 
 const Home = memo(({ testID = "home-page" }) => {
   const [t] = useTranslation();
+  const { layout } = useTheme();
+
+  const rootStyle = {
+    padding: layout.gapLarge,
+  };
 
   return (
-    <View testID={testID}>
+    <ScrollView style={rootStyle} testID={testID}>
       <Heading level="2">{t("pages.home.featuredStreamsHeading")}</Heading>
       <FeaturedStreams />
 
@@ -26,7 +32,7 @@ const Home = memo(({ testID = "home-page" }) => {
 
       <Heading level="2">{t("pages.home.topXboxOneStreamsHeading")}</Heading>
       <TopStreams platformType="xbox" />
-    </View>
+    </ScrollView>
   );
 });
 

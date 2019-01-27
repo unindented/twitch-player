@@ -89,7 +89,6 @@ Navigation.propTypes = {
 const styles = StyleSheet.create({
   root: {
     justifyContent: "space-between",
-    overflowY: "auto",
   },
   horizontal: {
     flexDirection: "row",
