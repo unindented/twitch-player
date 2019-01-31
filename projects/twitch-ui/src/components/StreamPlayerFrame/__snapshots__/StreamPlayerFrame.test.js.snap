@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StreamPlayerFrame renders a stream player 1`] = `
+<iframe
+  allowfullscreen=""
+  data-testid="stream-player"
+  src="https://player.twitch.tv/?channel=twitchpresents"
+  style="border: 0px;"
+/>
+`;
