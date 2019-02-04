@@ -1,7 +1,7 @@
 import { useCallback, useState } from "react";
 import { throttle } from "../utils";
 
-const useLayout = query => {
+const useResponsiveLayout = query => {
   const [layout, updateLayout] = useState(null);
   const size = layout && getMatchingQuerySize(query, layout);
 
@@ -35,4 +35,4 @@ const getMatchingQuerySize = (query, { height, width }) => {
   }
 };
 
-export default useLayout;
+export default useResponsiveLayout;

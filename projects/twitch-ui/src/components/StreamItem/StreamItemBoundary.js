@@ -3,11 +3,9 @@ import ErrorBoundary from "../ErrorBoundary";
 import StreamItem from "./StreamItem";
 import StreamItemError from "./StreamItemError";
 
-const renderError = () => <StreamItemError />;
-
 const StreamItemBoundary = props => {
   return (
-    <ErrorBoundary renderError={renderError}>
+    <ErrorBoundary renderError={() => <StreamItemError {...props} />}>
       <StreamItem {...props} />
     </ErrorBoundary>
   );

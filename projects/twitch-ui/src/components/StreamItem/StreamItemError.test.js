@@ -6,7 +6,7 @@ describe("StreamItemError", () => {
   let instance;
 
   beforeEach(() => {
-    instance = render(<StreamItemError item={null} />);
+    instance = render(<StreamItemError width={400} height={225} />);
   });
 
   it("renders an error placeholder", () => {

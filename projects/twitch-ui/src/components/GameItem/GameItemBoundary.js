@@ -3,11 +3,9 @@ import ErrorBoundary from "../ErrorBoundary";
 import GameItem from "./GameItem";
 import GameItemError from "./GameItemError";
 
-const renderError = () => <GameItemError />;
-
 const GameItemBoundary = props => {
   return (
-    <ErrorBoundary renderError={renderError}>
+    <ErrorBoundary renderError={() => <GameItemError {...props} />}>
       <GameItem {...props} />
     </ErrorBoundary>
   );

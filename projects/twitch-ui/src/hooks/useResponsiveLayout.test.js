@@ -1,7 +1,7 @@
-import { render, fireResizeEvent } from "@twitch-player/testing/dist/unit";
+import { fireResizeEvent, render } from "@twitch-player/testing/dist/unit";
 import React from "react";
 import { Text, View } from "react-native";
-import { useLayout } from ".";
+import { useResponsiveLayout } from ".";
 
 const layoutQuery = {
   layout1: {
@@ -15,7 +15,7 @@ const layoutQuery = {
 };
 
 const SomeComponent = () => {
-  const [layout, updateLayout] = useLayout(layoutQuery);
+  const [layout, updateLayout] = useResponsiveLayout(layoutQuery);
 
   return (
     <View onLayout={updateLayout}>
@@ -24,7 +24,7 @@ const SomeComponent = () => {
   );
 };
 
-describe("useLayout", () => {
+describe("useResponsiveLayout", () => {
   let instance;
 
   beforeEach(() => {

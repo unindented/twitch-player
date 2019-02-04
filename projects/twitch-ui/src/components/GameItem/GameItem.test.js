@@ -15,7 +15,7 @@ describe("GameItem", () => {
     beforeEach(() => {
       Hoverable.mockImplementation(({ children }) => children(false));
 
-      instance = render(<GameItem item={game} />);
+      instance = render(<GameItem item={game} width={188} height={250} />);
     });
 
     it("renders a game", () => {
@@ -27,7 +27,7 @@ describe("GameItem", () => {
     beforeEach(() => {
       Hoverable.mockImplementation(({ children }) => children(true));
 
-      instance = render(<GameItem item={game} />);
+      instance = render(<GameItem item={game} width={188} height={250} />);
     });
 
     it("renders a game", () => {

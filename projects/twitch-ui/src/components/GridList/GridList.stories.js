@@ -1,0 +1,45 @@
+import { storiesOf } from "@storybook/react";
+import PropTypes from "prop-types";
+import React from "react";
+import { Image } from "react-native";
+import GridList from ".";
+
+const data = [
+  {
+    previewImageURL: "streams/live_user_tfue-800x450.jpg",
+  },
+  {
+    previewImageURL: "streams/live_user_ninja-800x450.jpg",
+  },
+  {
+    previewImageURL: "streams/live_user_summit1g-800x450.jpg",
+  },
+  {
+    previewImageURL: "streams/live_user_timthetatman-800x450.jpg",
+  },
+  {
+    previewImageURL: "streams/live_user_shroud-800x450.jpg",
+  },
+  {
+    previewImageURL: "streams/live_user_nickmercs-800x450.jpg",
+  },
+];
+
+const ImageItem = ({ item: { previewImageURL } }) => {
+  return (
+    <Image
+      source={{ uri: previewImageURL }}
+      style={{ width: 400, height: 225 }}
+    />
+  );
+};
+
+ImageItem.propTypes = {
+  item: PropTypes.shape({
+    previewImageURL: PropTypes.string.isRequired,
+  }).isRequired,
+};
+
+storiesOf("Components|GridList", module).add("default", () => (
+  <GridList data={data} numColumns={2} renderItem={ImageItem} />
+));

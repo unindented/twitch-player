@@ -21,18 +21,16 @@ const StreamItem = memo(
       previewImageURL,
       viewersCount,
     },
+    width: previewImageWidth,
+    height: previewImageHeight,
     testID = "stream-item",
   }) => {
     const { colors, layout, typography } = useTheme();
 
-    const {
-      streamWidth: previewImageWidth,
-      streamHeight: previewImageHeight,
-    } = layout;
     const imageURI = processImageTemplate(
       previewImageURL,
-      previewImageWidth,
-      previewImageHeight
+      layout.maxStreamWidth,
+      layout.maxStreamHeight
     );
 
     const gameName = game ? game.name : " ";
@@ -104,6 +102,8 @@ const StreamItem = memo(
 
 StreamItem.propTypes = {
   item: StreamType.isRequired,
+  width: PropTypes.number.isRequired,
+  height: PropTypes.number.isRequired,
   testID: PropTypes.string,
 };
 

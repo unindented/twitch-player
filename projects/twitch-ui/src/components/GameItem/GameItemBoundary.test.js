@@ -14,7 +14,9 @@ describe("GameItemBoundary", () => {
       const { data } = require("@twitch-player/data/fixtures/topGames.json");
       const [{ node: game }] = data.games.edges;
 
-      instance = render(<GameItemBoundary item={game} />);
+      instance = render(
+        <GameItemBoundary item={game} width={188} height={250} />
+      );
     });
 
     it("renders", () => {
@@ -24,7 +26,9 @@ describe("GameItemBoundary", () => {
 
   describe("when an error occurs", () => {
     beforeEach(() => {
-      instance = render(<GameItemBoundary item={null} />);
+      instance = render(
+        <GameItemBoundary item={null} width={188} height={250} />
+      );
     });
 
     it("renders an error message", () => {

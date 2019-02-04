@@ -1,4 +1,4 @@
-import { render } from "@twitch-player/testing/dist/unit";
+import { fireResizeEvent, render } from "@twitch-player/testing/dist/unit";
 import React from "react";
 import StreamList from "./StreamList";
 
@@ -16,7 +16,18 @@ describe("StreamList", () => {
     instance = render(<StreamList list={streams} />);
   });
 
-  it("renders a list of streams", () => {
+  it("renders nothing until layout", () => {
     expect(instance.getByTestId("stream-list")).toMatchSnapshot();
+  });
+
+  describe("with narrow parent", () => {
+    beforeEach(() => {
+      fireResizeEvent(window, { width: 480, height: 640 });
+      jest.runAllTimers();
+    });
+
+    it("renders with a narrow layout", () => {
+      expect(instance.getByTestId("stream-list")).toMatchSnapshot();
+    });
   });
 });

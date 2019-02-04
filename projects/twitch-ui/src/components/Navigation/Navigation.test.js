@@ -1,4 +1,4 @@
-import { render, fireResizeEvent } from "@twitch-player/testing/dist/unit";
+import { fireResizeEvent, render } from "@twitch-player/testing/dist/unit";
 import React from "react";
 import Navigation from "./Navigation";
 

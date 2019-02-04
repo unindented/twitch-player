@@ -5,56 +5,59 @@ import { StyleSheet, View } from "react-native";
 import { useTheme } from "../../hooks";
 import Text from "../Text";
 
-const StreamItemError = memo(({ testID = "stream-item-error" }) => {
-  const [t] = useTranslation();
-  const { colors, layout, typography } = useTheme();
-
-  const {
-    streamWidth: previewImageWidth,
-    streamHeight: previewImageHeight,
-  } = layout;
-
-  const imageStyle = {
-    backgroundColor: colors.itemBackground,
+const StreamItemError = memo(
+  ({
+    width: previewImageWidth,
     height: previewImageHeight,
-    width: previewImageWidth,
-  };
-  const detailStyle = {
-    paddingHorizontal: layout.gapMedium,
-    paddingVertical: layout.gapSmall,
-    width: previewImageWidth,
-  };
-  const detailPrimaryStyle = [
-    styles.detailPrimary,
-    {
-      color: colors.itemPrimary,
-      fontSize: typography.sizeSecondary,
-    },
-  ];
-  const detailSecondaryStyle = {
-    color: colors.itemSecondary,
-    fontSize: typography.sizeTertiary,
-  };
+    testID = "stream-item-error",
+  }) => {
+    const [t] = useTranslation();
+    const { colors, layout, typography } = useTheme();
 
-  return (
-    <View testID={testID}>
-      <View style={imageStyle} testID={`${testID}-image`} />
-      <View style={detailStyle} testID={`${testID}-detail`}>
-        <Text numberOfLines={1} style={detailPrimaryStyle}>
-          {t("errors.failedToRender")}
-        </Text>
-        <Text numberOfLines={1} style={detailSecondaryStyle}>
-          {" "}
-        </Text>
-        <Text numberOfLines={1} style={detailSecondaryStyle}>
-          {" "}
-        </Text>
+    const imageStyle = {
+      backgroundColor: colors.itemBackground,
+      height: previewImageHeight,
+      width: previewImageWidth,
+    };
+    const detailStyle = {
+      paddingHorizontal: layout.gapMedium,
+      paddingVertical: layout.gapSmall,
+      width: previewImageWidth,
+    };
+    const detailPrimaryStyle = [
+      styles.detailPrimary,
+      {
+        color: colors.itemPrimary,
+        fontSize: typography.sizeSecondary,
+      },
+    ];
+    const detailSecondaryStyle = {
+      color: colors.itemSecondary,
+      fontSize: typography.sizeTertiary,
+    };
+
+    return (
+      <View testID={testID}>
+        <View style={imageStyle} testID={`${testID}-image`} />
+        <View style={detailStyle} testID={`${testID}-detail`}>
+          <Text numberOfLines={1} style={detailPrimaryStyle}>
+            {t("errors.failedToRender")}
+          </Text>
+          <Text numberOfLines={1} style={detailSecondaryStyle}>
+            {" "}
+          </Text>
+          <Text numberOfLines={1} style={detailSecondaryStyle}>
+            {" "}
+          </Text>
+        </View>
       </View>
-    </View>
-  );
-});
+    );
+  }
+);
 
 StreamItemError.propTypes = {
+  width: PropTypes.number.isRequired,
+  height: PropTypes.number.isRequired,
   testID: PropTypes.string,
 };
 

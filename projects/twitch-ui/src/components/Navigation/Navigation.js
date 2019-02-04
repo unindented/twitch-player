@@ -2,7 +2,7 @@ import { useTranslation } from "@twitch-player/i18n";
 import PropTypes from "prop-types";
 import React, { memo } from "react";
 import { StyleSheet, View } from "react-native";
-import { useLayout, useTheme } from "../../hooks";
+import { useResponsiveLayout, useTheme } from "../../hooks";
 import NavigationIcon from "./NavigationIcon";
 
 const homeIcon = require("@twitch-player/assets/dist/ui/icons/home.svg");
@@ -22,7 +22,7 @@ const layoutQuery = {
 
 const Navigation = memo(({ testID = "navigation" }) => {
   const [t] = useTranslation();
-  const [layout, updateLayout] = useLayout(layoutQuery);
+  const [layout, updateLayout] = useResponsiveLayout(layoutQuery);
   const { colors } = useTheme();
 
   const rootStyle = [

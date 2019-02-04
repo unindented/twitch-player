@@ -6,18 +6,12 @@ import FeaturedStreams from "../../components/FeaturedStreams";
 import Heading from "../../components/Heading";
 import TopGames from "../../components/TopGames";
 import TopStreams from "../../components/TopStreams";
-import { useTheme } from "../../hooks";
 
 const Home = memo(({ testID = "home-page" }) => {
   const [t] = useTranslation();
-  const { layout } = useTheme();
-
-  const rootStyle = {
-    padding: layout.gapLarge,
-  };
 
   return (
-    <ScrollView style={rootStyle} testID={testID}>
+    <ScrollView testID={testID}>
       <Heading level="2">{t("pages.home.featuredStreamsHeading")}</Heading>
       <FeaturedStreams />
 

@@ -15,7 +15,7 @@ describe("StreamItem", () => {
     beforeEach(() => {
       Hoverable.mockImplementation(({ children }) => children(false));
 
-      instance = render(<StreamItem item={stream} />);
+      instance = render(<StreamItem item={stream} width={400} height={225} />);
     });
 
     it("renders a stream", () => {
@@ -27,7 +27,7 @@ describe("StreamItem", () => {
     beforeEach(() => {
       Hoverable.mockImplementation(({ children }) => children(true));
 
-      instance = render(<StreamItem item={stream} />);
+      instance = render(<StreamItem item={stream} width={400} height={225} />);
     });
 
     it("renders a stream", () => {
@@ -39,7 +39,9 @@ describe("StreamItem", () => {
     beforeEach(() => {
       Hoverable.mockImplementation(({ children }) => children(true));
 
-      instance = render(<StreamItem item={{ ...stream, game: null }} />);
+      instance = render(
+        <StreamItem item={{ ...stream, game: null }} width={400} height={225} />
+      );
     });
 
     it("renders a stream without game name", () => {

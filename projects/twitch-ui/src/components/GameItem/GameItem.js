@@ -10,12 +10,20 @@ import InternalTouchableLink from "../InternalTouchableLink";
 import Text from "../Text";
 
 const GameItem = memo(
-  ({ item: { name, boxArtURL, viewersCount }, testID = "game-item" }) => {
+  ({
+    item: { name, boxArtURL, viewersCount },
+    width: boxArtWidth,
+    height: boxArtHeight,
+    testID = "game-item",
+  }) => {
     const [t] = useTranslation();
     const { colors, layout, typography } = useTheme();
 
-    const { gameWidth: boxArtWidth, gameHeight: boxArtHeight } = layout;
-    const imageURI = processImageTemplate(boxArtURL, boxArtWidth, boxArtHeight);
+    const imageURI = processImageTemplate(
+      boxArtURL,
+      layout.maxGameWidth,
+      layout.maxGameHeight
+    );
 
     const imageStyle = {
       backgroundColor: colors.itemBackground,
@@ -78,6 +86,8 @@ const GameItem = memo(
 
 GameItem.propTypes = {
   item: GameType.isRequired,
+  width: PropTypes.number.isRequired,
+  height: PropTypes.number.isRequired,
   testID: PropTypes.string,
 };
 

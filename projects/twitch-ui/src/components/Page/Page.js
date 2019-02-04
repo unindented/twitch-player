@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import React from "react";
 import { StyleSheet, View } from "react-native";
-import { useLayout } from "../../hooks";
+import { useResponsiveLayout } from "../../hooks";
 import Main from "../Main";
 import Navigation from "../Navigation";
 
@@ -15,7 +15,7 @@ const layoutQuery = {
 };
 
 const Page = ({ children, testID = "page" }) => {
-  const [layout, updateLayout] = useLayout(layoutQuery);
+  const [layout, updateLayout] = useResponsiveLayout(layoutQuery);
 
   return (
     <View

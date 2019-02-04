@@ -10,6 +10,9 @@ const Channels = lazy(() =>
 const Categories = lazy(() =>
   import(/* webpackChunkName: "categories" */ "@twitch-player/ui/dist/pages/Categories")
 );
+const Category = lazy(() =>
+  import(/* webpackChunkName: "category" */ "@twitch-player/ui/dist/pages/Category")
+);
 const Search = lazy(() =>
   import(/* webpackChunkName: "search" */ "@twitch-player/ui/dist/pages/Search")
 );
@@ -25,7 +28,7 @@ const Routes = () => (
     <Route exact path="/channels" component={Channels} />
     <Route exact path="/channels/:id" component={Null} />
     <Route exact path="/categories" component={Categories} />
-    <Route exact path="/categories/:id" component={Null} />
+    <Route exact path="/categories/:name" component={Category} />
     <Route exact path="/search" component={Search} />
     <Route exact path="/settings" component={Settings} />
     <Redirect to="/" />

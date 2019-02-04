@@ -6,7 +6,7 @@ describe("GameItemError", () => {
   let instance;
 
   beforeEach(() => {
-    instance = render(<GameItemError item={null} />);
+    instance = render(<GameItemError width={188} height={250} />);
   });
 
   it("renders an error placeholder", () => {

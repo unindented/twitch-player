@@ -1,6 +1,7 @@
 import { action } from "@storybook/addon-actions";
 import { storiesOf } from "@storybook/react";
 import React from "react";
+import Text from "../Text";
 import TouchableLink from ".";
 
 storiesOf("Components|TouchableLink", module).add("default", () => (
@@ -11,6 +12,6 @@ storiesOf("Components|TouchableLink", module).add("default", () => (
       action("pressed")(evt);
     }}
   >
-    Twitch
+    <Text>Twitch</Text>
   </TouchableLink>
 ));

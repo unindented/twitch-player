@@ -1,16 +1,18 @@
 import { useTranslation } from "@twitch-player/i18n";
 import PropTypes from "prop-types";
 import React, { memo } from "react";
-import { View } from "react-native";
+import { ScrollView } from "react-native";
 import Heading from "../../components/Heading";
+import AllChannels from "../../components/AllChannels";
 
 const Channels = memo(({ testID = "channels-page" }) => {
   const [t] = useTranslation();
 
   return (
-    <View testID={testID}>
+    <ScrollView testID={testID}>
       <Heading level="2">{t("pages.channels.mainHeading")}</Heading>
-    </View>
+      <AllChannels />
+    </ScrollView>
   );
 });
 

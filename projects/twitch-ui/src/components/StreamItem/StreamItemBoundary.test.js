@@ -14,7 +14,9 @@ describe("StreamItemBoundary", () => {
       const { data } = require("@twitch-player/data/fixtures/topStreams.json");
       const [{ node: stream }] = data.streams.edges;
 
-      instance = render(<StreamItemBoundary item={stream} />);
+      instance = render(
+        <StreamItemBoundary item={stream} width={400} height={225} />
+      );
     });
 
     it("renders", () => {
@@ -24,7 +26,9 @@ describe("StreamItemBoundary", () => {
 
   describe("when an error occurs", () => {
     beforeEach(() => {
-      instance = render(<StreamItemBoundary item={null} />);
+      instance = render(
+        <StreamItemBoundary item={null} width={400} height={225} />
+      );
     });
 
     it("renders an error placeholder", () => {
