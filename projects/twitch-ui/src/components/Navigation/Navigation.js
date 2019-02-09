@@ -20,8 +20,8 @@ const layoutQuery = {
   },
 };
 
-const Navigation = memo(({ testID = "navigation" }) => {
-  const [t] = useTranslation();
+const Navigation = ({ testID = "navigation" }) => {
+  const { t } = useTranslation();
   const [layout, updateLayout] = useResponsiveLayout(layoutQuery);
   const { colors } = useTheme();
 
@@ -80,7 +80,7 @@ const Navigation = memo(({ testID = "navigation" }) => {
       )}
     </View>
   );
-});
+};
 
 Navigation.propTypes = {
   testID: PropTypes.string,
@@ -98,4 +98,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Navigation;
+export default memo(Navigation);

@@ -7,6 +7,7 @@ import StreamList from "../../components/StreamList";
 
 const TopStreams = ({ platformType = "all", testID = "top-streams" }) => {
   const { data, error, refetch } = useQuery(TopStreamsQuery, {
+    suspend: true,
     variables: { platformType },
   });
   const list = !error ? data.streams.edges.map(({ node }) => node) : undefined;

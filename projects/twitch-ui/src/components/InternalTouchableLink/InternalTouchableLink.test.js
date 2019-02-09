@@ -29,8 +29,7 @@ describe("InternalTouchableLink", () => {
       jest.spyOn(history, "push");
 
       const link = instance.getByTestId("internal-touchable-link");
-      fireEvent.mouseDown(link);
-      fireEvent.mouseUp(link);
+      fireEvent.press(link);
     });
 
     it("opens the URL", () => {

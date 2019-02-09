@@ -9,96 +9,92 @@ import InternalTouchableLink from "../InternalTouchableLink";
 import Text from "../Text";
 import StreamItemOverlay from "./StreamItemOverlay";
 
-const StreamItem = memo(
-  ({
-    item: {
-      broadcaster: {
-        login: broadcasterLogin,
-        displayName: broadcasterName,
-        broadcastSettings: { title },
-      },
-      game,
-      previewImageURL,
-      viewersCount,
+const StreamItem = ({
+  item: {
+    broadcaster: {
+      login: broadcasterLogin,
+      displayName: broadcasterName,
+      broadcastSettings: { title },
     },
-    width: previewImageWidth,
+    game,
+    previewImageURL,
+    viewersCount,
+  },
+  width: previewImageWidth,
+  height: previewImageHeight,
+  testID = "stream-item",
+}) => {
+  const { colors, layout, typography } = useTheme();
+
+  const imageURI = processImageTemplate(
+    previewImageURL,
+    layout.maxStreamWidth,
+    layout.maxStreamHeight
+  );
+
+  const gameName = game ? game.name : " ";
+
+  const imageStyle = {
+    backgroundColor: colors.itemBackground,
     height: previewImageHeight,
-    testID = "stream-item",
-  }) => {
-    const { colors, layout, typography } = useTheme();
+    width: previewImageWidth,
+  };
+  const detailStyle = {
+    paddingHorizontal: layout.gapMedium,
+    paddingVertical: layout.gapSmall,
+    width: previewImageWidth,
+  };
 
-    const imageURI = processImageTemplate(
-      previewImageURL,
-      layout.maxStreamWidth,
-      layout.maxStreamHeight
-    );
+  return (
+    <Hoverable>
+      {isHover => {
+        const wrapperStyle = {
+          backgroundColor: isHover ? colors.itemBackgroundHover : "transparent",
+        };
+        const detailPrimaryStyle = [
+          styles.detailPrimary,
+          {
+            color: isHover ? colors.itemPrimaryHover : colors.itemPrimary,
+            fontSize: typography.sizeSecondary,
+          },
+        ];
+        const detailSecondaryStyle = {
+          color: isHover ? colors.itemSecondaryHover : colors.itemSecondary,
+          fontSize: typography.sizeTertiary,
+        };
 
-    const gameName = game ? game.name : " ";
-
-    const imageStyle = {
-      backgroundColor: colors.itemBackground,
-      height: previewImageHeight,
-      width: previewImageWidth,
-    };
-    const detailStyle = {
-      paddingHorizontal: layout.gapMedium,
-      paddingVertical: layout.gapSmall,
-      width: previewImageWidth,
-    };
-
-    return (
-      <Hoverable>
-        {isHover => {
-          const wrapperStyle = {
-            backgroundColor: isHover
-              ? colors.itemBackgroundHover
-              : "transparent",
-          };
-          const detailPrimaryStyle = [
-            styles.detailPrimary,
-            {
-              color: isHover ? colors.itemPrimaryHover : colors.itemPrimary,
-              fontSize: typography.sizeSecondary,
-            },
-          ];
-          const detailSecondaryStyle = {
-            color: isHover ? colors.itemSecondaryHover : colors.itemSecondary,
-            fontSize: typography.sizeTertiary,
-          };
-
-          return (
-            <InternalTouchableLink
-              href={`/channels/${broadcasterLogin}`}
-              testID={testID}
-            >
-              <View style={wrapperStyle} testID={`${testID}-wrapper`}>
-                <ImageBackground
-                  source={{ uri: imageURI }}
-                  accessibilityLabel={title}
-                  style={imageStyle}
-                  testID={`${testID}-image`}
-                >
-                  <StreamItemOverlay viewersCount={viewersCount} />
-                </ImageBackground>
-                <View style={detailStyle} testID={`${testID}-detail`}>
-                  <Text numberOfLines={1} style={detailPrimaryStyle}>
-                    {title}
-                  </Text>
-                  <Text numberOfLines={1} style={detailSecondaryStyle}>
-                    {broadcasterName}
-                  </Text>
-                  <Text numberOfLines={1} style={detailSecondaryStyle}>
-                    {gameName}
-                  </Text>
-                </View>
+        return (
+          <InternalTouchableLink
+            href={`/channels/${broadcasterLogin}`}
+            testID={testID}
+          >
+            <View style={wrapperStyle} testID={`${testID}-wrapper`}>
+              <ImageBackground
+                source={{ uri: imageURI }}
+                accessibilityLabel={title}
+                style={imageStyle}
+                testID={`${testID}-image`}
+              >
+                <StreamItemOverlay viewersCount={viewersCount} />
+              </ImageBackground>
+              <View style={detailStyle} testID={`${testID}-detail`}>
+                <Text numberOfLines={1} style={detailPrimaryStyle}>
+                  {title}
+                </Text>
+                <Text numberOfLines={1} style={detailSecondaryStyle}>
+                  {broadcasterName}
+                </Text>
+                <Text numberOfLines={1} style={detailSecondaryStyle}>
+                  {gameName}
+                </Text>
               </View>
-            </InternalTouchableLink>
-          );
-        }}
-      </Hoverable>
-    );
-  }
-);
+            </View>
+          </InternalTouchableLink>
+        );
+      }}
+    </Hoverable>
+  );
+};
 
 StreamItem.propTypes = {
   item: StreamType.isRequired,
@@ -113,4 +109,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default StreamItem;
+export default memo(StreamItem);

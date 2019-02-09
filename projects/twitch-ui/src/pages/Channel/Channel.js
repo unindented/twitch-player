@@ -3,7 +3,7 @@ import React, { memo } from "react";
 import { StyleSheet, View } from "react-native";
 import StreamPlayerFrame from "../../components/StreamPlayerFrame";
 
-const Channel = memo(({ match, testID = "channel-page" }) => {
+const Channel = ({ match, testID = "channel-page" }) => {
   const { name } = match.params;
 
   return (
@@ -11,7 +11,7 @@ const Channel = memo(({ match, testID = "channel-page" }) => {
       <StreamPlayerFrame name={name} />
     </View>
   );
-});
+};
 
 Channel.propTypes = {
   match: PropTypes.object.isRequired,
@@ -24,4 +24,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Channel;
+export default memo(Channel);

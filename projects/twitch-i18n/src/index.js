@@ -1,9 +1,9 @@
 import i18n from "i18next";
-import { initReactI18next } from "react-i18next/hooks";
+import { initReactI18next } from "react-i18next";
 import Backend from "./Backend";
 import LanguageDetector from "./LanguageDetector";
 
-export { getI18n, useTranslation } from "react-i18next/hooks";
+export { getI18n, useTranslation } from "react-i18next";
 
 export const init = options =>
   i18n

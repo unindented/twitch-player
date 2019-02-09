@@ -7,6 +7,7 @@ import StreamGrid from "../../components/StreamGrid";
 
 const CategoryStreams = ({ name, testID = "category-streams" }) => {
   const { data, error, refetch } = useQuery(CategoryStreamsQuery, {
+    suspend: true,
     variables: { name },
   });
   const list = !error

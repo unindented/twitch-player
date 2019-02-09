@@ -6,7 +6,9 @@ import RetryButton from "../../components/RetryButton";
 import StreamList from "../../components/StreamList";
 
 const FeaturedStreams = ({ testID = "featured-streams" }) => {
-  const { data, error, refetch } = useQuery(FeaturedStreamsQuery);
+  const { data, error, refetch } = useQuery(FeaturedStreamsQuery, {
+    suspend: true,
+  });
   const list = !error
     ? data.featuredStreams.map(({ stream }) => stream)
     : undefined;

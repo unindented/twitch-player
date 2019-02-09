@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import React, { memo } from "react";
 
-const StreamPlayerFrame = memo(({ name, testID = "stream-player" }) => {
+const StreamPlayerFrame = ({ name, testID = "stream-player" }) => {
   return (
     <iframe
       style={styles.root}
@@ -10,7 +10,7 @@ const StreamPlayerFrame = memo(({ name, testID = "stream-player" }) => {
       data-testid={testID}
     />
   );
-});
+};
 
 StreamPlayerFrame.propTypes = {
   name: PropTypes.string.isRequired,
@@ -24,4 +24,4 @@ const styles = {
   },
 };
 
-export default StreamPlayerFrame;
+export default memo(StreamPlayerFrame);

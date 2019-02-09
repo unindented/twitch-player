@@ -12,7 +12,7 @@ import Routes from "./Routes";
 
 const overrides = {};
 
-const App = memo(() => (
+const App = () => (
   <ApolloProvider client={createClient()}>
     <ThemeProvider theme={lightTheme}>
       <OverridesProvider overrides={overrides}>
@@ -29,6 +29,6 @@ const App = memo(() => (
       </OverridesProvider>
     </ThemeProvider>
   </ApolloProvider>
-));
+);
 
-export default App;
+export default memo(App);

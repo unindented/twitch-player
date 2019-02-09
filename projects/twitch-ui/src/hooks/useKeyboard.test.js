@@ -1,8 +1,4 @@
-import {
-  render,
-  fireEvent,
-  flushEffects,
-} from "@twitch-player/testing/dist/unit";
+import { render, fireEvent } from "@twitch-player/testing/dist/unit";
 import React, { useState } from "react";
 import { Text } from "react-native";
 import { useKeyboard } from ".";
@@ -22,7 +18,6 @@ describe("useKeyboard", () => {
 
   beforeEach(() => {
     instance = render(<SomeComponent />);
-    flushEffects();
   });
 
   describe("when a key is pressed", () => {

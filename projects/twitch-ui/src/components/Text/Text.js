@@ -3,7 +3,7 @@ import React, { memo } from "react";
 import { StyleSheet, Text } from "react-native";
 import { useTheme } from "../../hooks";
 
-const CustomText = memo(({ style = [], ...props }) => {
+const CustomText = ({ style = [], ...props }) => {
   const { typography } = useTheme();
 
   const rootStyle = [
@@ -14,13 +14,10 @@ const CustomText = memo(({ style = [], ...props }) => {
   ].concat(style);
 
   return <Text {...props} style={rootStyle} />;
-});
+};
 
 CustomText.propTypes = {
-  style: PropTypes.oneOfType([
-    PropTypes.object,
-    PropTypes.arrayOf(PropTypes.object),
-  ]),
+  style: PropTypes.any,
 };
 
 const styles = StyleSheet.create({
@@ -29,4 +26,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default CustomText;
+export default memo(CustomText);

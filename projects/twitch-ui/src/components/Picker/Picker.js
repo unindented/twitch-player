@@ -3,7 +3,7 @@ import React, { memo } from "react";
 import { Picker, StyleSheet, Text } from "react-native";
 import { useTheme } from "../../hooks";
 
-const CustomPicker = memo(({ values, style = [], ...props }) => {
+const CustomPicker = ({ values, style = [], ...props }) => {
   const { colors, typography } = useTheme();
 
   const rootStyle = {
@@ -29,14 +29,11 @@ const CustomPicker = memo(({ values, style = [], ...props }) => {
       </Picker>
     </Text>
   );
-});
+};
 
 CustomPicker.propTypes = {
   values: PropTypes.object.isRequired,
-  style: PropTypes.oneOfType([
-    PropTypes.object,
-    PropTypes.arrayOf(PropTypes.object),
-  ]),
+  style: PropTypes.any,
 };
 
 const styles = StyleSheet.create({
@@ -45,4 +42,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default CustomPicker;
+export default memo(CustomPicker);

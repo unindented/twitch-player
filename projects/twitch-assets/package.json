@@ -23,9 +23,5 @@
     "export:tizen-icon-ico": "convert dist/tizen/favicon_48x48.png dist/tizen/favicon_32x32.png dist/tizen/favicon_16x16.png dist/tizen/favicon.ico",
     "export:web-icon-ico": "convert dist/web/favicon_48x48.png dist/web/favicon_32x32.png dist/web/favicon_16x16.png dist/web/favicon.ico",
     "export": "run-s clean:* export:*"
-  },
-  "devDependencies": {
-    "svgo": "1.1.1",
-    "trianglify": "1.2.0"
   }
 }

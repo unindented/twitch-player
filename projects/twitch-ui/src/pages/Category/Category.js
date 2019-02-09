@@ -4,7 +4,7 @@ import { ScrollView } from "react-native";
 import Heading from "../../components/Heading";
 import CategoryStreams from "../../components/CategoryStreams";
 
-const Category = memo(({ match, testID = "category-page" }) => {
+const Category = ({ match, testID = "category-page" }) => {
   const { name } = match.params;
 
   return (
@@ -13,11 +13,11 @@ const Category = memo(({ match, testID = "category-page" }) => {
       <CategoryStreams name={name} />
     </ScrollView>
   );
-});
+};
 
 Category.propTypes = {
   match: PropTypes.object.isRequired,
   testID: PropTypes.string,
 };
 
-export default Category;
+export default memo(Category);

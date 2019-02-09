@@ -7,8 +7,8 @@ import Heading from "../../components/Heading";
 import TopGames from "../../components/TopGames";
 import TopStreams from "../../components/TopStreams";
 
-const Home = memo(({ testID = "home-page" }) => {
-  const [t] = useTranslation();
+const Home = ({ testID = "home-page" }) => {
+  const { t } = useTranslation();
 
   return (
     <ScrollView testID={testID}>
@@ -28,10 +28,10 @@ const Home = memo(({ testID = "home-page" }) => {
       <TopStreams platformType="xbox" />
     </ScrollView>
   );
-});
+};
 
 Home.propTypes = {
   testID: PropTypes.string,
 };
 
-export default Home;
+export default memo(Home);

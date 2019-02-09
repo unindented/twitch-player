@@ -3,7 +3,7 @@ import React, { memo } from "react";
 import { ActivityIndicator, StyleSheet, View } from "react-native";
 import { useTheme } from "../../hooks";
 
-const Spinner = memo(({ testID = "spinner" }) => {
+const Spinner = ({ testID = "spinner" }) => {
   const { colors, layout } = useTheme();
 
   return (
@@ -11,7 +11,7 @@ const Spinner = memo(({ testID = "spinner" }) => {
       <ActivityIndicator color={colors.spinner} size={layout.spinnerSize} />
     </View>
   );
-});
+};
 
 Spinner.propTypes = {
   testID: PropTypes.string,
@@ -25,4 +25,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Spinner;
+export default memo(Spinner);

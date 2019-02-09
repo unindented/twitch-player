@@ -1,4 +1,4 @@
-import { fireResizeEvent, render } from "@twitch-player/testing/dist/unit";
+import { fireEvent, render } from "@twitch-player/testing/dist/unit";
 import React from "react";
 import { Text } from "react-native";
 import Page from "./Page";
@@ -23,8 +23,7 @@ describe("Page", () => {
 
   describe("with narrow parent", () => {
     beforeEach(() => {
-      fireResizeEvent(window, { width: 320, height: 640 });
-      jest.runAllTimers();
+      fireEvent.resize(window, { target: { width: 320, height: 640 } });
     });
 
     it("renders with a narrow layout", () => {
@@ -34,8 +33,7 @@ describe("Page", () => {
 
   describe("with wide parent", () => {
     beforeEach(() => {
-      fireResizeEvent(window, { width: 640, height: 320 });
-      jest.runAllTimers();
+      fireEvent.resize(window, { target: { width: 640, height: 320 } });
     });
 
     it("renders with a wide layout", () => {

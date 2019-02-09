@@ -1,4 +1,4 @@
-import { fireResizeEvent, render } from "@twitch-player/testing/dist/unit";
+import { fireEvent, render } from "@twitch-player/testing/dist/unit";
 import React from "react";
 import { Text, View } from "react-native";
 import { useResponsiveLayout } from ".";
@@ -37,8 +37,7 @@ describe("useResponsiveLayout", () => {
 
   describe("when the layout changes width", () => {
     beforeEach(() => {
-      fireResizeEvent(window, { width: 480, height: 320 });
-      jest.runAllTimers();
+      fireEvent.resize(window, { target: { width: 480, height: 320 } });
     });
 
     it("renders with the right layout", () => {
@@ -48,8 +47,7 @@ describe("useResponsiveLayout", () => {
 
   describe("when the layout changes height", () => {
     beforeEach(() => {
-      fireResizeEvent(window, { width: 320, height: 480 });
-      jest.runAllTimers();
+      fireEvent.resize(window, { target: { width: 320, height: 480 } });
     });
 
     it("renders with the right layout", () => {

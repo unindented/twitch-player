@@ -10,7 +10,7 @@ module.exports = {
     "\\.(png|svg)$": "<rootDir>/config/jest/mocks/image.js",
   },
   rootDir: "../..",
-  setupTestFrameworkScriptFile: "<rootDir>/config/jest/test-setup.js",
+  setupFilesAfterEnv: ["<rootDir>/config/jest/test-setup.js"],
   testEnvironment: "jsdom",
   testRegex: "/projects/[^/]+/src/.+\\.test\\.js$",
   testURL: "http://localhost",

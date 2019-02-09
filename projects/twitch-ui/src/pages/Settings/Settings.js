@@ -5,8 +5,8 @@ import { View } from "react-native";
 import Heading from "../../components/Heading";
 import LanguagePicker from "../../components/LanguagePicker";
 
-const Settings = memo(({ testID = "settings-page" }) => {
-  const [t] = useTranslation();
+const Settings = ({ testID = "settings-page" }) => {
+  const { t } = useTranslation();
 
   return (
     <View testID={testID}>
@@ -14,10 +14,10 @@ const Settings = memo(({ testID = "settings-page" }) => {
       <LanguagePicker />
     </View>
   );
-});
+};
 
 Settings.propTypes = {
   testID: PropTypes.string,
 };
 
-export default Settings;
+export default memo(Settings);

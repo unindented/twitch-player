@@ -5,8 +5,8 @@ import { StyleSheet, View } from "react-native";
 import { useTheme } from "../../hooks";
 import Text from "../Text";
 
-const LiveIndicator = memo(({ style = [], testID = "live-indicator" }) => {
-  const [t] = useTranslation();
+const LiveIndicator = ({ style = [], testID = "live-indicator" }) => {
+  const { t } = useTranslation();
   const { colors, layout, typography } = useTheme();
 
   const fontSize = typography.sizeTertiary;
@@ -44,13 +44,10 @@ const LiveIndicator = memo(({ style = [], testID = "live-indicator" }) => {
       <Text style={textStyle}>{t("components.item.liveIndicator")}</Text>
     </View>
   );
-});
+};
 
 LiveIndicator.propTypes = {
-  style: PropTypes.oneOfType([
-    PropTypes.object,
-    PropTypes.arrayOf(PropTypes.object),
-  ]),
+  style: PropTypes.any,
   testID: PropTypes.string,
 };
 
@@ -69,4 +66,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default LiveIndicator;
+export default memo(LiveIndicator);

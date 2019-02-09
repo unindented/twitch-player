@@ -5,8 +5,8 @@ import { ScrollView } from "react-native";
 import Heading from "../../components/Heading";
 import AllCategories from "../../components/AllCategories";
 
-const Categories = memo(({ testID = "categories-page" }) => {
-  const [t] = useTranslation();
+const Categories = ({ testID = "categories-page" }) => {
+  const { t } = useTranslation();
 
   return (
     <ScrollView testID={testID}>
@@ -14,10 +14,10 @@ const Categories = memo(({ testID = "categories-page" }) => {
       <AllCategories />
     </ScrollView>
   );
-});
+};
 
 Categories.propTypes = {
   testID: PropTypes.string,
 };
 
-export default Categories;
+export default memo(Categories);

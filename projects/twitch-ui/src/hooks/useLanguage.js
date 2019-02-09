@@ -2,7 +2,7 @@ import { useTranslation } from "@twitch-player/i18n";
 import { useEffect } from "react";
 
 const useLanguage = onLanguageChanged => {
-  const [, i18n] = useTranslation();
+  const { i18n } = useTranslation();
 
   const handleLanguageChanged = () => {
     const lng = i18n.language;

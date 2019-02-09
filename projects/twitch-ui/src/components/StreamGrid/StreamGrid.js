@@ -6,7 +6,7 @@ import GridList from "../GridList";
 import StreamItem from "../StreamItem";
 import { useTheme, useResponsiveItemDimensions } from "../../hooks";
 
-const StreamGrid = memo(({ list, testID = "stream-grid" }) => {
+const StreamGrid = ({ list, testID = "stream-grid" }) => {
   const { layout } = useTheme();
   const maxItemHeight = layout.maxStreamHeight;
   const maxItemWidth = layout.maxStreamWidth;
@@ -54,11 +54,11 @@ const StreamGrid = memo(({ list, testID = "stream-grid" }) => {
       )}
     </View>
   );
-});
+};
 
 StreamGrid.propTypes = {
   list: PropTypes.arrayOf(StreamType).isRequired,
   testID: PropTypes.string,
 };
 
-export default StreamGrid;
+export default memo(StreamGrid);

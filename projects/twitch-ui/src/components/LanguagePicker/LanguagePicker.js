@@ -3,8 +3,8 @@ import PropTypes from "prop-types";
 import React, { memo, useCallback } from "react";
 import Picker from "../Picker";
 
-const LanguagePicker = memo(({ testID = "language-picker" }) => {
-  const [, i18n] = useTranslation();
+const LanguagePicker = ({ testID = "language-picker" }) => {
+  const { i18n } = useTranslation();
 
   const lng = i18n.languages.find(language =>
     supportedLanguages.hasOwnProperty(language)
@@ -22,10 +22,10 @@ const LanguagePicker = memo(({ testID = "language-picker" }) => {
       onValueChange={changeLanguage}
     />
   );
-});
+};
 
 LanguagePicker.propTypes = {
   testID: PropTypes.string,
 };
 
-export default LanguagePicker;
+export default memo(LanguagePicker);

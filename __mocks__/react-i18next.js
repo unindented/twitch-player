@@ -13,5 +13,8 @@ const englishResources = require("@twitch-player/i18n/locales/en/translation.jso
 
 module.exports = {
   getI18n: () => i18n,
-  useTranslation: () => [i18nKey => get(englishResources, i18nKey), i18n],
+  useTranslation: () => ({
+    t: i18nKey => get(englishResources, i18nKey),
+    i18n,
+  }),
 };

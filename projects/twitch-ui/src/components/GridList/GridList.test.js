@@ -51,7 +51,9 @@ describe("GridList", () => {
   let instance;
 
   beforeEach(() => {
-    instance = render(<GridList data={data} renderItem={ImageItem} />);
+    instance = render(
+      <GridList data={data} numColumns={2} renderItem={ImageItem} />
+    );
   });
 
   it("renders a list", () => {

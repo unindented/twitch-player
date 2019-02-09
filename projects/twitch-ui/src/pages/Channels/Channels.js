@@ -5,8 +5,8 @@ import { ScrollView } from "react-native";
 import Heading from "../../components/Heading";
 import AllChannels from "../../components/AllChannels";
 
-const Channels = memo(({ testID = "channels-page" }) => {
-  const [t] = useTranslation();
+const Channels = ({ testID = "channels-page" }) => {
+  const { t } = useTranslation();
 
   return (
     <ScrollView testID={testID}>
@@ -14,10 +14,10 @@ const Channels = memo(({ testID = "channels-page" }) => {
       <AllChannels />
     </ScrollView>
   );
-});
+};
 
 Channels.propTypes = {
   testID: PropTypes.string,
 };
 
-export default Channels;
+export default memo(Channels);

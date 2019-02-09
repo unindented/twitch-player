@@ -1,4 +1,4 @@
-import { fireResizeEvent, render } from "@twitch-player/testing/dist/unit";
+import { fireEvent, render } from "@twitch-player/testing/dist/unit";
 import React from "react";
 import StreamList from "./StreamList";
 
@@ -22,8 +22,7 @@ describe("StreamList", () => {
 
   describe("with narrow parent", () => {
     beforeEach(() => {
-      fireResizeEvent(window, { width: 480, height: 640 });
-      jest.runAllTimers();
+      fireEvent.resize(window, { target: { width: 480, height: 640 } });
     });
 
     it("renders with a narrow layout", () => {

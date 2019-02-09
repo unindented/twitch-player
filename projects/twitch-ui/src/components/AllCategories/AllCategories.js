@@ -7,6 +7,7 @@ import RetryButton from "../../components/RetryButton";
 
 const AllCategories = ({ testID = "all-categories" }) => {
   const { data, error, refetch } = useQuery(TopGamesQuery, {
+    suspend: true,
     variables: { first: 25 },
   });
   const list = !error ? data.games.edges.map(({ node }) => node) : undefined;

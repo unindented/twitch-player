@@ -4,8 +4,8 @@ import React, { memo } from "react";
 import { Button, StyleSheet, View } from "react-native";
 import { useTheme } from "../../hooks";
 
-const RetryButton = memo(({ onPress, testID = "retry-button" }) => {
-  const [t] = useTranslation();
+const RetryButton = ({ onPress, testID = "retry-button" }) => {
+  const { t } = useTranslation();
   const { colors, layout } = useTheme();
 
   const rootStyle = [
@@ -26,7 +26,7 @@ const RetryButton = memo(({ onPress, testID = "retry-button" }) => {
       />
     </View>
   );
-});
+};
 
 RetryButton.propTypes = {
   testID: PropTypes.string,
@@ -41,4 +41,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default RetryButton;
+export default memo(RetryButton);

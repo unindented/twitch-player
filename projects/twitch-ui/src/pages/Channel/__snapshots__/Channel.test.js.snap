@@ -9,7 +9,7 @@ exports[`Channel renders the page 1`] = `
     allowfullscreen=""
     data-testid="stream-player"
     src="https://player.twitch.tv/?channel=twitchpresents"
-    style="border: 0px;"
+    style="border: 0px; flex: 1;"
   />
 </div>
 `;

@@ -7,6 +7,7 @@ import RetryButton from "../../components/RetryButton";
 
 const AllChannels = ({ testID = "all-channels" }) => {
   const { data, error, refetch } = useQuery(TopStreamsQuery, {
+    suspend: true,
     variables: { first: 12 },
   });
   const list = !error ? data.streams.edges.map(({ node }) => node) : undefined;

@@ -6,7 +6,7 @@ import HorizontalList from "../HorizontalList";
 import StreamItem from "../StreamItem";
 import { useTheme, useResponsiveItemDimensions } from "../../hooks";
 
-const StreamList = memo(({ list, testID = "stream-list" }) => {
+const StreamList = ({ list, testID = "stream-list" }) => {
   const { layout } = useTheme();
   const maxItemHeight = layout.maxStreamHeight;
   const maxItemWidth = layout.maxStreamWidth;
@@ -53,11 +53,11 @@ const StreamList = memo(({ list, testID = "stream-list" }) => {
       )}
     </View>
   );
-});
+};
 
 StreamList.propTypes = {
   list: PropTypes.arrayOf(StreamType).isRequired,
   testID: PropTypes.string,
 };
 
-export default StreamList;
+export default memo(StreamList);

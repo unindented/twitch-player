@@ -15,11 +15,11 @@ const onKeyDown = (history, keyCode) => {
   }
 };
 
-const KeyboardHistory = memo(() => {
+const KeyboardHistory = () => {
   const { history } = useRouter();
   useKeyboard(keyCode => onKeyDown(history, keyCode));
 
   return null;
-});
+};
 
-export default KeyboardHistory;
+export default memo(KeyboardHistory);

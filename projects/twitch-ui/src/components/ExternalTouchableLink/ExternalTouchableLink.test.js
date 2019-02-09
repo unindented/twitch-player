@@ -24,8 +24,7 @@ describe("ExternalTouchableLink", () => {
       jest.spyOn(Linking, "openURL").mockImplementation(() => {});
 
       const link = instance.getByTestId("external-touchable-link");
-      fireEvent.mouseDown(link);
-      fireEvent.mouseUp(link);
+      fireEvent.press(link);
     });
 
     it("opens the URL", () => {

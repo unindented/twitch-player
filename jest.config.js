@@ -8,8 +8,6 @@ module.exports = {
       statements: 100,
     },
   },
-  globalSetup: "<rootDir>/config/jest/global-setup.js",
-  globalTeardown: "<rootDir>/config/jest/global-teardown.js",
   projects: [
     "<rootDir>/config/jest/lint-config.js",
     "<rootDir>/config/jest/test-config.js",

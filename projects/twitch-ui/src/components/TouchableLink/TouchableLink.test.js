@@ -23,8 +23,7 @@ describe("TouchableLink", () => {
   describe("when pressed", () => {
     beforeEach(() => {
       const link = instance.getByTestId("touchable-link");
-      fireEvent.mouseDown(link);
-      fireEvent.mouseUp(link);
+      fireEvent.press(link);
     });
 
     it("invokes the callback", () => {

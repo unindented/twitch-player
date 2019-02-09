@@ -15,11 +15,10 @@ describe("RetryButton", () => {
     expect(instance.getByTestId("retry-button")).toMatchSnapshot();
   });
 
-  describe("when clicked", () => {
+  describe("when pressed", () => {
     beforeEach(() => {
       const button = instance.getByRole("button");
-      fireEvent.mouseDown(button);
-      fireEvent.mouseUp(button);
+      fireEvent.press(button);
     });
 
     it("invokes the callback", () => {

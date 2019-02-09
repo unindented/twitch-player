@@ -6,7 +6,7 @@ import HorizontalList from "../HorizontalList";
 import GameItem from "../GameItem";
 import { useTheme, useResponsiveItemDimensions } from "../../hooks";
 
-const GameList = memo(({ list, testID = "game-list" }) => {
+const GameList = ({ list, testID = "game-list" }) => {
   const { layout } = useTheme();
   const maxItemHeight = layout.maxGameHeight;
   const maxItemWidth = layout.maxGameWidth;
@@ -53,11 +53,11 @@ const GameList = memo(({ list, testID = "game-list" }) => {
       )}
     </View>
   );
-});
+};
 
 GameList.propTypes = {
   list: PropTypes.arrayOf(GameType).isRequired,
   testID: PropTypes.string,
 };
 
-export default GameList;
+export default memo(GameList);
