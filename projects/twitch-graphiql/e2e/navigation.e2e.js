@@ -23,6 +23,6 @@ describe("navigation", () => {
     const graphiqlContainer = ".graphiql-container";
     await page.waitFor(graphiqlContainer);
     const graphiqlContainerEl = await page.$(graphiqlContainer);
-    expect(graphiqlContainerEl).not.toBeNull();
+    expect(graphiqlContainerEl).toBeDefined();
   });
 });
