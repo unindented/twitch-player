@@ -3,8 +3,21 @@ import React from "react";
 import Spinner from "../Spinner";
 import Main from ".";
 
-storiesOf("Components|Main", module).add("default", () => (
-  <Main>
-    <Spinner />
-  </Main>
-));
+storiesOf("Components|Main", module)
+  .add("without error", () => {
+    return (
+      <Main>
+        <Spinner />
+      </Main>
+    );
+  })
+  .add("with error", () => {
+    const BadChild = () => {
+      throw new Error("BOOM");
+    };
+    return (
+      <Main>
+        <BadChild />
+      </Main>
+    );
+  });
