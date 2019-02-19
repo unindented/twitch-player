@@ -3,6 +3,7 @@ const dotenv = require("dotenv");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const { DefinePlugin } = require("webpack");
 const pkg = require("../../package.json");
+const csp = require("../../assets/csp.json");
 
 const root = resolve(__dirname, "../..");
 const src = resolve(root, "src");
@@ -12,6 +13,10 @@ const externalAssets = dirname(require.resolve("@twitch-player/assets"));
 dotenv.config({ path: resolve(root, "../../.env") });
 
 const publicPath = process.env.DEPLOY ? "/twitch-player/web/" : "/";
+const contentSecurityPolicy =
+  Object.keys(csp)
+    .map(key => `${key} ${csp[key].join(" ")}`)
+    .join("; ") + ";";
 
 module.exports = () => ({
   entry: {
@@ -86,6 +91,7 @@ module.exports = () => ({
       title: pkg.productName,
       description: pkg.description,
       themeColor: pkg.themeColor,
+      contentSecurityPolicy,
       template: resolve(assets, "template.ejs"),
       favicon: resolve(externalAssets, "web/favicon.ico"),
       minify: {

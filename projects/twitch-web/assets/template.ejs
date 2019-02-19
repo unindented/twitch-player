@@ -11,6 +11,12 @@
       name="theme-color"
       content="<%= htmlWebpackPlugin.options.themeColor %>"
     />
+    <% if (htmlWebpackPlugin.options.contentSecurityPolicy) { %>
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="<%= htmlWebpackPlugin.options.contentSecurityPolicy %>"
+    />
+    <% } %>
 
     <title><%= htmlWebpackPlugin.options.title %></title>
 

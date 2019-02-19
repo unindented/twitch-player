@@ -7,6 +7,8 @@ module.exports = env => {
   return merge(common, {
     mode: "development",
 
+    devtool: "cheap-source-map",
+
     devServer: {
       stats: "minimal",
     },
