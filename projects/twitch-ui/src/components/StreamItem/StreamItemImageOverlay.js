@@ -9,7 +9,7 @@ import Text from "../Text";
 const StreamItemOverlay = ({
   viewersCount,
   style = [],
-  testID = "stream-item-overlay",
+  testID = "stream-item-image-overlay",
 }) => {
   const { t } = useTranslation();
   const { colors, layout, typography } = useTheme();

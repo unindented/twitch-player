@@ -64,7 +64,7 @@ exports[`StreamGrid with narrow parent renders with a narrow layout 1`] = `
                   </div>
                   <div
                     class="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-flexBasis-1ro0kt6 rn-flexDirection-eqz5dr rn-justifyContent-1wtj0ep rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-zIndex-1lgpqti"
-                    data-testid="stream-item-overlay"
+                    data-testid="stream-item-image-overlay"
                   >
                     <div
                       class="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-18u37iz rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-position-bnwqim rn-width-1jaylin rn-zIndex-1lgpqti"
@@ -96,7 +96,7 @@ exports[`StreamGrid with narrow parent renders with a narrow layout 1`] = `
                 <div
                   class="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-position-bnwqim rn-zIndex-1lgpqti"
                   data-testid="stream-item-detail"
-                  style="padding: 5px 10px 5px 10px; width: 215px;"
+                  style="padding: 5px 10px 10px 10px; width: 215px;"
                 >
                   <div
                     class="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-1471scf rn-fontStyle-o11vmf rn-fontVariant-ebii48 rn-fontWeight-vw2c0b rn-lineHeight-a8ghvy rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-maxWidth-dnmrzs rn-overflowX-11yh6sk rn-overflowY-buy8e9 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-textOverflow-1udbk01 rn-whiteSpace-3s2u2q rn-wordWrap-qvutc0"
@@ -106,18 +106,43 @@ exports[`StreamGrid with narrow parent renders with a narrow layout 1`] = `
                     Pop-Up w/ Cloak, Nate, & Tennp0
                   </div>
                   <div
-                    class="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-1471scf rn-fontStyle-o11vmf rn-fontVariant-ebii48 rn-fontWeight-gul640 rn-lineHeight-a8ghvy rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-maxWidth-dnmrzs rn-overflowX-11yh6sk rn-overflowY-buy8e9 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-textOverflow-1udbk01 rn-whiteSpace-3s2u2q rn-wordWrap-qvutc0"
-                    dir="auto"
-                    style="color: rgb(50, 47, 55); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif; font-size: 13px;"
+                    class="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-18u37iz rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-zIndex-1lgpqti"
                   >
-                    Tfue
-                  </div>
-                  <div
-                    class="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-1471scf rn-fontStyle-o11vmf rn-fontVariant-ebii48 rn-fontWeight-gul640 rn-lineHeight-a8ghvy rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-maxWidth-dnmrzs rn-overflowX-11yh6sk rn-overflowY-buy8e9 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-textOverflow-1udbk01 rn-whiteSpace-3s2u2q rn-wordWrap-qvutc0"
-                    dir="auto"
-                    style="color: rgb(50, 47, 55); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif; font-size: 13px;"
-                  >
-                    Fortnite
+                    <div
+                      class="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-overflowX-11yh6sk rn-overflowY-buy8e9 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-zIndex-1lgpqti"
+                      data-testid="stream-item-detail-broadcaster"
+                      style="height: 38px; width: 38px;"
+                    >
+                      <div
+                        class="rn-alignItems-1oszu61 rn-backgroundColor-1niwhzg rn-backgroundPosition-vvn4in rn-backgroundRepeat-u6sd8q rn-backgroundSize-4gszlv rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-bottom-1p0dtai rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-1pi2tsx rn-left-1d2f490 rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-u8s1d rn-right-zchlnj rn-top-ipm5af rn-width-13qz1uu rn-zIndex-1wyyakw"
+                        style="background-image: url(profiles/2470b5c6-a737-4ba6-8987-c28e0ca839e1-profile_image-150x150.jpg);"
+                      />
+                      <img
+                        alt=""
+                        class="rn-bottom-1p0dtai rn-height-1pi2tsx rn-left-1d2f490 rn-opacity-1272l3b rn-position-u8s1d rn-right-zchlnj rn-top-ipm5af rn-width-13qz1uu rn-zIndex-1wyyakw"
+                        draggable="false"
+                        src="profiles/2470b5c6-a737-4ba6-8987-c28e0ca839e1-profile_image-150x150.jpg"
+                      />
+                    </div>
+                    <div
+                      class="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-zIndex-1lgpqti"
+                      style="margin-left: 5px;"
+                    >
+                      <div
+                        class="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-1471scf rn-fontStyle-o11vmf rn-fontVariant-ebii48 rn-fontWeight-gul640 rn-lineHeight-a8ghvy rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-maxWidth-dnmrzs rn-overflowX-11yh6sk rn-overflowY-buy8e9 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-textOverflow-1udbk01 rn-whiteSpace-3s2u2q rn-wordWrap-qvutc0"
+                        dir="auto"
+                        style="color: rgb(50, 47, 55); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif; font-size: 13px;"
+                      >
+                        Tfue
+                      </div>
+                      <div
+                        class="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-1471scf rn-fontStyle-o11vmf rn-fontVariant-ebii48 rn-fontWeight-gul640 rn-lineHeight-a8ghvy rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-maxWidth-dnmrzs rn-overflowX-11yh6sk rn-overflowY-buy8e9 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-textOverflow-1udbk01 rn-whiteSpace-3s2u2q rn-wordWrap-qvutc0"
+                        dir="auto"
+                        style="color: rgb(50, 47, 55); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif; font-size: 13px;"
+                      >
+                        Fortnite
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -160,7 +185,7 @@ exports[`StreamGrid with narrow parent renders with a narrow layout 1`] = `
                   </div>
                   <div
                     class="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-flexBasis-1ro0kt6 rn-flexDirection-eqz5dr rn-justifyContent-1wtj0ep rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-zIndex-1lgpqti"
-                    data-testid="stream-item-overlay"
+                    data-testid="stream-item-image-overlay"
                   >
                     <div
                       class="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-18u37iz rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-position-bnwqim rn-width-1jaylin rn-zIndex-1lgpqti"
@@ -192,7 +217,7 @@ exports[`StreamGrid with narrow parent renders with a narrow layout 1`] = `
                 <div
                   class="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-position-bnwqim rn-zIndex-1lgpqti"
                   data-testid="stream-item-detail"
-                  style="padding: 5px 10px 5px 10px; width: 215px;"
+                  style="padding: 5px 10px 10px 10px; width: 215px;"
                 >
                   <div
                     class="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-1471scf rn-fontStyle-o11vmf rn-fontVariant-ebii48 rn-fontWeight-vw2c0b rn-lineHeight-a8ghvy rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-maxWidth-dnmrzs rn-overflowX-11yh6sk rn-overflowY-buy8e9 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-textOverflow-1udbk01 rn-whiteSpace-3s2u2q rn-wordWrap-qvutc0"
@@ -202,18 +227,43 @@ exports[`StreamGrid with narrow parent renders with a narrow layout 1`] = `
                     what do ya think [ please use code "72hrs" in the item shop ]
                   </div>
                   <div
-                    class="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-1471scf rn-fontStyle-o11vmf rn-fontVariant-ebii48 rn-fontWeight-gul640 rn-lineHeight-a8ghvy rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-maxWidth-dnmrzs rn-overflowX-11yh6sk rn-overflowY-buy8e9 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-textOverflow-1udbk01 rn-whiteSpace-3s2u2q rn-wordWrap-qvutc0"
-                    dir="auto"
-                    style="color: rgb(50, 47, 55); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif; font-size: 13px;"
+                    class="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-18u37iz rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-zIndex-1lgpqti"
                   >
-                    72hrs
-                  </div>
-                  <div
-                    class="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-1471scf rn-fontStyle-o11vmf rn-fontVariant-ebii48 rn-fontWeight-gul640 rn-lineHeight-a8ghvy rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-maxWidth-dnmrzs rn-overflowX-11yh6sk rn-overflowY-buy8e9 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-textOverflow-1udbk01 rn-whiteSpace-3s2u2q rn-wordWrap-qvutc0"
-                    dir="auto"
-                    style="color: rgb(50, 47, 55); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif; font-size: 13px;"
-                  >
-                    Fortnite
+                    <div
+                      class="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-overflowX-11yh6sk rn-overflowY-buy8e9 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-zIndex-1lgpqti"
+                      data-testid="stream-item-detail-broadcaster"
+                      style="height: 38px; width: 38px;"
+                    >
+                      <div
+                        class="rn-alignItems-1oszu61 rn-backgroundColor-1niwhzg rn-backgroundPosition-vvn4in rn-backgroundRepeat-u6sd8q rn-backgroundSize-4gszlv rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-bottom-1p0dtai rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-1pi2tsx rn-left-1d2f490 rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-u8s1d rn-right-zchlnj rn-top-ipm5af rn-width-13qz1uu rn-zIndex-1wyyakw"
+                        style="background-image: url(profiles/dc63c4ad-1edf-46d3-8a80-0eba7d68cbfc-profile_image-150x150.png);"
+                      />
+                      <img
+                        alt=""
+                        class="rn-bottom-1p0dtai rn-height-1pi2tsx rn-left-1d2f490 rn-opacity-1272l3b rn-position-u8s1d rn-right-zchlnj rn-top-ipm5af rn-width-13qz1uu rn-zIndex-1wyyakw"
+                        draggable="false"
+                        src="profiles/dc63c4ad-1edf-46d3-8a80-0eba7d68cbfc-profile_image-150x150.png"
+                      />
+                    </div>
+                    <div
+                      class="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-zIndex-1lgpqti"
+                      style="margin-left: 5px;"
+                    >
+                      <div
+                        class="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-1471scf rn-fontStyle-o11vmf rn-fontVariant-ebii48 rn-fontWeight-gul640 rn-lineHeight-a8ghvy rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-maxWidth-dnmrzs rn-overflowX-11yh6sk rn-overflowY-buy8e9 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-textOverflow-1udbk01 rn-whiteSpace-3s2u2q rn-wordWrap-qvutc0"
+                        dir="auto"
+                        style="color: rgb(50, 47, 55); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif; font-size: 13px;"
+                      >
+                        72hrs
+                      </div>
+                      <div
+                        class="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-1471scf rn-fontStyle-o11vmf rn-fontVariant-ebii48 rn-fontWeight-gul640 rn-lineHeight-a8ghvy rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-maxWidth-dnmrzs rn-overflowX-11yh6sk rn-overflowY-buy8e9 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-textOverflow-1udbk01 rn-whiteSpace-3s2u2q rn-wordWrap-qvutc0"
+                        dir="auto"
+                        style="color: rgb(50, 47, 55); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif; font-size: 13px;"
+                      >
+                        Fortnite
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -264,7 +314,7 @@ exports[`StreamGrid with narrow parent renders with a narrow layout 1`] = `
                   </div>
                   <div
                     class="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-flexBasis-1ro0kt6 rn-flexDirection-eqz5dr rn-justifyContent-1wtj0ep rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-zIndex-1lgpqti"
-                    data-testid="stream-item-overlay"
+                    data-testid="stream-item-image-overlay"
                   >
                     <div
                       class="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-18u37iz rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-position-bnwqim rn-width-1jaylin rn-zIndex-1lgpqti"
@@ -296,7 +346,7 @@ exports[`StreamGrid with narrow parent renders with a narrow layout 1`] = `
                 <div
                   class="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-position-bnwqim rn-zIndex-1lgpqti"
                   data-testid="stream-item-detail"
-                  style="padding: 5px 10px 5px 10px; width: 215px;"
+                  style="padding: 5px 10px 10px 10px; width: 215px;"
                 >
                   <div
                     class="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-1471scf rn-fontStyle-o11vmf rn-fontVariant-ebii48 rn-fontWeight-vw2c0b rn-lineHeight-a8ghvy rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-maxWidth-dnmrzs rn-overflowX-11yh6sk rn-overflowY-buy8e9 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-textOverflow-1udbk01 rn-whiteSpace-3s2u2q rn-wordWrap-qvutc0"
@@ -306,18 +356,43 @@ exports[`StreamGrid with narrow parent renders with a narrow layout 1`] = `
                     high kill popup squads
                   </div>
                   <div
-                    class="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-1471scf rn-fontStyle-o11vmf rn-fontVariant-ebii48 rn-fontWeight-gul640 rn-lineHeight-a8ghvy rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-maxWidth-dnmrzs rn-overflowX-11yh6sk rn-overflowY-buy8e9 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-textOverflow-1udbk01 rn-whiteSpace-3s2u2q rn-wordWrap-qvutc0"
-                    dir="auto"
-                    style="color: rgb(50, 47, 55); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif; font-size: 13px;"
+                    class="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-18u37iz rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-zIndex-1lgpqti"
                   >
-                    cloakzy
-                  </div>
-                  <div
-                    class="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-1471scf rn-fontStyle-o11vmf rn-fontVariant-ebii48 rn-fontWeight-gul640 rn-lineHeight-a8ghvy rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-maxWidth-dnmrzs rn-overflowX-11yh6sk rn-overflowY-buy8e9 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-textOverflow-1udbk01 rn-whiteSpace-3s2u2q rn-wordWrap-qvutc0"
-                    dir="auto"
-                    style="color: rgb(50, 47, 55); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif; font-size: 13px;"
-                  >
-                    Fortnite
+                    <div
+                      class="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-overflowX-11yh6sk rn-overflowY-buy8e9 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-zIndex-1lgpqti"
+                      data-testid="stream-item-detail-broadcaster"
+                      style="height: 38px; width: 38px;"
+                    >
+                      <div
+                        class="rn-alignItems-1oszu61 rn-backgroundColor-1niwhzg rn-backgroundPosition-vvn4in rn-backgroundRepeat-u6sd8q rn-backgroundSize-4gszlv rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-bottom-1p0dtai rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-1pi2tsx rn-left-1d2f490 rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-u8s1d rn-right-zchlnj rn-top-ipm5af rn-width-13qz1uu rn-zIndex-1wyyakw"
+                        style="background-image: url(profiles/320226c6-f422-4baf-8ed2-1be7eb3757e6-profile_image-150x150.png);"
+                      />
+                      <img
+                        alt=""
+                        class="rn-bottom-1p0dtai rn-height-1pi2tsx rn-left-1d2f490 rn-opacity-1272l3b rn-position-u8s1d rn-right-zchlnj rn-top-ipm5af rn-width-13qz1uu rn-zIndex-1wyyakw"
+                        draggable="false"
+                        src="profiles/320226c6-f422-4baf-8ed2-1be7eb3757e6-profile_image-150x150.png"
+                      />
+                    </div>
+                    <div
+                      class="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-zIndex-1lgpqti"
+                      style="margin-left: 5px;"
+                    >
+                      <div
+                        class="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-1471scf rn-fontStyle-o11vmf rn-fontVariant-ebii48 rn-fontWeight-gul640 rn-lineHeight-a8ghvy rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-maxWidth-dnmrzs rn-overflowX-11yh6sk rn-overflowY-buy8e9 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-textOverflow-1udbk01 rn-whiteSpace-3s2u2q rn-wordWrap-qvutc0"
+                        dir="auto"
+                        style="color: rgb(50, 47, 55); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif; font-size: 13px;"
+                      >
+                        cloakzy
+                      </div>
+                      <div
+                        class="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-1471scf rn-fontStyle-o11vmf rn-fontVariant-ebii48 rn-fontWeight-gul640 rn-lineHeight-a8ghvy rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-maxWidth-dnmrzs rn-overflowX-11yh6sk rn-overflowY-buy8e9 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-textOverflow-1udbk01 rn-whiteSpace-3s2u2q rn-wordWrap-qvutc0"
+                        dir="auto"
+                        style="color: rgb(50, 47, 55); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif; font-size: 13px;"
+                      >
+                        Fortnite
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -360,7 +435,7 @@ exports[`StreamGrid with narrow parent renders with a narrow layout 1`] = `
                   </div>
                   <div
                     class="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-flexBasis-1ro0kt6 rn-flexDirection-eqz5dr rn-justifyContent-1wtj0ep rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-zIndex-1lgpqti"
-                    data-testid="stream-item-overlay"
+                    data-testid="stream-item-image-overlay"
                   >
                     <div
                       class="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-18u37iz rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-position-bnwqim rn-width-1jaylin rn-zIndex-1lgpqti"
@@ -392,7 +467,7 @@ exports[`StreamGrid with narrow parent renders with a narrow layout 1`] = `
                 <div
                   class="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-position-bnwqim rn-zIndex-1lgpqti"
                   data-testid="stream-item-detail"
-                  style="padding: 5px 10px 5px 10px; width: 215px;"
+                  style="padding: 5px 10px 10px 10px; width: 215px;"
                 >
                   <div
                     class="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-1471scf rn-fontStyle-o11vmf rn-fontVariant-ebii48 rn-fontWeight-vw2c0b rn-lineHeight-a8ghvy rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-maxWidth-dnmrzs rn-overflowX-11yh6sk rn-overflowY-buy8e9 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-textOverflow-1udbk01 rn-whiteSpace-3s2u2q rn-wordWrap-qvutc0"
@@ -402,18 +477,43 @@ exports[`StreamGrid with narrow parent renders with a narrow layout 1`] = `
                     Aim so Good, Kids think I Cheat (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧ ~ New Snugglez Emote out now!!!!  ~ Face Reveal @4200 Subs
                   </div>
                   <div
-                    class="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-1471scf rn-fontStyle-o11vmf rn-fontVariant-ebii48 rn-fontWeight-gul640 rn-lineHeight-a8ghvy rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-maxWidth-dnmrzs rn-overflowX-11yh6sk rn-overflowY-buy8e9 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-textOverflow-1udbk01 rn-whiteSpace-3s2u2q rn-wordWrap-qvutc0"
-                    dir="auto"
-                    style="color: rgb(50, 47, 55); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif; font-size: 13px;"
+                    class="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-18u37iz rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-zIndex-1lgpqti"
                   >
-                    TUFFYtv
-                  </div>
-                  <div
-                    class="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-1471scf rn-fontStyle-o11vmf rn-fontVariant-ebii48 rn-fontWeight-gul640 rn-lineHeight-a8ghvy rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-maxWidth-dnmrzs rn-overflowX-11yh6sk rn-overflowY-buy8e9 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-textOverflow-1udbk01 rn-whiteSpace-3s2u2q rn-wordWrap-qvutc0"
-                    dir="auto"
-                    style="color: rgb(50, 47, 55); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif; font-size: 13px;"
-                  >
-                    Fortnite
+                    <div
+                      class="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-overflowX-11yh6sk rn-overflowY-buy8e9 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-zIndex-1lgpqti"
+                      data-testid="stream-item-detail-broadcaster"
+                      style="height: 38px; width: 38px;"
+                    >
+                      <div
+                        class="rn-alignItems-1oszu61 rn-backgroundColor-1niwhzg rn-backgroundPosition-vvn4in rn-backgroundRepeat-u6sd8q rn-backgroundSize-4gszlv rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-bottom-1p0dtai rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-1pi2tsx rn-left-1d2f490 rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-u8s1d rn-right-zchlnj rn-top-ipm5af rn-width-13qz1uu rn-zIndex-1wyyakw"
+                        style="background-image: url(profiles/efbcb6ad-8f4c-45ec-b6a2-00568395565d-profile_image-150x150.jpeg);"
+                      />
+                      <img
+                        alt=""
+                        class="rn-bottom-1p0dtai rn-height-1pi2tsx rn-left-1d2f490 rn-opacity-1272l3b rn-position-u8s1d rn-right-zchlnj rn-top-ipm5af rn-width-13qz1uu rn-zIndex-1wyyakw"
+                        draggable="false"
+                        src="profiles/efbcb6ad-8f4c-45ec-b6a2-00568395565d-profile_image-150x150.jpeg"
+                      />
+                    </div>
+                    <div
+                      class="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-zIndex-1lgpqti"
+                      style="margin-left: 5px;"
+                    >
+                      <div
+                        class="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-1471scf rn-fontStyle-o11vmf rn-fontVariant-ebii48 rn-fontWeight-gul640 rn-lineHeight-a8ghvy rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-maxWidth-dnmrzs rn-overflowX-11yh6sk rn-overflowY-buy8e9 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-textOverflow-1udbk01 rn-whiteSpace-3s2u2q rn-wordWrap-qvutc0"
+                        dir="auto"
+                        style="color: rgb(50, 47, 55); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif; font-size: 13px;"
+                      >
+                        TUFFYtv
+                      </div>
+                      <div
+                        class="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-1471scf rn-fontStyle-o11vmf rn-fontVariant-ebii48 rn-fontWeight-gul640 rn-lineHeight-a8ghvy rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-maxWidth-dnmrzs rn-overflowX-11yh6sk rn-overflowY-buy8e9 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-textOverflow-1udbk01 rn-whiteSpace-3s2u2q rn-wordWrap-qvutc0"
+                        dir="auto"
+                        style="color: rgb(50, 47, 55); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif; font-size: 13px;"
+                      >
+                        Fortnite
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -464,7 +564,7 @@ exports[`StreamGrid with narrow parent renders with a narrow layout 1`] = `
                   </div>
                   <div
                     class="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-flexBasis-1ro0kt6 rn-flexDirection-eqz5dr rn-justifyContent-1wtj0ep rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-zIndex-1lgpqti"
-                    data-testid="stream-item-overlay"
+                    data-testid="stream-item-image-overlay"
                   >
                     <div
                       class="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-18u37iz rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-position-bnwqim rn-width-1jaylin rn-zIndex-1lgpqti"
@@ -496,7 +596,7 @@ exports[`StreamGrid with narrow parent renders with a narrow layout 1`] = `
                 <div
                   class="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-position-bnwqim rn-zIndex-1lgpqti"
                   data-testid="stream-item-detail"
-                  style="padding: 5px 10px 5px 10px; width: 215px;"
+                  style="padding: 5px 10px 10px 10px; width: 215px;"
                 >
                   <div
                     class="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-1471scf rn-fontStyle-o11vmf rn-fontVariant-ebii48 rn-fontWeight-vw2c0b rn-lineHeight-a8ghvy rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-maxWidth-dnmrzs rn-overflowX-11yh6sk rn-overflowY-buy8e9 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-textOverflow-1udbk01 rn-whiteSpace-3s2u2q rn-wordWrap-qvutc0"
@@ -506,18 +606,43 @@ exports[`StreamGrid with narrow parent renders with a narrow layout 1`] = `
                     LIQUID SQUAD POPUP | !social
                   </div>
                   <div
-                    class="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-1471scf rn-fontStyle-o11vmf rn-fontVariant-ebii48 rn-fontWeight-gul640 rn-lineHeight-a8ghvy rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-maxWidth-dnmrzs rn-overflowX-11yh6sk rn-overflowY-buy8e9 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-textOverflow-1udbk01 rn-whiteSpace-3s2u2q rn-wordWrap-qvutc0"
-                    dir="auto"
-                    style="color: rgb(50, 47, 55); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif; font-size: 13px;"
+                    class="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-18u37iz rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-zIndex-1lgpqti"
                   >
-                    POACH
-                  </div>
-                  <div
-                    class="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-1471scf rn-fontStyle-o11vmf rn-fontVariant-ebii48 rn-fontWeight-gul640 rn-lineHeight-a8ghvy rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-maxWidth-dnmrzs rn-overflowX-11yh6sk rn-overflowY-buy8e9 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-textOverflow-1udbk01 rn-whiteSpace-3s2u2q rn-wordWrap-qvutc0"
-                    dir="auto"
-                    style="color: rgb(50, 47, 55); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif; font-size: 13px;"
-                  >
-                    Fortnite
+                    <div
+                      class="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-overflowX-11yh6sk rn-overflowY-buy8e9 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-zIndex-1lgpqti"
+                      data-testid="stream-item-detail-broadcaster"
+                      style="height: 38px; width: 38px;"
+                    >
+                      <div
+                        class="rn-alignItems-1oszu61 rn-backgroundColor-1niwhzg rn-backgroundPosition-vvn4in rn-backgroundRepeat-u6sd8q rn-backgroundSize-4gszlv rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-bottom-1p0dtai rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-1pi2tsx rn-left-1d2f490 rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-u8s1d rn-right-zchlnj rn-top-ipm5af rn-width-13qz1uu rn-zIndex-1wyyakw"
+                        style="background-image: url(profiles/6b978024-9047-4555-b68f-ae2dfdcc041b-profile_image-150x150.png);"
+                      />
+                      <img
+                        alt=""
+                        class="rn-bottom-1p0dtai rn-height-1pi2tsx rn-left-1d2f490 rn-opacity-1272l3b rn-position-u8s1d rn-right-zchlnj rn-top-ipm5af rn-width-13qz1uu rn-zIndex-1wyyakw"
+                        draggable="false"
+                        src="profiles/6b978024-9047-4555-b68f-ae2dfdcc041b-profile_image-150x150.png"
+                      />
+                    </div>
+                    <div
+                      class="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-zIndex-1lgpqti"
+                      style="margin-left: 5px;"
+                    >
+                      <div
+                        class="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-1471scf rn-fontStyle-o11vmf rn-fontVariant-ebii48 rn-fontWeight-gul640 rn-lineHeight-a8ghvy rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-maxWidth-dnmrzs rn-overflowX-11yh6sk rn-overflowY-buy8e9 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-textOverflow-1udbk01 rn-whiteSpace-3s2u2q rn-wordWrap-qvutc0"
+                        dir="auto"
+                        style="color: rgb(50, 47, 55); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif; font-size: 13px;"
+                      >
+                        POACH
+                      </div>
+                      <div
+                        class="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-1471scf rn-fontStyle-o11vmf rn-fontVariant-ebii48 rn-fontWeight-gul640 rn-lineHeight-a8ghvy rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-maxWidth-dnmrzs rn-overflowX-11yh6sk rn-overflowY-buy8e9 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-textOverflow-1udbk01 rn-whiteSpace-3s2u2q rn-wordWrap-qvutc0"
+                        dir="auto"
+                        style="color: rgb(50, 47, 55); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif; font-size: 13px;"
+                      >
+                        Fortnite
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -560,7 +685,7 @@ exports[`StreamGrid with narrow parent renders with a narrow layout 1`] = `
                   </div>
                   <div
                     class="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-flexBasis-1ro0kt6 rn-flexDirection-eqz5dr rn-justifyContent-1wtj0ep rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-zIndex-1lgpqti"
-                    data-testid="stream-item-overlay"
+                    data-testid="stream-item-image-overlay"
                   >
                     <div
                       class="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-18u37iz rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-position-bnwqim rn-width-1jaylin rn-zIndex-1lgpqti"
@@ -592,7 +717,7 @@ exports[`StreamGrid with narrow parent renders with a narrow layout 1`] = `
                 <div
                   class="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-position-bnwqim rn-zIndex-1lgpqti"
                   data-testid="stream-item-detail"
-                  style="padding: 5px 10px 5px 10px; width: 215px;"
+                  style="padding: 5px 10px 10px 10px; width: 215px;"
                 >
                   <div
                     class="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-1471scf rn-fontStyle-o11vmf rn-fontVariant-ebii48 rn-fontWeight-vw2c0b rn-lineHeight-a8ghvy rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-maxWidth-dnmrzs rn-overflowX-11yh6sk rn-overflowY-buy8e9 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-textOverflow-1udbk01 rn-whiteSpace-3s2u2q rn-wordWrap-qvutc0"
@@ -602,18 +727,43 @@ exports[`StreamGrid with narrow parent renders with a narrow layout 1`] = `
                     Will shave eyebrows at 10k - Fill Kid Friday (Drunk Edition)
                   </div>
                   <div
-                    class="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-1471scf rn-fontStyle-o11vmf rn-fontVariant-ebii48 rn-fontWeight-gul640 rn-lineHeight-a8ghvy rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-maxWidth-dnmrzs rn-overflowX-11yh6sk rn-overflowY-buy8e9 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-textOverflow-1udbk01 rn-whiteSpace-3s2u2q rn-wordWrap-qvutc0"
-                    dir="auto"
-                    style="color: rgb(50, 47, 55); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif; font-size: 13px;"
+                    class="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-18u37iz rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-zIndex-1lgpqti"
                   >
-                    PaymoneyWubby
-                  </div>
-                  <div
-                    class="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-1471scf rn-fontStyle-o11vmf rn-fontVariant-ebii48 rn-fontWeight-gul640 rn-lineHeight-a8ghvy rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-maxWidth-dnmrzs rn-overflowX-11yh6sk rn-overflowY-buy8e9 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-textOverflow-1udbk01 rn-whiteSpace-3s2u2q rn-wordWrap-qvutc0"
-                    dir="auto"
-                    style="color: rgb(50, 47, 55); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif; font-size: 13px;"
-                  >
-                    Fortnite
+                    <div
+                      class="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-overflowX-11yh6sk rn-overflowY-buy8e9 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-zIndex-1lgpqti"
+                      data-testid="stream-item-detail-broadcaster"
+                      style="height: 38px; width: 38px;"
+                    >
+                      <div
+                        class="rn-alignItems-1oszu61 rn-backgroundColor-1niwhzg rn-backgroundPosition-vvn4in rn-backgroundRepeat-u6sd8q rn-backgroundSize-4gszlv rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-bottom-1p0dtai rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-1pi2tsx rn-left-1d2f490 rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-u8s1d rn-right-zchlnj rn-top-ipm5af rn-width-13qz1uu rn-zIndex-1wyyakw"
+                        style="background-image: url(profiles/abf443ac-20dc-490d-9111-b8aaf48139c6-profile_image-150x150.jpeg);"
+                      />
+                      <img
+                        alt=""
+                        class="rn-bottom-1p0dtai rn-height-1pi2tsx rn-left-1d2f490 rn-opacity-1272l3b rn-position-u8s1d rn-right-zchlnj rn-top-ipm5af rn-width-13qz1uu rn-zIndex-1wyyakw"
+                        draggable="false"
+                        src="profiles/abf443ac-20dc-490d-9111-b8aaf48139c6-profile_image-150x150.jpeg"
+                      />
+                    </div>
+                    <div
+                      class="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-zIndex-1lgpqti"
+                      style="margin-left: 5px;"
+                    >
+                      <div
+                        class="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-1471scf rn-fontStyle-o11vmf rn-fontVariant-ebii48 rn-fontWeight-gul640 rn-lineHeight-a8ghvy rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-maxWidth-dnmrzs rn-overflowX-11yh6sk rn-overflowY-buy8e9 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-textOverflow-1udbk01 rn-whiteSpace-3s2u2q rn-wordWrap-qvutc0"
+                        dir="auto"
+                        style="color: rgb(50, 47, 55); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif; font-size: 13px;"
+                      >
+                        PaymoneyWubby
+                      </div>
+                      <div
+                        class="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-1471scf rn-fontStyle-o11vmf rn-fontVariant-ebii48 rn-fontWeight-gul640 rn-lineHeight-a8ghvy rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-maxWidth-dnmrzs rn-overflowX-11yh6sk rn-overflowY-buy8e9 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-textOverflow-1udbk01 rn-whiteSpace-3s2u2q rn-wordWrap-qvutc0"
+                        dir="auto"
+                        style="color: rgb(50, 47, 55); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif; font-size: 13px;"
+                      >
+                        Fortnite
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -664,7 +814,7 @@ exports[`StreamGrid with narrow parent renders with a narrow layout 1`] = `
                   </div>
                   <div
                     class="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-flexBasis-1ro0kt6 rn-flexDirection-eqz5dr rn-justifyContent-1wtj0ep rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-zIndex-1lgpqti"
-                    data-testid="stream-item-overlay"
+                    data-testid="stream-item-image-overlay"
                   >
                     <div
                       class="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-18u37iz rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-position-bnwqim rn-width-1jaylin rn-zIndex-1lgpqti"
@@ -696,7 +846,7 @@ exports[`StreamGrid with narrow parent renders with a narrow layout 1`] = `
                 <div
                   class="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-position-bnwqim rn-zIndex-1lgpqti"
                   data-testid="stream-item-detail"
-                  style="padding: 5px 10px 5px 10px; width: 215px;"
+                  style="padding: 5px 10px 10px 10px; width: 215px;"
                 >
                   <div
                     class="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-1471scf rn-fontStyle-o11vmf rn-fontVariant-ebii48 rn-fontWeight-vw2c0b rn-lineHeight-a8ghvy rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-maxWidth-dnmrzs rn-overflowX-11yh6sk rn-overflowY-buy8e9 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-textOverflow-1udbk01 rn-whiteSpace-3s2u2q rn-wordWrap-qvutc0"
@@ -706,18 +856,43 @@ exports[`StreamGrid with narrow parent renders with a narrow layout 1`] = `
                     Pop up cup W/ Nick Eh 30, Hogman & Mackwood | 86,000+ Kills, 2,300+ Wins
                   </div>
                   <div
-                    class="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-1471scf rn-fontStyle-o11vmf rn-fontVariant-ebii48 rn-fontWeight-gul640 rn-lineHeight-a8ghvy rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-maxWidth-dnmrzs rn-overflowX-11yh6sk rn-overflowY-buy8e9 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-textOverflow-1udbk01 rn-whiteSpace-3s2u2q rn-wordWrap-qvutc0"
-                    dir="auto"
-                    style="color: rgb(50, 47, 55); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif; font-size: 13px;"
+                    class="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-18u37iz rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-zIndex-1lgpqti"
                   >
-                    Replays
-                  </div>
-                  <div
-                    class="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-1471scf rn-fontStyle-o11vmf rn-fontVariant-ebii48 rn-fontWeight-gul640 rn-lineHeight-a8ghvy rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-maxWidth-dnmrzs rn-overflowX-11yh6sk rn-overflowY-buy8e9 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-textOverflow-1udbk01 rn-whiteSpace-3s2u2q rn-wordWrap-qvutc0"
-                    dir="auto"
-                    style="color: rgb(50, 47, 55); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif; font-size: 13px;"
-                  >
-                    Fortnite
+                    <div
+                      class="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-overflowX-11yh6sk rn-overflowY-buy8e9 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-zIndex-1lgpqti"
+                      data-testid="stream-item-detail-broadcaster"
+                      style="height: 38px; width: 38px;"
+                    >
+                      <div
+                        class="rn-alignItems-1oszu61 rn-backgroundColor-1niwhzg rn-backgroundPosition-vvn4in rn-backgroundRepeat-u6sd8q rn-backgroundSize-4gszlv rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-bottom-1p0dtai rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-1pi2tsx rn-left-1d2f490 rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-u8s1d rn-right-zchlnj rn-top-ipm5af rn-width-13qz1uu rn-zIndex-1wyyakw"
+                        style="background-image: url(profiles/5169e81b-efdc-46aa-8d22-946f674f0844-profile_image-150x150.png);"
+                      />
+                      <img
+                        alt=""
+                        class="rn-bottom-1p0dtai rn-height-1pi2tsx rn-left-1d2f490 rn-opacity-1272l3b rn-position-u8s1d rn-right-zchlnj rn-top-ipm5af rn-width-13qz1uu rn-zIndex-1wyyakw"
+                        draggable="false"
+                        src="profiles/5169e81b-efdc-46aa-8d22-946f674f0844-profile_image-150x150.png"
+                      />
+                    </div>
+                    <div
+                      class="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-zIndex-1lgpqti"
+                      style="margin-left: 5px;"
+                    >
+                      <div
+                        class="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-1471scf rn-fontStyle-o11vmf rn-fontVariant-ebii48 rn-fontWeight-gul640 rn-lineHeight-a8ghvy rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-maxWidth-dnmrzs rn-overflowX-11yh6sk rn-overflowY-buy8e9 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-textOverflow-1udbk01 rn-whiteSpace-3s2u2q rn-wordWrap-qvutc0"
+                        dir="auto"
+                        style="color: rgb(50, 47, 55); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif; font-size: 13px;"
+                      >
+                        Replays
+                      </div>
+                      <div
+                        class="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-1471scf rn-fontStyle-o11vmf rn-fontVariant-ebii48 rn-fontWeight-gul640 rn-lineHeight-a8ghvy rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-maxWidth-dnmrzs rn-overflowX-11yh6sk rn-overflowY-buy8e9 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-textOverflow-1udbk01 rn-whiteSpace-3s2u2q rn-wordWrap-qvutc0"
+                        dir="auto"
+                        style="color: rgb(50, 47, 55); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif; font-size: 13px;"
+                      >
+                        Fortnite
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -760,7 +935,7 @@ exports[`StreamGrid with narrow parent renders with a narrow layout 1`] = `
                   </div>
                   <div
                     class="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-flexBasis-1ro0kt6 rn-flexDirection-eqz5dr rn-justifyContent-1wtj0ep rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-zIndex-1lgpqti"
-                    data-testid="stream-item-overlay"
+                    data-testid="stream-item-image-overlay"
                   >
                     <div
                       class="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-18u37iz rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-position-bnwqim rn-width-1jaylin rn-zIndex-1lgpqti"
@@ -792,7 +967,7 @@ exports[`StreamGrid with narrow parent renders with a narrow layout 1`] = `
                 <div
                   class="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-position-bnwqim rn-zIndex-1lgpqti"
                   data-testid="stream-item-detail"
-                  style="padding: 5px 10px 5px 10px; width: 215px;"
+                  style="padding: 5px 10px 10px 10px; width: 215px;"
                 >
                   <div
                     class="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-1471scf rn-fontStyle-o11vmf rn-fontVariant-ebii48 rn-fontWeight-vw2c0b rn-lineHeight-a8ghvy rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-maxWidth-dnmrzs rn-overflowX-11yh6sk rn-overflowY-buy8e9 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-textOverflow-1udbk01 rn-whiteSpace-3s2u2q rn-wordWrap-qvutc0"
@@ -802,18 +977,43 @@ exports[`StreamGrid with narrow parent renders with a narrow layout 1`] = `
                     Code Nate | Squad popup cup
                   </div>
                   <div
-                    class="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-1471scf rn-fontStyle-o11vmf rn-fontVariant-ebii48 rn-fontWeight-gul640 rn-lineHeight-a8ghvy rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-maxWidth-dnmrzs rn-overflowX-11yh6sk rn-overflowY-buy8e9 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-textOverflow-1udbk01 rn-whiteSpace-3s2u2q rn-wordWrap-qvutc0"
-                    dir="auto"
-                    style="color: rgb(50, 47, 55); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif; font-size: 13px;"
+                    class="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-18u37iz rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-zIndex-1lgpqti"
                   >
-                    NateHill
-                  </div>
-                  <div
-                    class="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-1471scf rn-fontStyle-o11vmf rn-fontVariant-ebii48 rn-fontWeight-gul640 rn-lineHeight-a8ghvy rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-maxWidth-dnmrzs rn-overflowX-11yh6sk rn-overflowY-buy8e9 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-textOverflow-1udbk01 rn-whiteSpace-3s2u2q rn-wordWrap-qvutc0"
-                    dir="auto"
-                    style="color: rgb(50, 47, 55); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif; font-size: 13px;"
-                  >
-                    Fortnite
+                    <div
+                      class="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-overflowX-11yh6sk rn-overflowY-buy8e9 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-zIndex-1lgpqti"
+                      data-testid="stream-item-detail-broadcaster"
+                      style="height: 38px; width: 38px;"
+                    >
+                      <div
+                        class="rn-alignItems-1oszu61 rn-backgroundColor-1niwhzg rn-backgroundPosition-vvn4in rn-backgroundRepeat-u6sd8q rn-backgroundSize-4gszlv rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-bottom-1p0dtai rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-1pi2tsx rn-left-1d2f490 rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-u8s1d rn-right-zchlnj rn-top-ipm5af rn-width-13qz1uu rn-zIndex-1wyyakw"
+                        style="background-image: url(profiles/ecb96deac93fa0f7-profile_image-150x150.jpeg);"
+                      />
+                      <img
+                        alt=""
+                        class="rn-bottom-1p0dtai rn-height-1pi2tsx rn-left-1d2f490 rn-opacity-1272l3b rn-position-u8s1d rn-right-zchlnj rn-top-ipm5af rn-width-13qz1uu rn-zIndex-1wyyakw"
+                        draggable="false"
+                        src="profiles/ecb96deac93fa0f7-profile_image-150x150.jpeg"
+                      />
+                    </div>
+                    <div
+                      class="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-zIndex-1lgpqti"
+                      style="margin-left: 5px;"
+                    >
+                      <div
+                        class="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-1471scf rn-fontStyle-o11vmf rn-fontVariant-ebii48 rn-fontWeight-gul640 rn-lineHeight-a8ghvy rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-maxWidth-dnmrzs rn-overflowX-11yh6sk rn-overflowY-buy8e9 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-textOverflow-1udbk01 rn-whiteSpace-3s2u2q rn-wordWrap-qvutc0"
+                        dir="auto"
+                        style="color: rgb(50, 47, 55); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif; font-size: 13px;"
+                      >
+                        NateHill
+                      </div>
+                      <div
+                        class="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-1471scf rn-fontStyle-o11vmf rn-fontVariant-ebii48 rn-fontWeight-gul640 rn-lineHeight-a8ghvy rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-maxWidth-dnmrzs rn-overflowX-11yh6sk rn-overflowY-buy8e9 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-textOverflow-1udbk01 rn-whiteSpace-3s2u2q rn-wordWrap-qvutc0"
+                        dir="auto"
+                        style="color: rgb(50, 47, 55); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif; font-size: 13px;"
+                      >
+                        Fortnite
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -864,7 +1064,7 @@ exports[`StreamGrid with narrow parent renders with a narrow layout 1`] = `
                   </div>
                   <div
                     class="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-flexBasis-1ro0kt6 rn-flexDirection-eqz5dr rn-justifyContent-1wtj0ep rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-zIndex-1lgpqti"
-                    data-testid="stream-item-overlay"
+                    data-testid="stream-item-image-overlay"
                   >
                     <div
                       class="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-18u37iz rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-position-bnwqim rn-width-1jaylin rn-zIndex-1lgpqti"
@@ -896,7 +1096,7 @@ exports[`StreamGrid with narrow parent renders with a narrow layout 1`] = `
                 <div
                   class="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-position-bnwqim rn-zIndex-1lgpqti"
                   data-testid="stream-item-detail"
-                  style="padding: 5px 10px 5px 10px; width: 215px;"
+                  style="padding: 5px 10px 10px 10px; width: 215px;"
                 >
                   <div
                     class="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-1471scf rn-fontStyle-o11vmf rn-fontVariant-ebii48 rn-fontWeight-vw2c0b rn-lineHeight-a8ghvy rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-maxWidth-dnmrzs rn-overflowX-11yh6sk rn-overflowY-buy8e9 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-textOverflow-1udbk01 rn-whiteSpace-3s2u2q rn-wordWrap-qvutc0"
@@ -906,18 +1106,43 @@ exports[`StreamGrid with narrow parent renders with a narrow layout 1`] = `
                     pop up best girl squad EVA (I still think you have a nice butt) MaddyNF/Chica/Kitzi
                   </div>
                   <div
-                    class="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-1471scf rn-fontStyle-o11vmf rn-fontVariant-ebii48 rn-fontWeight-gul640 rn-lineHeight-a8ghvy rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-maxWidth-dnmrzs rn-overflowX-11yh6sk rn-overflowY-buy8e9 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-textOverflow-1udbk01 rn-whiteSpace-3s2u2q rn-wordWrap-qvutc0"
-                    dir="auto"
-                    style="color: rgb(50, 47, 55); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif; font-size: 13px;"
+                    class="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-18u37iz rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-zIndex-1lgpqti"
                   >
-                    KittyPlays
-                  </div>
-                  <div
-                    class="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-1471scf rn-fontStyle-o11vmf rn-fontVariant-ebii48 rn-fontWeight-gul640 rn-lineHeight-a8ghvy rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-maxWidth-dnmrzs rn-overflowX-11yh6sk rn-overflowY-buy8e9 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-textOverflow-1udbk01 rn-whiteSpace-3s2u2q rn-wordWrap-qvutc0"
-                    dir="auto"
-                    style="color: rgb(50, 47, 55); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif; font-size: 13px;"
-                  >
-                    Fortnite
+                    <div
+                      class="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-overflowX-11yh6sk rn-overflowY-buy8e9 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-zIndex-1lgpqti"
+                      data-testid="stream-item-detail-broadcaster"
+                      style="height: 38px; width: 38px;"
+                    >
+                      <div
+                        class="rn-alignItems-1oszu61 rn-backgroundColor-1niwhzg rn-backgroundPosition-vvn4in rn-backgroundRepeat-u6sd8q rn-backgroundSize-4gszlv rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-bottom-1p0dtai rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-1pi2tsx rn-left-1d2f490 rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-u8s1d rn-right-zchlnj rn-top-ipm5af rn-width-13qz1uu rn-zIndex-1wyyakw"
+                        style="background-image: url(profiles/eddda73f-f373-4920-86b4-64016ff1cbb3-profile_image-150x150.jpeg);"
+                      />
+                      <img
+                        alt=""
+                        class="rn-bottom-1p0dtai rn-height-1pi2tsx rn-left-1d2f490 rn-opacity-1272l3b rn-position-u8s1d rn-right-zchlnj rn-top-ipm5af rn-width-13qz1uu rn-zIndex-1wyyakw"
+                        draggable="false"
+                        src="profiles/eddda73f-f373-4920-86b4-64016ff1cbb3-profile_image-150x150.jpeg"
+                      />
+                    </div>
+                    <div
+                      class="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-zIndex-1lgpqti"
+                      style="margin-left: 5px;"
+                    >
+                      <div
+                        class="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-1471scf rn-fontStyle-o11vmf rn-fontVariant-ebii48 rn-fontWeight-gul640 rn-lineHeight-a8ghvy rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-maxWidth-dnmrzs rn-overflowX-11yh6sk rn-overflowY-buy8e9 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-textOverflow-1udbk01 rn-whiteSpace-3s2u2q rn-wordWrap-qvutc0"
+                        dir="auto"
+                        style="color: rgb(50, 47, 55); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif; font-size: 13px;"
+                      >
+                        KittyPlays
+                      </div>
+                      <div
+                        class="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-1471scf rn-fontStyle-o11vmf rn-fontVariant-ebii48 rn-fontWeight-gul640 rn-lineHeight-a8ghvy rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-maxWidth-dnmrzs rn-overflowX-11yh6sk rn-overflowY-buy8e9 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-textOverflow-1udbk01 rn-whiteSpace-3s2u2q rn-wordWrap-qvutc0"
+                        dir="auto"
+                        style="color: rgb(50, 47, 55); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif; font-size: 13px;"
+                      >
+                        Fortnite
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -960,7 +1185,7 @@ exports[`StreamGrid with narrow parent renders with a narrow layout 1`] = `
                   </div>
                   <div
                     class="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-flexBasis-1ro0kt6 rn-flexDirection-eqz5dr rn-justifyContent-1wtj0ep rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-zIndex-1lgpqti"
-                    data-testid="stream-item-overlay"
+                    data-testid="stream-item-image-overlay"
                   >
                     <div
                       class="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-18u37iz rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-position-bnwqim rn-width-1jaylin rn-zIndex-1lgpqti"
@@ -992,7 +1217,7 @@ exports[`StreamGrid with narrow parent renders with a narrow layout 1`] = `
                 <div
                   class="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-position-bnwqim rn-zIndex-1lgpqti"
                   data-testid="stream-item-detail"
-                  style="padding: 5px 10px 5px 10px; width: 215px;"
+                  style="padding: 5px 10px 10px 10px; width: 215px;"
                 >
                   <div
                     class="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-1471scf rn-fontStyle-o11vmf rn-fontVariant-ebii48 rn-fontWeight-vw2c0b rn-lineHeight-a8ghvy rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-maxWidth-dnmrzs rn-overflowX-11yh6sk rn-overflowY-buy8e9 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-textOverflow-1udbk01 rn-whiteSpace-3s2u2q rn-wordWrap-qvutc0"
@@ -1002,18 +1227,43 @@ exports[`StreamGrid with narrow parent renders with a narrow layout 1`] = `
                     🔥Lets go, es geht wieder los! Fifa, Marbles, FN & LoL! Packs, SBCs, Fun-League & Giveaways! Pog! Icon-SBCs!
                   </div>
                   <div
-                    class="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-1471scf rn-fontStyle-o11vmf rn-fontVariant-ebii48 rn-fontWeight-gul640 rn-lineHeight-a8ghvy rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-maxWidth-dnmrzs rn-overflowX-11yh6sk rn-overflowY-buy8e9 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-textOverflow-1udbk01 rn-whiteSpace-3s2u2q rn-wordWrap-qvutc0"
-                    dir="auto"
-                    style="color: rgb(50, 47, 55); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif; font-size: 13px;"
+                    class="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-18u37iz rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-zIndex-1lgpqti"
                   >
-                    LPMassive
-                  </div>
-                  <div
-                    class="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-1471scf rn-fontStyle-o11vmf rn-fontVariant-ebii48 rn-fontWeight-gul640 rn-lineHeight-a8ghvy rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-maxWidth-dnmrzs rn-overflowX-11yh6sk rn-overflowY-buy8e9 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-textOverflow-1udbk01 rn-whiteSpace-3s2u2q rn-wordWrap-qvutc0"
-                    dir="auto"
-                    style="color: rgb(50, 47, 55); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif; font-size: 13px;"
-                  >
-                    Fortnite
+                    <div
+                      class="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-overflowX-11yh6sk rn-overflowY-buy8e9 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-zIndex-1lgpqti"
+                      data-testid="stream-item-detail-broadcaster"
+                      style="height: 38px; width: 38px;"
+                    >
+                      <div
+                        class="rn-alignItems-1oszu61 rn-backgroundColor-1niwhzg rn-backgroundPosition-vvn4in rn-backgroundRepeat-u6sd8q rn-backgroundSize-4gszlv rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-bottom-1p0dtai rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-height-1pi2tsx rn-left-1d2f490 rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-u8s1d rn-right-zchlnj rn-top-ipm5af rn-width-13qz1uu rn-zIndex-1wyyakw"
+                        style="background-image: url(profiles/dbf36ed7-00f4-4f85-a859-c46134e6e53a-profile_image-150x150.png);"
+                      />
+                      <img
+                        alt=""
+                        class="rn-bottom-1p0dtai rn-height-1pi2tsx rn-left-1d2f490 rn-opacity-1272l3b rn-position-u8s1d rn-right-zchlnj rn-top-ipm5af rn-width-13qz1uu rn-zIndex-1wyyakw"
+                        draggable="false"
+                        src="profiles/dbf36ed7-00f4-4f85-a859-c46134e6e53a-profile_image-150x150.png"
+                      />
+                    </div>
+                    <div
+                      class="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-zIndex-1lgpqti"
+                      style="margin-left: 5px;"
+                    >
+                      <div
+                        class="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-1471scf rn-fontStyle-o11vmf rn-fontVariant-ebii48 rn-fontWeight-gul640 rn-lineHeight-a8ghvy rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-maxWidth-dnmrzs rn-overflowX-11yh6sk rn-overflowY-buy8e9 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-textOverflow-1udbk01 rn-whiteSpace-3s2u2q rn-wordWrap-qvutc0"
+                        dir="auto"
+                        style="color: rgb(50, 47, 55); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif; font-size: 13px;"
+                      >
+                        LPMassive
+                      </div>
+                      <div
+                        class="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-1471scf rn-fontStyle-o11vmf rn-fontVariant-ebii48 rn-fontWeight-gul640 rn-lineHeight-a8ghvy rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-maxWidth-dnmrzs rn-overflowX-11yh6sk rn-overflowY-buy8e9 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-textOverflow-1udbk01 rn-whiteSpace-3s2u2q rn-wordWrap-qvutc0"
+                        dir="auto"
+                        style="color: rgb(50, 47, 55); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif; font-size: 13px;"
+                      >
+                        Fortnite
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>

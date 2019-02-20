@@ -1,13 +1,12 @@
 import { GameType } from "@twitch-player/data";
-import { useTranslation } from "@twitch-player/i18n";
 import PropTypes from "prop-types";
 import React, { memo } from "react";
-import { Image, StyleSheet, View } from "react-native";
+import { View } from "react-native";
 import { useTheme } from "../../hooks";
-import { processImageTemplate } from "../../utils";
 import Hoverable from "../Hoverable";
 import InternalTouchableLink from "../InternalTouchableLink";
-import Text from "../Text";
+import GameItemDetail from "./GameItemDetail";
+import GameItemImage from "./GameItemImage";
 
 const GameItem = ({
   item: { name, boxArtURL, viewersCount },
@@ -15,25 +14,7 @@ const GameItem = ({
   height: boxArtHeight,
   testID = "game-item",
 }) => {
-  const { t } = useTranslation();
-  const { colors, layout, typography } = useTheme();
-
-  const imageURI = processImageTemplate(
-    boxArtURL,
-    layout.maxGameWidth,
-    layout.maxGameHeight
-  );
-
-  const imageStyle = {
-    backgroundColor: colors.itemBackground,
-    height: boxArtHeight,
-    width: boxArtWidth,
-  };
-  const detailStyle = {
-    paddingHorizontal: layout.gapMedium,
-    paddingVertical: layout.gapSmall,
-    width: boxArtWidth,
-  };
+  const { colors } = useTheme();
 
   return (
     <Hoverable>
@@ -41,37 +22,24 @@ const GameItem = ({
         const wrapperStyle = {
           backgroundColor: isHover ? colors.itemBackgroundHover : "transparent",
         };
-        const detailPrimaryStyle = [
-          styles.detailPrimary,
-          {
-            color: isHover ? colors.itemPrimaryHover : colors.itemPrimary,
-            fontSize: typography.sizeSecondary,
-          },
-        ];
-        const detailSecondaryStyle = {
-          color: isHover ? colors.itemSecondaryHover : colors.itemSecondary,
-          fontSize: typography.sizeTertiary,
-        };
 
         return (
           <InternalTouchableLink href={`/categories/${name}`} testID={testID}>
             <View style={wrapperStyle} testID={`${testID}-wrapper`}>
-              <Image
-                source={{ uri: imageURI }}
-                accessibilityLabel={name}
-                style={imageStyle}
+              <GameItemImage
+                url={boxArtURL}
+                name={name}
+                width={boxArtWidth}
+                height={boxArtHeight}
                 testID={`${testID}-image`}
               />
-              <View style={detailStyle} testID={`${testID}-detail`}>
-                <Text numberOfLines={1} style={detailPrimaryStyle}>
-                  {name}
-                </Text>
-                <Text numberOfLines={1} style={detailSecondaryStyle}>
-                  {t("components.item.viewersCount", {
-                    count: viewersCount,
-                  })}
-                </Text>
-              </View>
+              <GameItemDetail
+                name={name}
+                viewersCount={viewersCount}
+                width={boxArtWidth}
+                isHover={isHover}
+                testID={`${testID}-detail`}
+              />
             </View>
           </InternalTouchableLink>
         );
@@ -86,11 +54,5 @@ GameItem.propTypes = {
   height: PropTypes.number.isRequired,
   testID: PropTypes.string,
 };
-
-const styles = StyleSheet.create({
-  detailPrimary: {
-    fontWeight: "bold",
-  },
-});
 
 export default memo(GameItem);
