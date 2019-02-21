@@ -17,11 +17,11 @@
   },
   "pages": {
     "home": {
-      "featuredStreamsHeading": "Canali in primo piano",
-      "topGamesHeading": "Principali categorie",
-      "topStreamsHeading": "Principali canali live",
-      "topPS4StreamsHeading": "Principali canali PS4",
-      "topXboxOneStreamsHeading": "Principali canali Xbox One"
+      "featuredChannelsHeading": "Canali in primo piano",
+      "topCategoriesHeading": "Principali categorie",
+      "topChannelsHeading": "Principali canali live",
+      "topPS4ChannelsHeading": "Principali canali PS4",
+      "topXboxOneChannelsHeading": "Principali canali Xbox One"
     },
     "channels": {
       "mainHeading": "Canali live"

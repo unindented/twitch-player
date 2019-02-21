@@ -2,30 +2,30 @@ import { useTranslation } from "@twitch-player/i18n";
 import PropTypes from "prop-types";
 import React, { memo } from "react";
 import { ScrollView } from "react-native";
-import FeaturedStreams from "../../components/FeaturedStreams";
+import FeaturedChannels from "../../components/FeaturedChannels";
 import Heading from "../../components/Heading";
-import TopGames from "../../components/TopGames";
-import TopStreams from "../../components/TopStreams";
+import TopCategories from "../../components/TopCategories";
+import TopChannels from "../../components/TopChannels";
 
 const Home = ({ testID = "home-page" }) => {
   const { t } = useTranslation();
 
   return (
     <ScrollView testID={testID}>
-      <Heading level="2">{t("pages.home.featuredStreamsHeading")}</Heading>
-      <FeaturedStreams />
+      <Heading level="2">{t("pages.home.featuredChannelsHeading")}</Heading>
+      <FeaturedChannels />
 
-      <Heading level="2">{t("pages.home.topGamesHeading")}</Heading>
-      <TopGames />
+      <Heading level="2">{t("pages.home.topCategoriesHeading")}</Heading>
+      <TopCategories />
 
-      <Heading level="2">{t("pages.home.topStreamsHeading")}</Heading>
-      <TopStreams />
+      <Heading level="2">{t("pages.home.topChannelsHeading")}</Heading>
+      <TopChannels />
 
-      <Heading level="2">{t("pages.home.topPS4StreamsHeading")}</Heading>
-      <TopStreams platformType="ps4" />
+      <Heading level="2">{t("pages.home.topPS4ChannelsHeading")}</Heading>
+      <TopChannels platformType="ps4" />
 
-      <Heading level="2">{t("pages.home.topXboxOneStreamsHeading")}</Heading>
-      <TopStreams platformType="xbox" />
+      <Heading level="2">{t("pages.home.topXboxOneChannelsHeading")}</Heading>
+      <TopChannels platformType="xbox" />
     </ScrollView>
   );
 };

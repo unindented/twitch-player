@@ -1,0 +1,304 @@
+{
+  "data": {
+    "categories": {
+      "pageInfo": {
+        "hasNextPage": true,
+        "hasPreviousPage": false,
+        "__typename": "PageInfo"
+      },
+      "edges": [
+        {
+          "cursor": "MA==",
+          "node": {
+            "id": "33214",
+            "key": "33214",
+            "name": "Fortnite",
+            "boxArtURL": "categories/Fortnite-376x500.jpg",
+            "viewersCount": 241208,
+            "followersCount": 35800760,
+            "__typename": "Game",
+            "tags": [
+              {
+                "id": "523fe736-fa95-44c7-b22f-13008ca2172c",
+                "key": "523fe736-fa95-44c7-b22f-13008ca2172c",
+                "isLanguageTag": false,
+                "localizedName": "Shooter",
+                "tagName": "Shooter",
+                "__typename": "Tag"
+              }
+            ]
+          },
+          "__typename": "GameEdge"
+        },
+        {
+          "cursor": "MQ==",
+          "node": {
+            "id": "21779",
+            "key": "21779",
+            "name": "League of Legends",
+            "boxArtURL": "categories/League%20of%20Legends-376x500.jpg",
+            "viewersCount": 78952,
+            "followersCount": 16964605,
+            "__typename": "Game",
+            "tags": [
+              {
+                "id": "12510423-d1f6-4992-8aea-1441a43d1df4",
+                "key": "12510423-d1f6-4992-8aea-1441a43d1df4",
+                "isLanguageTag": false,
+                "localizedName": "MOBA",
+                "tagName": "MOBA",
+                "__typename": "Tag"
+              }
+            ]
+          },
+          "__typename": "GameEdge"
+        },
+        {
+          "cursor": "Mg==",
+          "node": {
+            "id": "509658",
+            "key": "509658",
+            "name": "Just Chatting",
+            "boxArtURL": "categories/Just%20Chatting-376x500.jpg",
+            "viewersCount": 56211,
+            "followersCount": 957935,
+            "__typename": "Game",
+            "tags": [
+              {
+                "id": "2610cff9-10ae-4cb3-8500-778e6722fbb5",
+                "key": "2610cff9-10ae-4cb3-8500-778e6722fbb5",
+                "isLanguageTag": false,
+                "localizedName": "IRL",
+                "tagName": "IRL",
+                "__typename": "Tag"
+              }
+            ]
+          },
+          "__typename": "GameEdge"
+        },
+        {
+          "cursor": "Mw==",
+          "node": {
+            "id": "5945",
+            "key": "5945",
+            "name": "Atlas",
+            "boxArtURL": "categories/Atlas-376x500.jpg",
+            "viewersCount": 56142,
+            "followersCount": 77425,
+            "__typename": "Game",
+            "tags": [
+              {
+                "id": "857fce92-df0c-4c8c-8c60-28e0c5f7d8ae",
+                "key": "857fce92-df0c-4c8c-8c60-28e0c5f7d8ae",
+                "isLanguageTag": false,
+                "localizedName": "Strategy",
+                "tagName": "Strategy",
+                "__typename": "Tag"
+              },
+              {
+                "id": "22e434b6-ca88-46e8-91ef-c18ee1cb8a67",
+                "key": "22e434b6-ca88-46e8-91ef-c18ee1cb8a67",
+                "isLanguageTag": false,
+                "localizedName": "Simulation",
+                "tagName": "Simulation",
+                "__typename": "Tag"
+              },
+              {
+                "id": "5495bcba-0977-4ba5-aa39-8928fd4cab8f",
+                "key": "5495bcba-0977-4ba5-aa39-8928fd4cab8f",
+                "isLanguageTag": false,
+                "localizedName": "MMORPG",
+                "tagName": "MMORPG",
+                "__typename": "Tag"
+              }
+            ]
+          },
+          "__typename": "GameEdge"
+        },
+        {
+          "cursor": "NA==",
+          "node": {
+            "id": "29595",
+            "key": "29595",
+            "name": "Dota 2",
+            "boxArtURL": "categories/Dota%202-376x500.jpg",
+            "viewersCount": 29925,
+            "followersCount": 7237025,
+            "__typename": "Game",
+            "tags": [
+              {
+                "id": "12510423-d1f6-4992-8aea-1441a43d1df4",
+                "key": "12510423-d1f6-4992-8aea-1441a43d1df4",
+                "isLanguageTag": false,
+                "localizedName": "MOBA",
+                "tagName": "MOBA",
+                "__typename": "Tag"
+              }
+            ]
+          },
+          "__typename": "GameEdge"
+        },
+        {
+          "cursor": "NQ==",
+          "node": {
+            "id": "490377",
+            "key": "490377",
+            "name": "Sea of Thieves",
+            "boxArtURL": "categories/Sea%20of%20Thieves-376x500.jpg",
+            "viewersCount": 27843,
+            "followersCount": 945779,
+            "__typename": "Game",
+            "tags": [
+              {
+                "id": "4d1eaa36-f750-4862-b7e9-d0a13970d535",
+                "key": "4d1eaa36-f750-4862-b7e9-d0a13970d535",
+                "isLanguageTag": false,
+                "localizedName": "Action",
+                "tagName": "Action",
+                "__typename": "Tag"
+              }
+            ]
+          },
+          "__typename": "GameEdge"
+        },
+        {
+          "cursor": "Ng==",
+          "node": {
+            "id": "32399",
+            "key": "32399",
+            "name": "Counter-Strike: Global Offensive",
+            "boxArtURL": "categories/Counter-Strike:%20Global%20Offensive-376x500.jpg",
+            "viewersCount": 26289,
+            "followersCount": 14531233,
+            "__typename": "Game",
+            "tags": [
+              {
+                "id": "a69f7ffb-ddda-4c05-8d7d-f0b24975a2c3",
+                "key": "a69f7ffb-ddda-4c05-8d7d-f0b24975a2c3",
+                "isLanguageTag": false,
+                "localizedName": "FPS",
+                "tagName": "FPS",
+                "__typename": "Tag"
+              },
+              {
+                "id": "523fe736-fa95-44c7-b22f-13008ca2172c",
+                "key": "523fe736-fa95-44c7-b22f-13008ca2172c",
+                "isLanguageTag": false,
+                "localizedName": "Shooter",
+                "tagName": "Shooter",
+                "__typename": "Tag"
+              }
+            ]
+          },
+          "__typename": "GameEdge"
+        },
+        {
+          "cursor": "Nw==",
+          "node": {
+            "id": "491931",
+            "key": "491931",
+            "name": "Escape From Tarkov",
+            "boxArtURL": "categories/Escape%20From%20Tarkov-376x500.jpg",
+            "viewersCount": 23755,
+            "followersCount": 985626,
+            "__typename": "Game",
+            "tags": [
+              {
+                "id": "22e434b6-ca88-46e8-91ef-c18ee1cb8a67",
+                "key": "22e434b6-ca88-46e8-91ef-c18ee1cb8a67",
+                "isLanguageTag": false,
+                "localizedName": "Simulation",
+                "tagName": "Simulation",
+                "__typename": "Tag"
+              },
+              {
+                "id": "a69f7ffb-ddda-4c05-8d7d-f0b24975a2c3",
+                "key": "a69f7ffb-ddda-4c05-8d7d-f0b24975a2c3",
+                "isLanguageTag": false,
+                "localizedName": "FPS",
+                "tagName": "FPS",
+                "__typename": "Tag"
+              },
+              {
+                "id": "523fe736-fa95-44c7-b22f-13008ca2172c",
+                "key": "523fe736-fa95-44c7-b22f-13008ca2172c",
+                "isLanguageTag": false,
+                "localizedName": "Shooter",
+                "tagName": "Shooter",
+                "__typename": "Tag"
+              }
+            ]
+          },
+          "__typename": "GameEdge"
+        },
+        {
+          "cursor": "OA==",
+          "node": {
+            "id": "488552",
+            "key": "488552",
+            "name": "Overwatch",
+            "boxArtURL": "categories/Overwatch-376x500.jpg",
+            "viewersCount": 21036,
+            "followersCount": 13837211,
+            "__typename": "Game",
+            "tags": [
+              {
+                "id": "a69f7ffb-ddda-4c05-8d7d-f0b24975a2c3",
+                "key": "a69f7ffb-ddda-4c05-8d7d-f0b24975a2c3",
+                "isLanguageTag": false,
+                "localizedName": "FPS",
+                "tagName": "FPS",
+                "__typename": "Tag"
+              },
+              {
+                "id": "523fe736-fa95-44c7-b22f-13008ca2172c",
+                "key": "523fe736-fa95-44c7-b22f-13008ca2172c",
+                "isLanguageTag": false,
+                "localizedName": "Shooter",
+                "tagName": "Shooter",
+                "__typename": "Tag"
+              }
+            ]
+          },
+          "__typename": "GameEdge"
+        },
+        {
+          "cursor": "OQ==",
+          "node": {
+            "id": "493057",
+            "key": "493057",
+            "name": "PLAYERUNKNOWN'S BATTLEGROUNDS",
+            "boxArtURL": "categories/PLAYERUNKNOWN%27S%20BATTLEGROUNDS-376x500.jpg",
+            "viewersCount": 20884,
+            "followersCount": 24944299,
+            "__typename": "Game",
+            "tags": [
+              {
+                "id": "523fe736-fa95-44c7-b22f-13008ca2172c",
+                "key": "523fe736-fa95-44c7-b22f-13008ca2172c",
+                "isLanguageTag": false,
+                "localizedName": "Shooter",
+                "tagName": "Shooter",
+                "__typename": "Tag"
+              },
+              {
+                "id": "a69f7ffb-ddda-4c05-8d7d-f0b24975a2c3",
+                "key": "a69f7ffb-ddda-4c05-8d7d-f0b24975a2c3",
+                "isLanguageTag": false,
+                "localizedName": "FPS",
+                "tagName": "FPS",
+                "__typename": "Tag"
+              }
+            ]
+          },
+          "__typename": "GameEdge"
+        }
+      ],
+      "__typename": "GameConnection"
+    }
+  },
+  "extensions": {
+    "durationMilliseconds": 64,
+    "operationName": "TopCategories"
+  }
+}

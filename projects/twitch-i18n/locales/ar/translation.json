@@ -25,11 +25,11 @@
   },
   "pages": {
     "home": {
-      "featuredStreamsHeading": "قنوات مميزة",
-      "topGamesHeading": "أعلى الفئات",
-      "topStreamsHeading": "أعلى القنوات المباشرة",
-      "topPS4StreamsHeading": "أعلى القنوات PS4",
-      "topXboxOneStreamsHeading": "أعلى القنوات Xbox One"
+      "featuredChannelsHeading": "قنوات مميزة",
+      "topCategoriesHeading": "أعلى الفئات",
+      "topChannelsHeading": "أعلى القنوات المباشرة",
+      "topPS4ChannelsHeading": "أعلى القنوات PS4",
+      "topXboxOneChannelsHeading": "أعلى القنوات Xbox One"
     },
     "channels": {
       "mainHeading": "القنوات المباشرة"

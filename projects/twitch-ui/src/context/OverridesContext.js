@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 import React, { createContext } from "react";
 
 const defaultOverrides = {
-  StreamPlayer: () => null,
+  ChannelPlayer: () => null,
 };
 
 export const OverridesContext = createContext(defaultOverrides);

@@ -8,32 +8,32 @@ const data = [
   {
     id: "31876146512",
     key: "31876146512",
-    previewImageURL: "streams/live_user_tfue-800x450.jpg",
+    previewImageURL: "channels/live_user_tfue-800x450.jpg",
   },
   {
     id: "31879434944",
     key: "31879434944",
-    previewImageURL: "streams/live_user_ninja-800x450.jpg",
+    previewImageURL: "channels/live_user_ninja-800x450.jpg",
   },
   {
     id: "31880087200",
     key: "31880087200",
-    previewImageURL: "streams/live_user_summit1g-800x450.jpg",
+    previewImageURL: "channels/live_user_summit1g-800x450.jpg",
   },
   {
     id: "31878417536",
     key: "31878417536",
-    previewImageURL: "streams/live_user_timthetatman-800x450.jpg",
+    previewImageURL: "channels/live_user_timthetatman-800x450.jpg",
   },
   {
     id: "31878723504",
     key: "31878723504",
-    previewImageURL: "streams/live_user_shroud-800x450.jpg",
+    previewImageURL: "channels/live_user_shroud-800x450.jpg",
   },
   {
     id: "31876784656",
     key: "31876784656",
-    previewImageURL: "streams/live_user_nickmercs-800x450.jpg",
+    previewImageURL: "channels/live_user_nickmercs-800x450.jpg",
   },
 ];
 

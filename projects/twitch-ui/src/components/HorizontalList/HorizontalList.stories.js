@@ -6,13 +6,13 @@ import HorizontalList from ".";
 
 const data = [
   {
-    boxArtURL: "games/Fortnite-376x500.jpg",
+    boxArtURL: "categories/Fortnite-376x500.jpg",
   },
   {
-    boxArtURL: "games/Just%20Chatting-376x500.jpg",
+    boxArtURL: "categories/Just%20Chatting-376x500.jpg",
   },
   {
-    boxArtURL: "games/Atlas-376x500.jpg",
+    boxArtURL: "categories/Atlas-376x500.jpg",
   },
 ];
 

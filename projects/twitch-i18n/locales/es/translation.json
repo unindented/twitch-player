@@ -17,11 +17,11 @@
   },
   "pages": {
     "home": {
-      "featuredStreamsHeading": "Canales destacados",
-      "topGamesHeading": "Categorías más populares",
-      "topStreamsHeading": "Canales en directo más populares",
-      "topPS4StreamsHeading": "Canales de PS4 más populares",
-      "topXboxOneStreamsHeading": "Canales de Xbox One más populares"
+      "featuredChannelsHeading": "Canales destacados",
+      "topCategoriesHeading": "Categorías más populares",
+      "topChannelsHeading": "Canales en directo más populares",
+      "topPS4ChannelsHeading": "Canales de PS4 más populares",
+      "topXboxOneChannelsHeading": "Canales de Xbox One más populares"
     },
     "channels": {
       "mainHeading": "Canales en directo"

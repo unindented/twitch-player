@@ -7,19 +7,19 @@ jest.mock("react-apollo-hooks", () => ({
   useQuery: jest.fn(),
 }));
 
-const featuredStreams = require("@twitch-player/data/fixtures/featuredStreams.json");
-const topGames = require("@twitch-player/data/fixtures/topGames.json");
-const topStreams = require("@twitch-player/data/fixtures/topStreams.json");
+const featuredChannels = require("@twitch-player/data/fixtures/featuredChannels.json");
+const topCategories = require("@twitch-player/data/fixtures/topCategories.json");
+const topChannels = require("@twitch-player/data/fixtures/topChannels.json");
 
 describe("Home", () => {
   let instance;
 
   beforeEach(() => {
-    useQuery.mockImplementationOnce(() => featuredStreams);
-    useQuery.mockImplementationOnce(() => topGames);
-    useQuery.mockImplementationOnce(() => topStreams);
-    useQuery.mockImplementationOnce(() => topStreams);
-    useQuery.mockImplementationOnce(() => topStreams);
+    useQuery.mockImplementationOnce(() => featuredChannels);
+    useQuery.mockImplementationOnce(() => topCategories);
+    useQuery.mockImplementationOnce(() => topChannels);
+    useQuery.mockImplementationOnce(() => topChannels);
+    useQuery.mockImplementationOnce(() => topChannels);
 
     instance = render(<Home />);
   });

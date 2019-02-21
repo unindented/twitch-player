@@ -17,11 +17,11 @@
   },
   "pages": {
     "home": {
-      "featuredStreamsHeading": "Chaînes en vedette",
-      "topGamesHeading": "Catégories les plus regardées",
-      "topStreamsHeading": "Chaînes les plus regardées",
-      "topPS4StreamsHeading": "Top des chaînes PS4",
-      "topXboxOneStreamsHeading": "Top des chaînes Xbox One"
+      "featuredChannelsHeading": "Chaînes en vedette",
+      "topCategoriesHeading": "Catégories les plus regardées",
+      "topChannelsHeading": "Chaînes les plus regardées",
+      "topPS4ChannelsHeading": "Top des chaînes PS4",
+      "topXboxOneChannelsHeading": "Top des chaînes Xbox One"
     },
     "channels": {
       "mainHeading": "Chaînes en direct"

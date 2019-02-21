@@ -6,14 +6,14 @@ import { OverridesProvider } from "../context";
 import { useOverrides } from ".";
 
 const SomeComponent = () => {
-  const { StreamPlayer } = useOverrides();
+  const { ChannelPlayer } = useOverrides();
 
-  return <StreamPlayer src="https://www.twitch.tv/" />;
+  return <ChannelPlayer src="https://www.twitch.tv/" />;
 };
 
-const SomeStreamPlayer = ({ src }) => <Text>{src}</Text>;
+const SomeChannelPlayer = ({ src }) => <Text>{src}</Text>;
 
-SomeStreamPlayer.propTypes = {
+SomeChannelPlayer.propTypes = {
   src: PropTypes.string.isRequired,
 };
 
@@ -22,7 +22,7 @@ describe("useOverrides", () => {
 
   beforeEach(() => {
     instance = render(
-      <OverridesProvider overrides={{ StreamPlayer: SomeStreamPlayer }}>
+      <OverridesProvider overrides={{ ChannelPlayer: SomeChannelPlayer }}>
         <SomeComponent />
       </OverridesProvider>
     );

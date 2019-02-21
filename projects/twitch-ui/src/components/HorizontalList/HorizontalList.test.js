@@ -8,17 +8,17 @@ const data = [
   {
     id: "33214",
     key: "33214",
-    boxArtURL: "games/Fortnite-376x500.jpg",
+    boxArtURL: "categories/Fortnite-376x500.jpg",
   },
   {
     id: "509658",
     key: "509658",
-    boxArtURL: "games/Just%20Chatting-376x500.jpg",
+    boxArtURL: "categories/Just%20Chatting-376x500.jpg",
   },
   {
     id: "5945",
     key: "5945",
-    boxArtURL: "games/Atlas-376x500.jpg",
+    boxArtURL: "categories/Atlas-376x500.jpg",
   },
 ];
 

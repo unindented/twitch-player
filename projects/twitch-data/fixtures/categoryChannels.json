@@ -1,0 +1,440 @@
+{
+  "data": {
+    "category": {
+      "channels": {
+        "edges": [
+          {
+            "cursor": "MA==",
+            "node": {
+              "id": "32503708720",
+              "key": "32503708720",
+              "previewImageURL": "channels/live_user_tfue-800x450.jpg",
+              "viewersCount": 66901,
+              "broadcaster": {
+                "id": "60056333",
+                "key": "60056333",
+                "login": "tfue",
+                "displayName": "Tfue",
+                "profileImageURL": "profiles/2470b5c6-a737-4ba6-8987-c28e0ca839e1-profile_image-150x150.jpg",
+                "broadcastSettings": {
+                  "title": "Pop-Up w/ Cloak, Nate, & Tennp0",
+                  "__typename": "BroadcastSettings"
+                },
+                "__typename": "User"
+              },
+              "category": {
+                "id": "33214",
+                "key": "33214",
+                "name": "Fortnite",
+                "boxArtURL": "categories/Fortnite-376x500.jpg",
+                "viewersCount": 153734,
+                "followersCount": 38506759,
+                "__typename": "Game"
+              },
+              "tags": [
+                {
+                  "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                  "key": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                  "isLanguageTag": true,
+                  "localizedName": "English",
+                  "tagName": "auto___lang_en",
+                  "__typename": "Tag"
+                }
+              ],
+              "__typename": "Stream"
+            }
+          },
+          {
+            "cursor": "MQ==",
+            "node": {
+              "id": "32502670912",
+              "key": "32502670912",
+              "previewImageURL": "channels/live_user_72hrs-800x450.jpg",
+              "viewersCount": 8379,
+              "broadcaster": {
+                "id": "101400190",
+                "key": "101400190",
+                "login": "72hrs",
+                "displayName": "72hrs",
+                "profileImageURL": "profiles/dc63c4ad-1edf-46d3-8a80-0eba7d68cbfc-profile_image-150x150.png",
+                "broadcastSettings": {
+                  "title": "what do ya think [ please use code \"72hrs\" in the item shop ]",
+                  "__typename": "BroadcastSettings"
+                },
+                "__typename": "User"
+              },
+              "category": {
+                "id": "33214",
+                "key": "33214",
+                "name": "Fortnite",
+                "boxArtURL": "categories/Fortnite-376x500.jpg",
+                "viewersCount": 153734,
+                "followersCount": 38506759,
+                "__typename": "Game"
+              },
+              "tags": [
+                {
+                  "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                  "key": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                  "isLanguageTag": true,
+                  "localizedName": "English",
+                  "tagName": "auto___lang_en",
+                  "__typename": "Tag"
+                }
+              ],
+              "__typename": "Stream"
+            }
+          },
+          {
+            "cursor": "Mg==",
+            "node": {
+              "id": "32503267648",
+              "key": "32503267648",
+              "previewImageURL": "channels/live_user_cloakzy-800x450.jpg",
+              "viewersCount": 8098,
+              "broadcaster": {
+                "id": "81687332",
+                "key": "81687332",
+                "login": "cloakzy",
+                "displayName": "cloakzy",
+                "profileImageURL": "profiles/320226c6-f422-4baf-8ed2-1be7eb3757e6-profile_image-150x150.png",
+                "broadcastSettings": {
+                  "title": "high kill popup squads",
+                  "__typename": "BroadcastSettings"
+                },
+                "__typename": "User"
+              },
+              "category": {
+                "id": "33214",
+                "key": "33214",
+                "name": "Fortnite",
+                "boxArtURL": "categories/Fortnite-376x500.jpg",
+                "viewersCount": 153734,
+                "followersCount": 38506759,
+                "__typename": "Game"
+              },
+              "tags": [
+                {
+                  "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                  "key": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                  "isLanguageTag": true,
+                  "localizedName": "English",
+                  "tagName": "auto___lang_en",
+                  "__typename": "Tag"
+                }
+              ],
+              "__typename": "Stream"
+            }
+          },
+          {
+            "cursor": "Mw==",
+            "node": {
+              "id": "32505827344",
+              "key": "32505827344",
+              "previewImageURL": "channels/live_user_tuffytv-800x450.jpg",
+              "viewersCount": 4358,
+              "broadcaster": {
+                "id": "272917247",
+                "key": "272917247",
+                "login": "tuffytv",
+                "displayName": "TUFFYtv",
+                "profileImageURL": "profiles/efbcb6ad-8f4c-45ec-b6a2-00568395565d-profile_image-150x150.jpeg",
+                "broadcastSettings": {
+                  "title": "Aim so Good, Kids think I Cheat (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧ ~ New Snugglez Emote out now!!!!  ~ Face Reveal @4200 Subs",
+                  "__typename": "BroadcastSettings"
+                },
+                "__typename": "User"
+              },
+              "category": {
+                "id": "33214",
+                "key": "33214",
+                "name": "Fortnite",
+                "boxArtURL": "categories/Fortnite-376x500.jpg",
+                "viewersCount": 153734,
+                "followersCount": 38506759,
+                "__typename": "Game"
+              },
+              "tags": [
+                {
+                  "id": "ff56eeeb-99ed-4a60-93fc-0b3f05d8661e",
+                  "key": "ff56eeeb-99ed-4a60-93fc-0b3f05d8661e",
+                  "isLanguageTag": false,
+                  "localizedName": "Multiplayer",
+                  "tagName": "Multiplayer",
+                  "__typename": "Tag"
+                },
+                {
+                  "id": "1eba3cfe-51cc-460a-8259-bc8bb987f904",
+                  "key": "1eba3cfe-51cc-460a-8259-bc8bb987f904",
+                  "isLanguageTag": false,
+                  "localizedName": "Competitive",
+                  "tagName": "Competitive",
+                  "__typename": "Tag"
+                },
+                {
+                  "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                  "key": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                  "isLanguageTag": true,
+                  "localizedName": "English",
+                  "tagName": "auto___lang_en",
+                  "__typename": "Tag"
+                }
+              ],
+              "__typename": "Stream"
+            }
+          },
+          {
+            "cursor": "NA==",
+            "node": {
+              "id": "32505051616",
+              "key": "32505051616",
+              "previewImageURL": "channels/live_user_poach-800x450.jpg",
+              "viewersCount": 3668,
+              "broadcaster": {
+                "id": "45143025",
+                "key": "45143025",
+                "login": "poach",
+                "displayName": "POACH",
+                "profileImageURL": "profiles/6b978024-9047-4555-b68f-ae2dfdcc041b-profile_image-150x150.png",
+                "broadcastSettings": {
+                  "title": "LIQUID SQUAD POPUP | !social",
+                  "__typename": "BroadcastSettings"
+                },
+                "__typename": "User"
+              },
+              "category": {
+                "id": "33214",
+                "key": "33214",
+                "name": "Fortnite",
+                "boxArtURL": "categories/Fortnite-376x500.jpg",
+                "viewersCount": 153734,
+                "followersCount": 38506759,
+                "__typename": "Game"
+              },
+              "tags": [
+                {
+                  "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                  "key": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                  "isLanguageTag": true,
+                  "localizedName": "English",
+                  "tagName": "auto___lang_en",
+                  "__typename": "Tag"
+                }
+              ],
+              "__typename": "Stream"
+            }
+          },
+          {
+            "cursor": "NQ==",
+            "node": {
+              "id": "32506274096",
+              "key": "32506274096",
+              "previewImageURL": "channels/live_user_paymoneywubby-800x450.jpg",
+              "viewersCount": 2767,
+              "broadcaster": {
+                "id": "38251312",
+                "key": "38251312",
+                "login": "paymoneywubby",
+                "displayName": "PaymoneyWubby",
+                "profileImageURL": "profiles/abf443ac-20dc-490d-9111-b8aaf48139c6-profile_image-150x150.jpeg",
+                "broadcastSettings": {
+                  "title": "Will shave eyebrows at 10k - Fill Kid Friday (Drunk Edition)",
+                  "__typename": "BroadcastSettings"
+                },
+                "__typename": "User"
+              },
+              "category": {
+                "id": "33214",
+                "key": "33214",
+                "name": "Fortnite",
+                "boxArtURL": "categories/Fortnite-376x500.jpg",
+                "viewersCount": 153734,
+                "followersCount": 38506759,
+                "__typename": "Game"
+              },
+              "tags": [
+                {
+                  "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                  "key": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                  "isLanguageTag": true,
+                  "localizedName": "English",
+                  "tagName": "auto___lang_en",
+                  "__typename": "Tag"
+                }
+              ],
+              "__typename": "Stream"
+            }
+          },
+          {
+            "cursor": "Ng==",
+            "node": {
+              "id": "32502094704",
+              "key": "32502094704",
+              "previewImageURL": "channels/live_user_replays-800x450.jpg",
+              "viewersCount": 2447,
+              "broadcaster": {
+                "id": "146790215",
+                "key": "146790215",
+                "login": "replays",
+                "displayName": "Replays",
+                "profileImageURL": "profiles/5169e81b-efdc-46aa-8d22-946f674f0844-profile_image-150x150.png",
+                "broadcastSettings": {
+                  "title": "Pop up cup W/ Nick Eh 30, Hogman & Mackwood | 86,000+ Kills, 2,300+ Wins",
+                  "__typename": "BroadcastSettings"
+                },
+                "__typename": "User"
+              },
+              "category": {
+                "id": "33214",
+                "key": "33214",
+                "name": "Fortnite",
+                "boxArtURL": "categories/Fortnite-376x500.jpg",
+                "viewersCount": 153734,
+                "followersCount": 38506759,
+                "__typename": "Game"
+              },
+              "tags": [
+                {
+                  "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                  "key": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                  "isLanguageTag": true,
+                  "localizedName": "English",
+                  "tagName": "auto___lang_en",
+                  "__typename": "Tag"
+                }
+              ],
+              "__typename": "Stream"
+            }
+          },
+          {
+            "cursor": "Nw==",
+            "node": {
+              "id": "32502100688",
+              "key": "32502100688",
+              "previewImageURL": "channels/live_user_natehill-800x450.jpg",
+              "viewersCount": 2171,
+              "broadcaster": {
+                "id": "181224914",
+                "key": "181224914",
+                "login": "natehill",
+                "displayName": "NateHill",
+                "profileImageURL": "profiles/ecb96deac93fa0f7-profile_image-150x150.jpeg",
+                "broadcastSettings": {
+                  "title": "Code Nate | Squad popup cup",
+                  "__typename": "BroadcastSettings"
+                },
+                "__typename": "User"
+              },
+              "category": {
+                "id": "33214",
+                "key": "33214",
+                "name": "Fortnite",
+                "boxArtURL": "categories/Fortnite-376x500.jpg",
+                "viewersCount": 153734,
+                "followersCount": 38506759,
+                "__typename": "Game"
+              },
+              "tags": [
+                {
+                  "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                  "key": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                  "isLanguageTag": true,
+                  "localizedName": "English",
+                  "tagName": "auto___lang_en",
+                  "__typename": "Tag"
+                }
+              ],
+              "__typename": "Stream"
+            }
+          },
+          {
+            "cursor": "OA==",
+            "node": {
+              "id": "32503164512",
+              "key": "32503164512",
+              "previewImageURL": "channels/live_user_kittyplays-800x450.jpg",
+              "viewersCount": 1545,
+              "broadcaster": {
+                "id": "39627315",
+                "key": "39627315",
+                "login": "kittyplays",
+                "displayName": "KittyPlays",
+                "profileImageURL": "profiles/eddda73f-f373-4920-86b4-64016ff1cbb3-profile_image-150x150.jpeg",
+                "broadcastSettings": {
+                  "title": "pop up best girl squad EVA (I still think you have a nice butt) MaddyNF/Chica/Kitzi",
+                  "__typename": "BroadcastSettings"
+                },
+                "__typename": "User"
+              },
+              "category": {
+                "id": "33214",
+                "key": "33214",
+                "name": "Fortnite",
+                "boxArtURL": "categories/Fortnite-376x500.jpg",
+                "viewersCount": 153734,
+                "followersCount": 38506759,
+                "__typename": "Game"
+              },
+              "tags": [
+                {
+                  "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                  "key": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                  "isLanguageTag": true,
+                  "localizedName": "English",
+                  "tagName": "auto___lang_en",
+                  "__typename": "Tag"
+                }
+              ],
+              "__typename": "Stream"
+            }
+          },
+          {
+            "cursor": "OQ==",
+            "node": {
+              "id": "32497722080",
+              "key": "32497722080",
+              "previewImageURL": "channels/live_user_lpmassive-800x450.jpg",
+              "viewersCount": 1508,
+              "broadcaster": {
+                "id": "40621899",
+                "key": "40621899",
+                "login": "lpmassive",
+                "displayName": "LPMassive",
+                "profileImageURL": "profiles/dbf36ed7-00f4-4f85-a859-c46134e6e53a-profile_image-150x150.png",
+                "broadcastSettings": {
+                  "title": "🔥Lets go, es geht wieder los! Fifa, Marbles, FN & LoL! Packs, SBCs, Fun-League & Giveaways! Pog! Icon-SBCs!",
+                  "__typename": "BroadcastSettings"
+                },
+                "__typename": "User"
+              },
+              "category": {
+                "id": "33214",
+                "key": "33214",
+                "name": "Fortnite",
+                "boxArtURL": "categories/Fortnite-376x500.jpg",
+                "viewersCount": 153734,
+                "followersCount": 38506759,
+                "__typename": "Game"
+              },
+              "tags": [
+                {
+                  "id": "9166ad14-41f1-4b04-a3b8-c8eb838c6be6",
+                  "key": "9166ad14-41f1-4b04-a3b8-c8eb838c6be6",
+                  "isLanguageTag": true,
+                  "localizedName": "German",
+                  "tagName": "auto___lang_de",
+                  "__typename": "Tag"
+                }
+              ],
+              "__typename": "Stream"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "extensions": {
+    "durationMilliseconds": 76,
+    "operationName": "CategoryChannels"
+  }
+}

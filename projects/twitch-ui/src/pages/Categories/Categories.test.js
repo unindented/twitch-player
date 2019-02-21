@@ -7,13 +7,13 @@ jest.mock("react-apollo-hooks", () => ({
   useQuery: jest.fn(),
 }));
 
-const topGames = require("@twitch-player/data/fixtures/topGames.json");
+const topCategories = require("@twitch-player/data/fixtures/topCategories.json");
 
 describe("Categories", () => {
   let instance;
 
   beforeEach(() => {
-    useQuery.mockImplementationOnce(() => topGames);
+    useQuery.mockImplementationOnce(() => topCategories);
 
     instance = render(<Categories />);
   });

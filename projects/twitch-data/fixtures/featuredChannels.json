@@ -1,0 +1,612 @@
+{
+  "data": {
+    "channels": [
+      {
+        "channel": {
+          "id": "31879258576",
+          "key": "31879258576",
+          "previewImageURL": "channels/live_user_broskian-800x450.jpg",
+          "viewersCount": 5374,
+          "broadcaster": {
+            "id": "30972653",
+            "key": "30972653",
+            "login": "broskian",
+            "displayName": "Broskian",
+            "profileImageURL": "profiles/fd117af9-8198-4adb-a4c7-d845163d41be-profile_image-150x150.png",
+            "broadcastSettings": {
+              "title": "Free Hugs Here! Front Page Hypu !prime  @Broskian_",
+              "__typename": "BroadcastSettings"
+            },
+            "__typename": "User"
+          },
+          "category": {
+            "id": "497057",
+            "key": "497057",
+            "name": "Destiny 2",
+            "boxArtURL": "categories/Destiny%202-376x500.jpg",
+            "viewersCount": 12808,
+            "followersCount": 3142857,
+            "__typename": "Game"
+          },
+          "tags": [
+            {
+              "id": "e90b5f6e-4c6e-4003-885b-4d0d5adeb580",
+              "key": "e90b5f6e-4c6e-4003-885b-4d0d5adeb580",
+              "isLanguageTag": false,
+              "localizedName": "Family Friendly",
+              "tagName": "Family Friendly",
+              "__typename": "Tag"
+            },
+            {
+              "id": "ac763b17-7bea-4632-9eb4-d106689ff409",
+              "key": "ac763b17-7bea-4632-9eb4-d106689ff409",
+              "isLanguageTag": false,
+              "localizedName": "Playing with Viewers",
+              "tagName": "Playing with Viewers",
+              "__typename": "Tag"
+            },
+            {
+              "id": "ff56eeeb-99ed-4a60-93fc-0b3f05d8661e",
+              "key": "ff56eeeb-99ed-4a60-93fc-0b3f05d8661e",
+              "isLanguageTag": false,
+              "localizedName": "Multiplayer",
+              "tagName": "Multiplayer",
+              "__typename": "Tag"
+            },
+            {
+              "id": "1eba3cfe-51cc-460a-8259-bc8bb987f904",
+              "key": "1eba3cfe-51cc-460a-8259-bc8bb987f904",
+              "isLanguageTag": false,
+              "localizedName": "Competitive",
+              "tagName": "Competitive",
+              "__typename": "Tag"
+            },
+            {
+              "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+              "key": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+              "isLanguageTag": true,
+              "localizedName": "English",
+              "tagName": "auto___lang_en",
+              "__typename": "Tag"
+            }
+          ],
+          "__typename": "Stream"
+        },
+        "__typename": "FeaturedStream"
+      },
+      {
+        "channel": {
+          "id": "31870691600",
+          "key": "31870691600",
+          "previewImageURL": "channels/live_user_supermcgamer-800x450.jpg",
+          "viewersCount": 7309,
+          "broadcaster": {
+            "id": "21015760",
+            "key": "21015760",
+            "login": "supermcgamer",
+            "displayName": "SuperMCGamer",
+            "profileImageURL": "profiles/afab8c8e-9e3c-47fe-a262-f376c3073eab-profile_image-150x150.png",
+            "broadcastSettings": {
+              "title": "6 DAYS OF ZELDA FOR CHARITY! - Zeldathon Response",
+              "__typename": "BroadcastSettings"
+            },
+            "__typename": "User"
+          },
+          "category": {
+            "id": "11557",
+            "key": "11557",
+            "name": "The Legend of Zelda: Ocarina of Time",
+            "boxArtURL": "categories/./The%20Legend%20of%20Zelda:%20Ocarina%20of%20Time-376x500.jpg",
+            "viewersCount": 9044,
+            "followersCount": 694628,
+            "__typename": "Game"
+          },
+          "tags": [
+            {
+              "id": "bb5e7234-380e-48ad-a59c-03e51274e478",
+              "key": "bb5e7234-380e-48ad-a59c-03e51274e478",
+              "isLanguageTag": false,
+              "localizedName": "Charity",
+              "tagName": "Charity",
+              "__typename": "Tag"
+            },
+            {
+              "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+              "key": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+              "isLanguageTag": true,
+              "localizedName": "English",
+              "tagName": "auto___lang_en",
+              "__typename": "Tag"
+            }
+          ],
+          "__typename": "Stream"
+        },
+        "__typename": "FeaturedStream"
+      },
+      {
+        "channel": {
+          "id": "31871633760",
+          "key": "31871633760",
+          "previewImageURL": "channels/live_user_twitchpresents-800x450.jpg",
+          "viewersCount": 10176,
+          "broadcaster": {
+            "id": "149747285",
+            "key": "149747285",
+            "login": "twitchpresents",
+            "displayName": "TwitchPresents",
+            "profileImageURL": "profiles/dd542e0da09855b6-profile_image-150x150.jpeg",
+            "broadcastSettings": {
+              "title": "Pokémon starting 10AM every day! !pokemon",
+              "__typename": "BroadcastSettings"
+            },
+            "__typename": "User"
+          },
+          "category": {
+            "id": "499973",
+            "key": "499973",
+            "name": "Always On",
+            "boxArtURL": "categories/Always%20On-376x500.jpg",
+            "viewersCount": 13661,
+            "followersCount": 408719,
+            "__typename": "Game"
+          },
+          "tags": [
+            {
+              "id": "1706e401-a023-49fc-9b10-7bf73f59c940",
+              "key": "1706e401-a023-49fc-9b10-7bf73f59c940",
+              "isLanguageTag": false,
+              "localizedName": "Marathon",
+              "tagName": "Marathon",
+              "__typename": "Tag"
+            },
+            {
+              "id": "e3a6b378-232b-4ec2-9a82-86b72851e09a",
+              "key": "e3a6b378-232b-4ec2-9a82-86b72851e09a",
+              "isLanguageTag": false,
+              "localizedName": "Animation",
+              "tagName": "Animation",
+              "__typename": "Tag"
+            },
+            {
+              "id": "e90b5f6e-4c6e-4003-885b-4d0d5adeb580",
+              "key": "e90b5f6e-4c6e-4003-885b-4d0d5adeb580",
+              "isLanguageTag": false,
+              "localizedName": "Family Friendly",
+              "tagName": "Family Friendly",
+              "__typename": "Tag"
+            },
+            {
+              "id": "8a01ea18-df97-4046-9cff-a9a822bb96e5",
+              "key": "8a01ea18-df97-4046-9cff-a9a822bb96e5",
+              "isLanguageTag": false,
+              "localizedName": "Closed Captions",
+              "tagName": "Closed Captions",
+              "__typename": "Tag"
+            },
+            {
+              "id": "6606e54c-f92d-40f6-8257-74977889ccdd",
+              "key": "6606e54c-f92d-40f6-8257-74977889ccdd",
+              "isLanguageTag": false,
+              "localizedName": "Anime",
+              "tagName": "Anime",
+              "__typename": "Tag"
+            },
+            {
+              "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+              "key": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+              "isLanguageTag": true,
+              "localizedName": "English",
+              "tagName": "auto___lang_en",
+              "__typename": "Tag"
+            }
+          ],
+          "__typename": "Stream"
+        },
+        "__typename": "FeaturedStream"
+      },
+      {
+        "channel": {
+          "id": "31879434944",
+          "key": "31879434944",
+          "previewImageURL": "channels/live_user_ninja-800x450.jpg",
+          "viewersCount": 25491,
+          "broadcaster": {
+            "id": "19571641",
+            "key": "19571641",
+            "login": "ninja",
+            "displayName": "Ninja",
+            "profileImageURL": "profiles/cef31105-8a6e-4211-a74b-2f0bbd9791fb-profile_image-150x150.png",
+            "broadcastSettings": {
+              "title": "We Gaming <3 ",
+              "__typename": "BroadcastSettings"
+            },
+            "__typename": "User"
+          },
+          "category": {
+            "id": "33214",
+            "key": "33214",
+            "name": "Fortnite",
+            "boxArtURL": "categories/Fortnite-376x500.jpg",
+            "viewersCount": 240733,
+            "followersCount": 35800783,
+            "__typename": "Game"
+          },
+          "tags": [
+            {
+              "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+              "key": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+              "isLanguageTag": true,
+              "localizedName": "English",
+              "tagName": "auto___lang_en",
+              "__typename": "Tag"
+            }
+          ],
+          "__typename": "Stream"
+        },
+        "__typename": "FeaturedStream"
+      },
+      {
+        "channel": {
+          "id": "31876018512",
+          "key": "31876018512",
+          "previewImageURL": "channels/live_user_renae-800x450.jpg",
+          "viewersCount": 135,
+          "broadcaster": {
+            "id": "62744891",
+            "key": "62744891",
+            "login": "renae",
+            "displayName": "Renae",
+            "profileImageURL": "profiles/cd34ce39-55dc-4c72-855c-26c6d49760fe-profile_image-150x150.png",
+            "broadcastSettings": {
+              "title": "Continuing Year of Dragon! ",
+              "__typename": "BroadcastSettings"
+            },
+            "__typename": "User"
+          },
+          "category": {
+            "id": "505380",
+            "key": "505380",
+            "name": "Spyro Reignited Trilogy",
+            "boxArtURL": "categories/Spyro%20Reignited%20Trilogy-376x500.jpg",
+            "viewersCount": 769,
+            "followersCount": 47220,
+            "__typename": "Game"
+          },
+          "tags": [
+            {
+              "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+              "key": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+              "isLanguageTag": true,
+              "localizedName": "English",
+              "tagName": "auto___lang_en",
+              "__typename": "Tag"
+            }
+          ],
+          "__typename": "Stream"
+        },
+        "__typename": "FeaturedStream"
+      },
+      {
+        "channel": {
+          "id": "31879160288",
+          "key": "31879160288",
+          "previewImageURL": "channels/live_user_problyovr9000-800x450.jpg",
+          "viewersCount": 73,
+          "broadcaster": {
+            "id": "76938196",
+            "key": "76938196",
+            "login": "problyovr9000",
+            "displayName": "ProblyOvr9000",
+            "profileImageURL": "profiles/331581fd-78bf-48af-897d-8474e97bcb4b-profile_image-150x150.png",
+            "broadcastSettings": {
+              "title": "The Most Entertaining Follow @ProblyOvr9000",
+              "__typename": "BroadcastSettings"
+            },
+            "__typename": "User"
+          },
+          "category": {
+            "id": "504199",
+            "key": "504199",
+            "name": "Battlefield V",
+            "boxArtURL": "categories/Battlefield%20V-376x500.jpg",
+            "viewersCount": 1373,
+            "followersCount": 759020,
+            "__typename": "Game"
+          },
+          "tags": [
+            {
+              "id": "8486f56b-8677-44f7-8004-000295391524",
+              "key": "8486f56b-8677-44f7-8004-000295391524",
+              "isLanguageTag": false,
+              "localizedName": "PvP",
+              "tagName": "PvP",
+              "__typename": "Tag"
+            },
+            {
+              "id": "1eba3cfe-51cc-460a-8259-bc8bb987f904",
+              "key": "1eba3cfe-51cc-460a-8259-bc8bb987f904",
+              "isLanguageTag": false,
+              "localizedName": "Competitive",
+              "tagName": "Competitive",
+              "__typename": "Tag"
+            },
+            {
+              "id": "ac763b17-7bea-4632-9eb4-d106689ff409",
+              "key": "ac763b17-7bea-4632-9eb4-d106689ff409",
+              "isLanguageTag": false,
+              "localizedName": "Playing with Viewers",
+              "tagName": "Playing with Viewers",
+              "__typename": "Tag"
+            },
+            {
+              "id": "dbe20395-0e44-4156-92de-4a77f6cdccf0",
+              "key": "dbe20395-0e44-4156-92de-4a77f6cdccf0",
+              "isLanguageTag": false,
+              "localizedName": "Wargame",
+              "tagName": "Wargame",
+              "__typename": "Tag"
+            },
+            {
+              "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+              "key": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+              "isLanguageTag": true,
+              "localizedName": "English",
+              "tagName": "auto___lang_en",
+              "__typename": "Tag"
+            }
+          ],
+          "__typename": "Stream"
+        },
+        "__typename": "FeaturedStream"
+      },
+      {
+        "channel": {
+          "id": "31878475872",
+          "key": "31878475872",
+          "previewImageURL": "channels/live_user_patrckstatic-800x450.jpg",
+          "viewersCount": 213,
+          "broadcaster": {
+            "id": "40170801",
+            "key": "40170801",
+            "login": "patrckstatic",
+            "displayName": "PatrckStatic",
+            "profileImageURL": "profiles/9118f8c4-baa0-41c1-a0fd-2a37c2083ee6-profile_image-150x150.png",
+            "broadcastSettings": {
+              "title": "HEWWO! Fun and Games GALORE! *What is your favorite Board Game?*",
+              "__typename": "BroadcastSettings"
+            },
+            "__typename": "User"
+          },
+          "category": {
+            "id": "23017",
+            "key": "23017",
+            "name": "Dead Space 2",
+            "boxArtURL": "categories/Dead%20Space%202-376x500.jpg",
+            "viewersCount": 223,
+            "followersCount": 49559,
+            "__typename": "Game"
+          },
+          "tags": [
+            {
+              "id": "8ba227ca-073c-46a7-b3cc-193e52c5ab4d",
+              "key": "8ba227ca-073c-46a7-b3cc-193e52c5ab4d",
+              "isLanguageTag": false,
+              "localizedName": "Let's Play",
+              "tagName": "Let's Play",
+              "__typename": "Tag"
+            },
+            {
+              "id": "cc8d5abb-39c9-4942-a1ee-e1558512119e",
+              "key": "cc8d5abb-39c9-4942-a1ee-e1558512119e",
+              "isLanguageTag": false,
+              "localizedName": "Casual Playthrough",
+              "tagName": "Casual Playthrough",
+              "__typename": "Tag"
+            },
+            {
+              "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+              "key": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+              "isLanguageTag": true,
+              "localizedName": "English",
+              "tagName": "auto___lang_en",
+              "__typename": "Tag"
+            }
+          ],
+          "__typename": "Stream"
+        },
+        "__typename": "FeaturedStream"
+      },
+      {
+        "channel": {
+          "id": "31878683072",
+          "key": "31878683072",
+          "previewImageURL": "channels/live_user_acedolo-800x450.jpg",
+          "viewersCount": 100,
+          "broadcaster": {
+            "id": "79505769",
+            "key": "79505769",
+            "login": "acedolo",
+            "displayName": "AceDolo",
+            "profileImageURL": "profiles/012fd354-2d3c-4518-8f41-a1bf34962a7b-profile_image-150x150.png",
+            "broadcastSettings": {
+              "title": "Friday Eve !vid | @AceDolox1",
+              "__typename": "BroadcastSettings"
+            },
+            "__typename": "User"
+          },
+          "category": {
+            "id": "460630",
+            "key": "460630",
+            "name": "Tom Clancy's Rainbow Six: Siege",
+            "boxArtURL": "categories/./Tom%20Clancy%27s%20Rainbow%20Six:%20Siege-376x500.jpg",
+            "viewersCount": 9968,
+            "followersCount": 8852048,
+            "__typename": "Game"
+          },
+          "tags": [
+            {
+              "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+              "key": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+              "isLanguageTag": true,
+              "localizedName": "English",
+              "tagName": "auto___lang_en",
+              "__typename": "Tag"
+            }
+          ],
+          "__typename": "Stream"
+        },
+        "__typename": "FeaturedStream"
+      },
+      {
+        "channel": {
+          "id": "31874641312",
+          "key": "31874641312",
+          "previewImageURL": "channels/live_user_1ceprime-800x450.jpg",
+          "viewersCount": 229,
+          "broadcaster": {
+            "id": "81795595",
+            "key": "81795595",
+            "login": "1ceprime",
+            "displayName": "1cePrime",
+            "profileImageURL": "profiles/49f9d82c-5067-4103-96c7-571d6ad22a57-profile_image-150x150.png",
+            "broadcastSettings": {
+              "title": "back to the seas | official PVP | !420",
+              "__typename": "BroadcastSettings"
+            },
+            "__typename": "User"
+          },
+          "category": {
+            "id": "5945",
+            "key": "5945",
+            "name": "Atlas",
+            "boxArtURL": "categories/Atlas-376x500.jpg",
+            "viewersCount": 56141,
+            "followersCount": 77429,
+            "__typename": "Game"
+          },
+          "tags": [
+            {
+              "id": "ff56eeeb-99ed-4a60-93fc-0b3f05d8661e",
+              "key": "ff56eeeb-99ed-4a60-93fc-0b3f05d8661e",
+              "isLanguageTag": false,
+              "localizedName": "Multiplayer",
+              "tagName": "Multiplayer",
+              "__typename": "Tag"
+            },
+            {
+              "id": "8486f56b-8677-44f7-8004-000295391524",
+              "key": "8486f56b-8677-44f7-8004-000295391524",
+              "isLanguageTag": false,
+              "localizedName": "PvP",
+              "tagName": "PvP",
+              "__typename": "Tag"
+            },
+            {
+              "id": "2dd8ed44-9043-4457-bb8d-e6c9a35e0b4d",
+              "key": "2dd8ed44-9043-4457-bb8d-e6c9a35e0b4d",
+              "isLanguageTag": false,
+              "localizedName": "Hair Styling",
+              "tagName": "Hair Styling",
+              "__typename": "Tag"
+            },
+            {
+              "id": "a4fac2cc-7cd4-44a6-b620-178182389a5b",
+              "key": "a4fac2cc-7cd4-44a6-b620-178182389a5b",
+              "isLanguageTag": false,
+              "localizedName": "Exploration",
+              "tagName": "Exploration",
+              "__typename": "Tag"
+            },
+            {
+              "id": "ac763b17-7bea-4632-9eb4-d106689ff409",
+              "key": "ac763b17-7bea-4632-9eb4-d106689ff409",
+              "isLanguageTag": false,
+              "localizedName": "Playing with Viewers",
+              "tagName": "Playing with Viewers",
+              "__typename": "Tag"
+            },
+            {
+              "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+              "key": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+              "isLanguageTag": true,
+              "localizedName": "English",
+              "tagName": "auto___lang_en",
+              "__typename": "Tag"
+            }
+          ],
+          "__typename": "Stream"
+        },
+        "__typename": "FeaturedStream"
+      },
+      {
+        "channel": {
+          "id": "31879568144",
+          "key": "31879568144",
+          "previewImageURL": "channels/live_user_swag_dracula-800x450.jpg",
+          "viewersCount": 387,
+          "broadcaster": {
+            "id": "158636407",
+            "key": "158636407",
+            "login": "swag_dracula",
+            "displayName": "Swag_Dracula",
+            "profileImageURL": "profiles/6a52e82a1f62a1f8-profile_image-150x150.png",
+            "broadcastSettings": {
+              "title": "Dead Daylight Deademption 2 #charitybits  !Mentalhealth @Swag_Dracula",
+              "__typename": "BroadcastSettings"
+            },
+            "__typename": "User"
+          },
+          "category": {
+            "id": "491487",
+            "key": "491487",
+            "name": "Dead by Daylight",
+            "boxArtURL": "categories/Dead%20by%20Daylight-376x500.jpg",
+            "viewersCount": 16126,
+            "followersCount": 4815438,
+            "__typename": "Game"
+          },
+          "tags": [
+            {
+              "id": "1eba3cfe-51cc-460a-8259-bc8bb987f904",
+              "key": "1eba3cfe-51cc-460a-8259-bc8bb987f904",
+              "isLanguageTag": false,
+              "localizedName": "Competitive",
+              "tagName": "Competitive",
+              "__typename": "Tag"
+            },
+            {
+              "id": "63e83904-a70b-4709-b963-a37a105d9932",
+              "key": "63e83904-a70b-4709-b963-a37a105d9932",
+              "isLanguageTag": false,
+              "localizedName": "Cooperative",
+              "tagName": "Cooperative",
+              "__typename": "Tag"
+            },
+            {
+              "id": "df262ff6-74d1-415b-942c-d584d44426c4",
+              "key": "df262ff6-74d1-415b-942c-d584d44426c4",
+              "isLanguageTag": false,
+              "localizedName": "Epic Level Characters",
+              "tagName": "Epic Level Characters",
+              "__typename": "Tag"
+            },
+            {
+              "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+              "key": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+              "isLanguageTag": true,
+              "localizedName": "English",
+              "tagName": "auto___lang_en",
+              "__typename": "Tag"
+            }
+          ],
+          "__typename": "Stream"
+        },
+        "__typename": "FeaturedStream"
+      }
+    ]
+  },
+  "extensions": {
+    "durationMilliseconds": 118,
+    "operationName": "FeaturedChannels"
+  }
+}

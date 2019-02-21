@@ -1,4 +1,4 @@
-export { default as CategoryStreamsQuery } from "./CategoryStreams";
-export { default as FeaturedStreamsQuery } from "./FeaturedStreams";
-export { default as TopGamesQuery } from "./TopGames";
-export { default as TopStreamsQuery } from "./TopStreams";
+export { default as CategoryChannelsQuery } from "./CategoryChannels";
+export { default as FeaturedChannelsQuery } from "./FeaturedChannels";
+export { default as TopCategoriesQuery } from "./TopCategories";
+export { default as TopChannelsQuery } from "./TopChannels";

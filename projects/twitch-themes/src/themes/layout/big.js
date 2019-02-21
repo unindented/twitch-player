@@ -12,8 +12,8 @@ export default {
   gapSmall: normal.gapSmall * 2,
   navSize: normal.navSize * 2,
   spinnerSize: normal.spinnerSize * 2,
-  maxGameWidth: normal.maxGameWidth * 2,
-  maxGameHeight: normal.maxGameHeight * 2,
-  maxStreamWidth: normal.maxStreamWidth * 2,
-  maxStreamHeight: normal.maxStreamHeight * 2,
+  maxCategoryWidth: normal.maxCategoryWidth * 2,
+  maxCategoryHeight: normal.maxCategoryHeight * 2,
+  maxChannelWidth: normal.maxChannelWidth * 2,
+  maxChannelHeight: normal.maxChannelHeight * 2,
 };

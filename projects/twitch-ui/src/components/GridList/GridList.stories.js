@@ -6,22 +6,22 @@ import GridList from ".";
 
 const data = [
   {
-    previewImageURL: "streams/live_user_tfue-800x450.jpg",
+    previewImageURL: "channels/live_user_tfue-800x450.jpg",
   },
   {
-    previewImageURL: "streams/live_user_ninja-800x450.jpg",
+    previewImageURL: "channels/live_user_ninja-800x450.jpg",
   },
   {
-    previewImageURL: "streams/live_user_summit1g-800x450.jpg",
+    previewImageURL: "channels/live_user_summit1g-800x450.jpg",
   },
   {
-    previewImageURL: "streams/live_user_timthetatman-800x450.jpg",
+    previewImageURL: "channels/live_user_timthetatman-800x450.jpg",
   },
   {
-    previewImageURL: "streams/live_user_shroud-800x450.jpg",
+    previewImageURL: "channels/live_user_shroud-800x450.jpg",
   },
   {
-    previewImageURL: "streams/live_user_nickmercs-800x450.jpg",
+    previewImageURL: "channels/live_user_nickmercs-800x450.jpg",
   },
 ];
 

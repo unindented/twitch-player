@@ -7,13 +7,13 @@ jest.mock("react-apollo-hooks", () => ({
   useQuery: jest.fn(),
 }));
 
-const categoryStreams = require("@twitch-player/data/fixtures/categoryStreams.json");
+const categoryChannels = require("@twitch-player/data/fixtures/categoryChannels.json");
 
 describe("Category", () => {
   let instance;
 
   beforeEach(() => {
-    useQuery.mockImplementationOnce(() => categoryStreams);
+    useQuery.mockImplementationOnce(() => categoryChannels);
 
     instance = render(<Category match={{ params: { name: "Fortnite" } }} />);
   });

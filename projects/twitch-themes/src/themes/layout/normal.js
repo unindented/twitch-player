@@ -10,8 +10,8 @@ export default {
   gapSmall: 5,
   navSize: 32,
   spinnerSize: 36,
-  maxGameWidth: 188,
-  maxGameHeight: 250,
-  maxStreamWidth: 400,
-  maxStreamHeight: 225,
+  maxCategoryWidth: 188,
+  maxCategoryHeight: 250,
+  maxChannelWidth: 400,
+  maxChannelHeight: 225,
 };

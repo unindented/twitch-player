@@ -21,11 +21,11 @@
   },
   "pages": {
     "home": {
-      "featuredStreamsHeading": "ערוצים נבחרים",
-      "topGamesHeading": "קטגוריות מובילות",
-      "topStreamsHeading": "ערוצים מובילים חיים",
-      "topPS4StreamsHeading": "למעלה ערוצי PS4",
-      "topXboxOneStreamsHeading": "למעלה ערוצי Xbox One"
+      "featuredChannelsHeading": "ערוצים נבחרים",
+      "topCategoriesHeading": "קטגוריות מובילות",
+      "topChannelsHeading": "ערוצים מובילים חיים",
+      "topPS4ChannelsHeading": "למעלה ערוצי PS4",
+      "topXboxOneChannelsHeading": "למעלה ערוצי Xbox One"
     },
     "channels": {
       "mainHeading": "ערוצים חיים"

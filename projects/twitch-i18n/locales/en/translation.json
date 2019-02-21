@@ -17,11 +17,11 @@
   },
   "pages": {
     "home": {
-      "featuredStreamsHeading": "Featured Channels",
-      "topGamesHeading": "Top Categories",
-      "topStreamsHeading": "Top Live Channels",
-      "topPS4StreamsHeading": "Top PS4 Channels",
-      "topXboxOneStreamsHeading": "Top Xbox One Channels"
+      "featuredChannelsHeading": "Featured Channels",
+      "topCategoriesHeading": "Top Categories",
+      "topChannelsHeading": "Top Live Channels",
+      "topPS4ChannelsHeading": "Top PS4 Channels",
+      "topXboxOneChannelsHeading": "Top Xbox One Channels"
     },
     "channels": {
       "mainHeading": "Live Channels"

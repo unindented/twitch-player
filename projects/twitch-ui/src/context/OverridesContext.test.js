@@ -5,14 +5,14 @@ import { render } from "react-testing-library";
 import { OverridesContext, OverridesProvider } from ".";
 
 const SomeComponent = () => {
-  const { StreamPlayer } = useContext(OverridesContext);
+  const { ChannelPlayer } = useContext(OverridesContext);
 
-  return <StreamPlayer src="https://www.twitch.tv/" />;
+  return <ChannelPlayer src="https://www.twitch.tv/" />;
 };
 
-const SomeStreamPlayer = ({ src }) => <Text>{src}</Text>;
+const SomeChannelPlayer = ({ src }) => <Text>{src}</Text>;
 
-SomeStreamPlayer.propTypes = {
+SomeChannelPlayer.propTypes = {
   src: PropTypes.string.isRequired,
 };
 
@@ -36,7 +36,7 @@ describe("OverridesContext", () => {
   describe("with overrides", () => {
     beforeEach(() => {
       instance = render(
-        <OverridesProvider overrides={{ StreamPlayer: SomeStreamPlayer }}>
+        <OverridesProvider overrides={{ ChannelPlayer: SomeChannelPlayer }}>
           <SomeComponent />
         </OverridesProvider>
       );

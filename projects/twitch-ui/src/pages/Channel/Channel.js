@@ -1,14 +1,14 @@
 import PropTypes from "prop-types";
 import React, { memo } from "react";
 import { StyleSheet, View } from "react-native";
-import StreamPlayerFrame from "../../components/StreamPlayerFrame";
+import ChannelPlayerFrame from "../../components/ChannelPlayerFrame";
 
 const Channel = ({ match, testID = "channel-page" }) => {
   const { name } = match.params;
 
   return (
     <View style={styles.root} testID={testID}>
-      <StreamPlayerFrame name={name} />
+      <ChannelPlayerFrame name={name} />
     </View>
   );
 };
