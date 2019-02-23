@@ -17,12 +17,18 @@ const RetryButton = ({ onPress, testID = "retry-button" }) => {
     },
   ];
 
+  // We don't want the callback to receive any arguments, so that we can pass
+  // things like Apollo's `refetch` straight through.
+  const onPressWithoutArgs = () => {
+    onPress();
+  };
+
   return (
     <View style={rootStyle} testID={testID}>
       <Button
         color={colors.link}
         title={t("errors.failedToLoad")}
-        onPress={onPress}
+        onPress={onPressWithoutArgs}
       />
     </View>
   );
