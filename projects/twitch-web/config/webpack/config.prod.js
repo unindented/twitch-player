@@ -14,7 +14,7 @@ module.exports = env => {
     plugins: [
       new PreloadWebpackPlugin({
         rel: "preload",
-        include: "initial",
+        include: ["index", "render", "vendors~render"],
       }),
       new GenerateSW({
         swDest: "sw.js",

@@ -20,38 +20,7 @@
 
     <title><%= htmlWebpackPlugin.options.title %></title>
 
-    <link rel="manifest" href="<%= require('./manifest.webmanifest') %>" />
-
-    <link
-      rel="apple-touch-icon"
-      sizes="57x57"
-      href="<%= require('@twitch-player/assets/dist/web/icon_ios_57x57.png') %>"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="76x76"
-      href="<%= require('@twitch-player/assets/dist/web/icon_ios_76x76.png') %>"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="120x120"
-      href="<%= require('@twitch-player/assets/dist/web/icon_ios_120x120.png') %>"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="152x152"
-      href="<%= require('@twitch-player/assets/dist/web/icon_ios_152x152.png') %>"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="167x167"
-      href="<%= require('@twitch-player/assets/dist/web/icon_ios_167x167.png') %>"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="<%= require('@twitch-player/assets/dist/web/icon_ios_180x180.png') %>"
-    />
+    <link rel="preconnect" href="<%= process.env.TWITCH_GRAPHQL_ORIGIN %>" />
 
     <style>
       html,
@@ -92,6 +61,39 @@
         width: 10%;
       }
     </style>
+
+    <link rel="manifest" href="<%= require('./manifest.webmanifest') %>" />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="<%= require('@twitch-player/assets/dist/web/icon_ios_57x57.png') %>"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="<%= require('@twitch-player/assets/dist/web/icon_ios_76x76.png') %>"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="<%= require('@twitch-player/assets/dist/web/icon_ios_120x120.png') %>"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="<%= require('@twitch-player/assets/dist/web/icon_ios_152x152.png') %>"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="167x167"
+      href="<%= require('@twitch-player/assets/dist/web/icon_ios_167x167.png') %>"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="<%= require('@twitch-player/assets/dist/web/icon_ios_180x180.png') %>"
+    />
   </head>
 
   <body>

@@ -10,12 +10,7 @@
 
     <title><%= htmlWebpackPlugin.options.title %></title>
 
-    <link
-      rel="tizen-icon"
-      type="image/png"
-      sizes="117x117"
-      href="<%= require('@twitch-player/assets/dist/tizen/icon_117x117.png') %>"
-    />
+    <link rel="dns-prefetch" href="<%= process.env.TWITCH_GRAPHQL_ORIGIN %>" />
 
     <style>
       html,
@@ -62,6 +57,13 @@
         width: 10%;
       }
     </style>
+
+    <link
+      rel="tizen-icon"
+      type="image/png"
+      sizes="117x117"
+      href="<%= require('@twitch-player/assets/dist/tizen/icon_117x117.png') %>"
+    />
   </head>
 
   <body>
