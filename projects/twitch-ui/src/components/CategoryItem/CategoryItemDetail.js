@@ -9,7 +9,7 @@ const CategoryItemDetail = ({
   name,
   viewersCount,
   width: boxArtWidth,
-  isHover,
+  isHighlighted,
   testID = "category-item-detail",
 }) => {
   const { t } = useTranslation();
@@ -24,12 +24,12 @@ const CategoryItemDetail = ({
   const detailPrimaryStyle = [
     styles.detailPrimary,
     {
-      color: isHover ? colors.itemPrimaryHover : colors.itemPrimary,
+      color: isHighlighted ? colors.itemPrimaryHover : colors.itemPrimary,
       fontSize: typography.sizeSecondary,
     },
   ];
   const detailSecondaryStyle = {
-    color: isHover ? colors.itemSecondaryHover : colors.itemSecondary,
+    color: isHighlighted ? colors.itemSecondaryHover : colors.itemSecondary,
     fontSize: typography.sizeTertiary,
   };
 
@@ -51,7 +51,7 @@ CategoryItemDetail.propTypes = {
   name: PropTypes.string.isRequired,
   viewersCount: PropTypes.number.isRequired,
   width: PropTypes.number.isRequired,
-  isHover: PropTypes.bool,
+  isHighlighted: PropTypes.bool,
   testID: PropTypes.string,
 };
 

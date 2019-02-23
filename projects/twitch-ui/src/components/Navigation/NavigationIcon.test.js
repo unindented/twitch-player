@@ -1,16 +1,16 @@
 import { render } from "@twitch-player/testing/dist/unit";
 import React from "react";
-import Hoverable from "../Hoverable";
+import Highlightable from "../Highlightable";
 import NavigationIcon from "./NavigationIcon";
 
-jest.mock("../Hoverable", () => jest.fn());
+jest.mock("../Highlightable", () => jest.fn());
 
 describe("NavigationIcon", () => {
   let instance;
 
   describe("when not hovering", () => {
     beforeEach(() => {
-      Hoverable.mockImplementation(({ children }) => children(false));
+      Highlightable.mockImplementation(({ children }) => children(false));
 
       instance = render(
         <NavigationIcon
@@ -28,7 +28,7 @@ describe("NavigationIcon", () => {
 
   describe("when hovering", () => {
     beforeEach(() => {
-      Hoverable.mockImplementation(({ children }) => children(true));
+      Highlightable.mockImplementation(({ children }) => children(true));
 
       instance = render(
         <NavigationIcon

@@ -24,7 +24,7 @@ describe("CategoryItemDetail", () => {
           name="Fortnite"
           viewersCount={123456}
           width={188}
-          isHover={true}
+          isHighlighted={true}
         />
       );
     });

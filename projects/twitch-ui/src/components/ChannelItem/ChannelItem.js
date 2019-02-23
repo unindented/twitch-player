@@ -1,9 +1,9 @@
 import { ChannelType } from "@twitch-player/data";
 import PropTypes from "prop-types";
 import React, { memo } from "react";
-import { View } from "react-native";
+import { StyleSheet, View } from "react-native";
 import { useTheme } from "../../hooks";
-import Hoverable from "../Hoverable";
+import Highlightable from "../Highlightable";
 import InternalTouchableLink from "../InternalTouchableLink";
 import ChannelItemDetail from "./ChannelItemDetail";
 import ChannelItemImage from "./ChannelItemImage";
@@ -29,15 +29,18 @@ const ChannelItem = ({
   const categoryName = category && category.name;
 
   return (
-    <Hoverable>
-      {isHover => {
+    <Highlightable>
+      {isHighlighted => {
         const wrapperStyle = {
-          backgroundColor: isHover ? colors.itemBackgroundHover : "transparent",
+          backgroundColor: isHighlighted
+            ? colors.itemBackgroundHover
+            : "transparent",
         };
 
         return (
           <InternalTouchableLink
             href={`/channels/${broadcasterLogin}`}
+            style={styles.root}
             testID={testID}
           >
             <View style={wrapperStyle} testID={`${testID}-wrapper`}>
@@ -55,14 +58,14 @@ const ChannelItem = ({
                 broadcasterImageURL={broadcasterImageURL}
                 categoryName={categoryName}
                 width={previewImageWidth}
-                isHover={isHover}
+                isHighlighted={isHighlighted}
                 testID={`${testID}-detail`}
               />
             </View>
           </InternalTouchableLink>
         );
       }}
-    </Hoverable>
+    </Highlightable>
   );
 };
 
@@ -72,5 +75,11 @@ ChannelItem.propTypes = {
   height: PropTypes.number.isRequired,
   testID: PropTypes.string,
 };
+
+const styles = StyleSheet.create({
+  root: {
+    outline: "none",
+  },
+});
 
 export default memo(ChannelItem);

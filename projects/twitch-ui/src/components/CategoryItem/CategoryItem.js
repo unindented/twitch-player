@@ -1,9 +1,9 @@
 import { CategoryType } from "@twitch-player/data";
 import PropTypes from "prop-types";
 import React, { memo } from "react";
-import { View } from "react-native";
+import { StyleSheet, View } from "react-native";
 import { useTheme } from "../../hooks";
-import Hoverable from "../Hoverable";
+import Highlightable from "../Highlightable";
 import InternalTouchableLink from "../InternalTouchableLink";
 import CategoryItemDetail from "./CategoryItemDetail";
 import CategoryItemImage from "./CategoryItemImage";
@@ -17,14 +17,20 @@ const CategoryItem = ({
   const { colors } = useTheme();
 
   return (
-    <Hoverable>
-      {isHover => {
+    <Highlightable>
+      {isHighlighted => {
         const wrapperStyle = {
-          backgroundColor: isHover ? colors.itemBackgroundHover : "transparent",
+          backgroundColor: isHighlighted
+            ? colors.itemBackgroundHover
+            : "transparent",
         };
 
         return (
-          <InternalTouchableLink href={`/categories/${name}`} testID={testID}>
+          <InternalTouchableLink
+            href={`/categories/${name}`}
+            style={styles.root}
+            testID={testID}
+          >
             <View style={wrapperStyle} testID={`${testID}-wrapper`}>
               <CategoryItemImage
                 url={boxArtURL}
@@ -37,14 +43,14 @@ const CategoryItem = ({
                 name={name}
                 viewersCount={viewersCount}
                 width={boxArtWidth}
-                isHover={isHover}
+                isHighlighted={isHighlighted}
                 testID={`${testID}-detail`}
               />
             </View>
           </InternalTouchableLink>
         );
       }}
-    </Hoverable>
+    </Highlightable>
   );
 };
 
@@ -54,5 +60,11 @@ CategoryItem.propTypes = {
   height: PropTypes.number.isRequired,
   testID: PropTypes.string,
 };
+
+const styles = StyleSheet.create({
+  root: {
+    outline: "none",
+  },
+});
 
 export default memo(CategoryItem);

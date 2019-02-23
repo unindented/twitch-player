@@ -1,9 +1,9 @@
 import { render } from "@twitch-player/testing/dist/unit";
 import React from "react";
-import Hoverable from "../Hoverable";
+import Highlightable from "../Highlightable";
 import CategoryItem from "./CategoryItem";
 
-jest.mock("../Hoverable", () => jest.fn());
+jest.mock("../Highlightable", () => jest.fn());
 
 const { data } = require("@twitch-player/data/fixtures/topCategories.json");
 const [{ node: category }] = data.categories.edges;
@@ -13,7 +13,7 @@ describe("CategoryItem", () => {
 
   describe("when not hovering", () => {
     beforeEach(() => {
-      Hoverable.mockImplementation(({ children }) => children(false));
+      Highlightable.mockImplementation(({ children }) => children(false));
 
       instance = render(
         <CategoryItem item={category} width={188} height={250} />
@@ -27,7 +27,7 @@ describe("CategoryItem", () => {
 
   describe("when hovering", () => {
     beforeEach(() => {
-      Hoverable.mockImplementation(({ children }) => children(true));
+      Highlightable.mockImplementation(({ children }) => children(true));
 
       instance = render(
         <CategoryItem item={category} width={188} height={250} />

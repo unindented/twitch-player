@@ -10,7 +10,7 @@ const ChannelItemDetail = ({
   broadcasterImageURL,
   categoryName,
   width: previewImageWidth,
-  isHover,
+  isHighlighted,
   testID = "channel-item-detail",
 }) => {
   const { colors, layout, typography } = useTheme();
@@ -29,12 +29,12 @@ const ChannelItemDetail = ({
   const primaryTextStyle = [
     styles.primaryText,
     {
-      color: isHover ? colors.itemPrimaryHover : colors.itemPrimary,
+      color: isHighlighted ? colors.itemPrimaryHover : colors.itemPrimary,
       fontSize: typography.sizeSecondary,
     },
   ];
   const secondaryTextStyle = {
-    color: isHover ? colors.itemSecondaryHover : colors.itemSecondary,
+    color: isHighlighted ? colors.itemSecondaryHover : colors.itemSecondary,
     fontSize: typography.sizeTertiary,
   };
 
@@ -69,7 +69,7 @@ ChannelItemDetail.propTypes = {
   broadcasterImageURL: PropTypes.string.isRequired,
   categoryName: PropTypes.string,
   width: PropTypes.number.isRequired,
-  isHover: PropTypes.bool,
+  isHighlighted: PropTypes.bool,
   testID: PropTypes.string,
 };
 

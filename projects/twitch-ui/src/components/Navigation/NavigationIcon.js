@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 import React, { memo } from "react";
 import { Image, StyleSheet, View } from "react-native";
 import { useTheme } from "../../hooks";
-import Hoverable from "../Hoverable";
+import Highlightable from "../Highlightable";
 import InternalTouchableLink from "../InternalTouchableLink";
 
 const NavigationIcon = ({
@@ -16,25 +16,25 @@ const NavigationIcon = ({
   const imageSize = layout.navSize;
   const imageStyle = {
     height: imageSize,
-    margin: layout.gapSmall,
+    margin: layout.gapMedium,
     width: imageSize,
   };
 
   return (
-    <Hoverable>
-      {isHover => {
-        const wrapper = [
-          styles.wrapper,
-          {
-            backgroundColor: isHover
-              ? colors.navBackgroundHover
-              : "transparent",
-            margin: layout.gapSmall,
-          },
-        ];
+    <Highlightable>
+      {isHighlighted => {
+        const wrapper = {
+          backgroundColor: isHighlighted
+            ? colors.navBackgroundHover
+            : "transparent",
+        };
 
         return (
-          <InternalTouchableLink href={href} testID={testID}>
+          <InternalTouchableLink
+            href={href}
+            style={styles.root}
+            testID={testID}
+          >
             <View style={wrapper} testID={`${testID}-wrapper`}>
               <Image
                 source={{ uri: source }}
@@ -46,7 +46,7 @@ const NavigationIcon = ({
           </InternalTouchableLink>
         );
       }}
-    </Hoverable>
+    </Highlightable>
   );
 };
 
@@ -58,8 +58,8 @@ NavigationIcon.propTypes = {
 };
 
 const styles = StyleSheet.create({
-  wrapper: {
-    borderRadius: "50%",
+  root: {
+    outline: "none",
   },
 });
 

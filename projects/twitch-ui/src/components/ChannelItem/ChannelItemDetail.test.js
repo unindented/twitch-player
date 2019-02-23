@@ -52,7 +52,7 @@ describe("ChannelItemDetail", () => {
             broadcasterImageURL="profiles/cef31105-8a6e-4211-a74b-2f0bbd9791fb-profile_image-150x150.png"
             categoryName="Fortnite"
             width={400}
-            isHover={true}
+            isHighlighted={true}
           />
         );
       });
@@ -70,7 +70,7 @@ describe("ChannelItemDetail", () => {
             broadcasterName="Ninja"
             broadcasterImageURL="profiles/cef31105-8a6e-4211-a74b-2f0bbd9791fb-profile_image-150x150.png"
             width={400}
-            isHover={true}
+            isHighlighted={true}
           />
         );
       });
