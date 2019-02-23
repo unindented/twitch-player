@@ -103,7 +103,7 @@ exports[`ChannelItemBoundary when things are fine renders 1`] = `
             dir="auto"
             style="color: rgb(250, 249, 250); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif; font-size: 13px; padding: 10px 10px 5px 10px;"
           >
-            {{count}} viewer
+            {{count, number}} viewer
           </div>
         </div>
       </div>

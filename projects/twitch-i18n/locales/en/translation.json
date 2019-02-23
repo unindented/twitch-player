@@ -9,10 +9,10 @@
     },
     "item": {
       "liveIndicator": "Live",
-      "viewersCount": "{{count}} viewer",
-      "viewersCount_plural": "{{count}} viewers",
-      "followersCount": "{{count}} follower",
-      "followersCount_plural": "{{count}} followers"
+      "viewersCount": "{{count, number}} viewer",
+      "viewersCount_plural": "{{count, number}} viewers",
+      "followersCount": "{{count, number}} follower",
+      "followersCount_plural": "{{count, number}} followers"
     }
   },
   "pages": {

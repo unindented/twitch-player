@@ -9,14 +9,14 @@
     },
     "item": {
       "liveIndicator": "חיים",
-      "viewersCount_0": "{{count}} הצופה",
-      "viewersCount_1": "{{count}} צופים",
-      "viewersCount_2": "{{count}} צופים",
-      "viewersCount_3": "{{count}} צופים",
-      "followersCount_0": "{{count}} עוקב",
-      "followersCount_1": "{{count}} עוקבים",
-      "followersCount_2": "{{count}} עוקבים",
-      "followersCount_3": "{{count}} עוקבים"
+      "viewersCount_0": "{{count, number}} הצופה",
+      "viewersCount_1": "{{count, number}} צופים",
+      "viewersCount_2": "{{count, number}} צופים",
+      "viewersCount_3": "{{count, number}} צופים",
+      "followersCount_0": "{{count, number}} עוקב",
+      "followersCount_1": "{{count, number}} עוקבים",
+      "followersCount_2": "{{count, number}} עוקבים",
+      "followersCount_3": "{{count, number}} עוקבים"
     }
   },
   "pages": {

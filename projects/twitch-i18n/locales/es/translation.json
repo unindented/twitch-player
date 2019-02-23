@@ -9,10 +9,10 @@
     },
     "item": {
       "liveIndicator": "Directo",
-      "viewersCount": "{{count}} espectador",
-      "viewersCount_plural": "{{count}} espectadores",
-      "followersCount": "{{count}} seguidor",
-      "followersCount_plural": "{{count}} seguidores"
+      "viewersCount": "{{count, number}} espectador",
+      "viewersCount_plural": "{{count, number}} espectadores",
+      "followersCount": "{{count, number}} seguidor",
+      "followersCount_plural": "{{count, number}} seguidores"
     }
   },
   "pages": {

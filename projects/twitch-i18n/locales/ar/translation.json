@@ -9,18 +9,18 @@
     },
     "item": {
       "liveIndicator": "المباشر",
-      "viewersCount_0": "{{count}} مشاهدين",
-      "viewersCount_1": "{{count}} مشاهدين",
-      "viewersCount_2": "{{count}} مشاهدين",
-      "viewersCount_3": "{{count}} مشاهدين",
-      "viewersCount_4": "{{count}} مشاهدين",
-      "viewersCount_5": "{{count}} مشاهدين",
-      "followersCount_0": "{{count}} أتباع",
-      "followersCount_1": "{{count}} أتباع",
-      "followersCount_2": "{{count}} أتباع",
-      "followersCount_3": "{{count}} أتباع",
-      "followersCount_4": "{{count}} أتباع",
-      "followersCount_5": "{{count}} أتباع"
+      "viewersCount_0": "{{count, number}} مشاهدين",
+      "viewersCount_1": "{{count, number}} مشاهدين",
+      "viewersCount_2": "{{count, number}} مشاهدين",
+      "viewersCount_3": "{{count, number}} مشاهدين",
+      "viewersCount_4": "{{count, number}} مشاهدين",
+      "viewersCount_5": "{{count, number}} مشاهدين",
+      "followersCount_0": "{{count, number}} أتباع",
+      "followersCount_1": "{{count, number}} أتباع",
+      "followersCount_2": "{{count, number}} أتباع",
+      "followersCount_3": "{{count, number}} أتباع",
+      "followersCount_4": "{{count, number}} أتباع",
+      "followersCount_5": "{{count, number}} أتباع"
     }
   },
   "pages": {

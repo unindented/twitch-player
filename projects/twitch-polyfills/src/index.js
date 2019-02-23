@@ -43,6 +43,12 @@ const loadPolyfills = async () => {
     );
   }
 
+  // Not worth polyfilling for now.
+  if (!("Intl" in window) || !window.Intl.NumberFormat) {
+    window.Intl = window.Intl || {};
+    window.Intl.NumberFormat = () => ({ format: value => value });
+  }
+
   return Promise.all(polyfills);
 };
 

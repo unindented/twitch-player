@@ -18,7 +18,7 @@ exports[`CategoryItemDetail when hovering renders a hovered category item detail
     dir="auto"
     style="color: rgb(218, 216, 222); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif; font-size: 13px;"
   >
-    {{count}} viewer
+    {{count, number}} viewer
   </div>
 </div>
 `;
@@ -41,7 +41,7 @@ exports[`CategoryItemDetail when not hovering renders a category item detail 1`]
     dir="auto"
     style="color: rgb(50, 47, 55); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif; font-size: 13px;"
   >
-    {{count}} viewer
+    {{count, number}} viewer
   </div>
 </div>
 `;

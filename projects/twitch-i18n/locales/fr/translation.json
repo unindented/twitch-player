@@ -9,10 +9,10 @@
     },
     "item": {
       "liveIndicator": "Direct",
-      "viewersCount": "{{count}} spectateur",
-      "viewersCount_plural": "{{count}} spectateurs",
-      "followersCount": "{{count}} follower",
-      "followersCount_plural": "{{count}} followers"
+      "viewersCount": "{{count, number}} spectateur",
+      "viewersCount_plural": "{{count, number}} spectateurs",
+      "followersCount": "{{count, number}} follower",
+      "followersCount_plural": "{{count, number}} followers"
     }
   },
   "pages": {

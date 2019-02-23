@@ -60,7 +60,7 @@ exports[`ChannelItem when hovering renders a channel 1`] = `
           dir="auto"
           style="color: rgb(250, 249, 250); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif; font-size: 13px; padding: 10px 10px 5px 10px;"
         >
-          {{count}} viewer
+          {{count, number}} viewer
         </div>
       </div>
     </div>
@@ -180,7 +180,7 @@ exports[`ChannelItem when not hovering renders a channel 1`] = `
           dir="auto"
           style="color: rgb(250, 249, 250); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif; font-size: 13px; padding: 10px 10px 5px 10px;"
         >
-          {{count}} viewer
+          {{count, number}} viewer
         </div>
       </div>
     </div>
@@ -300,7 +300,7 @@ exports[`ChannelItem when the category is null renders a channel without categor
           dir="auto"
           style="color: rgb(250, 249, 250); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif; font-size: 13px; padding: 10px 10px 5px 10px;"
         >
-          {{count}} viewer
+          {{count, number}} viewer
         </div>
       </div>
     </div>
