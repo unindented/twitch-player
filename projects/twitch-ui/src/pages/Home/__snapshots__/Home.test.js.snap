@@ -14,7 +14,7 @@ exports[`Home renders the page 1`] = `
       data-testid="heading"
       dir="auto"
       role="heading"
-      style="color: rgb(50, 47, 55); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif; font-size: 16px; margin: 20px 20px 5px 20px;"
+      style="color: rgb(50, 47, 55); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif; font-size: 16px; margin: 20px 30px 5px 30px;"
     >
       Featured Channels
     </h2>
@@ -28,7 +28,7 @@ exports[`Home renders the page 1`] = `
       data-testid="heading"
       dir="auto"
       role="heading"
-      style="color: rgb(50, 47, 55); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif; font-size: 16px; margin: 20px 20px 5px 20px;"
+      style="color: rgb(50, 47, 55); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif; font-size: 16px; margin: 20px 30px 5px 30px;"
     >
       Top Categories
     </h2>
@@ -42,7 +42,7 @@ exports[`Home renders the page 1`] = `
       data-testid="heading"
       dir="auto"
       role="heading"
-      style="color: rgb(50, 47, 55); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif; font-size: 16px; margin: 20px 20px 5px 20px;"
+      style="color: rgb(50, 47, 55); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif; font-size: 16px; margin: 20px 30px 5px 30px;"
     >
       Top Live Channels
     </h2>
@@ -56,7 +56,7 @@ exports[`Home renders the page 1`] = `
       data-testid="heading"
       dir="auto"
       role="heading"
-      style="color: rgb(50, 47, 55); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif; font-size: 16px; margin: 20px 20px 5px 20px;"
+      style="color: rgb(50, 47, 55); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif; font-size: 16px; margin: 20px 30px 5px 30px;"
     >
       Top PS4 Channels
     </h2>
@@ -70,7 +70,7 @@ exports[`Home renders the page 1`] = `
       data-testid="heading"
       dir="auto"
       role="heading"
-      style="color: rgb(50, 47, 55); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif; font-size: 16px; margin: 20px 20px 5px 20px;"
+      style="color: rgb(50, 47, 55); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif; font-size: 16px; margin: 20px 30px 5px 30px;"
     >
       Top Xbox One Channels
     </h2>

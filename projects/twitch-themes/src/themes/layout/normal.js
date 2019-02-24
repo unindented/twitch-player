@@ -5,6 +5,7 @@ export default {
   borderRadiusLarge: 12,
   borderRadiusMedium: 6,
   borderRadiusSmall: 2,
+  gapExtraLarge: 30,
   gapLarge: 20,
   gapMedium: 10,
   gapSmall: 5,

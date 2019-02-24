@@ -14,7 +14,7 @@ exports[`Category renders the page 1`] = `
       data-testid="heading"
       dir="auto"
       role="heading"
-      style="color: rgb(50, 47, 55); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif; font-size: 16px; margin: 20px 20px 5px 20px;"
+      style="color: rgb(50, 47, 55); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif; font-size: 16px; margin: 20px 30px 5px 30px;"
     >
       Fortnite
     </h2>

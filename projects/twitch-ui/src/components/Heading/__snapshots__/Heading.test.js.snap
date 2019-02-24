@@ -7,7 +7,7 @@ exports[`Heading level 1 renders a level-1 heading 1`] = `
   data-testid="heading"
   dir="auto"
   role="heading"
-  style="color: rgb(50, 47, 55); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif; font-size: 32px; margin: 20px 20px 5px 20px;"
+  style="color: rgb(50, 47, 55); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif; font-size: 32px; margin: 20px 30px 5px 30px;"
 >
   Some Heading
 </h1>
@@ -20,7 +20,7 @@ exports[`Heading level 2 renders a level-2 heading 1`] = `
   data-testid="heading"
   dir="auto"
   role="heading"
-  style="color: rgb(50, 47, 55); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif; font-size: 16px; margin: 20px 20px 5px 20px;"
+  style="color: rgb(50, 47, 55); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif; font-size: 16px; margin: 20px 30px 5px 30px;"
 >
   Some Heading
 </h2>
@@ -33,7 +33,7 @@ exports[`Heading level 3 renders a level-3 heading 1`] = `
   data-testid="heading"
   dir="auto"
   role="heading"
-  style="color: rgb(50, 47, 55); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif; font-size: 13px; margin: 20px 20px 5px 20px;"
+  style="color: rgb(50, 47, 55); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif; font-size: 13px; margin: 20px 30px 5px 30px;"
 >
   Some Heading
 </h3>

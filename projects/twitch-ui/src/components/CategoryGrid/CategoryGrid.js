@@ -11,7 +11,7 @@ const CategoryGrid = ({ list, testID = "category-grid" }) => {
   const maxItemHeight = layout.maxCategoryHeight;
   const maxItemWidth = layout.maxCategoryWidth;
   const spaceBetween = layout.gapSmall;
-  const spaceSides = layout.gapLarge;
+  const spaceSides = layout.gapExtraLarge;
   const spaceBottom = layout.gapMedium;
 
   const [itemDimensions, updateLayout] = useResponsiveItemDimensions({

@@ -11,7 +11,7 @@ const ChannelList = ({ list, testID = "channel-list" }) => {
   const maxItemHeight = layout.maxChannelHeight;
   const maxItemWidth = layout.maxChannelWidth;
   const spaceBetween = layout.gapSmall;
-  const spaceSides = layout.gapLarge;
+  const spaceSides = layout.gapExtraLarge;
   const spaceBottom = layout.gapMedium;
 
   const [itemDimensions, updateLayout] = useResponsiveItemDimensions({

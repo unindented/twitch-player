@@ -7,6 +7,7 @@ export default {
   borderRadiusLarge: normal.borderRadiusLarge * 2,
   borderRadiusMedium: normal.borderRadiusMedium * 2,
   borderRadiusSmall: normal.borderRadiusSmall * 2,
+  gapExtraLarge: normal.gapExtraLarge * 2,
   gapLarge: normal.gapLarge * 2,
   gapMedium: normal.gapMedium * 2,
   gapSmall: normal.gapSmall * 2,

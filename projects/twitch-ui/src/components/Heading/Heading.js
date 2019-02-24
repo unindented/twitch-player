@@ -17,7 +17,7 @@ const Heading = ({ level, children, style = [], testID = "heading" }) => {
           : level === "2"
           ? typography.sizeSecondary
           : typography.sizeTertiary,
-      marginHorizontal: layout.gapLarge,
+      marginHorizontal: layout.gapExtraLarge,
       marginTop: layout.gapLarge,
       marginBottom: layout.gapSmall,
     },
