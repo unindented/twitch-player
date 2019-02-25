@@ -1,6 +1,6 @@
+import { memoize } from "@twitch-player/utils";
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
-import { memoize } from "./utils";
 import Backend from "./Backend";
 import LanguageDetector from "./LanguageDetector";
 

@@ -22,6 +22,9 @@
     "watch": "run-p watch:babel",
     "postinstall": "run-s build"
   },
+  "dependencies": {
+    "@twitch-player/utils": "*"
+  },
   "main": "dist/index.js",
   "sideEffects": false
 }

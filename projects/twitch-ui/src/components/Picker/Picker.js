@@ -1,10 +1,10 @@
+import { useTheme } from "@twitch-player/themes/dist/hooks";
 import PropTypes from "prop-types";
 import React, { memo } from "react";
 import { Picker, StyleSheet, Text } from "react-native";
-import { useTheme } from "../../hooks";
 
 const CustomPicker = ({ values, style = [], ...props }) => {
-  const { colors, typography } = useTheme();
+  const [{ colors, typography }] = useTheme();
 
   const rootStyle = {
     fontSize: typography.sizeSecondary,

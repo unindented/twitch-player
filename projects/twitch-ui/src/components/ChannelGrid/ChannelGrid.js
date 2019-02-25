@@ -1,64 +1,66 @@
 import { ChannelType } from "@twitch-player/data";
 import PropTypes from "prop-types";
 import React, { memo, useCallback } from "react";
-import { View } from "react-native";
-import GridList from "../GridList";
+import { StyleSheet, View } from "react-native";
+import { useChannelGrid } from "../../hooks";
 import ChannelItem from "../ChannelItem";
-import { useTheme, useResponsiveItemDimensions } from "../../hooks";
+import GridList from "../GridList";
 
-const ChannelGrid = ({ list, testID = "channel-grid" }) => {
-  const { layout } = useTheme();
-  const maxItemHeight = layout.maxChannelHeight;
-  const maxItemWidth = layout.maxChannelWidth;
-  const spaceBetween = layout.gapSmall;
-  const spaceSides = layout.gapExtraLarge;
-  const spaceBottom = layout.gapMedium;
-
-  const [itemDimensions, updateLayout] = useResponsiveItemDimensions({
-    maxItemWidth,
-    maxItemHeight,
-    spaceSides,
-    spaceBetween,
-  });
-  const { numColumns, itemWidth, itemHeight } = itemDimensions;
+const ChannelGrid = ({
+  list,
+  renderHeader,
+  renderFooter,
+  testID = "channel-grid",
+}) => {
+  const {
+    numColumns,
+    numRows,
+    imageWidth,
+    imageHeight,
+    getItemLayout,
+    renderItemStyle,
+  } = useChannelGrid(list.length);
 
   const renderItem = useCallback(
     ({ item, index }) => {
-      const isFirstItem = index % numColumns === 0;
-      const isLastItem = index % numColumns === numColumns - 1;
-
-      const style = {
-        marginStart: isFirstItem ? spaceSides : spaceBetween,
-        marginEnd: isLastItem ? spaceSides : spaceBetween,
-        marginBottom: spaceBottom,
-      };
+      const style = renderItemStyle(index);
 
       return (
         <View style={style}>
-          <ChannelItem item={item} width={itemWidth} height={itemHeight} />
+          <ChannelItem item={item} width={imageWidth} height={imageHeight} />
         </View>
       );
     },
-    [itemWidth, itemHeight]
+    [imageWidth, imageHeight]
   );
 
   return (
-    <View onLayout={updateLayout} testID={testID}>
-      {itemHeight && itemWidth && (
-        <GridList
-          key={`${itemWidth}x${itemHeight}`}
-          data={list}
-          numColumns={numColumns}
-          renderItem={renderItem}
-        />
-      )}
+    <View style={styles.root} testID={testID}>
+      <GridList
+        key={`${imageWidth}x${imageHeight}`}
+        data={list}
+        initialNumToRender={numRows}
+        numColumns={numColumns}
+        getItemLayout={getItemLayout}
+        renderItem={renderItem}
+        renderHeader={renderHeader}
+        renderFooter={renderFooter}
+      />
     </View>
   );
 };
 
 ChannelGrid.propTypes = {
   list: PropTypes.arrayOf(ChannelType).isRequired,
+  renderHeader: PropTypes.any,
+  renderFooter: PropTypes.any,
   testID: PropTypes.string,
 };
+
+const styles = StyleSheet.create({
+  root: {
+    flex: 1,
+  },
+});
 
 export default memo(ChannelGrid);

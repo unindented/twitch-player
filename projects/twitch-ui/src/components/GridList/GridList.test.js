@@ -1,7 +1,8 @@
-import { render } from "@twitch-player/testing/dist/unit";
 import PropTypes from "prop-types";
 import React from "react";
 import { Image } from "react-native";
+import { render } from "../../testing";
+import Text from "../Text";
 import GridList from "./GridList";
 
 const data = [
@@ -50,13 +51,58 @@ ImageItem.propTypes = {
 describe("GridList", () => {
   let instance;
 
-  beforeEach(() => {
-    instance = render(
-      <GridList data={data} numColumns={2} renderItem={ImageItem} />
-    );
+  describe("without header nor footer", () => {
+    beforeEach(() => {
+      instance = render(
+        <GridList
+          data={data}
+          initialNumToRender={1}
+          numColumns={2}
+          renderItem={ImageItem}
+        />
+      );
+    });
+
+    it("renders a list", () => {
+      expect(instance.getByTestId("grid-list")).toMatchSnapshot();
+    });
   });
 
-  it("renders a list", () => {
-    expect(instance.getByTestId("grid-list")).toMatchSnapshot();
+  describe("with header", () => {
+    beforeEach(() => {
+      const renderHeader = () => <Text>HEADER</Text>;
+      instance = render(
+        <GridList
+          data={data}
+          initialNumToRender={1}
+          numColumns={2}
+          renderItem={ImageItem}
+          renderHeader={renderHeader}
+        />
+      );
+    });
+
+    it("renders a list", () => {
+      expect(instance.getByTestId("grid-list")).toMatchSnapshot();
+    });
+  });
+
+  describe("with footer", () => {
+    beforeEach(() => {
+      const renderFooter = () => <Text>FOOTER</Text>;
+      instance = render(
+        <GridList
+          data={data}
+          initialNumToRender={1}
+          numColumns={2}
+          renderItem={ImageItem}
+          renderFooter={renderFooter}
+        />
+      );
+    });
+
+    it("renders a list", () => {
+      expect(instance.getByTestId("grid-list")).toMatchSnapshot();
+    });
   });
 });

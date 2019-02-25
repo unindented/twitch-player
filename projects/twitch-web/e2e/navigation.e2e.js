@@ -33,22 +33,22 @@ describe("navigation", () => {
 
   it("navigates to 'Live Channels'", async () => {
     const channelsLink = '[data-testid="navigation-channels-icon"]';
-    const channelsPage = '[data-testid="channels-page"]';
+    const channelsSection = '[data-testid="all-channels"]';
     await page.waitFor(channelsLink);
     await page.click(channelsLink);
-    await page.waitFor(channelsPage);
-    const channelsPageEl = await page.$(channelsPage);
-    expect(channelsPageEl).toBeDefined();
+    await page.waitFor(channelsSection);
+    const channelsSectionEl = await page.$(channelsSection);
+    expect(channelsSectionEl).toBeDefined();
   });
 
   it("navigates to 'Categories'", async () => {
     const categoriesLink = '[data-testid="navigation-categories-icon"]';
-    const categoriesPage = '[data-testid="categories-page"]';
+    const categoriesSection = '[data-testid="all-categories"]';
     await page.waitFor(categoriesLink);
     await page.click(categoriesLink);
-    await page.waitFor(categoriesPage);
-    const categoriesPageEl = await page.$(categoriesPage);
-    expect(categoriesPageEl).toBeDefined();
+    await page.waitFor(categoriesSection);
+    const categoriesSectionEl = await page.$(categoriesSection);
+    expect(categoriesSectionEl).toBeDefined();
   });
 
   it("navigates to 'Search'", async () => {

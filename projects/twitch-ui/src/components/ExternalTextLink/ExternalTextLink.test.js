@@ -1,6 +1,6 @@
-import { fireEvent, render } from "@twitch-player/testing/dist/unit";
 import React from "react";
 import { Linking } from "react-native";
+import { fireEvent, render } from "../../testing";
 import ExternalTextLink from "./ExternalTextLink";
 
 describe("ExternalTextLink", () => {

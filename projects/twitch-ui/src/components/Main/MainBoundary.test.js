@@ -1,6 +1,6 @@
-import { render } from "@twitch-player/testing/dist/unit";
 import React from "react";
 import { Text } from "react-native";
+import { fireEvent, render } from "../../testing";
 import MainBoundary from "./MainBoundary";
 
 describe("MainBoundary", () => {
@@ -19,6 +19,7 @@ describe("MainBoundary", () => {
           <GoodChild />
         </MainBoundary>
       );
+      fireEvent.resize(window, { target: { width: 480, height: 640 } });
     });
 
     it("renders its children", () => {
@@ -37,6 +38,7 @@ describe("MainBoundary", () => {
           <BadChild />
         </MainBoundary>
       );
+      fireEvent.resize(window, { target: { width: 480, height: 640 } });
     });
 
     it("renders an error message", () => {

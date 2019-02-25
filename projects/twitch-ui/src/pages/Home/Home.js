@@ -3,7 +3,6 @@ import PropTypes from "prop-types";
 import React, { memo } from "react";
 import { ScrollView } from "react-native";
 import FeaturedChannels from "../../components/FeaturedChannels";
-import Heading from "../../components/Heading";
 import TopCategories from "../../components/TopCategories";
 import TopChannels from "../../components/TopChannels";
 
@@ -12,20 +11,17 @@ const Home = ({ testID = "home-page" }) => {
 
   return (
     <ScrollView testID={testID}>
-      <Heading level="2">{t("pages.home.featuredChannelsHeading")}</Heading>
-      <FeaturedChannels />
-
-      <Heading level="2">{t("pages.home.topCategoriesHeading")}</Heading>
-      <TopCategories />
-
-      <Heading level="2">{t("pages.home.topChannelsHeading")}</Heading>
-      <TopChannels />
-
-      <Heading level="2">{t("pages.home.topPS4ChannelsHeading")}</Heading>
-      <TopChannels platformType="ps4" />
-
-      <Heading level="2">{t("pages.home.topXboxOneChannelsHeading")}</Heading>
-      <TopChannels platformType="xbox" />
+      <FeaturedChannels heading={t("pages.home.featuredChannelsHeading")} />
+      <TopCategories heading={t("pages.home.topCategoriesHeading")} />
+      <TopChannels heading={t("pages.home.topChannelsHeading")} />
+      <TopChannels
+        platformType="ps4"
+        heading={t("pages.home.topPS4ChannelsHeading")}
+      />
+      <TopChannels
+        platformType="xbox"
+        heading={t("pages.home.topXboxOneChannelsHeading")}
+      />
     </ScrollView>
   );
 };

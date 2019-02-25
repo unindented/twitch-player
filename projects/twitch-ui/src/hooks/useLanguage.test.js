@@ -1,6 +1,6 @@
-import { render } from "@twitch-player/testing/dist/unit";
 import React, { useState } from "react";
 import { Text } from "react-native";
+import { render } from "../testing";
 import { useLanguage } from ".";
 
 const SomeComponent = () => {

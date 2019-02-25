@@ -1,9 +1,11 @@
-import { render } from "@twitch-player/testing/dist/unit";
 import React from "react";
+import { render } from "../../testing";
 import Highlightable from "../Highlightable";
 import CategoryItem from "./CategoryItem";
 
 jest.mock("../Highlightable", () => jest.fn());
+jest.mock("./CategoryItemDetail", () => "mock-category-item-detail");
+jest.mock("./CategoryItemImage", () => "mock-category-item-image");
 
 const { data } = require("@twitch-player/data/fixtures/topCategories.json");
 const [{ node: category }] = data.categories.edges;

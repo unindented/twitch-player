@@ -1,6 +1,9 @@
-import { fireEvent, render } from "@twitch-player/testing/dist/unit";
 import React from "react";
+import { fireEvent, render } from "../../testing";
+import Main from "../Main";
 import CategoryList from "./CategoryList";
+
+jest.mock("../CategoryItem", () => "mock-category-item");
 
 const {
   data: {
@@ -13,19 +16,23 @@ describe("CategoryList", () => {
   let instance;
 
   beforeEach(() => {
-    instance = render(<CategoryList list={categories} />);
+    instance = render(
+      <Main>
+        <CategoryList list={categories} />
+      </Main>
+    );
   });
 
   it("renders nothing until layout", () => {
-    expect(instance.getByTestId("category-list")).toMatchSnapshot();
+    expect(instance.queryByTestId("category-list")).toBeNull();
   });
 
-  describe("with narrow parent", () => {
+  describe("after layout", () => {
     beforeEach(() => {
       fireEvent.resize(window, { target: { width: 480, height: 640 } });
     });
 
-    it("renders with a narrow layout", () => {
+    it("renders its elements", () => {
       expect(instance.getByTestId("category-list")).toMatchSnapshot();
     });
   });

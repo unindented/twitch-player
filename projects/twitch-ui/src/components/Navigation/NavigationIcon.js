@@ -1,7 +1,7 @@
+import { useTheme } from "@twitch-player/themes/dist/hooks";
 import PropTypes from "prop-types";
 import React, { memo } from "react";
 import { Image, StyleSheet, View } from "react-native";
-import { useTheme } from "../../hooks";
 import Highlightable from "../Highlightable";
 import InternalTouchableLink from "../InternalTouchableLink";
 
@@ -11,7 +11,7 @@ const NavigationIcon = ({
   accessibilityLabel,
   testID = "navigation-icon",
 }) => {
-  const { colors, layout } = useTheme();
+  const [{ colors, layout }] = useTheme();
 
   const imageSize = layout.navSize;
   const imageStyle = {

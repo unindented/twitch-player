@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ThemeSwitch renders a theme switch 1`] = `
+<label
+  class="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-color-homxoj rn-display-1471scf rn-fontSize-1b43r93 rn-fontStyle-o11vmf rn-fontVariant-ebii48 rn-fontWeight-gul640 rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+  data-testid="theme-switch"
+  dir="auto"
+  style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif; line-height: 1.5;"
+>
+  <span
+    class="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-1471scf rn-fontStyle-o11vmf rn-fontVariant-ebii48 rn-fontWeight-gul640 rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-irrty rn-wordWrap-qvutc0"
+    dir="auto"
+    style="color: rgb(25, 23, 28); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif; font-size: 16px; line-height: 1.5;"
+  >
+    Theme
+  </span>
+  <div
+    class="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-xoduu5 rn-flexDirection-eqz5dr rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-userSelect-lrvibr rn-zIndex-1lgpqti"
+    style="height: 20px; width: 40px;"
+  >
+    <div
+      class="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-bottom-1p0dtai rn-boxSizing-deolkf rn-display-xoduu5 rn-flexDirection-eqz5dr rn-height-1dernwh rn-left-1d2f490 rn-marginTop-1t01tom rn-marginRight-lchren rn-marginBottom-1qahzrx rn-marginLeft-1jj8364 rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-u8s1d rn-right-zchlnj rn-top-ipm5af rn-transitionDuration-13tjlyg rn-width-13qz1uu rn-zIndex-1lgpqti"
+      style="background-color: rgb(218, 216, 222); border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px;"
+    />
+    <div
+      class="rn-alignItems-1oszu61 rn-alignSelf-k200y rn-borderTopLeftRadius-jt3ufn rn-borderTopRightRadius-1e868j9 rn-borderBottomRightRadius-ujv9e3 rn-borderBottomLeftRadius-1hakmuk rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxShadow-1ewcgjf rn-boxSizing-deolkf rn-display-xoduu5 rn-flexDirection-eqz5dr rn-left-1fe0xdi rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-transform-emqnss rn-transitionDuration-13tjlyg rn-zIndex-1lgpqti"
+      style="background-color: rgb(250, 249, 250); height: 20px; width: 20px;"
+    />
+    <input
+      class="rn-bottom-1p0dtai rn-cursor-1ei5mc7 rn-height-1pi2tsx rn-left-1d2f490 rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-opacity-1272l3b rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-u8s1d rn-right-zchlnj rn-top-ipm5af rn-width-13qz1uu"
+      data-focusable="true"
+      type="checkbox"
+    />
+  </div>
+</label>
+`;
+
+exports[`ThemeSwitch renders with the default theme 1`] = `
+<div
+  class="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-color-homxoj rn-display-1471scf rn-fontSize-1b43r93 rn-fontStyle-o11vmf rn-fontVariant-ebii48 rn-fontWeight-gul640 rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+  data-testid="some-component"
+  dir="auto"
+  style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif; line-height: 1.5;"
+>
+  #19171c
+</div>
+`;
+
+exports[`ThemeSwitch when clicked re-renders with the new theme 1`] = `
+<div
+  class="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-color-homxoj rn-display-1471scf rn-fontSize-1b43r93 rn-fontStyle-o11vmf rn-fontVariant-ebii48 rn-fontWeight-gul640 rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+  data-testid="some-component"
+  dir="auto"
+  style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif; line-height: 1.5;"
+>
+  #faf9fa
+</div>
+`;
+
+exports[`ThemeSwitch when clicked when clicked again re-renders with the default theme 1`] = `
+<div
+  class="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-color-homxoj rn-display-1471scf rn-fontSize-1b43r93 rn-fontStyle-o11vmf rn-fontVariant-ebii48 rn-fontWeight-gul640 rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+  data-testid="some-component"
+  dir="auto"
+  style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif; line-height: 1.5;"
+>
+  #19171c
+</div>
+`;

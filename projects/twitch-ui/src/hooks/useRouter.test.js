@@ -1,7 +1,7 @@
-import { render } from "@twitch-player/testing/dist/unit";
 import React from "react";
 import { Text } from "react-native";
 import { MemoryRouter as Router } from "react-router";
+import { render } from "../testing";
 import { useRouter } from ".";
 
 const SomeComponent = () => {

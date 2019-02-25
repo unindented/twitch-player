@@ -1,8 +1,8 @@
 import { useTranslation } from "@twitch-player/i18n";
+import { useTheme } from "@twitch-player/themes/dist/hooks";
 import PropTypes from "prop-types";
 import React, { memo } from "react";
 import { StyleSheet, View } from "react-native";
-import { useTheme } from "../../hooks";
 import LiveIndicator from "../LiveIndicator";
 import Text from "../Text";
 
@@ -12,7 +12,7 @@ const ChannelItemOverlay = ({
   testID = "channel-item-image-overlay",
 }) => {
   const { t } = useTranslation();
-  const { colors, layout, typography } = useTheme();
+  const [{ colors, layout, typography }] = useTheme();
 
   const rootStyle = [styles.root].concat(style);
   const textStyle = [

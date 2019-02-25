@@ -33,7 +33,10 @@
       "mainHeading": "Búsqueda"
     },
     "settings": {
-      "mainHeading": "Configuración"
+      "mainHeading": "Configuración",
+      "languageHeading": "Idioma",
+      "themeHeading": "Tema",
+      "debugHeading": "Modo de depuración"
     }
   },
   "errors": {

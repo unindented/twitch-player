@@ -1,9 +1,11 @@
-import { render } from "@twitch-player/testing/dist/unit";
 import React from "react";
+import { render } from "../../testing";
 import Highlightable from "../Highlightable";
 import ChannelItem from "./ChannelItem";
 
 jest.mock("../Highlightable", () => jest.fn());
+jest.mock("./ChannelItemDetail", () => "mock-channel-item-detail");
+jest.mock("./ChannelItemImage", () => "mock-channel-item-image");
 
 const { data } = require("@twitch-player/data/fixtures/topChannels.json");
 const [{ node: channel }] = data.channels.edges;

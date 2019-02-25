@@ -1,6 +1,6 @@
-import { render } from "@twitch-player/testing/dist/unit";
 import React from "react";
 import { Text } from "react-native";
+import { render } from "../../testing";
 import ErrorBoundary from "./ErrorBoundary";
 
 describe("ErrorBoundary", () => {

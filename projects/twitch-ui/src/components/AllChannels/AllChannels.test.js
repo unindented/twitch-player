@@ -1,11 +1,13 @@
-import { render } from "@twitch-player/testing/dist/unit";
 import React from "react";
 import { useQuery } from "react-apollo-hooks";
+import { fireEvent, render } from "../../testing";
+import Main from "../Main";
 import AllChannels from "./AllChannels";
 
 jest.mock("react-apollo-hooks", () => ({
   useQuery: jest.fn(),
 }));
+jest.mock("../ChannelGrid", () => "mock-channel-grid");
 
 const topChannels = require("@twitch-player/data/fixtures/topChannels.json");
 
@@ -16,11 +18,16 @@ describe("AllChannels", () => {
     beforeEach(() => {
       useQuery.mockImplementationOnce(() => topChannels);
 
-      instance = render(<AllChannels />);
+      instance = render(
+        <Main>
+          <AllChannels heading="Live Channels" />
+        </Main>
+      );
+      fireEvent.resize(window, { target: { width: 480, height: 640 } });
     });
 
     it("renders the list of all channels", () => {
-      expect(instance.getByTestId("all-channels")).toMatchSnapshot();
+      expect(instance.getByTestId("main")).toMatchSnapshot();
     });
   });
 
@@ -31,7 +38,12 @@ describe("AllChannels", () => {
         refetch: jest.fn(),
       }));
 
-      instance = render(<AllChannels />);
+      instance = render(
+        <Main>
+          <AllChannels heading="Live Channels" />
+        </Main>
+      );
+      fireEvent.resize(window, { target: { width: 480, height: 640 } });
     });
 
     it("renders an error", () => {

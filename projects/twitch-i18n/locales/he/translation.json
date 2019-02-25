@@ -37,7 +37,10 @@
       "mainHeading": "חפש"
     },
     "settings": {
-      "mainHeading": "הגדרות"
+      "mainHeading": "הגדרות",
+      "languageHeading": "שפה",
+      "themeHeading": "ערכת נושא",
+      "debugHeading": "מצב איתור באגים"
     }
   },
   "errors": {

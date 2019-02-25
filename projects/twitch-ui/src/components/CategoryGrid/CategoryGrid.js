@@ -1,64 +1,66 @@
 import { CategoryType } from "@twitch-player/data";
 import PropTypes from "prop-types";
 import React, { memo, useCallback } from "react";
-import { View } from "react-native";
+import { StyleSheet, View } from "react-native";
+import { useCategoryGrid } from "../../hooks";
 import CategoryItem from "../CategoryItem";
 import GridList from "../GridList";
-import { useTheme, useResponsiveItemDimensions } from "../../hooks";
 
-const CategoryGrid = ({ list, testID = "category-grid" }) => {
-  const { layout } = useTheme();
-  const maxItemHeight = layout.maxCategoryHeight;
-  const maxItemWidth = layout.maxCategoryWidth;
-  const spaceBetween = layout.gapSmall;
-  const spaceSides = layout.gapExtraLarge;
-  const spaceBottom = layout.gapMedium;
-
-  const [itemDimensions, updateLayout] = useResponsiveItemDimensions({
-    maxItemWidth,
-    maxItemHeight,
-    spaceSides,
-    spaceBetween,
-  });
-  const { numColumns, itemWidth, itemHeight } = itemDimensions;
+const CategoryGrid = ({
+  list,
+  renderHeader,
+  renderFooter,
+  testID = "category-grid",
+}) => {
+  const {
+    numColumns,
+    numRows,
+    imageWidth,
+    imageHeight,
+    getItemLayout,
+    renderItemStyle,
+  } = useCategoryGrid(list.length);
 
   const renderItem = useCallback(
     ({ item, index }) => {
-      const isFirstItem = index % numColumns === 0;
-      const isLastItem = index % numColumns === numColumns - 1;
-
-      const style = {
-        marginStart: isFirstItem ? spaceSides : spaceBetween,
-        marginEnd: isLastItem ? spaceSides : spaceBetween,
-        marginBottom: spaceBottom,
-      };
+      const style = renderItemStyle(index);
 
       return (
         <View style={style}>
-          <CategoryItem item={item} width={itemWidth} height={itemHeight} />
+          <CategoryItem item={item} width={imageWidth} height={imageHeight} />
         </View>
       );
     },
-    [itemWidth, itemHeight]
+    [imageWidth, imageHeight]
   );
 
   return (
-    <View onLayout={updateLayout} testID={testID}>
-      {itemHeight && itemWidth && (
-        <GridList
-          key={`${itemWidth}x${itemHeight}`}
-          data={list}
-          numColumns={numColumns}
-          renderItem={renderItem}
-        />
-      )}
+    <View style={styles.root} testID={testID}>
+      <GridList
+        key={`${imageWidth}x${imageHeight}`}
+        data={list}
+        initialNumToRender={numRows}
+        numColumns={numColumns}
+        getItemLayout={getItemLayout}
+        renderItem={renderItem}
+        renderHeader={renderHeader}
+        renderFooter={renderFooter}
+      />
     </View>
   );
 };
 
 CategoryGrid.propTypes = {
   list: PropTypes.arrayOf(CategoryType).isRequired,
+  renderHeader: PropTypes.any,
+  renderFooter: PropTypes.any,
   testID: PropTypes.string,
 };
+
+const styles = StyleSheet.create({
+  root: {
+    flex: 1,
+  },
+});
 
 export default memo(CategoryGrid);

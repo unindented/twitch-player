@@ -41,5 +41,10 @@ ImageItem.propTypes = {
 };
 
 storiesOf("Components|GridList", module).add("default", () => (
-  <GridList data={data} numColumns={2} renderItem={ImageItem} />
+  <GridList
+    data={data}
+    initialNumToRender={1}
+    numColumns={2}
+    renderItem={ImageItem}
+  />
 ));

@@ -1,5 +1,5 @@
-import { fireEvent, render } from "@twitch-player/testing/dist/unit";
 import React from "react";
+import { fireEvent, render } from "../../testing";
 import TextLink from "./TextLink";
 
 describe("TextLink", () => {

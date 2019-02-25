@@ -1,8 +1,8 @@
 import { useTranslation } from "@twitch-player/i18n";
+import { useTheme } from "@twitch-player/themes/dist/hooks";
 import PropTypes from "prop-types";
 import React, { memo } from "react";
 import { StyleSheet, View } from "react-native";
-import { useTheme } from "../../hooks";
 import Text from "../Text";
 
 const ChannelItemError = ({
@@ -11,7 +11,7 @@ const ChannelItemError = ({
   testID = "channel-item-error",
 }) => {
   const { t } = useTranslation();
-  const { colors, layout, typography } = useTheme();
+  const [{ colors, layout, typography }] = useTheme();
 
   const imageStyle = {
     backgroundColor: colors.itemBackground,

@@ -1,5 +1,6 @@
 import { storiesOf } from "@storybook/react";
 import React from "react";
+import Main from "../Main";
 import CategoryList from ".";
 
 const {
@@ -10,9 +11,15 @@ const {
 const topCategoriesList = topCategories.map(({ node }) => node);
 
 storiesOf("Components|CategoryList", module)
-  .add("top categories", () => <CategoryList list={topCategoriesList} />)
+  .add("top categories", () => (
+    <Main>
+      <CategoryList list={topCategoriesList} />
+    </Main>
+  ))
   .add("categories with error", () => (
-    <CategoryList
-      list={Object.assign([], topCategoriesList, { 2: { key: "ERROR" } })}
-    />
+    <Main>
+      <CategoryList
+        list={Object.assign([], topCategoriesList, { 2: { key: "ERROR" } })}
+      />
+    </Main>
   ));

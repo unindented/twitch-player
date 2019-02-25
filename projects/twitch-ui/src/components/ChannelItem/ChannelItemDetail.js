@@ -1,7 +1,7 @@
+import { useTheme } from "@twitch-player/themes/dist/hooks";
 import PropTypes from "prop-types";
 import React, { memo } from "react";
 import { Image, StyleSheet, View } from "react-native";
-import { useTheme } from "../../hooks";
 import Text from "../Text";
 
 const ChannelItemDetail = ({
@@ -13,19 +13,24 @@ const ChannelItemDetail = ({
   isHighlighted,
   testID = "channel-item-detail",
 }) => {
-  const { colors, layout, typography } = useTheme();
+  const [{ colors, layout, typography }] = useTheme();
 
   const rootStyle = {
     paddingHorizontal: layout.gapMedium,
-    paddingTop: layout.gapSmall,
-    paddingBottom: layout.gapMedium,
+    paddingVertical: layout.gapSmall,
     width: previewImageWidth,
   };
 
+  const broadcasterImageHeight =
+    Math.floor(typography.sizeTertiary * typography.lineHeight) * 2;
   const broadcasterImageStyle = {
-    height: typography.sizeSecondary * 2.375,
-    width: typography.sizeSecondary * 2.375,
+    height: broadcasterImageHeight,
+    width: broadcasterImageHeight,
   };
+  const broadcasterInfoStyle = [
+    styles.broadcasterInfo,
+    { marginStart: layout.gapSmall },
+  ];
   const primaryTextStyle = [
     styles.primaryText,
     {
@@ -50,7 +55,7 @@ const ChannelItemDetail = ({
           style={broadcasterImageStyle}
           testID={`${testID}-broadcaster`}
         />
-        <View style={{ marginStart: layout.gapSmall }}>
+        <View style={broadcasterInfoStyle}>
           <Text numberOfLines={1} style={secondaryTextStyle}>
             {broadcasterName}
           </Text>
@@ -79,6 +84,9 @@ const styles = StyleSheet.create({
   },
   secondaryBlock: {
     flexDirection: "row",
+  },
+  broadcasterInfo: {
+    flex: 1,
   },
 });
 

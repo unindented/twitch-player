@@ -29,5 +29,5 @@ ImageItem.propTypes = {
 };
 
 storiesOf("Components|HorizontalList", module).add("default", () => (
-  <HorizontalList data={data} renderItem={ImageItem} />
+  <HorizontalList data={data} initialNumToRender={2} renderItem={ImageItem} />
 ));

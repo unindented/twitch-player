@@ -1,10 +1,10 @@
+import { useTheme } from "@twitch-player/themes/dist/hooks";
 import PropTypes from "prop-types";
 import React, { memo } from "react";
 import { ActivityIndicator, StyleSheet, View } from "react-native";
-import { useTheme } from "../../hooks";
 
 const Spinner = ({ testID = "spinner" }) => {
-  const { colors, layout } = useTheme();
+  const [{ colors, layout }] = useTheme();
 
   return (
     <View style={styles.root} testID={testID}>

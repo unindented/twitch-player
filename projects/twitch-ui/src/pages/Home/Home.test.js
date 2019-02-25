@@ -1,26 +1,15 @@
-import { render } from "@twitch-player/testing/dist/unit";
 import React from "react";
-import { useQuery } from "react-apollo-hooks";
+import { render } from "../../testing";
 import Home from "./Home";
 
-jest.mock("react-apollo-hooks", () => ({
-  useQuery: jest.fn(),
-}));
-
-const featuredChannels = require("@twitch-player/data/fixtures/featuredChannels.json");
-const topCategories = require("@twitch-player/data/fixtures/topCategories.json");
-const topChannels = require("@twitch-player/data/fixtures/topChannels.json");
+jest.mock("../../components/FeaturedChannels", () => "mock-featured-channels");
+jest.mock("../../components/TopCategories", () => "mock-top-categories");
+jest.mock("../../components/TopChannels", () => "mock-top-channels");
 
 describe("Home", () => {
   let instance;
 
   beforeEach(() => {
-    useQuery.mockImplementationOnce(() => featuredChannels);
-    useQuery.mockImplementationOnce(() => topCategories);
-    useQuery.mockImplementationOnce(() => topChannels);
-    useQuery.mockImplementationOnce(() => topChannels);
-    useQuery.mockImplementationOnce(() => topChannels);
-
     instance = render(<Home />);
   });
 

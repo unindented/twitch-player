@@ -1,7 +1,7 @@
-import { render } from "@twitch-player/testing/dist/unit";
 import PropTypes from "prop-types";
 import React from "react";
 import { Text } from "react-native";
+import { render } from "../testing";
 import { OverridesProvider } from "../context";
 import { useOverrides } from ".";
 
@@ -20,15 +20,31 @@ SomeChannelPlayer.propTypes = {
 describe("useOverrides", () => {
   let instance;
 
-  beforeEach(() => {
-    instance = render(
-      <OverridesProvider overrides={{ ChannelPlayer: SomeChannelPlayer }}>
-        <SomeComponent />
-      </OverridesProvider>
-    );
+  describe("without overrides", () => {
+    beforeEach(() => {
+      instance = render(
+        <OverridesProvider>
+          <SomeComponent />
+        </OverridesProvider>
+      );
+    });
+
+    it("renders with the default component", () => {
+      expect(instance.asFragment()).toMatchSnapshot();
+    });
   });
 
-  it("renders with the overriden component", () => {
-    expect(instance.asFragment()).toMatchSnapshot();
+  describe("with overrides", () => {
+    beforeEach(() => {
+      instance = render(
+        <OverridesProvider overrides={{ ChannelPlayer: SomeChannelPlayer }}>
+          <SomeComponent />
+        </OverridesProvider>
+      );
+    });
+
+    it("renders with the overriden component", () => {
+      expect(instance.asFragment()).toMatchSnapshot();
+    });
   });
 });

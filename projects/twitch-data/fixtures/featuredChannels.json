@@ -2,7 +2,7 @@
   "data": {
     "channels": [
       {
-        "channel": {
+        "node": {
           "id": "31879258576",
           "key": "31879258576",
           "previewImageURL": "channels/live_user_broskian-800x450.jpg",
@@ -75,7 +75,7 @@
         "__typename": "FeaturedStream"
       },
       {
-        "channel": {
+        "node": {
           "id": "31870691600",
           "key": "31870691600",
           "previewImageURL": "channels/live_user_supermcgamer-800x450.jpg",
@@ -124,7 +124,7 @@
         "__typename": "FeaturedStream"
       },
       {
-        "channel": {
+        "node": {
           "id": "31871633760",
           "key": "31871633760",
           "previewImageURL": "channels/live_user_twitchpresents-800x450.jpg",
@@ -205,7 +205,7 @@
         "__typename": "FeaturedStream"
       },
       {
-        "channel": {
+        "node": {
           "id": "31879434944",
           "key": "31879434944",
           "previewImageURL": "channels/live_user_ninja-800x450.jpg",
@@ -246,7 +246,7 @@
         "__typename": "FeaturedStream"
       },
       {
-        "channel": {
+        "node": {
           "id": "31876018512",
           "key": "31876018512",
           "previewImageURL": "channels/live_user_renae-800x450.jpg",
@@ -287,7 +287,7 @@
         "__typename": "FeaturedStream"
       },
       {
-        "channel": {
+        "node": {
           "id": "31879160288",
           "key": "31879160288",
           "previewImageURL": "channels/live_user_problyovr9000-800x450.jpg",
@@ -360,7 +360,7 @@
         "__typename": "FeaturedStream"
       },
       {
-        "channel": {
+        "node": {
           "id": "31878475872",
           "key": "31878475872",
           "previewImageURL": "channels/live_user_patrckstatic-800x450.jpg",
@@ -417,7 +417,7 @@
         "__typename": "FeaturedStream"
       },
       {
-        "channel": {
+        "node": {
           "id": "31878683072",
           "key": "31878683072",
           "previewImageURL": "channels/live_user_acedolo-800x450.jpg",
@@ -458,7 +458,7 @@
         "__typename": "FeaturedStream"
       },
       {
-        "channel": {
+        "node": {
           "id": "31874641312",
           "key": "31874641312",
           "previewImageURL": "channels/live_user_1ceprime-800x450.jpg",
@@ -539,7 +539,7 @@
         "__typename": "FeaturedStream"
       },
       {
-        "channel": {
+        "node": {
           "id": "31879568144",
           "key": "31879568144",
           "previewImageURL": "channels/live_user_swag_dracula-800x450.jpg",

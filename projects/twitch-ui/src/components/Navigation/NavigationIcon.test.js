@@ -1,5 +1,5 @@
-import { render } from "@twitch-player/testing/dist/unit";
 import React from "react";
+import { render } from "../../testing";
 import Highlightable from "../Highlightable";
 import NavigationIcon from "./NavigationIcon";
 

@@ -1,10 +1,12 @@
+import { useTheme } from "@twitch-player/themes/dist/hooks";
 import PropTypes from "prop-types";
 import React from "react";
 import { StyleSheet, View } from "react-native";
-import { useTheme } from "../../hooks";
+import { useDimensions } from "../../hooks";
 
 const Main = ({ children, testID = "main" }) => {
-  const { colors } = useTheme();
+  const [{ colors }] = useTheme();
+  const [dimensions, updateDimensions] = useDimensions("main");
 
   const rootStyle = [
     styles.root,
@@ -14,8 +16,13 @@ const Main = ({ children, testID = "main" }) => {
   ];
 
   return (
-    <View accessibilityRole="main" style={rootStyle} testID={testID}>
-      {children}
+    <View
+      accessibilityRole="main"
+      style={rootStyle}
+      testID={testID}
+      onLayout={updateDimensions}
+    >
+      {dimensions && children}
     </View>
   );
 };

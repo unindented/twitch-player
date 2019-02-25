@@ -1,6 +1,6 @@
-import { fireEvent, render } from "@twitch-player/testing/dist/unit";
 import React from "react";
 import { Text } from "react-native";
+import { fireEvent, render } from "../../testing";
 import Page from "./Page";
 
 jest.mock("../Navigation", () => "mock-navigation");
@@ -23,7 +23,7 @@ describe("Page", () => {
 
   describe("with narrow parent", () => {
     beforeEach(() => {
-      fireEvent.resize(window, { target: { width: 320, height: 640 } });
+      fireEvent.resize(window, { target: { width: 480, height: 640 } });
     });
 
     it("renders with a narrow layout", () => {
@@ -33,7 +33,7 @@ describe("Page", () => {
 
   describe("with wide parent", () => {
     beforeEach(() => {
-      fireEvent.resize(window, { target: { width: 640, height: 320 } });
+      fireEvent.resize(window, { target: { width: 640, height: 480 } });
     });
 
     it("renders with a wide layout", () => {

@@ -1,4 +1,4 @@
-import htmlTag from "./htmlTag";
+import { htmlTag as detector } from ".";
 
 describe("htmlTag", () => {
   beforeEach(() => {
@@ -9,7 +9,7 @@ describe("htmlTag", () => {
 
   describe(".lookup", () => {
     it("reads the language from the `<html>` tag", () => {
-      expect(htmlTag.lookup()).toBe("es-ES");
+      expect(detector.lookup()).toBe("es-ES");
     });
   });
 });

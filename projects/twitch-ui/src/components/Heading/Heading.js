@@ -1,11 +1,11 @@
+import { useTheme } from "@twitch-player/themes/dist/hooks";
 import PropTypes from "prop-types";
 import React from "react";
 import { StyleSheet } from "react-native";
-import { useTheme } from "../../hooks";
 import Text from "../Text";
 
 const Heading = ({ level, children, style = [], testID = "heading" }) => {
-  const { colors, layout, typography } = useTheme();
+  const [{ colors, layout, typography }] = useTheme();
 
   const rootStyle = [
     styles.root,

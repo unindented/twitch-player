@@ -1,8 +1,8 @@
 import { useTranslation } from "@twitch-player/i18n";
+import { useTheme } from "@twitch-player/themes/dist/hooks";
 import PropTypes from "prop-types";
 import React, { memo } from "react";
 import { StyleSheet, View } from "react-native";
-import { useTheme } from "../../hooks";
 import Text from "../Text";
 
 const CategoryItemDetail = ({
@@ -13,32 +13,32 @@ const CategoryItemDetail = ({
   testID = "category-item-detail",
 }) => {
   const { t } = useTranslation();
-  const { colors, layout, typography } = useTheme();
+  const [{ colors, layout, typography }] = useTheme();
 
-  const detailStyle = {
+  const rootStyle = {
     paddingHorizontal: layout.gapMedium,
     paddingVertical: layout.gapSmall,
     width: boxArtWidth,
   };
 
-  const detailPrimaryStyle = [
-    styles.detailPrimary,
+  const primaryTextStyle = [
+    styles.primaryText,
     {
       color: isHighlighted ? colors.itemPrimaryHover : colors.itemPrimary,
       fontSize: typography.sizeSecondary,
     },
   ];
-  const detailSecondaryStyle = {
+  const secondaryTextStyle = {
     color: isHighlighted ? colors.itemSecondaryHover : colors.itemSecondary,
     fontSize: typography.sizeTertiary,
   };
 
   return (
-    <View style={detailStyle} testID={testID}>
-      <Text numberOfLines={1} style={detailPrimaryStyle}>
+    <View style={rootStyle} testID={testID}>
+      <Text numberOfLines={1} style={primaryTextStyle}>
         {name}
       </Text>
-      <Text numberOfLines={1} style={detailSecondaryStyle}>
+      <Text numberOfLines={1} style={secondaryTextStyle}>
         {t("components.item.viewersCount", {
           count: viewersCount,
         })}
@@ -56,7 +56,7 @@ CategoryItemDetail.propTypes = {
 };
 
 const styles = StyleSheet.create({
-  detailPrimary: {
+  primaryText: {
     fontWeight: "bold",
   },
 });

@@ -2,10 +2,13 @@ import { storiesOf } from "@storybook/react";
 import { createClient } from "@twitch-player/data";
 import React from "react";
 import { ApolloProvider } from "react-apollo-hooks";
+import Main from "../Main";
 import TopCategories from ".";
 
 storiesOf("Components|TopCategories", module).add("default", () => (
   <ApolloProvider client={createClient()}>
-    <TopCategories />
+    <Main>
+      <TopCategories heading="Top Categories" />
+    </Main>
   </ApolloProvider>
 ));

@@ -1,15 +1,15 @@
+import { useTheme } from "@twitch-player/themes/dist/hooks";
 import PropTypes from "prop-types";
 import React, { memo } from "react";
-import { StyleSheet, Text } from "react-native";
-import { useTheme } from "../../hooks";
+import { Text } from "react-native";
 
 const CustomText = ({ style = [], ...props }) => {
-  const { typography } = useTheme();
+  const [{ typography }] = useTheme();
 
   const rootStyle = [
-    styles.root,
     {
       fontFamily: typography.family,
+      lineHeight: `${typography.lineHeight}`,
     },
   ].concat(style);
 
@@ -19,11 +19,5 @@ const CustomText = ({ style = [], ...props }) => {
 CustomText.propTypes = {
   style: PropTypes.any,
 };
-
-const styles = StyleSheet.create({
-  root: {
-    lineHeight: "1.5",
-  },
-});
 
 export default memo(CustomText);

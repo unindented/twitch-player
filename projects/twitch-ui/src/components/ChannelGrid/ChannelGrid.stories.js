@@ -1,5 +1,6 @@
 import { storiesOf } from "@storybook/react";
 import React from "react";
+import Main from "../Main";
 import ChannelGrid from ".";
 
 const {
@@ -12,5 +13,7 @@ const {
 const categoryChannelsList = categoryChannels.map(({ node }) => node);
 
 storiesOf("Components|ChannelGrid", module).add("default", () => (
-  <ChannelGrid list={categoryChannelsList} />
+  <Main>
+    <ChannelGrid list={categoryChannelsList} />
+  </Main>
 ));

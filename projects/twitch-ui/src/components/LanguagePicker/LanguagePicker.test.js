@@ -1,6 +1,6 @@
-import { fireEvent, render } from "@twitch-player/testing/dist/unit";
 import React from "react";
 import { getI18n } from "react-i18next";
+import { fireEvent, render } from "../../testing";
 import LanguagePicker from "./LanguagePicker";
 
 describe("LanguagePicker", () => {

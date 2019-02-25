@@ -1,7 +1,7 @@
+import { useTheme } from "@twitch-player/themes/dist/hooks";
 import PropTypes from "prop-types";
 import React, { memo } from "react";
 import { ImageBackground } from "react-native";
-import { useTheme } from "../../hooks";
 import { processImageTemplate } from "../../utils";
 import ChannelItemImageOverlay from "./ChannelItemImageOverlay";
 
@@ -13,7 +13,7 @@ const ChannelItemImage = ({
   height: previewImageHeight,
   testID = "channel-item-image",
 }) => {
-  const { colors, layout } = useTheme();
+  const [{ colors, layout }] = useTheme();
 
   const imageURL = processImageTemplate(
     url,

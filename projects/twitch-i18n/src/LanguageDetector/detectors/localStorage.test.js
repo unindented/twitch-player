@@ -1,4 +1,4 @@
-import detector from "./localStorage";
+import { localStorage as detector } from ".";
 
 describe("localStorage", () => {
   beforeEach(() => {

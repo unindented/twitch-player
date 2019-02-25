@@ -1,7 +1,7 @@
-import { fireEvent, render } from "@twitch-player/testing/dist/unit";
 import { createMemoryHistory } from "history";
 import React from "react";
 import { Router } from "react-router";
+import { fireEvent, render } from "../../testing";
 import Text from "../Text";
 import InternalTouchableLink from "./InternalTouchableLink";
 

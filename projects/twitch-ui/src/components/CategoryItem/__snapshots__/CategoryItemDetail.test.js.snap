@@ -7,16 +7,16 @@ exports[`CategoryItemDetail when hovering renders a hovered category item detail
   style="padding: 5px 10px 5px 10px; width: 188px;"
 >
   <div
-    class="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-1471scf rn-fontStyle-o11vmf rn-fontVariant-ebii48 rn-fontWeight-vw2c0b rn-lineHeight-a8ghvy rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-maxWidth-dnmrzs rn-overflowX-11yh6sk rn-overflowY-buy8e9 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-textOverflow-1udbk01 rn-whiteSpace-3s2u2q rn-wordWrap-qvutc0"
+    class="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-1471scf rn-fontStyle-o11vmf rn-fontVariant-ebii48 rn-fontWeight-vw2c0b rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-maxWidth-dnmrzs rn-overflowX-11yh6sk rn-overflowY-buy8e9 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-textOverflow-1udbk01 rn-whiteSpace-3s2u2q rn-wordWrap-qvutc0"
     dir="auto"
-    style="color: rgb(250, 249, 250); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif; font-size: 16px;"
+    style="color: rgb(250, 249, 250); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif; font-size: 16px; line-height: 1.5;"
   >
     Fortnite
   </div>
   <div
-    class="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-1471scf rn-fontStyle-o11vmf rn-fontVariant-ebii48 rn-fontWeight-gul640 rn-lineHeight-a8ghvy rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-maxWidth-dnmrzs rn-overflowX-11yh6sk rn-overflowY-buy8e9 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-textOverflow-1udbk01 rn-whiteSpace-3s2u2q rn-wordWrap-qvutc0"
+    class="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-1471scf rn-fontStyle-o11vmf rn-fontVariant-ebii48 rn-fontWeight-gul640 rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-maxWidth-dnmrzs rn-overflowX-11yh6sk rn-overflowY-buy8e9 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-textOverflow-1udbk01 rn-whiteSpace-3s2u2q rn-wordWrap-qvutc0"
     dir="auto"
-    style="color: rgb(218, 216, 222); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif; font-size: 13px;"
+    style="color: rgb(218, 216, 222); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif; font-size: 13px; line-height: 1.5;"
   >
     {{count, number}} viewer
   </div>
@@ -30,16 +30,16 @@ exports[`CategoryItemDetail when not hovering renders a category item detail 1`]
   style="padding: 5px 10px 5px 10px; width: 188px;"
 >
   <div
-    class="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-1471scf rn-fontStyle-o11vmf rn-fontVariant-ebii48 rn-fontWeight-vw2c0b rn-lineHeight-a8ghvy rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-maxWidth-dnmrzs rn-overflowX-11yh6sk rn-overflowY-buy8e9 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-textOverflow-1udbk01 rn-whiteSpace-3s2u2q rn-wordWrap-qvutc0"
+    class="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-1471scf rn-fontStyle-o11vmf rn-fontVariant-ebii48 rn-fontWeight-vw2c0b rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-maxWidth-dnmrzs rn-overflowX-11yh6sk rn-overflowY-buy8e9 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-textOverflow-1udbk01 rn-whiteSpace-3s2u2q rn-wordWrap-qvutc0"
     dir="auto"
-    style="color: rgb(25, 23, 28); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif; font-size: 16px;"
+    style="color: rgb(25, 23, 28); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif; font-size: 16px; line-height: 1.5;"
   >
     Fortnite
   </div>
   <div
-    class="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-1471scf rn-fontStyle-o11vmf rn-fontVariant-ebii48 rn-fontWeight-gul640 rn-lineHeight-a8ghvy rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-maxWidth-dnmrzs rn-overflowX-11yh6sk rn-overflowY-buy8e9 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-textOverflow-1udbk01 rn-whiteSpace-3s2u2q rn-wordWrap-qvutc0"
+    class="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-1471scf rn-fontStyle-o11vmf rn-fontVariant-ebii48 rn-fontWeight-gul640 rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-maxWidth-dnmrzs rn-overflowX-11yh6sk rn-overflowY-buy8e9 rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-textOverflow-1udbk01 rn-whiteSpace-3s2u2q rn-wordWrap-qvutc0"
     dir="auto"
-    style="color: rgb(50, 47, 55); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif; font-size: 13px;"
+    style="color: rgb(50, 47, 55); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif; font-size: 13px; line-height: 1.5;"
   >
     {{count, number}} viewer
   </div>

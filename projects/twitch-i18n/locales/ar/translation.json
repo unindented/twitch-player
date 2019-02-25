@@ -41,7 +41,10 @@
       "mainHeading": "بحث"
     },
     "settings": {
-      "mainHeading": "إعدادات"
+      "mainHeading": "إعدادات",
+      "languageHeading": "اللغة",
+      "themeHeading": "النسق",
+      "debugHeading": "وضع التصحيح"
     }
   },
   "errors": {

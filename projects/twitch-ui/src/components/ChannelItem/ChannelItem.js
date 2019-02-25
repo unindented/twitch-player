@@ -1,8 +1,8 @@
 import { ChannelType } from "@twitch-player/data";
+import { useTheme } from "@twitch-player/themes/dist/hooks";
 import PropTypes from "prop-types";
 import React, { memo } from "react";
 import { StyleSheet, View } from "react-native";
-import { useTheme } from "../../hooks";
 import Highlightable from "../Highlightable";
 import InternalTouchableLink from "../InternalTouchableLink";
 import ChannelItemDetail from "./ChannelItemDetail";
@@ -24,7 +24,7 @@ const ChannelItem = ({
   height: previewImageHeight,
   testID = "channel-item",
 }) => {
-  const { colors } = useTheme();
+  const [{ colors }] = useTheme();
 
   const categoryName = category && category.name;
 

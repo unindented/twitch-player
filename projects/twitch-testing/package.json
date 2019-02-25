@@ -21,8 +21,5 @@
     "watch:babel": "yarn build:babel --watch",
     "watch": "run-p watch:babel",
     "postinstall": "run-s build"
-  },
-  "dependencies": {
-    "@twitch-player/themes": "*"
   }
 }

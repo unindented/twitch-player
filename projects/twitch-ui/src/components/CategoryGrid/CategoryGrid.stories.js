@@ -1,5 +1,6 @@
 import { storiesOf } from "@storybook/react";
 import React from "react";
+import Main from "../Main";
 import CategoryGrid from ".";
 
 const {
@@ -10,5 +11,7 @@ const {
 const categories = topCategories.map(({ node }) => node);
 
 storiesOf("Components|CategoryGrid", module).add("default", () => (
-  <CategoryGrid list={categories} />
+  <Main>
+    <CategoryGrid list={categories} />
+  </Main>
 ));

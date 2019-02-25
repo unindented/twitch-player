@@ -1,6 +1,5 @@
 import { ThemeProvider } from "@twitch-player/themes/dist/context";
 import { light as lightTheme } from "@twitch-player/themes/dist/themes";
-import { OverridesProvider } from "@twitch-player/ui/dist/context";
 import React from "react";
 import { act } from "react-dom/test-utils";
 import { MemoryRouter as Router } from "react-router";
@@ -9,9 +8,7 @@ import { fireEvent, render } from "react-testing-library";
 const customRender = (node, ...options) => {
   return render(
     <ThemeProvider theme={lightTheme}>
-      <OverridesProvider>
-        <Router>{node}</Router>
-      </OverridesProvider>
+      <Router>{node}</Router>
     </ThemeProvider>,
     ...options
   );
@@ -42,6 +39,4 @@ fireEvent["resize"] = (node, init) => {
   });
 };
 
-export * from "react-testing-library";
-
-export { customRender as render };
+export { customRender as render, fireEvent };

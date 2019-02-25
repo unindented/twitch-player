@@ -1,7 +1,7 @@
+import { useTheme } from "@twitch-player/themes/dist/hooks";
 import PropTypes from "prop-types";
 import React, { memo } from "react";
 import { Image } from "react-native";
-import { useTheme } from "../../hooks";
 import { processImageTemplate } from "../../utils";
 
 const CategoryItemImage = ({
@@ -11,7 +11,7 @@ const CategoryItemImage = ({
   height: boxArtHeight,
   testID = "category-item-image",
 }) => {
-  const { colors, layout } = useTheme();
+  const [{ colors, layout }] = useTheme();
 
   const imageURL = processImageTemplate(
     url,

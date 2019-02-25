@@ -6,7 +6,7 @@ export default {
   bodySubtext: palette.light,
   border: palette.light,
   link: palette.themePrimary,
-  linkHover: palette.themeDarker,
+  linkHover: palette.themeSecondary,
   heading: palette.light,
   itemPrimary: palette.white,
   itemSecondary: palette.light,
@@ -20,4 +20,8 @@ export default {
   navBackground: palette.themeSecondary,
   navBackgroundHover: palette.themePrimary,
   spinner: palette.themePrimary,
+  switchTrack: palette.dark,
+  switchThumb: palette.black,
+  switchActiveTrack: palette.dark,
+  switchActiveThumb: palette.themePrimary,
 };

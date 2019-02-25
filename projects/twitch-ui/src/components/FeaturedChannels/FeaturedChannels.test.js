@@ -1,11 +1,13 @@
-import { render } from "@twitch-player/testing/dist/unit";
 import React from "react";
 import { useQuery } from "react-apollo-hooks";
+import { fireEvent, render } from "../../testing";
+import Main from "../Main";
 import FeaturedChannels from "./FeaturedChannels";
 
 jest.mock("react-apollo-hooks", () => ({
   useQuery: jest.fn(),
 }));
+jest.mock("../ChannelList", () => "mock-channel-list");
 
 const featuredChannels = require("@twitch-player/data/fixtures/featuredChannels.json");
 
@@ -16,11 +18,16 @@ describe("FeaturedChannels", () => {
     beforeEach(() => {
       useQuery.mockImplementationOnce(() => featuredChannels);
 
-      instance = render(<FeaturedChannels />);
+      instance = render(
+        <Main>
+          <FeaturedChannels heading="Featured Channels" />
+        </Main>
+      );
+      fireEvent.resize(window, { target: { width: 480, height: 640 } });
     });
 
     it("renders the list of featured streams", () => {
-      expect(instance.getByTestId("featured-channels")).toMatchSnapshot();
+      expect(instance.getByTestId("main")).toMatchSnapshot();
     });
   });
 
@@ -31,7 +38,12 @@ describe("FeaturedChannels", () => {
         refetch: jest.fn(),
       }));
 
-      instance = render(<FeaturedChannels />);
+      instance = render(
+        <Main>
+          <FeaturedChannels heading="Featured Channels" />
+        </Main>
+      );
+      fireEvent.resize(window, { target: { width: 480, height: 640 } });
     });
 
     it("renders an error", () => {

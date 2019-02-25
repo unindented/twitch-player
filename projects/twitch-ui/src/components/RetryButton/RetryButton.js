@@ -1,18 +1,17 @@
 import { useTranslation } from "@twitch-player/i18n";
+import { useTheme } from "@twitch-player/themes/dist/hooks";
 import PropTypes from "prop-types";
 import React, { memo } from "react";
 import { Button, StyleSheet, View } from "react-native";
-import { useTheme } from "../../hooks";
 
 const RetryButton = ({ onPress, testID = "retry-button" }) => {
   const { t } = useTranslation();
-  const { colors, layout } = useTheme();
+  const [{ colors, layout }] = useTheme();
 
   const rootStyle = [
     styles.root,
     {
       backgroundColor: colors.itemBackground,
-      marginBottom: layout.gapLarge,
       padding: layout.gapLarge,
     },
   ];

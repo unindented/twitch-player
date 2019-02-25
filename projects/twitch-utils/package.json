@@ -1,0 +1,27 @@
+{
+  "name": "@twitch-player/utils",
+  "description": "Utils for TwitchPlayer.",
+  "version": "0.0.0",
+  "license": "MIT",
+  "private": true,
+  "author": {
+    "name": "Daniel Perez Alvarez",
+    "email": "unindented@gmail.com",
+    "url": "https://unindented.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/unindented/twitch-player"
+  },
+  "scripts": {
+    "clean:dist": "shx rm -rf dist",
+    "clean": "run-p clean:*",
+    "build:babel": "babel src --out-dir dist --source-maps",
+    "build": "run-s clean build:babel",
+    "watch:babel": "yarn build:babel --watch",
+    "watch": "run-p watch:babel",
+    "postinstall": "run-s build"
+  },
+  "main": "dist/index.js",
+  "sideEffects": false
+}

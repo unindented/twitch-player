@@ -1,4 +1,4 @@
-import detector from "./queryString";
+import { queryString as detector } from ".";
 
 describe("queryString", () => {
   beforeEach(() => {

@@ -1,7 +1,8 @@
 import PropTypes from "prop-types";
 import React from "react";
 import { StyleSheet, View } from "react-native";
-import { useResponsiveLayout } from "../../hooks";
+import { useDimensions } from "../../hooks";
+import { getMatchingQuerySize } from "../../utils";
 import Main from "../Main";
 import Navigation from "../Navigation";
 
@@ -15,14 +16,14 @@ const layoutQuery = {
 };
 
 const Page = ({ children, testID = "page" }) => {
-  const [layout, updateLayout] = useResponsiveLayout(layoutQuery);
+  const [dimensions, updateDimensions] = useDimensions("page");
+
+  const layout = dimensions && getMatchingQuerySize(layoutQuery, dimensions);
+
+  const rootStyle = [styles.root, styles[layout || "narrow"]];
 
   return (
-    <View
-      style={[styles.root, styles[layout || "narrow"]]}
-      testID={testID}
-      onLayout={updateLayout}
-    >
+    <View style={rootStyle} testID={testID} onLayout={updateDimensions}>
       {layout && (
         <>
           <Navigation />

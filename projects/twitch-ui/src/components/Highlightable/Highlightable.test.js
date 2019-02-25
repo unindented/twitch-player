@@ -1,6 +1,6 @@
-import { fireEvent, render } from "@twitch-player/testing/dist/unit";
 import React from "react";
 import { Text, TouchableHighlight } from "react-native";
+import { fireEvent, render } from "../../testing";
 import { isHoverEnabled } from "../../utils";
 import Highlightable from "./Highlightable";
 

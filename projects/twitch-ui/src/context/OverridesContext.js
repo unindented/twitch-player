@@ -5,7 +5,7 @@ const defaultOverrides = {
   ChannelPlayer: () => null,
 };
 
-export const OverridesContext = createContext(defaultOverrides);
+export const OverridesContext = createContext();
 
 export const OverridesProvider = ({ overrides, ...props }) => (
   <OverridesContext.Provider {...props} value={overrides || defaultOverrides} />

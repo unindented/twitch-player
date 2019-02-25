@@ -1,4 +1,4 @@
-import detector from "./navigator";
+import { navigator as detector } from ".";
 
 describe("navigator", () => {
   beforeEach(() => {

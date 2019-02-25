@@ -1,8 +1,8 @@
 import { CategoryType } from "@twitch-player/data";
+import { useTheme } from "@twitch-player/themes/dist/hooks";
 import PropTypes from "prop-types";
 import React, { memo } from "react";
 import { StyleSheet, View } from "react-native";
-import { useTheme } from "../../hooks";
 import Highlightable from "../Highlightable";
 import InternalTouchableLink from "../InternalTouchableLink";
 import CategoryItemDetail from "./CategoryItemDetail";
@@ -14,7 +14,7 @@ const CategoryItem = ({
   height: boxArtHeight,
   testID = "category-item",
 }) => {
-  const { colors } = useTheme();
+  const [{ colors }] = useTheme();
 
   return (
     <Highlightable>

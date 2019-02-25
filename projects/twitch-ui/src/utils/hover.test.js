@@ -1,4 +1,4 @@
-import { fireEvent } from "@twitch-player/testing/dist/unit";
+import { fireEvent } from "../testing";
 import { isHoverEnabled } from ".";
 
 describe("isHoverEnabled", () => {

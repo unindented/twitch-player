@@ -1,6 +1,9 @@
-import { fireEvent, render } from "@twitch-player/testing/dist/unit";
 import React from "react";
+import { fireEvent, render } from "../../testing";
+import Main from "../Main";
 import ChannelGrid from "./ChannelGrid";
+
+jest.mock("../ChannelItem", () => "mock-channel-item");
 
 const {
   data: {
@@ -15,19 +18,23 @@ describe("ChannelGrid", () => {
   let instance;
 
   beforeEach(() => {
-    instance = render(<ChannelGrid list={channels} />);
+    instance = render(
+      <Main>
+        <ChannelGrid list={channels} />
+      </Main>
+    );
   });
 
   it("renders nothing until layout", () => {
-    expect(instance.getByTestId("channel-grid")).toMatchSnapshot();
+    expect(instance.queryByTestId("channel-grid")).toBeNull();
   });
 
-  describe("with narrow parent", () => {
+  describe("after layout", () => {
     beforeEach(() => {
       fireEvent.resize(window, { target: { width: 480, height: 640 } });
     });
 
-    it("renders with a narrow layout", () => {
+    it("renders its elements", () => {
       expect(instance.getByTestId("channel-grid")).toMatchSnapshot();
     });
   });
