@@ -5,7 +5,8 @@
       "channelsLabel": "قنوات حية",
       "categoriesLabel": "الفئات",
       "searchLabel": "بحث",
-      "settingsLabel": "إعدادات"
+      "settingsLabel": "إعدادات",
+      "exitPrompt": "هل أنت متأكد أنك تريد الخروج؟"
     },
     "item": {
       "liveIndicator": "المباشر",

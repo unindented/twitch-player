@@ -5,7 +5,8 @@
       "channelsLabel": "Live-Kanäle",
       "categoriesLabel": "Kategorien",
       "searchLabel": "Suchen",
-      "settingsLabel": "Einstellungen"
+      "settingsLabel": "Einstellungen",
+      "exitPrompt": "Sie sind sicher, dass Sie beenden wollen?"
     },
     "item": {
       "liveIndicator": "Live",

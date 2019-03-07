@@ -5,7 +5,8 @@
       "channelsLabel": "Canales en directo",
       "categoriesLabel": "Categorías",
       "searchLabel": "Búsqueda",
-      "settingsLabel": "Configuración"
+      "settingsLabel": "Configuración",
+      "exitPrompt": "¿Seguro de quieres salir?"
     },
     "item": {
       "liveIndicator": "Directo",

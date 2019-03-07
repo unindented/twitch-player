@@ -12,7 +12,7 @@ import {
 import React, { Suspense, memo } from "react";
 import { ApolloProvider } from "react-apollo-hooks";
 import { MemoryRouter as Router } from "react-router";
-import KeyboardHistory from "./KeyboardHistory";
+import KeyboardNavigation from "./components/KeyboardNavigation";
 import Routes from "./Routes";
 
 const apolloClient = createClient();
@@ -26,7 +26,7 @@ const App = () => (
           <OverridesProvider overrides={overrides}>
             <Router>
               <Suspense fallback={null}>
-                <KeyboardHistory />
+                <KeyboardNavigation />
                 <LanguageMonitor />
                 <Page>
                   <Suspense fallback={<Spinner />}>

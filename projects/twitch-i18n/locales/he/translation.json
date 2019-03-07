@@ -5,7 +5,8 @@
       "channelsLabel": "ערוצים חיים",
       "categoriesLabel": "קטגוריות",
       "searchLabel": "חפש",
-      "settingsLabel": "הגדרות"
+      "settingsLabel": "הגדרות",
+      "exitPrompt": "אתה בטוח שאתה רוצה לצאת?"
     },
     "item": {
       "liveIndicator": "חיים",

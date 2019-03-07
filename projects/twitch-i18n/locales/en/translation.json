@@ -5,7 +5,8 @@
       "channelsLabel": "Live Channels",
       "categoriesLabel": "Categories",
       "searchLabel": "Search",
-      "settingsLabel": "Settings"
+      "settingsLabel": "Settings",
+      "exitPrompt": "Are you sure you want to exit?"
     },
     "item": {
       "liveIndicator": "Live",
