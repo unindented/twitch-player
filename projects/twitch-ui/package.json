@@ -1,5 +1,6 @@
 {
   "name": "@twitch-player/ui",
+  "productName": "TwitchPlayer",
   "description": "UI components for TwitchPlayer.",
   "version": "0.0.0",
   "license": "MIT",
