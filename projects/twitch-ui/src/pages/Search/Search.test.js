@@ -10,6 +10,6 @@ describe("Search", () => {
   });
 
   it("renders the page", () => {
-    expect(instance.getByTestId("search-page")).toMatchSnapshot();
+    expect(instance.asFragment()).toMatchSnapshot();
   });
 });

@@ -23,10 +23,13 @@ const ChannelItemDetail = ({
 
   const broadcasterImageHeight =
     Math.floor(typography.sizeTertiary * typography.lineHeight) * 2;
-  const broadcasterImageStyle = {
-    height: broadcasterImageHeight,
-    width: broadcasterImageHeight,
-  };
+  const broadcasterImageStyle = [
+    styles.broadcasterImage,
+    {
+      height: broadcasterImageHeight,
+      width: broadcasterImageHeight,
+    },
+  ];
   const broadcasterInfoStyle = [
     styles.broadcasterInfo,
     { marginStart: layout.gapSmall },
@@ -84,6 +87,9 @@ const styles = StyleSheet.create({
   },
   secondaryBlock: {
     flexDirection: "row",
+  },
+  broadcasterImage: {
+    display: "block",
   },
   broadcasterInfo: {
     flex: 1,

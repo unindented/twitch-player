@@ -27,10 +27,11 @@ const Navigation = ({ testID = "navigation" }) => {
       backgroundColor: colors.navBackground,
     },
   ];
+  const wrapperStyle = styles[layout];
 
   return (
     <View accessibilityRole="navigation" style={rootStyle} testID={testID}>
-      <View style={styles[layout]}>
+      <View style={wrapperStyle}>
         <NavigationIcon
           href="/"
           source={homeIcon}
@@ -56,7 +57,7 @@ const Navigation = ({ testID = "navigation" }) => {
           testID={`${testID}-search-icon`}
         />
       </View>
-      <View style={styles[layout]}>
+      <View style={wrapperStyle}>
         <NavigationIcon
           href="/settings"
           source={settingsIcon}

@@ -14,6 +14,6 @@ describe("Channel", () => {
   });
 
   it("renders the page", () => {
-    expect(instance.getByTestId("channel-page")).toMatchSnapshot();
+    expect(instance.asFragment()).toMatchSnapshot();
   });
 });

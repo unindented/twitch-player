@@ -1,7 +1,7 @@
 import { CategoryType } from "@twitch-player/data";
 import PropTypes from "prop-types";
 import React, { memo, useCallback } from "react";
-import { View } from "react-native";
+import { StyleSheet, View } from "react-native";
 import { useCategoryList } from "../../hooks";
 import CategoryItem from "../CategoryItem";
 import HorizontalList from "../HorizontalList";
@@ -22,10 +22,10 @@ const CategoryList = ({
 
   const renderItem = useCallback(
     ({ item, index }) => {
-      const style = renderItemStyle(index);
+      const itemStyle = [styles.item, renderItemStyle(index)];
 
       return (
-        <View style={style}>
+        <View style={itemStyle}>
           <CategoryItem item={item} width={imageWidth} height={imageHeight} />
         </View>
       );
@@ -34,17 +34,16 @@ const CategoryList = ({
   );
 
   return (
-    <View testID={testID}>
-      <HorizontalList
-        key={`${imageWidth}x${imageHeight}`}
-        data={list}
-        getItemLayout={getItemLayout}
-        initialNumToRender={numColumns + 1}
-        renderItem={renderItem}
-        renderHeader={renderHeader}
-        renderFooter={renderFooter}
-      />
-    </View>
+    <HorizontalList
+      key={`${imageWidth}x${imageHeight}`}
+      data={list}
+      getItemLayout={getItemLayout}
+      initialNumToRender={numColumns + 1}
+      renderItem={renderItem}
+      renderHeader={renderHeader}
+      renderFooter={renderFooter}
+      testID={testID}
+    />
   );
 };
 
@@ -54,5 +53,11 @@ CategoryList.propTypes = {
   renderFooter: PropTypes.any,
   testID: PropTypes.string,
 };
+
+const styles = StyleSheet.create({
+  item: {
+    display: "block",
+  },
+});
 
 export default memo(CategoryList);

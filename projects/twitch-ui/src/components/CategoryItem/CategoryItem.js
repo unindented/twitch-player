@@ -2,7 +2,7 @@ import { CategoryType } from "@twitch-player/data";
 import { useTheme } from "@twitch-player/themes/dist/hooks";
 import PropTypes from "prop-types";
 import React, { memo } from "react";
-import { StyleSheet, View } from "react-native";
+import { StyleSheet } from "react-native";
 import Highlightable from "../Highlightable";
 import InternalTouchableLink from "../InternalTouchableLink";
 import CategoryItemDetail from "./CategoryItemDetail";
@@ -19,34 +19,35 @@ const CategoryItem = ({
   return (
     <Highlightable>
       {isHighlighted => {
-        const wrapperStyle = {
-          backgroundColor: isHighlighted
-            ? colors.itemBackgroundHover
-            : "transparent",
-        };
+        const rootStyle = [
+          styles.root,
+          {
+            backgroundColor: isHighlighted
+              ? colors.itemBackgroundHover
+              : "transparent",
+          },
+        ];
 
         return (
           <InternalTouchableLink
             href={`/categories/${name}`}
-            style={styles.root}
+            style={rootStyle}
             testID={testID}
           >
-            <View style={wrapperStyle} testID={`${testID}-wrapper`}>
-              <CategoryItemImage
-                url={boxArtURL}
-                name={name}
-                width={boxArtWidth}
-                height={boxArtHeight}
-                testID={`${testID}-image`}
-              />
-              <CategoryItemDetail
-                name={name}
-                viewersCount={viewersCount}
-                width={boxArtWidth}
-                isHighlighted={isHighlighted}
-                testID={`${testID}-detail`}
-              />
-            </View>
+            <CategoryItemImage
+              url={boxArtURL}
+              name={name}
+              width={boxArtWidth}
+              height={boxArtHeight}
+              testID={`${testID}-image`}
+            />
+            <CategoryItemDetail
+              name={name}
+              viewersCount={viewersCount}
+              width={boxArtWidth}
+              isHighlighted={isHighlighted}
+              testID={`${testID}-detail`}
+            />
           </InternalTouchableLink>
         );
       }}
@@ -63,6 +64,7 @@ CategoryItem.propTypes = {
 
 const styles = StyleSheet.create({
   root: {
+    display: "block",
     outline: "none",
   },
 });

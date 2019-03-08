@@ -59,6 +59,7 @@ const styles = StyleSheet.create({
   },
   dot: {
     borderRadius: "50%",
+    display: "block",
   },
   text: {
     lineHeight: "1",

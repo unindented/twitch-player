@@ -21,6 +21,11 @@ export default story => {
   getI18n().changeLanguage(language);
   I18nManager.forceRTL(rtl);
 
+  const wrapperStyle = {
+    backgroundColor: theme.colors.bodyBackground,
+    flex: 1,
+  };
+
   return (
     <ThemeProvider theme={theme}>
       <DebugProvider>
@@ -28,14 +33,7 @@ export default story => {
           <OverridesProvider>
             <Router>
               <Suspense fallback={null}>
-                <View
-                  style={{
-                    backgroundColor: theme.colors.bodyBackground,
-                    flex: 1,
-                  }}
-                >
-                  {story()}
-                </View>
+                <View style={wrapperStyle}>{story()}</View>
               </Suspense>
             </Router>
           </OverridesProvider>

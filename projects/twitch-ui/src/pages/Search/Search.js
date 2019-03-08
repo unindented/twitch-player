@@ -4,11 +4,11 @@ import React, { memo } from "react";
 import { View } from "react-native";
 import Heading from "../../components/Heading";
 
-const Search = ({ testID = "search-page" }) => {
+const Search = () => {
   const { t } = useTranslation();
 
   return (
-    <View testID={testID}>
+    <View>
       <Heading level="2">{t("pages.search.mainHeading")}</Heading>
     </View>
   );

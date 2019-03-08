@@ -23,10 +23,10 @@ const CategoryGrid = ({
 
   const renderItem = useCallback(
     ({ item, index }) => {
-      const style = renderItemStyle(index);
+      const itemStyle = [styles.item, renderItemStyle(index)];
 
       return (
-        <View style={style}>
+        <View style={itemStyle}>
           <CategoryItem item={item} width={imageWidth} height={imageHeight} />
         </View>
       );
@@ -35,18 +35,17 @@ const CategoryGrid = ({
   );
 
   return (
-    <View style={styles.root} testID={testID}>
-      <GridList
-        key={`${imageWidth}x${imageHeight}`}
-        data={list}
-        initialNumToRender={numRows}
-        numColumns={numColumns}
-        getItemLayout={getItemLayout}
-        renderItem={renderItem}
-        renderHeader={renderHeader}
-        renderFooter={renderFooter}
-      />
-    </View>
+    <GridList
+      key={`${imageWidth}x${imageHeight}`}
+      data={list}
+      initialNumToRender={numRows}
+      numColumns={numColumns}
+      getItemLayout={getItemLayout}
+      renderItem={renderItem}
+      renderHeader={renderHeader}
+      renderFooter={renderFooter}
+      testID={testID}
+    />
   );
 };
 
@@ -58,8 +57,8 @@ CategoryGrid.propTypes = {
 };
 
 const styles = StyleSheet.create({
-  root: {
-    flex: 1,
+  item: {
+    display: "block",
   },
 });
 

@@ -1,7 +1,7 @@
 import { useTheme } from "@twitch-player/themes/dist/hooks";
 import PropTypes from "prop-types";
 import React, { memo } from "react";
-import { Image, StyleSheet, View } from "react-native";
+import { Image, StyleSheet } from "react-native";
 import Highlightable from "../Highlightable";
 import InternalTouchableLink from "../InternalTouchableLink";
 
@@ -23,26 +23,23 @@ const NavigationIcon = ({
   return (
     <Highlightable>
       {isHighlighted => {
-        const wrapper = {
-          backgroundColor: isHighlighted
-            ? colors.navBackgroundHover
-            : "transparent",
-        };
+        const rootStyle = [
+          styles.root,
+          {
+            backgroundColor: isHighlighted
+              ? colors.navBackgroundHover
+              : "transparent",
+          },
+        ];
 
         return (
-          <InternalTouchableLink
-            href={href}
-            style={styles.root}
-            testID={testID}
-          >
-            <View style={wrapper} testID={`${testID}-wrapper`}>
-              <Image
-                source={{ uri: source }}
-                accessibilityLabel={accessibilityLabel}
-                style={imageStyle}
-                testID={`${testID}-image`}
-              />
-            </View>
+          <InternalTouchableLink href={href} style={rootStyle} testID={testID}>
+            <Image
+              source={{ uri: source }}
+              accessibilityLabel={accessibilityLabel}
+              style={imageStyle}
+              testID={`${testID}-image`}
+            />
           </InternalTouchableLink>
         );
       }}
@@ -59,7 +56,9 @@ NavigationIcon.propTypes = {
 
 const styles = StyleSheet.create({
   root: {
+    display: "block",
     outline: "none",
+    overflow: "hidden",
   },
 });
 

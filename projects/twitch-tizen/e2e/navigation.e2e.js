@@ -51,26 +51,6 @@ describe("navigation", () => {
     expect(categoriesSectionEl).toBeDefined();
   });
 
-  it("navigates to 'Search'", async () => {
-    const searchLink = '[data-testid="navigation-search-icon"]';
-    const searchPage = '[data-testid="search-page"]';
-    await page.waitFor(searchLink);
-    await page.click(searchLink);
-    await page.waitFor(searchPage);
-    const searchPageEl = await page.$(searchPage);
-    expect(searchPageEl).toBeDefined();
-  });
-
-  it("navigates to 'Settings'", async () => {
-    const settingsLink = '[data-testid="navigation-settings-icon"]';
-    const settingsPage = '[data-testid="settings-page"]';
-    await page.waitFor(settingsLink);
-    await page.click(settingsLink);
-    await page.waitFor(settingsPage);
-    const settingsPageEl = await page.$(settingsPage);
-    expect(settingsPageEl).toBeDefined();
-  });
-
   it("navigates back to 'Home'", async () => {
     const homeLink = '[data-testid="navigation-home-icon"]';
     const homePage = '[data-testid="home-page"]';

@@ -8,7 +8,7 @@ exports[`LiveIndicator renders a live indicator 1`] = `
 >
   <div
     aria-hidden="true"
-    class="rn-alignItems-1oszu61 rn-borderTopLeftRadius-wlx8yz rn-borderTopRightRadius-iy595e rn-borderBottomRightRadius-1fm23du rn-borderBottomLeftRadius-1p9x04s rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-marginTop-1mnahxq rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-zIndex-1lgpqti"
+    class="rn-alignItems-1oszu61 rn-borderTopLeftRadius-wlx8yz rn-borderTopRightRadius-iy595e rn-borderBottomRightRadius-1fm23du rn-borderBottomLeftRadius-1p9x04s rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-1adg3ll rn-flexDirection-eqz5dr rn-marginTop-1mnahxq rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-zIndex-1lgpqti"
     style="background-color: rgb(236, 19, 19); height: 10px; margin-right: 5px; width: 10px;"
   />
   <div

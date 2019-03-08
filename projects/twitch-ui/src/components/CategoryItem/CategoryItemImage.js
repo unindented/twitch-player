@@ -1,7 +1,7 @@
 import { useTheme } from "@twitch-player/themes/dist/hooks";
 import PropTypes from "prop-types";
 import React, { memo } from "react";
-import { Image } from "react-native";
+import { Image, StyleSheet } from "react-native";
 import { processImageTemplate } from "../../utils";
 
 const CategoryItemImage = ({
@@ -19,11 +19,14 @@ const CategoryItemImage = ({
     layout.maxCategoryHeight
   );
 
-  const imageStyle = {
-    backgroundColor: colors.itemBackground,
-    height: boxArtHeight,
-    width: boxArtWidth,
-  };
+  const imageStyle = [
+    styles.image,
+    {
+      backgroundColor: colors.itemBackground,
+      height: boxArtHeight,
+      width: boxArtWidth,
+    },
+  ];
 
   return (
     <Image
@@ -42,5 +45,11 @@ CategoryItemImage.propTypes = {
   height: PropTypes.number.isRequired,
   testID: PropTypes.string,
 };
+
+const styles = StyleSheet.create({
+  image: {
+    display: "block",
+  },
+});
 
 export default memo(CategoryItemImage);

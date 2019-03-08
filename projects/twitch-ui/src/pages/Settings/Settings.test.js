@@ -14,6 +14,6 @@ describe("Settings", () => {
   });
 
   it("renders the page", () => {
-    expect(instance.getByTestId("settings-page")).toMatchSnapshot();
+    expect(instance.asFragment()).toMatchSnapshot();
   });
 });

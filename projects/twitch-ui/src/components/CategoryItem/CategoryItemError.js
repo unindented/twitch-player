@@ -13,11 +13,14 @@ const CategoryItemError = ({
   const { t } = useTranslation();
   const [{ colors, layout, typography }] = useTheme();
 
-  const imageStyle = {
-    backgroundColor: colors.itemBackground,
-    height: boxArtHeight,
-    width: boxArtWidth,
-  };
+  const imageStyle = [
+    styles.image,
+    {
+      backgroundColor: colors.itemBackground,
+      height: boxArtHeight,
+      width: boxArtWidth,
+    },
+  ];
   const detailStyle = {
     paddingHorizontal: layout.gapMedium,
     paddingVertical: layout.gapSmall,
@@ -36,7 +39,7 @@ const CategoryItemError = ({
   };
 
   return (
-    <View testID={testID}>
+    <View style={styles.root} testID={testID}>
       <View style={imageStyle} testID={`${testID}-image`} />
       <View style={detailStyle} testID={`${testID}-detail`}>
         <Text numberOfLines={1} style={detailPrimaryStyle}>
@@ -57,6 +60,12 @@ CategoryItemError.propTypes = {
 };
 
 const styles = StyleSheet.create({
+  root: {
+    display: "block",
+  },
+  image: {
+    display: "block",
+  },
   detailPrimary: {
     fontWeight: "bold",
     textTransform: "uppercase",
