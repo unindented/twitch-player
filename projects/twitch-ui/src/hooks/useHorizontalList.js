@@ -3,19 +3,23 @@ import {
   getItemDimensions,
   getHorizontalListItemLayout,
   getHorizontalListItemStyle,
+  isSmallView,
 } from "../utils";
 import { useDimensions } from ".";
 
 export const useCategoryList = itemCount => {
   const [{ layout }] = useTheme();
-  const [{ width }] = useDimensions("main");
+  const [dimensions] = useDimensions("main");
+  const { width } = dimensions;
 
   const options = {
     itemCount,
     containerWidth: width,
     maxImageWidth: layout.maxCategoryWidth,
     maxImageHeight: layout.maxCategoryHeight,
-    spaceSides: layout.gapExtraLarge,
+    spaceSides: isSmallView(dimensions)
+      ? layout.gapLarge
+      : layout.gapExtraLarge,
     spaceBetween: layout.gapSmall,
     spaceBottom: layout.gapMedium,
   };
@@ -37,14 +41,17 @@ export const useCategoryList = itemCount => {
 
 export const useChannelList = itemCount => {
   const [{ layout }] = useTheme();
-  const [{ width }] = useDimensions("main");
+  const [dimensions] = useDimensions("main");
+  const { width } = dimensions;
 
   const options = {
     itemCount,
     containerWidth: width,
     maxImageWidth: layout.maxChannelWidth,
     maxImageHeight: layout.maxChannelHeight,
-    spaceSides: layout.gapExtraLarge,
+    spaceSides: isSmallView(dimensions)
+      ? layout.gapLarge
+      : layout.gapExtraLarge,
     spaceBetween: layout.gapSmall,
     spaceBottom: layout.gapMedium,
   };

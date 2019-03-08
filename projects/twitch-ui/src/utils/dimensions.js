@@ -121,3 +121,5 @@ export const getMatchingQuerySize = (query, { height, width }) => {
     }
   }
 };
+
+export const isSmallView = ({ width }) => width <= 480;

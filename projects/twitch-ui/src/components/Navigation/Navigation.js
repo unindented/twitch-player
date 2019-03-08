@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 import React, { memo } from "react";
 import { StyleSheet, View } from "react-native";
 import { useDimensions } from "../../hooks";
-import { getMatchingQuerySize } from "../../utils";
+import { isSmallView } from "../../utils";
 import NavigationIcon from "./NavigationIcon";
 
 const homeIcon = require("@twitch-player/assets/dist/ui/icons/home.svg");
@@ -13,21 +13,12 @@ const categoriesIcon = require("@twitch-player/assets/dist/ui/icons/categories.s
 const searchIcon = require("@twitch-player/assets/dist/ui/icons/search.svg");
 const settingsIcon = require("@twitch-player/assets/dist/ui/icons/settings.svg");
 
-const layoutQuery = {
-  horizontal: {
-    maxWidth: 480,
-  },
-  vertical: {
-    minWidth: 481,
-  },
-};
-
 const Navigation = ({ testID = "navigation" }) => {
   const { t } = useTranslation();
   const [{ colors }] = useTheme();
   const [dimensions] = useDimensions("page");
 
-  const layout = getMatchingQuerySize(layoutQuery, dimensions);
+  const layout = isSmallView(dimensions) ? "horizontal" : "vertical";
 
   const rootStyle = [
     styles.root,

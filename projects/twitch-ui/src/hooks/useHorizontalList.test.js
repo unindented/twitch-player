@@ -19,11 +19,26 @@ describe("useCategoryList", () => {
         <SomeComponent />
       </Main>
     );
-    fireEvent.resize(window, { target: { width: 480, height: 640 } });
   });
 
-  it("renders with the right attributes", () => {
-    expect(instance.getByTestId("main")).toMatchSnapshot();
+  describe("with a small viewport", () => {
+    beforeEach(() => {
+      fireEvent.resize(window, { target: { width: 480, height: 640 } });
+    });
+
+    it("renders with the right attributes", () => {
+      expect(instance.getByTestId("main")).toMatchSnapshot();
+    });
+  });
+
+  describe("with a large viewport", () => {
+    beforeEach(() => {
+      fireEvent.resize(window, { target: { width: 640, height: 480 } });
+    });
+
+    it("renders with the right attributes", () => {
+      expect(instance.getByTestId("main")).toMatchSnapshot();
+    });
   });
 });
 
@@ -42,10 +57,25 @@ describe("useChannelList", () => {
         <SomeComponent />
       </Main>
     );
-    fireEvent.resize(window, { target: { width: 480, height: 640 } });
   });
 
-  it("renders with the right attributes", () => {
-    expect(instance.getByTestId("main")).toMatchSnapshot();
+  describe("with a small viewport", () => {
+    beforeEach(() => {
+      fireEvent.resize(window, { target: { width: 480, height: 640 } });
+    });
+
+    it("renders with the right attributes", () => {
+      expect(instance.getByTestId("main")).toMatchSnapshot();
+    });
+  });
+
+  describe("with a large viewport", () => {
+    beforeEach(() => {
+      fireEvent.resize(window, { target: { width: 640, height: 480 } });
+    });
+
+    it("renders with the right attributes", () => {
+      expect(instance.getByTestId("main")).toMatchSnapshot();
+    });
   });
 });

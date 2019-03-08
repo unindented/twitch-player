@@ -3,12 +3,14 @@ import {
   getItemDimensions,
   getGridListItemLayout,
   getGridListItemStyle,
+  isSmallView,
 } from "../utils";
 import { useDimensions } from ".";
 
 export const useCategoryGrid = itemCount => {
   const [{ layout, typography }] = useTheme();
-  const [{ width, height }] = useDimensions("main");
+  const [dimensions] = useDimensions("main");
+  const { width, height } = dimensions;
 
   const options = {
     itemCount,
@@ -20,7 +22,9 @@ export const useCategoryGrid = itemCount => {
       Math.floor(typography.sizeSecondary * typography.lineHeight) +
       Math.floor(typography.sizeTertiary * typography.lineHeight) +
       layout.gapSmall * 2,
-    spaceSides: layout.gapExtraLarge,
+    spaceSides: isSmallView(dimensions)
+      ? layout.gapLarge
+      : layout.gapExtraLarge,
     spaceBetween: layout.gapSmall,
     spaceBottom: layout.gapMedium,
   };
@@ -40,7 +44,8 @@ export const useCategoryGrid = itemCount => {
 
 export const useChannelGrid = itemCount => {
   const [{ layout, typography }] = useTheme();
-  const [{ width, height }] = useDimensions("main");
+  const [dimensions] = useDimensions("main");
+  const { width, height } = dimensions;
 
   const options = {
     itemCount,
@@ -53,7 +58,9 @@ export const useChannelGrid = itemCount => {
       Math.floor(typography.sizeTertiary * typography.lineHeight) +
       Math.floor(typography.sizeTertiary * typography.lineHeight) +
       layout.gapSmall * 2,
-    spaceSides: layout.gapExtraLarge,
+    spaceSides: isSmallView(dimensions)
+      ? layout.gapLarge
+      : layout.gapExtraLarge,
     spaceBetween: layout.gapSmall,
     spaceBottom: layout.gapMedium,
   };

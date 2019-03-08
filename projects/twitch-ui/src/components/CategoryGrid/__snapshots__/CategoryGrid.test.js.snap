@@ -21,12 +21,12 @@ exports[`CategoryGrid after layout renders its elements 1`] = `
         >
           <div
             class="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-marginTop-1mnahxq rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-zIndex-1lgpqti"
-            style="margin-bottom: 10px; margin-left: 30px; margin-right: 5px;"
+            style="margin-bottom: 10px; margin-left: 20px; margin-right: 5px;"
           >
             <mock-category-item
-              height="176"
+              height="186"
               item="[object Object]"
-              width="133"
+              width="140"
             />
           </div>
           <div
@@ -34,19 +34,19 @@ exports[`CategoryGrid after layout renders its elements 1`] = `
             style="margin-bottom: 10px; margin-left: 5px; margin-right: 5px;"
           >
             <mock-category-item
-              height="176"
+              height="186"
               item="[object Object]"
-              width="133"
+              width="140"
             />
           </div>
           <div
             class="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-marginTop-1mnahxq rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-zIndex-1lgpqti"
-            style="margin-bottom: 10px; margin-left: 5px; margin-right: 30px;"
+            style="margin-bottom: 10px; margin-left: 5px; margin-right: 20px;"
           >
             <mock-category-item
-              height="176"
+              height="186"
               item="[object Object]"
-              width="133"
+              width="140"
             />
           </div>
         </div>
@@ -60,12 +60,12 @@ exports[`CategoryGrid after layout renders its elements 1`] = `
         >
           <div
             class="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-marginTop-1mnahxq rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-zIndex-1lgpqti"
-            style="margin-bottom: 10px; margin-left: 30px; margin-right: 5px;"
+            style="margin-bottom: 10px; margin-left: 20px; margin-right: 5px;"
           >
             <mock-category-item
-              height="176"
+              height="186"
               item="[object Object]"
-              width="133"
+              width="140"
             />
           </div>
           <div
@@ -73,19 +73,19 @@ exports[`CategoryGrid after layout renders its elements 1`] = `
             style="margin-bottom: 10px; margin-left: 5px; margin-right: 5px;"
           >
             <mock-category-item
-              height="176"
+              height="186"
               item="[object Object]"
-              width="133"
+              width="140"
             />
           </div>
           <div
             class="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-marginTop-1mnahxq rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-zIndex-1lgpqti"
-            style="margin-bottom: 10px; margin-left: 5px; margin-right: 30px;"
+            style="margin-bottom: 10px; margin-left: 5px; margin-right: 20px;"
           >
             <mock-category-item
-              height="176"
+              height="186"
               item="[object Object]"
-              width="133"
+              width="140"
             />
           </div>
         </div>
@@ -99,12 +99,12 @@ exports[`CategoryGrid after layout renders its elements 1`] = `
         >
           <div
             class="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-marginTop-1mnahxq rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-zIndex-1lgpqti"
-            style="margin-bottom: 10px; margin-left: 30px; margin-right: 5px;"
+            style="margin-bottom: 10px; margin-left: 20px; margin-right: 5px;"
           >
             <mock-category-item
-              height="176"
+              height="186"
               item="[object Object]"
-              width="133"
+              width="140"
             />
           </div>
           <div
@@ -112,26 +112,26 @@ exports[`CategoryGrid after layout renders its elements 1`] = `
             style="margin-bottom: 10px; margin-left: 5px; margin-right: 5px;"
           >
             <mock-category-item
-              height="176"
+              height="186"
               item="[object Object]"
-              width="133"
+              width="140"
             />
           </div>
           <div
             class="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-marginTop-1mnahxq rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-zIndex-1lgpqti"
-            style="margin-bottom: 10px; margin-left: 5px; margin-right: 30px;"
+            style="margin-bottom: 10px; margin-left: 5px; margin-right: 20px;"
           >
             <mock-category-item
-              height="176"
+              height="186"
               item="[object Object]"
-              width="133"
+              width="140"
             />
           </div>
         </div>
       </div>
       <div
         class="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-zIndex-1lgpqti"
-        style="height: 239px;"
+        style="height: 249px;"
       />
     </div>
   </div>

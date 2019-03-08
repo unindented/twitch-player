@@ -1,6 +1,34 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`useCategoryList renders with the right attributes 1`] = `
+exports[`useCategoryList with a large viewport renders with the right attributes 1`] = `
+<main
+  class="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-flexBasis-1ro0kt6 rn-flexDirection-eqz5dr rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-zIndex-1lgpqti"
+  data-testid="main"
+  role="main"
+  style="background-color: rgb(250, 249, 250);"
+>
+  <div
+    class="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-color-homxoj rn-display-1471scf rn-fontFamily-14xgk7a rn-fontSize-1b43r93 rn-fontStyle-o11vmf rn-fontVariant-ebii48 rn-fontWeight-gul640 rn-lineHeight-t9a87b rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+    dir="auto"
+  >
+    {
+  "itemCount": 6,
+  "containerWidth": 640,
+  "maxImageWidth": 188,
+  "maxImageHeight": 250,
+  "spaceSides": 30,
+  "spaceBetween": 5,
+  "spaceBottom": 10,
+  "numColumns": 4,
+  "numRows": 1,
+  "imageWidth": 137,
+  "imageHeight": 182
+}
+  </div>
+</main>
+`;
+
+exports[`useCategoryList with a small viewport renders with the right attributes 1`] = `
 <main
   class="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-flexBasis-1ro0kt6 rn-flexDirection-eqz5dr rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-zIndex-1lgpqti"
   data-testid="main"
@@ -16,19 +44,47 @@ exports[`useCategoryList renders with the right attributes 1`] = `
   "containerWidth": 480,
   "maxImageWidth": 188,
   "maxImageHeight": 250,
-  "spaceSides": 30,
+  "spaceSides": 20,
   "spaceBetween": 5,
   "spaceBottom": 10,
   "numColumns": 3,
   "numRows": 1,
-  "imageWidth": 133,
-  "imageHeight": 176
+  "imageWidth": 140,
+  "imageHeight": 186
 }
   </div>
 </main>
 `;
 
-exports[`useChannelList renders with the right attributes 1`] = `
+exports[`useChannelList with a large viewport renders with the right attributes 1`] = `
+<main
+  class="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-flexBasis-1ro0kt6 rn-flexDirection-eqz5dr rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-zIndex-1lgpqti"
+  data-testid="main"
+  role="main"
+  style="background-color: rgb(250, 249, 250);"
+>
+  <div
+    class="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-color-homxoj rn-display-1471scf rn-fontFamily-14xgk7a rn-fontSize-1b43r93 rn-fontStyle-o11vmf rn-fontVariant-ebii48 rn-fontWeight-gul640 rn-lineHeight-t9a87b rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+    dir="auto"
+  >
+    {
+  "itemCount": 6,
+  "containerWidth": 640,
+  "maxImageWidth": 400,
+  "maxImageHeight": 225,
+  "spaceSides": 30,
+  "spaceBetween": 5,
+  "spaceBottom": 10,
+  "numColumns": 2,
+  "numRows": 1,
+  "imageWidth": 285,
+  "imageHeight": 160
+}
+  </div>
+</main>
+`;
+
+exports[`useChannelList with a small viewport renders with the right attributes 1`] = `
 <main
   class="rn-alignItems-1oszu61 rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexGrow-16y2uox rn-flexShrink-1wbh5a2 rn-flexBasis-1ro0kt6 rn-flexDirection-eqz5dr rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-zIndex-1lgpqti"
   data-testid="main"
@@ -44,13 +100,13 @@ exports[`useChannelList renders with the right attributes 1`] = `
   "containerWidth": 480,
   "maxImageWidth": 400,
   "maxImageHeight": 225,
-  "spaceSides": 30,
+  "spaceSides": 20,
   "spaceBetween": 5,
   "spaceBottom": 10,
   "numColumns": 2,
   "numRows": 1,
-  "imageWidth": 205,
-  "imageHeight": 115
+  "imageWidth": 215,
+  "imageHeight": 120
 }
   </div>
 </main>
