@@ -5,7 +5,7 @@ import { ApolloProvider } from "react-apollo-hooks";
 import Main from "../Main";
 import AllCategories from ".";
 
-storiesOf("Components|AllCategories", module).add("default", () => (
+storiesOf("Live Components|AllCategories", module).add("default", () => (
   <ApolloProvider client={createClient()}>
     <Main>
       <AllCategories heading="Categories" />

@@ -3,7 +3,7 @@ import { storiesOf } from "@storybook/react";
 import React from "react";
 import Switch from ".";
 
-storiesOf("Components|Switch", module)
+storiesOf("Static Components|Switch", module)
   .add("off", () => <Switch value={false} onValueChange={action("changed")} />)
   .add("on", () => <Switch value={true} onValueChange={action("changed")} />)
   .add("disabled", () => <Switch value={false} disabled={true} />);

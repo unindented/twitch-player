@@ -5,7 +5,7 @@ import { ApolloProvider } from "react-apollo-hooks";
 import Main from "../Main";
 import FeaturedChannels from ".";
 
-storiesOf("Components|FeaturedChannels", module).add("default", () => (
+storiesOf("Live Components|FeaturedChannels", module).add("default", () => (
   <ApolloProvider client={createClient()}>
     <Main>
       <FeaturedChannels heading="Featured Channels" />

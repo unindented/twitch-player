@@ -15,7 +15,7 @@ const {
 } = require("@twitch-player/data/fixtures/topChannels.json");
 const topChannelsList = topChannels.map(({ node }) => node);
 
-storiesOf("Components|ChannelList", module)
+storiesOf("Static Components|ChannelList", module)
   .add("featured channels", () => (
     <Main>
       <ChannelList list={featuredChannelsList} />

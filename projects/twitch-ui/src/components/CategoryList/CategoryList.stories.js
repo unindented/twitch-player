@@ -10,7 +10,7 @@ const {
 } = require("@twitch-player/data/fixtures/topCategories.json");
 const topCategoriesList = topCategories.map(({ node }) => node);
 
-storiesOf("Components|CategoryList", module)
+storiesOf("Static Components|CategoryList", module)
   .add("top categories", () => (
     <Main>
       <CategoryList list={topCategoriesList} />

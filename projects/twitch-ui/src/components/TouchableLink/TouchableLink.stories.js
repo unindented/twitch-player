@@ -4,7 +4,7 @@ import React from "react";
 import Text from "../Text";
 import TouchableLink from ".";
 
-storiesOf("Components|TouchableLink", module).add("default", () => (
+storiesOf("Static Components|TouchableLink", module).add("default", () => (
   <TouchableLink
     href="https://www.twitch.tv/"
     onPress={evt => {

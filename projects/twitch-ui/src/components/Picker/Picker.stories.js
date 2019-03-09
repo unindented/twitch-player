@@ -8,7 +8,7 @@ const values = {
   bar: "Bar",
 };
 
-storiesOf("Components|Picker", module)
+storiesOf("Static Components|Picker", module)
   .add("without selected value", () => (
     <Picker values={values} onValueChange={action("changed")} />
   ))

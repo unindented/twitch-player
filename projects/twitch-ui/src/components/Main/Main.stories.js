@@ -3,7 +3,7 @@ import React from "react";
 import Spinner from "../Spinner";
 import Main from ".";
 
-storiesOf("Components|Main", module)
+storiesOf("Static Components|Main", module)
   .add("without error", () => {
     return (
       <Main>

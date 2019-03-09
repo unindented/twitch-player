@@ -5,7 +5,7 @@ import { ApolloProvider } from "react-apollo-hooks";
 import Main from "../Main";
 import TopChannels from ".";
 
-storiesOf("Components|TopChannels", module).add("default", () => (
+storiesOf("Live Components|TopChannels", module).add("default", () => (
   <ApolloProvider client={createClient()}>
     <Main>
       <TopChannels heading="Top Channels" />

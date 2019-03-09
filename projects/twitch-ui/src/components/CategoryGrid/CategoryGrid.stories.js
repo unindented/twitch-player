@@ -10,7 +10,7 @@ const {
 } = require("@twitch-player/data/fixtures/topCategories.json");
 const categories = topCategories.map(({ node }) => node);
 
-storiesOf("Components|CategoryGrid", module).add("default", () => (
+storiesOf("Static Components|CategoryGrid", module).add("default", () => (
   <Main>
     <CategoryGrid list={categories} />
   </Main>

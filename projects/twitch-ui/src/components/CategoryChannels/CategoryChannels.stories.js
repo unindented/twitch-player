@@ -5,7 +5,7 @@ import { ApolloProvider } from "react-apollo-hooks";
 import Main from "../Main";
 import CategoryChannels from ".";
 
-storiesOf("Components|CategoryChannels", module).add("default", () => (
+storiesOf("Live Components|CategoryChannels", module).add("default", () => (
   <ApolloProvider client={createClient()}>
     <Main>
       <CategoryChannels name="Fortnite" heading="Fortnite" />

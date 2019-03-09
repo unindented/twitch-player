@@ -7,7 +7,7 @@ const renderError = error => (
   <Text>{`Something went wrong: ${error.message}`}</Text>
 );
 
-storiesOf("Components|ErrorBoundary", module)
+storiesOf("Static Components|ErrorBoundary", module)
   .add("without error", () => {
     const GoodChild = () => <Text>Everything is fine.</Text>;
     return (

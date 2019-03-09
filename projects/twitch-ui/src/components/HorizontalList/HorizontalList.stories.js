@@ -28,6 +28,6 @@ ImageItem.propTypes = {
   }).isRequired,
 };
 
-storiesOf("Components|HorizontalList", module).add("default", () => (
+storiesOf("Static Components|HorizontalList", module).add("default", () => (
   <HorizontalList data={data} initialNumToRender={2} renderItem={ImageItem} />
 ));

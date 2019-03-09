@@ -12,7 +12,7 @@ const {
 } = require("@twitch-player/data/fixtures/categoryChannels.json");
 const categoryChannelsList = categoryChannels.map(({ node }) => node);
 
-storiesOf("Components|ChannelGrid", module).add("default", () => (
+storiesOf("Static Components|ChannelGrid", module).add("default", () => (
   <Main>
     <ChannelGrid list={categoryChannelsList} />
   </Main>

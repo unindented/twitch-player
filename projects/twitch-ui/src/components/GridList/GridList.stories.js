@@ -40,7 +40,7 @@ ImageItem.propTypes = {
   }).isRequired,
 };
 
-storiesOf("Components|GridList", module).add("default", () => (
+storiesOf("Static Components|GridList", module).add("default", () => (
   <GridList
     data={data}
     initialNumToRender={1}
