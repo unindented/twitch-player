@@ -1,5 +1,6 @@
 import { addDecorator, addParameters, configure } from "@storybook/react";
 import { create } from "@storybook/theming";
+import { withA11y } from "@storybook/addon-a11y";
 import { withKnobs } from "@storybook/addon-knobs";
 import { init as initI18n } from "@twitch-player/i18n";
 import { defaultDecorator } from "./decorators";
@@ -15,6 +16,7 @@ initI18n({
   },
 });
 
+addDecorator(withA11y);
 addDecorator(withKnobs);
 addDecorator(defaultDecorator);
 
