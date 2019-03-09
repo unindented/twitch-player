@@ -35,7 +35,7 @@ const CategoryItemDetail = ({
 
   return (
     <View style={rootStyle} testID={testID}>
-      <Text numberOfLines={1} style={primaryTextStyle}>
+      <Text aria-hidden={true} numberOfLines={1} style={primaryTextStyle}>
         {name}
       </Text>
       <Text numberOfLines={1} style={secondaryTextStyle}>

@@ -39,8 +39,8 @@ const LiveIndicator = ({ testID = "live-indicator" }) => {
   ];
 
   return (
-    <View style={rootStyle} testID={testID}>
-      <View aria-hidden={true} style={dotStyle} />
+    <View aria-hidden={true} style={rootStyle} testID={testID}>
+      <View style={dotStyle} />
       <Text style={textStyle}>{t("components.item.liveIndicator")}</Text>
     </View>
   );
