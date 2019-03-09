@@ -23,17 +23,21 @@ const NavigationIcon = ({
   return (
     <Highlightable>
       {isHighlighted => {
+        const activeStyle = {
+          backgroundColor: colors.navBackgroundHover,
+        };
         const rootStyle = [
           styles.root,
-          {
-            backgroundColor: isHighlighted
-              ? colors.navBackgroundHover
-              : "transparent",
-          },
+          isHighlighted ? activeStyle : undefined,
         ];
 
         return (
-          <InternalTouchableLink href={href} style={rootStyle} testID={testID}>
+          <InternalTouchableLink
+            href={href}
+            style={rootStyle}
+            activeStyle={activeStyle}
+            testID={testID}
+          >
             <Image
               source={{ uri: source }}
               accessibilityLabel={accessibilityLabel}

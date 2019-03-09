@@ -4,7 +4,7 @@ import React from "react";
 import { StyleSheet } from "react-native";
 import Text from "../Text";
 
-const Heading = ({ level, children, style = [], testID = "heading" }) => {
+const Heading = ({ level, children, testID = "heading" }) => {
   const [{ colors, layout, typography }] = useTheme();
 
   const rootStyle = [
@@ -21,7 +21,7 @@ const Heading = ({ level, children, style = [], testID = "heading" }) => {
       marginTop: layout.gapLarge,
       marginBottom: layout.gapSmall,
     },
-  ].concat(style);
+  ];
 
   return (
     <Text
@@ -38,7 +38,6 @@ const Heading = ({ level, children, style = [], testID = "heading" }) => {
 Heading.propTypes = {
   level: PropTypes.oneOf(["1", "2", "3"]).isRequired,
   children: PropTypes.node.isRequired,
-  style: PropTypes.any,
   testID: PropTypes.string,
 };
 

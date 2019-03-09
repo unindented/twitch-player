@@ -31,19 +31,19 @@ const ChannelItem = ({
   return (
     <Highlightable>
       {isHighlighted => {
+        const activeStyle = {
+          backgroundColor: colors.itemBackgroundHover,
+        };
         const rootStyle = [
           styles.root,
-          {
-            backgroundColor: isHighlighted
-              ? colors.itemBackgroundHover
-              : "transparent",
-          },
+          isHighlighted ? activeStyle : undefined,
         ];
 
         return (
           <InternalTouchableLink
             href={`/channels/${broadcasterLogin}`}
             style={rootStyle}
+            activeStyle={activeStyle}
             testID={testID}
           >
             <ChannelItemImage

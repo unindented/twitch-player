@@ -6,15 +6,13 @@ import { StyleSheet, View } from "react-native";
 import LiveIndicator from "../LiveIndicator";
 import Text from "../Text";
 
-const ChannelItemOverlay = ({
+const ChannelItemImageOverlay = ({
   viewersCount,
-  style = [],
   testID = "channel-item-image-overlay",
 }) => {
   const { t } = useTranslation();
   const [{ colors, layout, typography }] = useTheme();
 
-  const rootStyle = [styles.root].concat(style);
   const textStyle = [
     styles.text,
     {
@@ -30,7 +28,7 @@ const ChannelItemOverlay = ({
   ];
 
   return (
-    <View style={rootStyle} testID={testID}>
+    <View style={styles.root} testID={testID}>
       <LiveIndicator />
       <Text numberOfLines={1} style={textStyle}>
         {t("components.item.viewersCount", {
@@ -41,9 +39,8 @@ const ChannelItemOverlay = ({
   );
 };
 
-ChannelItemOverlay.propTypes = {
+ChannelItemImageOverlay.propTypes = {
   viewersCount: PropTypes.number.isRequired,
-  style: PropTypes.any,
   testID: PropTypes.string,
 };
 
@@ -54,4 +51,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default memo(ChannelItemOverlay);
+export default memo(ChannelItemImageOverlay);

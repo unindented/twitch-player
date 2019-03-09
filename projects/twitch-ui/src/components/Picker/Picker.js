@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import React, { memo } from "react";
 import { Picker, StyleSheet, Text } from "react-native";
 
-const CustomPicker = ({ values, style = [], ...props }) => {
+const CustomPicker = ({ values, ...props }) => {
   const [{ colors, typography }] = useTheme();
 
   const rootStyle = {
@@ -16,7 +16,7 @@ const CustomPicker = ({ values, style = [], ...props }) => {
       borderColor: colors.border,
       color: colors.bodyText,
     },
-  ].concat(style);
+  ];
 
   const pickerItems = Object.keys(values).map(lng => (
     <Picker.Item key={lng} label={values[lng]} value={lng} />
@@ -33,7 +33,6 @@ const CustomPicker = ({ values, style = [], ...props }) => {
 
 CustomPicker.propTypes = {
   values: PropTypes.object.isRequired,
-  style: PropTypes.any,
 };
 
 const styles = StyleSheet.create({

@@ -5,7 +5,7 @@ import React, { memo } from "react";
 import { StyleSheet, View } from "react-native";
 import Text from "../Text";
 
-const LiveIndicator = ({ style = [], testID = "live-indicator" }) => {
+const LiveIndicator = ({ testID = "live-indicator" }) => {
   const { t } = useTranslation();
   const [{ colors, layout, typography }] = useTheme();
 
@@ -20,7 +20,7 @@ const LiveIndicator = ({ style = [], testID = "live-indicator" }) => {
       padding: layout.gapSmall,
       margin: layout.gapMedium,
     },
-  ].concat(style);
+  ];
   const dotStyle = [
     styles.dot,
     {
@@ -47,7 +47,6 @@ const LiveIndicator = ({ style = [], testID = "live-indicator" }) => {
 };
 
 LiveIndicator.propTypes = {
-  style: PropTypes.any,
   testID: PropTypes.string,
 };
 

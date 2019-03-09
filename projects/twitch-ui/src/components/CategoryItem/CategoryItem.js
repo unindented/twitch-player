@@ -19,19 +19,19 @@ const CategoryItem = ({
   return (
     <Highlightable>
       {isHighlighted => {
+        const activeStyle = {
+          backgroundColor: colors.itemBackgroundHover,
+        };
         const rootStyle = [
           styles.root,
-          {
-            backgroundColor: isHighlighted
-              ? colors.itemBackgroundHover
-              : "transparent",
-          },
+          isHighlighted ? activeStyle : undefined,
         ];
 
         return (
           <InternalTouchableLink
             href={`/categories/${name}`}
             style={rootStyle}
+            activeStyle={activeStyle}
             testID={testID}
           >
             <CategoryItemImage
