@@ -3,13 +3,13 @@
 exports[`Highlightable renders the item 1`] = `
 <DocumentFragment>
   <div
-    class="rn-alignItems-1oszu61 rn-backgroundColor-1niwhzg rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-touchAction-1otgn73 rn-userSelect-lrvibr rn-zIndex-1lgpqti"
+    class="css-view-1dbjc4n r-backgroundColor-1niwhzg r-cursor-1loqt21 r-touchAction-1otgn73 r-userSelect-lrvibr"
     data-focusable="true"
     data-testid="highlightable-item"
     tabindex="0"
   >
     <div
-      class="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-color-homxoj rn-display-1471scf rn-fontFamily-14xgk7a rn-fontSize-1b43r93 rn-fontStyle-o11vmf rn-fontVariant-ebii48 rn-fontWeight-gul640 rn-lineHeight-t9a87b rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+      class="css-text-76zvg2"
       dir="auto"
     >
       NO HIGHLIGHT
@@ -21,13 +21,13 @@ exports[`Highlightable renders the item 1`] = `
 exports[`Highlightable when blurred renders as not highlighted 1`] = `
 <DocumentFragment>
   <div
-    class="rn-alignItems-1oszu61 rn-backgroundColor-1niwhzg rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-touchAction-1otgn73 rn-userSelect-lrvibr rn-zIndex-1lgpqti"
+    class="css-view-1dbjc4n r-backgroundColor-1niwhzg r-cursor-1loqt21 r-touchAction-1otgn73 r-userSelect-lrvibr"
     data-focusable="true"
     data-testid="highlightable-item"
     tabindex="0"
   >
     <div
-      class="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-color-homxoj rn-display-1471scf rn-fontFamily-14xgk7a rn-fontSize-1b43r93 rn-fontStyle-o11vmf rn-fontVariant-ebii48 rn-fontWeight-gul640 rn-lineHeight-t9a87b rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+      class="css-text-76zvg2"
       dir="auto"
     >
       NO HIGHLIGHT
@@ -39,14 +39,14 @@ exports[`Highlightable when blurred renders as not highlighted 1`] = `
 exports[`Highlightable when focused renders as highlighted 1`] = `
 <DocumentFragment>
   <div
-    class="rn-alignItems-1oszu61 rn-backgroundColor-1niwhzg rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-touchAction-1otgn73 rn-userSelect-lrvibr rn-zIndex-1lgpqti"
+    class="css-view-1dbjc4n r-backgroundColor-1niwhzg r-cursor-1loqt21 r-touchAction-1otgn73 r-userSelect-lrvibr"
     data-focusable="true"
-    data-rn-focusvisible-x92cna="true"
+    data-focusvisible-polyfill="true"
     data-testid="highlightable-item"
     tabindex="0"
   >
     <div
-      class="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-color-homxoj rn-display-1471scf rn-fontFamily-14xgk7a rn-fontSize-1b43r93 rn-fontStyle-o11vmf rn-fontVariant-ebii48 rn-fontWeight-gul640 rn-lineHeight-t9a87b rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+      class="css-text-76zvg2"
       dir="auto"
     >
       HIGHLIGHT
@@ -58,13 +58,13 @@ exports[`Highlightable when focused renders as highlighted 1`] = `
 exports[`Highlightable when hover is enabled when mouse enters renders as highlighted 1`] = `
 <DocumentFragment>
   <div
-    class="rn-alignItems-1oszu61 rn-backgroundColor-1niwhzg rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-touchAction-1otgn73 rn-userSelect-lrvibr rn-zIndex-1lgpqti"
+    class="css-view-1dbjc4n r-backgroundColor-1niwhzg r-cursor-1loqt21 r-touchAction-1otgn73 r-userSelect-lrvibr"
     data-focusable="true"
     data-testid="highlightable-item"
     tabindex="0"
   >
     <div
-      class="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-color-homxoj rn-display-1471scf rn-fontFamily-14xgk7a rn-fontSize-1b43r93 rn-fontStyle-o11vmf rn-fontVariant-ebii48 rn-fontWeight-gul640 rn-lineHeight-t9a87b rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+      class="css-text-76zvg2"
       dir="auto"
     >
       HIGHLIGHT
@@ -76,13 +76,13 @@ exports[`Highlightable when hover is enabled when mouse enters renders as highli
 exports[`Highlightable when hover is enabled when mouse leaves renders as not highlighted 1`] = `
 <DocumentFragment>
   <div
-    class="rn-alignItems-1oszu61 rn-backgroundColor-1niwhzg rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-touchAction-1otgn73 rn-userSelect-lrvibr rn-zIndex-1lgpqti"
+    class="css-view-1dbjc4n r-backgroundColor-1niwhzg r-cursor-1loqt21 r-touchAction-1otgn73 r-userSelect-lrvibr"
     data-focusable="true"
     data-testid="highlightable-item"
     tabindex="0"
   >
     <div
-      class="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-color-homxoj rn-display-1471scf rn-fontFamily-14xgk7a rn-fontSize-1b43r93 rn-fontStyle-o11vmf rn-fontVariant-ebii48 rn-fontWeight-gul640 rn-lineHeight-t9a87b rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+      class="css-text-76zvg2"
       dir="auto"
     >
       NO HIGHLIGHT
@@ -94,13 +94,13 @@ exports[`Highlightable when hover is enabled when mouse leaves renders as not hi
 exports[`Highlightable when hover is not enabled when mouse enters renders as not highlighted 1`] = `
 <DocumentFragment>
   <div
-    class="rn-alignItems-1oszu61 rn-backgroundColor-1niwhzg rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-touchAction-1otgn73 rn-userSelect-lrvibr rn-zIndex-1lgpqti"
+    class="css-view-1dbjc4n r-backgroundColor-1niwhzg r-cursor-1loqt21 r-touchAction-1otgn73 r-userSelect-lrvibr"
     data-focusable="true"
     data-testid="highlightable-item"
     tabindex="0"
   >
     <div
-      class="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-color-homxoj rn-display-1471scf rn-fontFamily-14xgk7a rn-fontSize-1b43r93 rn-fontStyle-o11vmf rn-fontVariant-ebii48 rn-fontWeight-gul640 rn-lineHeight-t9a87b rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+      class="css-text-76zvg2"
       dir="auto"
     >
       NO HIGHLIGHT
@@ -112,13 +112,13 @@ exports[`Highlightable when hover is not enabled when mouse enters renders as no
 exports[`Highlightable when hover is not enabled when mouse leaves renders as not highlighted 1`] = `
 <DocumentFragment>
   <div
-    class="rn-alignItems-1oszu61 rn-backgroundColor-1niwhzg rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-cursor-1loqt21 rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-eqz5dr rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-touchAction-1otgn73 rn-userSelect-lrvibr rn-zIndex-1lgpqti"
+    class="css-view-1dbjc4n r-backgroundColor-1niwhzg r-cursor-1loqt21 r-touchAction-1otgn73 r-userSelect-lrvibr"
     data-focusable="true"
     data-testid="highlightable-item"
     tabindex="0"
   >
     <div
-      class="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-color-homxoj rn-display-1471scf rn-fontFamily-14xgk7a rn-fontSize-1b43r93 rn-fontStyle-o11vmf rn-fontVariant-ebii48 rn-fontWeight-gul640 rn-lineHeight-t9a87b rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+      class="css-text-76zvg2"
       dir="auto"
     >
       NO HIGHLIGHT

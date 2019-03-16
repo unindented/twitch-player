@@ -15,7 +15,9 @@ class Backend {
 
   async read(lng, ns, callback) {
     try {
-      const data = await import(/* webpackChunkName: "locale-[request]" */ `../../locales/${lng}/${ns}.json`);
+      const data = await import(
+        /* webpackChunkName: "locale-[request]" */ `../../locales/${lng}/${ns}.json`
+      );
       callback(null, data);
     } catch (err) {
       callback(err, true);

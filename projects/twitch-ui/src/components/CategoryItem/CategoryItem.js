@@ -65,7 +65,7 @@ CategoryItem.propTypes = {
 const styles = StyleSheet.create({
   root: {
     display: "block",
-    outline: "none",
+    outlineStyle: "none",
   },
 });
 

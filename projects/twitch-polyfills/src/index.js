@@ -34,12 +34,12 @@ const loadPolyfills = async () => {
 
   if (!("ResizeObserver" in window)) {
     polyfills.push(
-      import(/* webpackChunkName: "polyfill-resizeobserver" */ "resize-observer-polyfill").then(
-        module => {
-          window.ResizeObserver = module.default;
-          return module;
-        }
-      )
+      import(
+        /* webpackChunkName: "polyfill-resizeobserver" */ "resize-observer-polyfill"
+      ).then(module => {
+        window.ResizeObserver = module.default;
+        return module;
+      })
     );
   }
 

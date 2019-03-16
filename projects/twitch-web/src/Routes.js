@@ -5,22 +5,32 @@ const Home = lazy(() =>
   import(/* webpackChunkName: "home" */ "@twitch-player/ui/dist/pages/Home")
 );
 const Channels = lazy(() =>
-  import(/* webpackChunkName: "channels" */ "@twitch-player/ui/dist/pages/Channels")
+  import(
+    /* webpackChunkName: "channels" */ "@twitch-player/ui/dist/pages/Channels"
+  )
 );
 const Channel = lazy(() =>
-  import(/* webpackChunkName: "channel" */ "@twitch-player/ui/dist/pages/Channel")
+  import(
+    /* webpackChunkName: "channel" */ "@twitch-player/ui/dist/pages/Channel"
+  )
 );
 const Categories = lazy(() =>
-  import(/* webpackChunkName: "categories" */ "@twitch-player/ui/dist/pages/Categories")
+  import(
+    /* webpackChunkName: "categories" */ "@twitch-player/ui/dist/pages/Categories"
+  )
 );
 const Category = lazy(() =>
-  import(/* webpackChunkName: "category" */ "@twitch-player/ui/dist/pages/Category")
+  import(
+    /* webpackChunkName: "category" */ "@twitch-player/ui/dist/pages/Category"
+  )
 );
 const Search = lazy(() =>
   import(/* webpackChunkName: "search" */ "@twitch-player/ui/dist/pages/Search")
 );
 const Settings = lazy(() =>
-  import(/* webpackChunkName: "settings" */ "@twitch-player/ui/dist/pages/Settings")
+  import(
+    /* webpackChunkName: "settings" */ "@twitch-player/ui/dist/pages/Settings"
+  )
 );
 
 const Routes = () => (

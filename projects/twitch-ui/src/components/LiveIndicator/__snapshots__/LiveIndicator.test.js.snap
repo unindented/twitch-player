@@ -3,18 +3,18 @@
 exports[`LiveIndicator renders a live indicator 1`] = `
 <div
   aria-hidden="true"
-  class="rn-alignItems-1awozwy rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-6koalj rn-flexShrink-1qe8dj5 rn-flexBasis-1mlwlqe rn-flexDirection-18u37iz rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-position-bnwqim rn-width-1jaylin rn-zIndex-1lgpqti"
+  class="css-view-1dbjc4n r-alignItems-1awozwy r-flexDirection-18u37iz r-width-1jaylin"
   data-testid="live-indicator"
   style="background-color: rgba(0, 0, 0, 0.6); border-top-left-radius: 2px; border-top-right-radius: 2px; border-bottom-right-radius: 2px; border-bottom-left-radius: 2px; margin: 10px 10px 10px 10px; padding: 5px 5px 5px 5px;"
 >
   <div
-    class="rn-alignItems-1oszu61 rn-borderTopLeftRadius-wlx8yz rn-borderTopRightRadius-iy595e rn-borderBottomRightRadius-1fm23du rn-borderBottomLeftRadius-1p9x04s rn-borderTopStyle-1efd50x rn-borderRightStyle-14skgim rn-borderBottomStyle-rull8r rn-borderLeftStyle-mm0ijv rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-1adg3ll rn-flexDirection-eqz5dr rn-marginTop-1mnahxq rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-minHeight-ifefl9 rn-minWidth-bcqeeo rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-position-bnwqim rn-zIndex-1lgpqti"
+    class="css-view-1dbjc4n r-borderRadius-ieixw r-display-1adg3ll"
     style="background-color: rgb(236, 19, 19); height: 10px; margin-right: 5px; width: 10px;"
   />
   <div
-    class="rn-borderTopWidth-13yce4e rn-borderRightWidth-fnigne rn-borderBottomWidth-ndvcnb rn-borderLeftWidth-gxnn5r rn-boxSizing-deolkf rn-display-1471scf rn-fontStyle-o11vmf rn-fontVariant-ebii48 rn-fontWeight-gul640 rn-lineHeight-eljoum rn-marginTop-1mnahxq rn-marginRight-61z16t rn-marginBottom-p1pxzi rn-marginLeft-11wrixw rn-paddingTop-wk8lta rn-paddingRight-9aemit rn-paddingBottom-1mdbw0j rn-paddingLeft-gy4na3 rn-textDecoration-bauka4 rn-textTransform-tsynxw rn-whiteSpace-q42fyq rn-wordWrap-qvutc0"
+    class="css-text-76zvg2 r-lineHeight-eljoum r-textTransform-tsynxw"
     dir="auto"
-    style="color: rgb(250, 249, 250); font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif; font-size: 13px;"
+    style="color: rgb(250, 249, 250); font-family: system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Ubuntu,'Helvetica Neue',sans-serif; font-size: 13px;"
   >
     Live
   </div>
