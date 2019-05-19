@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns:tizen="http://tizen.org/ns/widgets" xmlns="http://www.w3.org/ns/widgets" id="https://github.com/unindented/twitch-player" version="0.0.0" viewmodes="fullscreen">
+  <tizen:application id="NAWonrFWxn.TwitchPlayer" package="NAWonrFWxn" required_version="2.3"/>
+  <name>TwitchPlayer</name>
+  <description>An unofficial Twitch stream player.</description>
+  <author href="https://unindented.org/" email="unindented@gmail.com">Daniel Perez Alvarez</author>
+  <icon src="assets/icon_117x117.png"/>
+  <content src="index.html"/>
+  <license href="https://github.com/unindented/twitch-player/blob/master/LICENSE">MIT</license>
+  <access origin="*" subdomains="true"></access>
+  <feature name="http://tizen.org/feature/screen.size.all"/>
+  <feature name="http://tizen.org/feature/tv.inputdevice"/>
+  <feature name="http://tizen.org/feature/network.wifi"/>
+  <tizen:profile name="tv-samsung"/>
+  <tizen:privilege name="http://tizen.org/privilege/tv.inputdevice"/>
+  <tizen:privilege name="http://developer.samsung.com/privilege/network.public"/>
+  <tizen:privilege name="http://developer.samsung.com/privilege/avplay"/>
+  <tizen:metadata key="http://samsung.com/tv/metadata/prelaunch.support" value="true"/>
+  <tizen:setting screen-orientation="landscape" context-menu="enable" background-support="disable" encryption="disable" install-location="auto" hwkey-event="enable"/>
+</widget>
