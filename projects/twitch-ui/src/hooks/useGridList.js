@@ -27,6 +27,7 @@ export const useCategoryGrid = itemCount => {
       : layout.gapExtraLarge,
     spaceBetween: layout.gapSmall,
     spaceBottom: layout.gapMedium,
+    spaceTop: layout.gapMedium,
   };
 
   const itemDimensions = getItemDimensions(options);
@@ -63,6 +64,7 @@ export const useChannelGrid = itemCount => {
       : layout.gapExtraLarge,
     spaceBetween: layout.gapSmall,
     spaceBottom: layout.gapMedium,
+    spaceTop: layout.gapMedium,
   };
 
   const itemDimensions = getItemDimensions(options);

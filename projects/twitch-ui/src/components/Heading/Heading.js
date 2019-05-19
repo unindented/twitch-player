@@ -19,7 +19,6 @@ const Heading = ({ level, children, testID = "heading" }) => {
           : typography.sizeTertiary,
       marginHorizontal: layout.gapExtraLarge,
       marginTop: layout.gapLarge,
-      marginBottom: layout.gapSmall,
     },
   ];
 

@@ -14,13 +14,19 @@ const CategoryItem = ({
   height: boxArtHeight,
   testID = "category-item",
 }) => {
-  const [{ colors }] = useTheme();
+  const [{ colors, layout }] = useTheme();
+  const shadowBlur = layout.gapSmall / 2;
+  const shadowSpread = layout.gapSmall / 2;
 
   return (
     <Highlightable>
       {isHighlighted => {
         const activeStyle = {
           backgroundColor: colors.itemBackgroundHover,
+          boxShadow: `0 0 ${shadowBlur}px ${shadowSpread}px ${
+            colors.itemShadowHover
+          }`,
+          transform: [{ scale: 1.025 }],
         };
         const rootStyle = [
           styles.root,

@@ -17,7 +17,7 @@ exports[`CategoryGrid after layout renders its elements 1`] = `
       >
         <div
           class="css-view-1dbjc4n r-display-1adg3ll"
-          style="margin-bottom: 10px; margin-left: 20px; margin-right: 5px;"
+          style="margin: 10px 5px 10px 20px;"
         >
           <mock-category-item
             height="186"
@@ -27,7 +27,7 @@ exports[`CategoryGrid after layout renders its elements 1`] = `
         </div>
         <div
           class="css-view-1dbjc4n r-display-1adg3ll"
-          style="margin-bottom: 10px; margin-left: 5px; margin-right: 5px;"
+          style="margin: 10px 5px 10px 5px;"
         >
           <mock-category-item
             height="186"
@@ -37,46 +37,7 @@ exports[`CategoryGrid after layout renders its elements 1`] = `
         </div>
         <div
           class="css-view-1dbjc4n r-display-1adg3ll"
-          style="margin-bottom: 10px; margin-left: 5px; margin-right: 20px;"
-        >
-          <mock-category-item
-            height="186"
-            item="[object Object]"
-            width="140"
-          />
-        </div>
-      </div>
-    </div>
-    <div
-      class="css-view-1dbjc4n"
-    >
-      <div
-        class="css-view-1dbjc4n"
-        style="flex-direction: row;"
-      >
-        <div
-          class="css-view-1dbjc4n r-display-1adg3ll"
-          style="margin-bottom: 10px; margin-left: 20px; margin-right: 5px;"
-        >
-          <mock-category-item
-            height="186"
-            item="[object Object]"
-            width="140"
-          />
-        </div>
-        <div
-          class="css-view-1dbjc4n r-display-1adg3ll"
-          style="margin-bottom: 10px; margin-left: 5px; margin-right: 5px;"
-        >
-          <mock-category-item
-            height="186"
-            item="[object Object]"
-            width="140"
-          />
-        </div>
-        <div
-          class="css-view-1dbjc4n r-display-1adg3ll"
-          style="margin-bottom: 10px; margin-left: 5px; margin-right: 20px;"
+          style="margin: 10px 20px 10px 5px;"
         >
           <mock-category-item
             height="186"
@@ -95,7 +56,7 @@ exports[`CategoryGrid after layout renders its elements 1`] = `
       >
         <div
           class="css-view-1dbjc4n r-display-1adg3ll"
-          style="margin-bottom: 10px; margin-left: 20px; margin-right: 5px;"
+          style="margin: 10px 5px 10px 20px;"
         >
           <mock-category-item
             height="186"
@@ -105,7 +66,7 @@ exports[`CategoryGrid after layout renders its elements 1`] = `
         </div>
         <div
           class="css-view-1dbjc4n r-display-1adg3ll"
-          style="margin-bottom: 10px; margin-left: 5px; margin-right: 5px;"
+          style="margin: 10px 5px 10px 5px;"
         >
           <mock-category-item
             height="186"
@@ -115,7 +76,46 @@ exports[`CategoryGrid after layout renders its elements 1`] = `
         </div>
         <div
           class="css-view-1dbjc4n r-display-1adg3ll"
-          style="margin-bottom: 10px; margin-left: 5px; margin-right: 20px;"
+          style="margin: 10px 20px 10px 5px;"
+        >
+          <mock-category-item
+            height="186"
+            item="[object Object]"
+            width="140"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="css-view-1dbjc4n"
+    >
+      <div
+        class="css-view-1dbjc4n"
+        style="flex-direction: row;"
+      >
+        <div
+          class="css-view-1dbjc4n r-display-1adg3ll"
+          style="margin: 10px 5px 10px 20px;"
+        >
+          <mock-category-item
+            height="186"
+            item="[object Object]"
+            width="140"
+          />
+        </div>
+        <div
+          class="css-view-1dbjc4n r-display-1adg3ll"
+          style="margin: 10px 5px 10px 5px;"
+        >
+          <mock-category-item
+            height="186"
+            item="[object Object]"
+            width="140"
+          />
+        </div>
+        <div
+          class="css-view-1dbjc4n r-display-1adg3ll"
+          style="margin: 10px 20px 10px 5px;"
         >
           <mock-category-item
             height="186"

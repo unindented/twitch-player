@@ -14,6 +14,7 @@ export default {
   itemSecondaryHover: palette.dark,
   itemBackground: palette.dark,
   itemBackgroundHover: palette.light,
+  itemShadowHover: "rgba(255, 255, 255, 0.2)",
   liveIndicator: palette.white,
   liveIndicatorBackground: "rgba(0, 0, 0, 0.6)",
   liveIndicatorDot: palette.red,

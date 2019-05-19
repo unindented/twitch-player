@@ -22,6 +22,7 @@ export const useCategoryList = itemCount => {
       : layout.gapExtraLarge,
     spaceBetween: layout.gapSmall,
     spaceBottom: layout.gapMedium,
+    spaceTop: layout.gapMedium,
   };
 
   const itemDimensions = getItemDimensions(options);
@@ -54,6 +55,7 @@ export const useChannelList = itemCount => {
       : layout.gapExtraLarge,
     spaceBetween: layout.gapSmall,
     spaceBottom: layout.gapMedium,
+    spaceTop: layout.gapMedium,
   };
 
   const itemDimensions = getItemDimensions(options);

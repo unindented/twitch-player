@@ -14,6 +14,7 @@ Object {
     "itemPrimaryHover": "#faf9fa",
     "itemSecondary": "#322f37",
     "itemSecondaryHover": "#dad8de",
+    "itemShadowHover": "rgba(0, 0, 0, 0.1)",
     "link": "#6441a4",
     "linkHover": "#4b367c",
     "liveIndicator": "#faf9fa",

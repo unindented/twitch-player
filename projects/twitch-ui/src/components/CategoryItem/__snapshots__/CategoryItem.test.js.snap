@@ -5,7 +5,7 @@ exports[`CategoryItem when hovering renders a category 1`] = `
   class="css-view-1dbjc4n r-cursor-1loqt21 r-display-1adg3ll r-outlineStyle-1ny4l3l r-touchAction-1otgn73 r-transitionDuration-eafdt9 r-transitionProperty-1i6wzkk r-userSelect-lrvibr"
   data-focusable="true"
   data-testid="category-item"
-  style="background-color: rgb(50, 47, 55);"
+  style="background-color: rgb(50, 47, 55); box-shadow: 0 0 2.5px 2.5px rgba(0, 0, 0, 0.1); transform: scale(1.025);"
   tabindex="0"
 >
   <mock-category-item-image

@@ -57,6 +57,7 @@ export const getHorizontalListItemStyle = ({
   spaceSides,
   spaceBetween,
   spaceBottom,
+  spaceTop,
 }) => {
   return index => {
     const isFirstItem = index === 0;
@@ -66,6 +67,7 @@ export const getHorizontalListItemStyle = ({
       marginStart: isFirstItem ? spaceSides : spaceBetween,
       marginEnd: isLastItem ? spaceSides : spaceBetween,
       marginBottom: spaceBottom,
+      marginTop: spaceTop,
     };
   };
 };
@@ -89,6 +91,7 @@ export const getGridListItemStyle = ({
   spaceSides,
   spaceBetween,
   spaceBottom,
+  spaceTop,
 }) => {
   return index => {
     const isFirstItem = index % numColumns === 0;
@@ -98,6 +101,7 @@ export const getGridListItemStyle = ({
       marginStart: isFirstItem ? spaceSides : spaceBetween,
       marginEnd: isLastItem ? spaceSides : spaceBetween,
       marginBottom: spaceBottom,
+      marginTop: spaceTop,
     };
   };
 };
