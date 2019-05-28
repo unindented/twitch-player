@@ -2,7 +2,10 @@ import { ChannelType } from "@twitch-player/data";
 import PropTypes from "prop-types";
 import React, { memo, useCallback } from "react";
 import { StyleSheet, View } from "react-native";
-import { useChannelList } from "../../hooks";
+import {
+  useChannelList,
+  useHorizontalListKeyboardNavigation,
+} from "../../hooks";
 import ChannelItem from "../ChannelItem";
 import HorizontalList from "../HorizontalList";
 
@@ -12,6 +15,8 @@ const ChannelList = ({
   renderFooter,
   testID = "channel-list",
 }) => {
+  const ref = useHorizontalListKeyboardNavigation();
+
   const {
     numColumns,
     imageWidth,
@@ -42,6 +47,7 @@ const ChannelList = ({
       renderItem={renderItem}
       renderHeader={renderHeader}
       renderFooter={renderFooter}
+      ref={ref}
       testID={testID}
     />
   );

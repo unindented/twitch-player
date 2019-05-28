@@ -17,21 +17,21 @@ exports[`ChannelItemError renders an error placeholder 1`] = `
       style="padding: 5px 10px 5px 10px; width: 400px;"
     >
       <div
-        class="css-text-76zvg2 css-textOneLine-bfa6kz r-fontWeight-vw2c0b r-textTransform-tsynxw"
+        class="css-text-901oao css-textOneLine-bfa6kz r-fontWeight-vw2c0b r-textTransform-tsynxw"
         dir="auto"
         style="color: rgb(25, 23, 28); font-family: system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Ubuntu,'Helvetica Neue',sans-serif; font-size: 16px; line-height: 1.5;"
       >
         Oops! Something went wrong.
       </div>
       <div
-        class="css-text-76zvg2 css-textOneLine-bfa6kz"
+        class="css-text-901oao css-textOneLine-bfa6kz"
         dir="auto"
         style="color: rgb(50, 47, 55); font-family: system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Ubuntu,'Helvetica Neue',sans-serif; font-size: 13px; line-height: 1.5;"
       >
          
       </div>
       <div
-        class="css-text-76zvg2 css-textOneLine-bfa6kz"
+        class="css-text-901oao css-textOneLine-bfa6kz"
         dir="auto"
         style="color: rgb(50, 47, 55); font-family: system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Ubuntu,'Helvetica Neue',sans-serif; font-size: 13px; line-height: 1.5;"
       >

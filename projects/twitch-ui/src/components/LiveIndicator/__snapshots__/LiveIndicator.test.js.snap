@@ -12,7 +12,7 @@ exports[`LiveIndicator renders a live indicator 1`] = `
     style="background-color: rgb(236, 19, 19); height: 10px; margin-right: 5px; width: 10px;"
   />
   <div
-    class="css-text-76zvg2 r-lineHeight-eljoum r-textTransform-tsynxw"
+    class="css-text-901oao r-lineHeight-eljoum r-textTransform-tsynxw"
     dir="auto"
     style="color: rgb(250, 249, 250); font-family: system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Ubuntu,'Helvetica Neue',sans-serif; font-size: 13px;"
   >

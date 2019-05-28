@@ -8,7 +8,7 @@ exports[`useCategoryGrid with a large viewport renders with the right attributes
   style="background-color: rgb(250, 249, 250);"
 >
   <div
-    class="css-text-76zvg2"
+    class="css-text-901oao"
     dir="auto"
   >
     {
@@ -39,7 +39,7 @@ exports[`useCategoryGrid with a small viewport renders with the right attributes
   style="background-color: rgb(250, 249, 250);"
 >
   <div
-    class="css-text-76zvg2"
+    class="css-text-901oao"
     dir="auto"
   >
     {
@@ -70,7 +70,7 @@ exports[`useChannelGrid with a large viewport renders with the right attributes 
   style="background-color: rgb(250, 249, 250);"
 >
   <div
-    class="css-text-76zvg2"
+    class="css-text-901oao"
     dir="auto"
   >
     {
@@ -101,7 +101,7 @@ exports[`useChannelGrid with a small viewport renders with the right attributes 
   style="background-color: rgb(250, 249, 250);"
 >
   <div
-    class="css-text-76zvg2"
+    class="css-text-901oao"
     dir="auto"
   >
     {

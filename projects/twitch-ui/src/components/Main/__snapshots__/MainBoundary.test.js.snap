@@ -15,7 +15,7 @@ exports[`MainBoundary when an error occurs renders an error message 1`] = `
       tabindex="0"
     >
       <div
-        class="css-text-76zvg2 r-color-jwli3a r-fontWeight-majxgm r-padding-edyy15 r-textAlign-q4m81j r-textTransform-tsynxw"
+        class="css-text-901oao r-color-jwli3a r-fontWeight-majxgm r-padding-edyy15 r-textAlign-q4m81j r-textTransform-tsynxw"
         dir="auto"
       >
         Oops! Something went wrong. Try again?
@@ -34,7 +34,7 @@ exports[`MainBoundary when things are fine renders its children 1`] = `
     style="background-color: rgb(250, 249, 250);"
   >
     <div
-      class="css-text-76zvg2"
+      class="css-text-901oao"
       dir="auto"
     >
       OHAI

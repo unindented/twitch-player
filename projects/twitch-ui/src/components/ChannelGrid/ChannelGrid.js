@@ -2,7 +2,7 @@ import { ChannelType } from "@twitch-player/data";
 import PropTypes from "prop-types";
 import React, { memo, useCallback } from "react";
 import { StyleSheet, View } from "react-native";
-import { useChannelGrid } from "../../hooks";
+import { useChannelGrid, useGridListKeyboardNavigation } from "../../hooks";
 import ChannelItem from "../ChannelItem";
 import GridList from "../GridList";
 
@@ -12,6 +12,8 @@ const ChannelGrid = ({
   renderFooter,
   testID = "channel-grid",
 }) => {
+  const ref = useGridListKeyboardNavigation();
+
   const {
     numColumns,
     numRows,
@@ -44,6 +46,7 @@ const ChannelGrid = ({
       renderItem={renderItem}
       renderHeader={renderHeader}
       renderFooter={renderFooter}
+      ref={ref}
       testID={testID}
     />
   );

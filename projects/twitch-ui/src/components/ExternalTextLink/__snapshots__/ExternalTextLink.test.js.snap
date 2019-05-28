@@ -2,7 +2,7 @@
 
 exports[`ExternalTextLink renders a link 1`] = `
 <a
-  class="css-reset-4rbku5 css-cursor-18t94o4 css-text-76zvg2 r-cursor-1loqt21"
+  class="css-reset-4rbku5 css-cursor-18t94o4 css-text-901oao r-cursor-1loqt21"
   data-focusable="true"
   data-testid="external-text-link"
   dir="auto"

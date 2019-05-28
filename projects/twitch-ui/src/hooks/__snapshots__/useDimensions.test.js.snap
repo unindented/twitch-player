@@ -6,7 +6,7 @@ exports[`useDimensions renders without dimensions 1`] = `
     class="css-view-1dbjc4n"
   >
     <div
-      class="css-text-76zvg2"
+      class="css-text-901oao"
       dir="auto"
     />
   </div>
@@ -19,7 +19,7 @@ exports[`useDimensions when the dimensions change renders with the updated dimen
     class="css-view-1dbjc4n"
   >
     <div
-      class="css-text-76zvg2"
+      class="css-text-901oao"
       dir="auto"
     >
       480x640

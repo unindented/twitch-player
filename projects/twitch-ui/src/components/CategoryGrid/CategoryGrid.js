@@ -2,7 +2,7 @@ import { CategoryType } from "@twitch-player/data";
 import PropTypes from "prop-types";
 import React, { memo, useCallback } from "react";
 import { StyleSheet, View } from "react-native";
-import { useCategoryGrid } from "../../hooks";
+import { useCategoryGrid, useGridListKeyboardNavigation } from "../../hooks";
 import CategoryItem from "../CategoryItem";
 import GridList from "../GridList";
 
@@ -12,6 +12,8 @@ const CategoryGrid = ({
   renderFooter,
   testID = "category-grid",
 }) => {
+  const ref = useGridListKeyboardNavigation();
+
   const {
     numColumns,
     numRows,
@@ -44,6 +46,7 @@ const CategoryGrid = ({
       renderItem={renderItem}
       renderHeader={renderHeader}
       renderFooter={renderFooter}
+      ref={ref}
       testID={testID}
     />
   );

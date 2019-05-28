@@ -2,7 +2,9 @@ import { useEffect } from "react";
 
 const useKeyboard = onKeyDown => {
   const handleKeyDown = evt => {
-    onKeyDown(evt.keyCode);
+    if (onKeyDown(evt.keyCode)) {
+      evt.preventDefault();
+    }
   };
 
   useEffect(() => {

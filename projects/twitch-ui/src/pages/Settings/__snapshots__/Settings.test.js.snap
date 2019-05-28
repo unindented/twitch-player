@@ -7,7 +7,7 @@ exports[`Settings renders the page 1`] = `
   >
     <h2
       aria-level="2"
-      class="css-reset-4rbku5 css-text-76zvg2 r-fontWeight-vw2c0b"
+      class="css-reset-4rbku5 css-text-901oao r-fontWeight-vw2c0b"
       data-testid="heading"
       dir="auto"
       role="heading"

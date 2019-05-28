@@ -14,7 +14,7 @@ exports[`RetryButton renders a button 1`] = `
     tabindex="0"
   >
     <div
-      class="css-text-76zvg2 r-color-jwli3a r-fontWeight-majxgm r-padding-edyy15 r-textAlign-q4m81j r-textTransform-tsynxw"
+      class="css-text-901oao r-color-jwli3a r-fontWeight-majxgm r-padding-edyy15 r-textAlign-q4m81j r-textTransform-tsynxw"
       dir="auto"
     >
       Oops! Something went wrong. Try again?

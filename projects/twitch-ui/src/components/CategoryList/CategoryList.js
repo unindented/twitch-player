@@ -2,7 +2,10 @@ import { CategoryType } from "@twitch-player/data";
 import PropTypes from "prop-types";
 import React, { memo, useCallback } from "react";
 import { StyleSheet, View } from "react-native";
-import { useCategoryList } from "../../hooks";
+import {
+  useCategoryList,
+  useHorizontalListKeyboardNavigation,
+} from "../../hooks";
 import CategoryItem from "../CategoryItem";
 import HorizontalList from "../HorizontalList";
 
@@ -12,6 +15,8 @@ const CategoryList = ({
   renderFooter,
   testID = "category-list",
 }) => {
+  const ref = useHorizontalListKeyboardNavigation();
+
   const {
     numColumns,
     imageWidth,
@@ -42,6 +47,7 @@ const CategoryList = ({
       renderItem={renderItem}
       renderHeader={renderHeader}
       renderFooter={renderFooter}
+      ref={ref}
       testID={testID}
     />
   );

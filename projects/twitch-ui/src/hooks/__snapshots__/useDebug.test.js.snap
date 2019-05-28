@@ -3,7 +3,7 @@
 exports[`useDebug when debugging renders with debug values 1`] = `
 <DocumentFragment>
   <div
-    class="css-text-76zvg2"
+    class="css-text-901oao"
     dir="auto"
   >
     true
@@ -14,7 +14,7 @@ exports[`useDebug when debugging renders with debug values 1`] = `
 exports[`useDebug when not debugging renders without debug values 1`] = `
 <DocumentFragment>
   <div
-    class="css-text-76zvg2"
+    class="css-text-901oao"
     dir="auto"
   >
     false

@@ -3,7 +3,7 @@
 exports[`ErrorBoundary when an error occurs renders an error message 1`] = `
 <DocumentFragment>
   <div
-    class="css-text-76zvg2"
+    class="css-text-901oao"
     dir="auto"
   >
     Something went wrong: BOOM
@@ -14,7 +14,7 @@ exports[`ErrorBoundary when an error occurs renders an error message 1`] = `
 exports[`ErrorBoundary when things are fine renders its children 1`] = `
 <DocumentFragment>
   <div
-    class="css-text-76zvg2"
+    class="css-text-901oao"
     dir="auto"
   >
     OHAI

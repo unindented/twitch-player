@@ -2,13 +2,13 @@
 
 exports[`DebugSwitch renders a debug switch 1`] = `
 <label
-  class="css-text-76zvg2"
+  class="css-text-901oao"
   data-testid="debug-switch"
   dir="auto"
   style="font-family: system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Ubuntu,'Helvetica Neue',sans-serif; line-height: 1.5;"
 >
   <span
-    class="css-text-76zvg2 css-textHasAncestor-16my406"
+    class="css-text-901oao css-textHasAncestor-16my406"
     dir="auto"
     style="color: rgb(25, 23, 28); font-family: system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Ubuntu,'Helvetica Neue',sans-serif; font-size: 16px; line-height: 1.5;"
   >
@@ -38,7 +38,7 @@ exports[`DebugSwitch renders a debug switch 1`] = `
 
 exports[`DebugSwitch renders without debug mode 1`] = `
 <div
-  class="css-text-76zvg2"
+  class="css-text-901oao"
   data-testid="some-component"
   dir="auto"
   style="font-family: system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Ubuntu,'Helvetica Neue',sans-serif; line-height: 1.5;"
@@ -49,7 +49,7 @@ exports[`DebugSwitch renders without debug mode 1`] = `
 
 exports[`DebugSwitch when clicked re-renders with debug mode 1`] = `
 <div
-  class="css-text-76zvg2"
+  class="css-text-901oao"
   data-testid="some-component"
   dir="auto"
   style="font-family: system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Ubuntu,'Helvetica Neue',sans-serif; line-height: 1.5;"
@@ -60,7 +60,7 @@ exports[`DebugSwitch when clicked re-renders with debug mode 1`] = `
 
 exports[`DebugSwitch when clicked when clicked again re-renders with the default theme 1`] = `
 <div
-  class="css-text-76zvg2"
+  class="css-text-901oao"
   data-testid="some-component"
   dir="auto"
   style="font-family: system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Ubuntu,'Helvetica Neue',sans-serif; line-height: 1.5;"

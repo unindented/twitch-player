@@ -9,7 +9,7 @@ exports[`Highlightable renders the item 1`] = `
     tabindex="0"
   >
     <div
-      class="css-text-76zvg2"
+      class="css-text-901oao"
       dir="auto"
     >
       NO HIGHLIGHT
@@ -27,7 +27,7 @@ exports[`Highlightable when blurred renders as not highlighted 1`] = `
     tabindex="0"
   >
     <div
-      class="css-text-76zvg2"
+      class="css-text-901oao"
       dir="auto"
     >
       NO HIGHLIGHT
@@ -46,7 +46,7 @@ exports[`Highlightable when focused renders as highlighted 1`] = `
     tabindex="0"
   >
     <div
-      class="css-text-76zvg2"
+      class="css-text-901oao"
       dir="auto"
     >
       HIGHLIGHT
@@ -64,7 +64,7 @@ exports[`Highlightable when hover is enabled when mouse enters renders as highli
     tabindex="0"
   >
     <div
-      class="css-text-76zvg2"
+      class="css-text-901oao"
       dir="auto"
     >
       HIGHLIGHT
@@ -82,7 +82,7 @@ exports[`Highlightable when hover is enabled when mouse leaves renders as not hi
     tabindex="0"
   >
     <div
-      class="css-text-76zvg2"
+      class="css-text-901oao"
       dir="auto"
     >
       NO HIGHLIGHT
@@ -100,7 +100,7 @@ exports[`Highlightable when hover is not enabled when mouse enters renders as no
     tabindex="0"
   >
     <div
-      class="css-text-76zvg2"
+      class="css-text-901oao"
       dir="auto"
     >
       NO HIGHLIGHT
@@ -118,7 +118,7 @@ exports[`Highlightable when hover is not enabled when mouse leaves renders as no
     tabindex="0"
   >
     <div
-      class="css-text-76zvg2"
+      class="css-text-901oao"
       dir="auto"
     >
       NO HIGHLIGHT

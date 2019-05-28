@@ -8,7 +8,7 @@ exports[`ChannelItemDetail when hovering with a category renders a hovered chann
 >
   <div
     aria-hidden="true"
-    class="css-text-76zvg2 css-textOneLine-bfa6kz r-fontWeight-vw2c0b"
+    class="css-text-901oao css-textOneLine-bfa6kz r-fontWeight-vw2c0b"
     dir="auto"
     style="color: rgb(250, 249, 250); font-family: system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Ubuntu,'Helvetica Neue',sans-serif; font-size: 16px; line-height: 1.5;"
   >
@@ -38,14 +38,14 @@ exports[`ChannelItemDetail when hovering with a category renders a hovered chann
       style="margin-left: 5px;"
     >
       <div
-        class="css-text-76zvg2 css-textOneLine-bfa6kz"
+        class="css-text-901oao css-textOneLine-bfa6kz"
         dir="auto"
         style="color: rgb(218, 216, 222); font-family: system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Ubuntu,'Helvetica Neue',sans-serif; font-size: 13px; line-height: 1.5;"
       >
         Ninja
       </div>
       <div
-        class="css-text-76zvg2 css-textOneLine-bfa6kz"
+        class="css-text-901oao css-textOneLine-bfa6kz"
         dir="auto"
         style="color: rgb(218, 216, 222); font-family: system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Ubuntu,'Helvetica Neue',sans-serif; font-size: 13px; line-height: 1.5;"
       >
@@ -64,7 +64,7 @@ exports[`ChannelItemDetail when hovering without a category renders a hovered ch
 >
   <div
     aria-hidden="true"
-    class="css-text-76zvg2 css-textOneLine-bfa6kz r-fontWeight-vw2c0b"
+    class="css-text-901oao css-textOneLine-bfa6kz r-fontWeight-vw2c0b"
     dir="auto"
     style="color: rgb(250, 249, 250); font-family: system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Ubuntu,'Helvetica Neue',sans-serif; font-size: 16px; line-height: 1.5;"
   >
@@ -94,14 +94,14 @@ exports[`ChannelItemDetail when hovering without a category renders a hovered ch
       style="margin-left: 5px;"
     >
       <div
-        class="css-text-76zvg2 css-textOneLine-bfa6kz"
+        class="css-text-901oao css-textOneLine-bfa6kz"
         dir="auto"
         style="color: rgb(218, 216, 222); font-family: system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Ubuntu,'Helvetica Neue',sans-serif; font-size: 13px; line-height: 1.5;"
       >
         Ninja
       </div>
       <div
-        class="css-text-76zvg2 css-textOneLine-bfa6kz"
+        class="css-text-901oao css-textOneLine-bfa6kz"
         dir="auto"
         style="color: rgb(218, 216, 222); font-family: system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Ubuntu,'Helvetica Neue',sans-serif; font-size: 13px; line-height: 1.5;"
       >
@@ -120,7 +120,7 @@ exports[`ChannelItemDetail when not hovering with a category renders a channel i
 >
   <div
     aria-hidden="true"
-    class="css-text-76zvg2 css-textOneLine-bfa6kz r-fontWeight-vw2c0b"
+    class="css-text-901oao css-textOneLine-bfa6kz r-fontWeight-vw2c0b"
     dir="auto"
     style="color: rgb(25, 23, 28); font-family: system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Ubuntu,'Helvetica Neue',sans-serif; font-size: 16px; line-height: 1.5;"
   >
@@ -150,14 +150,14 @@ exports[`ChannelItemDetail when not hovering with a category renders a channel i
       style="margin-left: 5px;"
     >
       <div
-        class="css-text-76zvg2 css-textOneLine-bfa6kz"
+        class="css-text-901oao css-textOneLine-bfa6kz"
         dir="auto"
         style="color: rgb(50, 47, 55); font-family: system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Ubuntu,'Helvetica Neue',sans-serif; font-size: 13px; line-height: 1.5;"
       >
         Ninja
       </div>
       <div
-        class="css-text-76zvg2 css-textOneLine-bfa6kz"
+        class="css-text-901oao css-textOneLine-bfa6kz"
         dir="auto"
         style="color: rgb(50, 47, 55); font-family: system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Ubuntu,'Helvetica Neue',sans-serif; font-size: 13px; line-height: 1.5;"
       >
@@ -176,7 +176,7 @@ exports[`ChannelItemDetail when not hovering without a category renders a channe
 >
   <div
     aria-hidden="true"
-    class="css-text-76zvg2 css-textOneLine-bfa6kz r-fontWeight-vw2c0b"
+    class="css-text-901oao css-textOneLine-bfa6kz r-fontWeight-vw2c0b"
     dir="auto"
     style="color: rgb(25, 23, 28); font-family: system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Ubuntu,'Helvetica Neue',sans-serif; font-size: 16px; line-height: 1.5;"
   >
@@ -206,14 +206,14 @@ exports[`ChannelItemDetail when not hovering without a category renders a channe
       style="margin-left: 5px;"
     >
       <div
-        class="css-text-76zvg2 css-textOneLine-bfa6kz"
+        class="css-text-901oao css-textOneLine-bfa6kz"
         dir="auto"
         style="color: rgb(50, 47, 55); font-family: system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Ubuntu,'Helvetica Neue',sans-serif; font-size: 13px; line-height: 1.5;"
       >
         Ninja
       </div>
       <div
-        class="css-text-76zvg2 css-textOneLine-bfa6kz"
+        class="css-text-901oao css-textOneLine-bfa6kz"
         dir="auto"
         style="color: rgb(50, 47, 55); font-family: system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Ubuntu,'Helvetica Neue',sans-serif; font-size: 13px; line-height: 1.5;"
       >

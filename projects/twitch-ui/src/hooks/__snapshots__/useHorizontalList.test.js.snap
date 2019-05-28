@@ -8,7 +8,7 @@ exports[`useCategoryList with a large viewport renders with the right attributes
   style="background-color: rgb(250, 249, 250);"
 >
   <div
-    class="css-text-76zvg2"
+    class="css-text-901oao"
     dir="auto"
   >
     {
@@ -37,7 +37,7 @@ exports[`useCategoryList with a small viewport renders with the right attributes
   style="background-color: rgb(250, 249, 250);"
 >
   <div
-    class="css-text-76zvg2"
+    class="css-text-901oao"
     dir="auto"
   >
     {
@@ -66,7 +66,7 @@ exports[`useChannelList with a large viewport renders with the right attributes 
   style="background-color: rgb(250, 249, 250);"
 >
   <div
-    class="css-text-76zvg2"
+    class="css-text-901oao"
     dir="auto"
   >
     {
@@ -95,7 +95,7 @@ exports[`useChannelList with a small viewport renders with the right attributes 
   style="background-color: rgb(250, 249, 250);"
 >
   <div
-    class="css-text-76zvg2"
+    class="css-text-901oao"
     dir="auto"
   >
     {

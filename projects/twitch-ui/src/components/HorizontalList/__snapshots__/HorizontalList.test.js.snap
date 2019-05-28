@@ -54,7 +54,7 @@ exports[`HorizontalList with footer renders a list 1`] = `
     </div>
   </div>
   <div
-    class="css-text-76zvg2"
+    class="css-text-901oao"
     dir="auto"
     style="font-family: system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Ubuntu,'Helvetica Neue',sans-serif; line-height: 1.5;"
   >
@@ -69,7 +69,7 @@ exports[`HorizontalList with header renders a list 1`] = `
   data-testid="horizontal-list"
 >
   <div
-    class="css-text-76zvg2"
+    class="css-text-901oao"
     dir="auto"
     style="font-family: system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Ubuntu,'Helvetica Neue',sans-serif; line-height: 1.5;"
   >
